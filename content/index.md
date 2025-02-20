@@ -1,3 +1,7 @@
+---
+title: Beoks Blog
+---
+
 # Beoks의 개발자 블로그
 
 안녕하세요! 저는 백엔드 개발자 Beoks입니다.
