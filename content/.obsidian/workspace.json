@@ -1,0 +1,496 @@
+{
+  "main": {
+    "id": "286ae4935f4eb516",
+    "type": "split",
+    "children": [
+      {
+        "id": "f2dc6e33175b96e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7d53bb1b9cd3f5ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "368c6c47aee8f43b",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "353625d808d83fd9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "도메인 주도 설계란(DDD,Domain Driven Design).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "도메인 주도 설계란(DDD,Domain Driven Design)"
+            }
+          },
+          {
+            "id": "534e38c02c332b0b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "도메인 주도 설계란(DDD,Domain Driven Design).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "도메인 주도 설계란(DDD,Domain Driven Design)"
+            }
+          },
+          {
+            "id": "80910e7f52f87d42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "도메인 주도 설계란(DDD,Domain Driven Design).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "도메인 주도 설계란(DDD,Domain Driven Design)"
+            }
+          },
+          {
+            "id": "53e36b88db4bebf0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "도메인 주도 설계란(DDD,Domain Driven Design).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "도메인 주도 설계란(DDD,Domain Driven Design)"
+            }
+          },
+          {
+            "id": "1731f37aa7920e76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "도메인 주도 설계란(DDD,Domain Driven Design).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "도메인 주도 설계란(DDD,Domain Driven Design)"
+            }
+          },
+          {
+            "id": "3e5b566e1d205ca2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "컨텍스트 맵핑(Context Mapping).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "컨텍스트 맵핑(Context Mapping)"
+            }
+          },
+          {
+            "id": "2835439673a55a34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "컨텍스트 맵핑(Context Mapping).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "컨텍스트 맵핑(Context Mapping)"
+            }
+          },
+          {
+            "id": "79a02e5028170b4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "바운디드 컨텍스트(Bounded Context).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "바운디드 컨텍스트(Bounded Context)"
+            }
+          },
+          {
+            "id": "376e162820f8c696",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "컨텍스트 맵핑(Context Mapping).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "컨텍스트 맵핑(Context Mapping)"
+            }
+          },
+          {
+            "id": "b8c79aed2ef181ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "컨텍스트 맵핑(Context Mapping).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "컨텍스트 맵핑(Context Mapping)"
+            }
+          },
+          {
+            "id": "86eeb6ec76e5c931",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "컨텍스트 맵핑(Context Mapping).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "컨텍스트 맵핑(Context Mapping)"
+            }
+          },
+          {
+            "id": "da5ccff2980d3c5d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "컨텍스트 맵핑(Context Mapping).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "컨텍스트 맵핑(Context Mapping)"
+            }
+          },
+          {
+            "id": "17675a7e6955bdcb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "도메인 주도 설계(DDD,Domain Driven Design).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "도메인 주도 설계(DDD,Domain Driven Design)"
+            }
+          },
+          {
+            "id": "7f8196985bfc8417",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "주제영역(Subject Area).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "주제영역(Subject Area)"
+            }
+          },
+          {
+            "id": "470ed1207b57b179",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "엔티티(Entity).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "엔티티(Entity)"
+            }
+          },
+          {
+            "id": "4813050cdf951a7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "주제영역(Subject Area).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "주제영역(Subject Area)"
+            }
+          },
+          {
+            "id": "ea0d0ae494db6665",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "주제영역(Subject Area).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "주제영역(Subject Area)"
+            }
+          },
+          {
+            "id": "6f44f41c3ff29b6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "주제영역(Subject Area).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "주제영역(Subject Area)"
+            }
+          },
+          {
+            "id": "2f844ecd7245c242",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "주제영역(Subject Area).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "주제영역(Subject Area)"
+            }
+          },
+          {
+            "id": "e460b35db6314a02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "도메인 주도 설계(DDD,Domain Driven Design).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "도메인 주도 설계(DDD,Domain Driven Design)"
+            }
+          }
+        ],
+        "currentTab": 21
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "49dfa4adf901e128",
+    "type": "split",
+    "children": [
+      {
+        "id": "2938314ca2b3021a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "53521ab5c702e376",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d05f9e13245bfcb7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "도메인 주도",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "accb0183b0282ae0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e5a9064102faa9cf",
+    "type": "split",
+    "children": [
+      {
+        "id": "d249c2ba6cced4b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6b92699808f03e68",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "도메인 주도 설계(DDD,Domain Driven Design).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 도메인 주도 설계(DDD,Domain Driven Design)"
+            }
+          },
+          {
+            "id": "823ffc590e74ffd1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "7e7f883b6cda516b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "c7a2c09ee090299e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e460b35db6314a02",
+  "lastOpenFiles": [
+    "주제영역(Subject Area).md",
+    "데이터 웨어하우스.md",
+    "스타 스키마.md",
+    "엔티티 관계(Entity Relationship).md",
+    "엔티티(Entity).md",
+    "도메인 주도 설계(DDD,Domain Driven Design).md",
+    "바운디드 컨텍스트(Bounded Context).md",
+    "컨텍스트 맵핑(Context Mapping).md",
+    "Pasted image 20250225222205.png",
+    "도메인 모델(Domain Model).md",
+    "도메인 주도 설계란(DDD,Domain Driven Design).md",
+    "유비쿼터스 언어(Ubiquitous Language).md",
+    "콘텐츠 보안 정책(Content Security Policy) 설정.md",
+    "캐싱(Caching).md",
+    "인메모리 데이터 구조 저장소.md",
+    "실시간 데이터 처리.md",
+    "세션(Session)과 JWT(JSON Web Token)의 비교.md",
+    "세션(Session).md",
+    "세션 스토리지(Session Storage).md",
+    "고수준 언어(High-Level Language) 3.md",
+    "attachements/스크린샷 2025-02-18 오전 9.52.33 2.png",
+    "attachements/스크린샷 2025-02-18 오전 9.48.25 2.png",
+    "attachements/스크린샷 2025-02-18 오전 9.46.40 2.png",
+    "attachements/Pasted image 20250218095209.png",
+    "attachements/Pasted image 20250217215325.png",
+    "XSS(Cross-Site Scripting).md",
+    "Write Through.md",
+    "Soft Delete.md",
+    "Soft Delete 의 시스템 복잡성.md",
+    "Redis를 활용한 실시간 데이터 처리 방법.md",
+    "Redis.md",
+    "Redis 설치하기.md",
+    "Pasted image 20250224215857.png"
+  ]
+}
