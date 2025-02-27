@@ -32,31 +32,17 @@
             }
           },
           {
-            "id": "353625d808d83fd9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "도메인 주도 설계란(DDD,Domain Driven Design).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "도메인 주도 설계란(DDD,Domain Driven Design)"
-            }
-          },
-          {
             "id": "534e38c02c332b0b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "도메인 주도 설계란(DDD,Domain Driven Design).md",
+                "file": "도메인 모델(Domain Model).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "도메인 주도 설계란(DDD,Domain Driven Design)"
+              "title": "도메인 모델(Domain Model)"
             }
           },
           {
@@ -65,12 +51,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "도메인 주도 설계란(DDD,Domain Driven Design).md",
+                "file": "유비쿼터스 언어(Ubiquitous Language).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "도메인 주도 설계란(DDD,Domain Driven Design)"
+              "title": "유비쿼터스 언어(Ubiquitous Language)"
             }
           },
           {
@@ -79,12 +65,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "도메인 주도 설계란(DDD,Domain Driven Design).md",
+                "file": "유비쿼터스 언어(Ubiquitous Language).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "도메인 주도 설계란(DDD,Domain Driven Design)"
+              "title": "유비쿼터스 언어(Ubiquitous Language)"
             }
           },
           {
@@ -93,12 +79,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "도메인 주도 설계란(DDD,Domain Driven Design).md",
+                "file": "유비쿼터스 언어(Ubiquitous Language).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "도메인 주도 설계란(DDD,Domain Driven Design)"
+              "title": "유비쿼터스 언어(Ubiquitous Language)"
             }
           },
           {
@@ -312,7 +298,7 @@
             }
           }
         ],
-        "currentTab": 21
+        "currentTab": 20
       }
     ],
     "direction": "vertical"
@@ -365,8 +351,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -457,40 +442,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e460b35db6314a02",
+  "active": "53521ab5c702e376",
   "lastOpenFiles": [
-    "주제영역(Subject Area).md",
-    "데이터 웨어하우스.md",
-    "스타 스키마.md",
-    "엔티티 관계(Entity Relationship).md",
-    "엔티티(Entity).md",
-    "도메인 주도 설계(DDD,Domain Driven Design).md",
-    "바운디드 컨텍스트(Bounded Context).md",
-    "컨텍스트 맵핑(Context Mapping).md",
+    "프로토타입 기반 언어 2.md",
+    "클래스 없이도 객체 지향을 지원하는 이유 2.md",
+    "클래스 기번 언어와 프로토 타입 기반 언어의 차이점 2.md",
+    "클래스 기반 언어가 아니면서 OOP 패러다임을 따르는 언어 2.md",
+    "클래스 기반 언어(Class-based Language) 2.md",
+    "콘텐츠 보안 정책(Content Security Policy) 설정 2.md",
+    "코드의 확장성(Extensibility) 2.md",
+    "코드의 유지보수성 2.md",
+    "코드 스멜.md",
+    "코드 스멜 2.md",
+    "캐싱(Caching) 2.md",
+    "추상화 2.md",
+    "주제영역(Subject Area) 2.md",
+    "좋은 코드 리뷰의 조건.md",
+    "정적 타이핑(Static Typing) 2.md",
+    "전략 디자인 패턴(Strategy Design Pattern) 2.md",
+    "자바에서 클래스 상속을 단일로 제한하는 이유 2.md",
+    "자바를 가장 효과적으로 배우는 법 2.md",
+    "인메모리 데이터 구조 저장소 2.md",
+    "이상적인 Spring MVC 디렉토리 구조 2.md",
+    "유비쿼터스 언어의 적용 사례.md",
+    "유비쿼터스 언어의 적용 사례 2.md",
+    "옵시디언에서 일일 노트를 만드는 방법 2.md",
+    "옵시디언 Templater 플러그인 새 노트 생성시 활성화 2.md",
+    "옵시디언 Templater 플러그인 2.md",
+    "옵시디언 Tasks 플러그인 2.md",
+    "Pasted image 20250225222207.png",
+    "Pasted image 20250225222206.png",
+    "Pasted image 20250224215859.png",
+    "Pasted image 20250224215858.png",
     "Pasted image 20250225222205.png",
-    "도메인 모델(Domain Model).md",
-    "도메인 주도 설계란(DDD,Domain Driven Design).md",
-    "유비쿼터스 언어(Ubiquitous Language).md",
-    "콘텐츠 보안 정책(Content Security Policy) 설정.md",
-    "캐싱(Caching).md",
-    "인메모리 데이터 구조 저장소.md",
-    "실시간 데이터 처리.md",
-    "세션(Session)과 JWT(JSON Web Token)의 비교.md",
-    "세션(Session).md",
-    "세션 스토리지(Session Storage).md",
-    "고수준 언어(High-Level Language) 3.md",
     "attachements/스크린샷 2025-02-18 오전 9.52.33 2.png",
     "attachements/스크린샷 2025-02-18 오전 9.48.25 2.png",
     "attachements/스크린샷 2025-02-18 오전 9.46.40 2.png",
     "attachements/Pasted image 20250218095209.png",
-    "attachements/Pasted image 20250217215325.png",
-    "XSS(Cross-Site Scripting).md",
-    "Write Through.md",
-    "Soft Delete.md",
-    "Soft Delete 의 시스템 복잡성.md",
-    "Redis를 활용한 실시간 데이터 처리 방법.md",
-    "Redis.md",
-    "Redis 설치하기.md",
-    "Pasted image 20250224215857.png"
+    "attachements/Pasted image 20250217215325.png"
   ]
 }
