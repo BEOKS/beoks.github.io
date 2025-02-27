@@ -6,23 +6,41 @@
       <description>최근 10 건 on 🪴 Beoks Blog</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>엔티티 관계(Entity Relationship)</title>
-    <link>https://quartz.jzhao.xyz/%EC%97%94%ED%8B%B0%ED%8B%B0-%EA%B4%80%EA%B3%84(Entity-Relationship)</link>
-    <guid>https://quartz.jzhao.xyz/%EC%97%94%ED%8B%B0%ED%8B%B0-%EA%B4%80%EA%B3%84(Entity-Relationship)</guid>
-    <description>서론 데이터 모델링에서 엔티티들은 독립적으로 존재하는 것이 아니라, 서로 유기적으로 연결되어 하나의 통합된 시스템을 형성합니다. 이 연결 구조를 ‘엔티티 관계(Entity Relationship)‘라고 하며, 이는 실세계의 객체들 간 상호작용을 데이터 모델 내에서 표현하는 방법입니다.</description>
-    <pubDate>Wed, 26 Feb 2025 08:31:54 GMT</pubDate>
+    <title>Hands-On Modelers</title>
+    <link>https://quartz.jzhao.xyz/Hands-On-Modelers</link>
+    <guid>https://quartz.jzhao.xyz/Hands-On-Modelers</guid>
+    <description>소프트웨어 개발 프로젝트에서 Hands-On 모델러는 모델링과 구현을 동시에 수행하는 역할을 맡은 전문가를 의미합니다. 이들은 도메인 모델을 설계하고, 그 모델을 실제 코드로 구현함으로써 개발 팀이 효과적인 소프트웨어를 만들도록 이끕니다. Hands-On 모델러의 역할과 중요성 모델링과 구현의 통합 Hands-On 모델러는 모델링 작업과 코딩 작업을 분리하지 않습니다.</description>
+    <pubDate>Thu, 27 Feb 2025 07:54:00 GMT</pubDate>
   </item><item>
-    <title>엔티티(Entity)</title>
-    <link>https://quartz.jzhao.xyz/%EC%97%94%ED%8B%B0%ED%8B%B0(Entity)</link>
-    <guid>https://quartz.jzhao.xyz/%EC%97%94%ED%8B%B0%ED%8B%B0(Entity)</guid>
-    <description>서론 데이터 모델링에서 ‘엔티티(Entity)‘는 가장 기본적이면서도 핵심적인 개념입니다. 소프트웨어 개발과 데이터베이스 설계에서 현실 세계의 객체나 개념을 모델링하는 방법을 이해하는 것은 효율적인 시스템 구축의 첫걸음입니다. 이 글에서는 엔티티의 개념부터 실제 구현까지 깊이 있게 살펴보겠습니다.</description>
-    <pubDate>Wed, 26 Feb 2025 08:31:54 GMT</pubDate>
+    <title>모델(Model)</title>
+    <link>https://quartz.jzhao.xyz/%EB%AA%A8%EB%8D%B8(Model)</link>
+    <guid>https://quartz.jzhao.xyz/%EB%AA%A8%EB%8D%B8(Model)</guid>
+    <description>도메인 모델이란? **도메인 모델(Domain Model)**은 특정 문제 영역(Domain)에 대한 조직화되고 구조화된 지식의 표현입니다. 이는 문제 도메인의 어휘와 핵심 개념을 나타내며, 도메인 범위 내 모든 엔티티들 간의 관계를 식별합니다. 도메인 모델은 다음과 같은 특징을 가집니다: 추상화: 현실 세계의 복잡성을 단순화하여 중요한 요소에 집중합니다.</description>
+    <pubDate>Thu, 27 Feb 2025 07:43:20 GMT</pubDate>
   </item><item>
-    <title>유비쿼터스 언어(Ubiquitous Language)</title>
-    <link>https://quartz.jzhao.xyz/%EC%9C%A0%EB%B9%84%EC%BF%BC%ED%84%B0%EC%8A%A4-%EC%96%B8%EC%96%B4(Ubiquitous-Language)</link>
-    <guid>https://quartz.jzhao.xyz/%EC%9C%A0%EB%B9%84%EC%BF%BC%ED%84%B0%EC%8A%A4-%EC%96%B8%EC%96%B4(Ubiquitous-Language)</guid>
-    <description>**유비쿼터스 언어(Ubiquitous Language)**는 도메인 주도 설계(DDD)에서 도메인 전문가와 개발자가 공유하는 공통의 언어를 의미합니다. 도메인 모델을 구축하고 소프트웨어를 개발할 때, 모든 구성원이 동일한 용어와 개념을 사용함으로써 오해를 줄이고 도메인 로직의 정확성을 높입니다.</description>
-    <pubDate>Wed, 26 Feb 2025 08:31:54 GMT</pubDate>
+    <title>도메인(Domain)</title>
+    <link>https://quartz.jzhao.xyz/%EB%8F%84%EB%A9%94%EC%9D%B8(Domain)</link>
+    <guid>https://quartz.jzhao.xyz/%EB%8F%84%EB%A9%94%EC%9D%B8(Domain)</guid>
+    <description>도메인이란 무엇인가? ‘도메인’은 소프트웨어가 해결하려는 현실 세계의 문제 영역을 의미합니다. 이는 특정 비즈니스 로직, 산업 분야, 혹은 문제의 범위를 나타냅니다. 예를 들어, 은행 시스템을 개발한다면 금융 도메인이 될 것이고, 의료 기록 관리 시스템이라면 의료 도메인이 될 것입니다.</description>
+    <pubDate>Thu, 27 Feb 2025 07:37:55 GMT</pubDate>
+  </item><item>
+    <title>유비쿼터스 언어의 적용 사례</title>
+    <link>https://quartz.jzhao.xyz/%EC%9C%A0%EB%B9%84%EC%BF%BC%ED%84%B0%EC%8A%A4-%EC%96%B8%EC%96%B4%EC%9D%98-%EC%A0%81%EC%9A%A9-%EC%82%AC%EB%A1%80</link>
+    <guid>https://quartz.jzhao.xyz/%EC%9C%A0%EB%B9%84%EC%BF%BC%ED%84%B0%EC%8A%A4-%EC%96%B8%EC%96%B4%EC%9D%98-%EC%A0%81%EC%9A%A9-%EC%82%AC%EB%A1%80</guid>
+    <description>도메인 주도 설계(DDD,Domain Driven Design)에서 유비쿼터스 언어(Ubiquitous Language)는 개발팀과 도메인 전문가 간의 공통 언어를 구축하여 소프트웨어 모델링과 구현에 일관성을 부여하는 핵심 요소입니다. 다음은 유비쿼터스 언어를 적용한 사례들입니다.</description>
+    <pubDate>Thu, 27 Feb 2025 07:33:10 GMT</pubDate>
+  </item><item>
+    <title>모델 주도 설계(Model-Driven Design)</title>
+    <link>https://quartz.jzhao.xyz/%EB%AA%A8%EB%8D%B8-%EC%A3%BC%EB%8F%84-%EC%84%A4%EA%B3%84(Model-Driven-Design)</link>
+    <guid>https://quartz.jzhao.xyz/%EB%AA%A8%EB%8D%B8-%EC%A3%BC%EB%8F%84-%EC%84%A4%EA%B3%84(Model-Driven-Design)</guid>
+    <description>소프트웨어 개발에서 우리는 복잡한 현실 세계를 코드로 표현하고 구현해야 합니다. 이때 “모델(Model)“은 우리가 해결하고자 하는 문제 영역을 추상화하고 이해하는 데 핵심적인 역할을 합니다. 하지만 종종 분석 단계에서 만든 모델과 실제 구현된 설계가 서로 다를 때가 있습니다.</description>
+    <pubDate>Thu, 27 Feb 2025 07:05:50 GMT</pubDate>
+  </item><item>
+    <title>Ubiquitous Language</title>
+    <link>https://quartz.jzhao.xyz/Ubiquitous-Language</link>
+    <guid>https://quartz.jzhao.xyz/Ubiquitous-Language</guid>
+    <description></description>
+    <pubDate>Thu, 27 Feb 2025 06:58:47 GMT</pubDate>
   </item><item>
     <title>이상적인 Spring MVC 디렉토리 구조</title>
     <link>https://quartz.jzhao.xyz/%EC%9D%B4%EC%83%81%EC%A0%81%EC%9D%B8-Spring-MVC-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EA%B5%AC%EC%A1%B0</link>
@@ -42,28 +60,10 @@
     <description>컨텍스트 맵핑이란? 컨텍스트 맵핑은 여러 바운디드 컨텍스트(Bounded Context) 간의 관계를 시각화하고 문서화하는 기술입니다. 각 바운디드 컨텍스트는 자체적인 모델, 언어, 경계를 가지고 있으며, 이들이 어떻게 상호작용하고 통합되는지 명확하게 표현하는 것이 컨텍스트 맵핑의 목적입니다.</description>
     <pubDate>Wed, 26 Feb 2025 08:31:54 GMT</pubDate>
   </item><item>
-    <title>개발 공부 노트 정리에 옵시디언을 사용하는 이유</title>
-    <link>https://quartz.jzhao.xyz/%EA%B0%9C%EB%B0%9C-%EA%B3%B5%EB%B6%80-%EB%85%B8%ED%8A%B8-%EC%A0%95%EB%A6%AC%EC%97%90-%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0</link>
-    <guid>https://quartz.jzhao.xyz/%EA%B0%9C%EB%B0%9C-%EA%B3%B5%EB%B6%80-%EB%85%B8%ED%8A%B8-%EC%A0%95%EB%A6%AC%EC%97%90-%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0</guid>
-    <description>개발자로서 새로운 기술과 지식을 습득하는 것은 일상입니다. 매일매일 쏟아지는 정보와 학습 내용을 효율적으로 정리하고 관리하는 것은 생산성을 높이는 데 필수적입니다. 여러 노트 앱과 도구들이 있지만, 그 중에서도 최근 주목받는 것이 바로 옵시디언(Obsidian) 입니다. 왜 많은 개발자들이 옵시디언을 선택하는지 그 이유를 알아보겠습니다.</description>
-    <pubDate>Wed, 26 Feb 2025 08:31:54 GMT</pubDate>
-  </item><item>
     <title>데이터 웨어하우스</title>
     <link>https://quartz.jzhao.xyz/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%9B%A8%EC%96%B4%ED%95%98%EC%9A%B0%EC%8A%A4</link>
     <guid>https://quartz.jzhao.xyz/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%9B%A8%EC%96%B4%ED%95%98%EC%9A%B0%EC%8A%A4</guid>
     <description>데이터 웨어하우스란? 데이터 웨어하우스는 여러 소스에서 수집한 데이터를 한곳에 모아서 분석에 최적화된 형태로 저장하는 시스템입니다. 쉽게 생각하면, 기업의 다양한 데이터베이스나 파일에서 데이터를 가져와 통합하고, 이를 기반으로 통찰을 얻을 수 있게 해주는 ‘데이터 창고’라고 할 수 있습니다.</description>
-    <pubDate>Wed, 26 Feb 2025 08:31:54 GMT</pubDate>
-  </item><item>
-    <title>도메인 모델(Domain Model)</title>
-    <link>https://quartz.jzhao.xyz/%EB%8F%84%EB%A9%94%EC%9D%B8-%EB%AA%A8%EB%8D%B8(Domain-Model)</link>
-    <guid>https://quartz.jzhao.xyz/%EB%8F%84%EB%A9%94%EC%9D%B8-%EB%AA%A8%EB%8D%B8(Domain-Model)</guid>
-    <description>도메인 모델이란? 도메인 모델은 현실 세계의 특정 문제 영역(도메인)을 소프트웨어적으로 표현한 것입니다. 이는 도메인의 개념, 규칙, 로직 등을 객체 지향 프로그래밍의 개념을 사용하여 구조화한 모델입니다. 예시: 온라인 쇼핑몰의 도메인 모델은 고객, 상품, 주문 등의 개념과 이들 간의 관계, 그리고 주문 생성이나 취소와 같은 비즈니스 로직을 포함합니다.</description>
-    <pubDate>Wed, 26 Feb 2025 08:31:54 GMT</pubDate>
-  </item><item>
-    <title>도메인 주도 설계(DDD,Domain Driven Design)</title>
-    <link>https://quartz.jzhao.xyz/%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%A3%BC%EB%8F%84-%EC%84%A4%EA%B3%84(DDD,Domain-Driven-Design)</link>
-    <guid>https://quartz.jzhao.xyz/%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%A3%BC%EB%8F%84-%EC%84%A4%EA%B3%84(DDD,Domain-Driven-Design)</guid>
-    <description>소개 도메인 주도 설계(Domain-Driven Design, DDD) 는 애플리케이션의 핵심 도메인에 주요 초점을 맞추는 소프트웨어 개발 접근 방식입니다. 2003년 에릭 에반스(Eric Evans)가 “도메인 주도 설계: 소프트웨어의 복잡성을 해결하기”라는 책에서 소개한 DDD는 핵심 비즈니스 개념의 진화하는 모델과 구현을 연결함으로써 복잡한 도메인을 다루기 위한 프레임워크를 제공합니다.</description>
     <pubDate>Wed, 26 Feb 2025 08:31:54 GMT</pubDate>
   </item>
     </channel>
