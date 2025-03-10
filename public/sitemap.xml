@@ -20,6 +20,9 @@
     <loc>https://quartz.jzhao.xyz/HttpOnly-%EC%BF%A0%ED%82%A4</loc>
     <lastmod>2025-03-04T09:07:44.664Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/JPA-Specification</loc>
+    <lastmod>2025-03-10T06:45:32.268Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/JPA%EC%97%90%EC%84%9C-Soft-Delete%EC%99%80-%EC%9C%A0%EB%8B%88%ED%81%AC-%EC%A0%9C%EC%95%BD%EC%A1%B0%EA%B1%B4-%EC%B2%98%EB%A6%AC%ED%95%98%EA%B8%B0</loc>
     <lastmod>2025-03-04T09:07:44.664Z</lastmod>
   </url><url>
@@ -54,7 +57,7 @@
     <lastmod>2025-03-04T09:07:44.665Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Public-%ED%95%A8%EC%88%98-%EC%9E%91%EC%84%B1-%EC%9B%90%EC%B9%99</loc>
-    <lastmod>2025-03-10T00:09:42.465Z</lastmod>
+    <lastmod>2025-03-10T00:09:42.466Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Read-Through-%EC%BA%90%EC%8B%B1-%EC%A0%84%EB%9E%B5</loc>
     <lastmod>2025-03-04T09:07:44.671Z</lastmod>
@@ -90,10 +93,10 @@
     <lastmod>2025-03-04T09:07:44.671Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/</loc>
-    <lastmod>2025-03-04T09:07:44.680Z</lastmod>
+    <lastmod>2025-03-10T00:14:10.150Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/%EA%B0%92-%EA%B0%9D%EC%B2%B4(Value-Objects)</loc>
-    <lastmod>2025-03-10T00:09:42.466Z</lastmod>
+    <lastmod>2025-03-10T00:37:38.502Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/%EA%B0%9C%EB%B0%9C-%EA%B3%B5%EB%B6%80-%EB%85%B8%ED%8A%B8-%EC%A0%95%EB%A6%AC%EC%97%90-%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0</loc>
     <lastmod>2025-03-04T09:07:44.680Z</lastmod>
@@ -117,7 +120,7 @@
     <lastmod>2025-03-04T09:07:44.680Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%A3%BC%EB%8F%84-%EC%84%A4%EA%B3%84(DDD,Domain-Driven-Design)</loc>
-    <lastmod>2025-03-04T09:07:44.680Z</lastmod>
+    <lastmod>2025-03-10T00:44:44.151Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/%EB%8F%84%EB%A9%94%EC%9D%B8(Domain)</loc>
     <lastmod>2025-03-04T09:07:44.680Z</lastmod>
@@ -126,10 +129,10 @@
     <lastmod>2025-03-04T02:55:55.976Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/%EB%AA%A8%EB%8D%B8-%EC%A3%BC%EB%8F%84-%EC%84%A4%EA%B3%84(Model-Driven-Design)</loc>
-    <lastmod>2025-03-04T09:07:44.680Z</lastmod>
+    <lastmod>2025-03-10T00:35:34.773Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/%EB%AA%A8%EB%8D%B8(Model)</loc>
-    <lastmod>2025-03-10T00:09:42.466Z</lastmod>
+    <lastmod>2025-03-10T00:35:01.917Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/%EB%AA%A8%EB%93%88%ED%99%94</loc>
     <lastmod>2025-03-04T02:55:55.976Z</lastmod>
@@ -141,7 +144,7 @@
     <lastmod>2025-03-04T02:55:55.976Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/%EC%84%9C%EB%B9%84%EC%8A%A4(Service)</loc>
-    <lastmod>2025-03-10T00:17:30.751Z</lastmod>
+    <lastmod>2025-03-10T00:35:54.341Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/%EC%84%B8%EC%85%98-%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80(Session-Storage)</loc>
     <lastmod>2025-03-04T09:07:44.680Z</lastmod>
@@ -285,5 +288,8 @@
     <lastmod>2025-03-04T02:55:55.980Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/%ED%94%8C%EB%9D%BC%EC%9D%B4%EC%9B%A8%EC%9D%B4%ED%8A%B8-%ED%8C%A8%ED%84%B4(Flyweight-Pattern)</loc>
-    <lastmod>2025-03-10T00:38:05.744Z</lastmod>
+    <lastmod>2025-03-10T00:42:25.400Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/JPA-Criteria-API</loc>
+    <lastmod>2025-03-10T06:52:32.647Z</lastmod>
   </url></urlset>
