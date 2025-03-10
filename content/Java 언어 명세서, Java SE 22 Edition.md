@@ -1,4 +1,8 @@
 
+---
+draft: true
+---
+
 1. [[Java 언어 소개]]
 2. [[Java 문법(Grammer)]]
 3. [[Java 어휘 구조]]
