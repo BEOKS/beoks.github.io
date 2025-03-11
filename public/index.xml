@@ -6,17 +6,35 @@
       <description>최근 10 건 on 🪴 Beoks Blog</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>JPA Criteria API</title>
-    <link>https://quartz.jzhao.xyz/JPA-Criteria-API</link>
-    <guid>https://quartz.jzhao.xyz/JPA-Criteria-API</guid>
-    <description>JPA(Java Persistence API)는 자바 애플리케이션에서 관계형 데이터를 관리하기 위한 표준 기술입니다. 그 중에서도 Criteria API는 타입 안전한(type-safe) 방식으로 쿼리를 구성할 수 있게 해주는 강력한 도구입니다. 이 글에서는 JPA Criteria API의 개념부터 실전 활용법까지 자세히 알아보겠습니다.</description>
-    <pubDate>Mon, 10 Mar 2025 06:52:32 GMT</pubDate>
+    <title>에러코드</title>
+    <link>https://quartz.jzhao.xyz/%EC%97%90%EB%9F%AC%EC%BD%94%EB%93%9C</link>
+    <guid>https://quartz.jzhao.xyz/%EC%97%90%EB%9F%AC%EC%BD%94%EB%93%9C</guid>
+    <description>에러코드는 소프트웨어 개발에서 발생하는 문제를 식별하고 분류하기 위한 표준화된 방법입니다. 잘 정의된 에러코드 시스템은 개발, 디버깅, 유지보수 과정에서 시간을 절약하고 문제 해결을 더 효율적으로 만들어 줍니다. 이 글에서는 에러코드의 기본 개념부터 실전 활용법까지 깊이 있게 다루겠습니다.</description>
+    <pubDate>Tue, 11 Mar 2025 04:46:51 GMT</pubDate>
+  </item><item>
+    <title>에러 핸들링(Error Handling)</title>
+    <link>https://quartz.jzhao.xyz/%EC%97%90%EB%9F%AC-%ED%95%B8%EB%93%A4%EB%A7%81(Error-Handling)</link>
+    <guid>https://quartz.jzhao.xyz/%EC%97%90%EB%9F%AC-%ED%95%B8%EB%93%A4%EB%A7%81(Error-Handling)</guid>
+    <description></description>
+    <pubDate>Mon, 10 Mar 2025 08:02:24 GMT</pubDate>
   </item><item>
     <title>JPA Specification</title>
     <link>https://quartz.jzhao.xyz/JPA-Specification</link>
     <guid>https://quartz.jzhao.xyz/JPA-Specification</guid>
     <description>Spring Data JPA에서 복잡한 동적 쿼리를 우아하게 처리할 수 있는 Specification 패턴에 대해 자세히 알아보겠습니다. 동적 쿼리를 작성할 때 발생하는 문제점들과 이를 해결하기 위한 Specification의 역할, 그리고 실제 사용 방법까지 단계별로 설명해드리겠습니다.</description>
-    <pubDate>Mon, 10 Mar 2025 06:45:32 GMT</pubDate>
+    <pubDate>Mon, 10 Mar 2025 07:23:52 GMT</pubDate>
+  </item><item>
+    <title>JPA Specification vs QueryDSL</title>
+    <link>https://quartz.jzhao.xyz/JPA-Specification-vs-QueryDSL</link>
+    <guid>https://quartz.jzhao.xyz/JPA-Specification-vs-QueryDSL</guid>
+    <description></description>
+    <pubDate>Mon, 10 Mar 2025 07:19:31 GMT</pubDate>
+  </item><item>
+    <title>JPA Criteria API</title>
+    <link>https://quartz.jzhao.xyz/JPA-Criteria-API</link>
+    <guid>https://quartz.jzhao.xyz/JPA-Criteria-API</guid>
+    <description>JPA(Java Persistence API)는 자바 애플리케이션에서 관계형 데이터를 관리하기 위한 표준 기술입니다. 그 중에서도 Criteria API는 타입 안전한(type-safe) 방식으로 쿼리를 구성할 수 있게 해주는 강력한 도구입니다. 이 글에서는 JPA Criteria API의 개념부터 실전 활용법까지 자세히 알아보겠습니다.</description>
+    <pubDate>Mon, 10 Mar 2025 07:14:47 GMT</pubDate>
   </item><item>
     <title>도메인 주도 설계(DDD,Domain Driven Design)</title>
     <link>https://quartz.jzhao.xyz/%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%A3%BC%EB%8F%84-%EC%84%A4%EA%B3%84(DDD,Domain-Driven-Design)</link>
@@ -47,24 +65,6 @@
     <guid>https://quartz.jzhao.xyz/%EB%AA%A8%EB%8D%B8-%EC%A3%BC%EB%8F%84-%EC%84%A4%EA%B3%84(Model-Driven-Design)</guid>
     <description>소프트웨어 개발에서 우리는 복잡한 현실 세계를 코드로 표현하고 구현해야 합니다. 이때 “모델(Model)“은 우리가 해결하고자 하는 문제 영역을 추상화하고 이해하는 데 핵심적인 역할을 합니다. 하지만 종종 분석 단계에서 만든 모델과 실제 구현된 설계가 서로 다를 때가 있습니다.</description>
     <pubDate>Mon, 10 Mar 2025 00:35:34 GMT</pubDate>
-  </item><item>
-    <title>모델(Model)</title>
-    <link>https://quartz.jzhao.xyz/%EB%AA%A8%EB%8D%B8(Model)</link>
-    <guid>https://quartz.jzhao.xyz/%EB%AA%A8%EB%8D%B8(Model)</guid>
-    <description>**도메인 모델(Domain Model)**은 특정 문제 영역(Domain)에 대한 조직화되고 구조화된 지식의 표현입니다. 이는 문제 도메인의 어휘와 핵심 개념을 나타내며, 도메인 범위 내 모든 엔티티들 간의 관계를 식별합니다. 도메인 모델은 다음과 같은 특징을 가집니다: 추상화: 현실 세계의 복잡성을 단순화하여 중요한 요소에 집중합니다.</description>
-    <pubDate>Mon, 10 Mar 2025 00:35:01 GMT</pubDate>
-  </item><item>
-    <title>Beoks의 개발자 블로그</title>
-    <link>https://quartz.jzhao.xyz/</link>
-    <guid>https://quartz.jzhao.xyz/</guid>
-    <description>소개 안녕하세요! 저는 백엔드 개발자 Beoks입니다. 이 블로그에서는 개발 이론을 어떻게 실전에서 활용할 수 있는지에 대해 이야기합니다. 이론을 깊이 있게 공부하고, 그것을 실제로 적용하는 데 관심이 많습니다. 최신 기술 트렌드를 따라가며, 이를 프로젝트에 활용하는 것을 좋아합니다.</description>
-    <pubDate>Mon, 10 Mar 2025 00:14:10 GMT</pubDate>
-  </item><item>
-    <title>Public 함수 작성 원칙</title>
-    <link>https://quartz.jzhao.xyz/Public-%ED%95%A8%EC%88%98-%EC%9E%91%EC%84%B1-%EC%9B%90%EC%B9%99</link>
-    <guid>https://quartz.jzhao.xyz/Public-%ED%95%A8%EC%88%98-%EC%9E%91%EC%84%B1-%EC%9B%90%EC%B9%99</guid>
-    <description>개발자로서 코드를 작성할 때 가장 중요한 것 중 하나는 미래의 사용성을 고려하는 것입니다. 특히 public 접근 제어자를 가진 함수들은 다른 개발자들에 의해 재사용될 가능성이 높기 때문에 더욱 신중하게 설계되어야 합니다. 이 글에서는 public 함수를 작성할 때 적용해야 할 원칙과 그 근거에 대해 알아보겠습니다.</description>
-    <pubDate>Mon, 10 Mar 2025 00:09:42 GMT</pubDate>
   </item>
     </channel>
   </rss>
