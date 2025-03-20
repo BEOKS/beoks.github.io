@@ -6,65 +6,65 @@
       <description>최근 10 건 on 🪴 Beoks Blog</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>HMAC(Hash-based Message Authentication Code)</title>
-    <link>https://quartz.jzhao.xyz/HMAC(Hash-based-Message-Authentication-Code)</link>
-    <guid>https://quartz.jzhao.xyz/HMAC(Hash-based-Message-Authentication-Code)</guid>
-    <description>HMAC(Hash-based Message Authentication Code)에 대한 심층적인 이해와 구현 방법을 설명합니다.</description>
-    <pubDate>Mon, 17 Mar 2025 08:25:32 GMT</pubDate>
+    <title>동시성과 병렬성의 차이</title>
+    <link>https://quartz.jzhao.xyz/%EB%8F%99%EC%8B%9C%EC%84%B1%EA%B3%BC-%EB%B3%91%EB%A0%AC%EC%84%B1%EC%9D%98-%EC%B0%A8%EC%9D%B4</link>
+    <guid>https://quartz.jzhao.xyz/%EB%8F%99%EC%8B%9C%EC%84%B1%EA%B3%BC-%EB%B3%91%EB%A0%AC%EC%84%B1%EC%9D%98-%EC%B0%A8%EC%9D%B4</guid>
+    <description>동시성(Concurrency)과 병렬성(Parallelism)은 현대 소프트웨어 개발에서 중요한 개념이지만, 종종 혼동되어 사용됩니다. 이 두 개념은 여러 작업을 동시에 처리하는 방식에 관한 것이지만, 실제 구현 방식과 목적에서 중요한 차이가 있습니다. 동시성(Concurrency) 동시성은 여러 작업을 논리적으로 동시에 실행하는 것처럼 보이게 하는 개념입니다.</description>
+    <pubDate>Thu, 20 Mar 2025 00:43:51 GMT</pubDate>
   </item><item>
-    <title>웹훅(Webhook)</title>
-    <link>https://quartz.jzhao.xyz/%EC%9B%B9%ED%9B%85(Webhook)</link>
-    <guid>https://quartz.jzhao.xyz/%EC%9B%B9%ED%9B%85(Webhook)</guid>
-    <description>웹훅(Webhook)의 개념부터 구현, 모범 사례까지 단계별로 설명하는 개발자 가이드입니다.</description>
-    <pubDate>Mon, 17 Mar 2025 08:17:44 GMT</pubDate>
+    <title>프로세스 메모리 구조</title>
+    <link>https://quartz.jzhao.xyz/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B5%AC%EC%A1%B0</link>
+    <guid>https://quartz.jzhao.xyz/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B5%AC%EC%A1%B0</guid>
+    <description>프로세스 메모리 구조는 운영체제가 각 프로세스에 할당하는 가상 메모리 공간의 논리적 구조입니다. 이 구조는 프로그램이 실행되는 동안 코드와 데이터를 효율적으로 관리하고 접근할 수 있도록 설계되어 있습니다. 프로세스 메모리 구조를 이해하는 것은 메모리 관리와 프로그램 최적화에 필수적인 지식입니다.</description>
+    <pubDate>Thu, 20 Mar 2025 00:22:17 GMT</pubDate>
   </item><item>
-    <title>프로덕션 언어(Production Language)</title>
-    <link>https://quartz.jzhao.xyz/%ED%94%84%EB%A1%9C%EB%8D%95%EC%85%98-%EC%96%B8%EC%96%B4(Production-Language)</link>
-    <guid>https://quartz.jzhao.xyz/%ED%94%84%EB%A1%9C%EB%8D%95%EC%85%98-%EC%96%B8%EC%96%B4(Production-Language)</guid>
-    <description> 실제 소프트웨어 개발에서 널리 사용될 목적으로 설계된 언어. 안정성, 유지보수성, 성능이 중요하게 고려됌 연구, 학습, 실험적인 목적보다는 상용 제품 개발을 목표로 하며, 대규모 시스템에서도 안정적으로 동작할 수 있도록 설계됌 대표적인 프로덕션 언어 Java: 안정성과 유지보수성이 뛰어나고, 대규모 시스템에 적합한 언어.</description>
-    <pubDate>Mon, 17 Mar 2025 08:17:31 GMT</pubDate>
+    <title>IPC(Inter-Process Communication)</title>
+    <link>https://quartz.jzhao.xyz/IPC(Inter-Process-Communication)</link>
+    <guid>https://quartz.jzhao.xyz/IPC(Inter-Process-Communication)</guid>
+    <description>프로세스 간 통신(Inter-Process Communication, IPC)은 서로 다른 프로세스가 데이터를 공유하고 서로 통신할 수 있게 해주는 메커니즘입니다. 현대 컴퓨팅 환경에서는 대부분의 복잡한 시스템이 여러 프로세스로 구성되어 있어, 이들 간의 효율적인 통신이 성능과 기능성에 직접적인 영향을 미칩니다.</description>
+    <pubDate>Thu, 20 Mar 2025 00:19:08 GMT</pubDate>
   </item><item>
-    <title>프로토타입 기반 언어</title>
-    <link>https://quartz.jzhao.xyz/%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85-%EA%B8%B0%EB%B0%98-%EC%96%B8%EC%96%B4</link>
-    <guid>https://quartz.jzhao.xyz/%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85-%EA%B8%B0%EB%B0%98-%EC%96%B8%EC%96%B4</guid>
-    <description>프로토타입 기반 언어는 클래스를 사용하지 않고 객체를 생성하는 방식입니다. 대신, 객체는 다른 객체를 **프로토타입(prototype)**으로 하여 복제됩니다. 즉, 객체는 다른 객체를 기반으로 하여 자신의 특성(속성 및 메서드)을 상속받습니다. 프로토타입 기반 언어의 동작 방식 객체 생성과 프로토타입 연결 프로토타입 기반 언어에서 객체는 **기존 객체를 복제(clone)**하거나 프로토타입을 설정하여 생성됩니다.</description>
-    <pubDate>Mon, 17 Mar 2025 08:17:31 GMT</pubDate>
+    <title>프로세스와 스레드의 차이</title>
+    <link>https://quartz.jzhao.xyz/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80-%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98-%EC%B0%A8%EC%9D%B4</link>
+    <guid>https://quartz.jzhao.xyz/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80-%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98-%EC%B0%A8%EC%9D%B4</guid>
+    <description>...</description>
+    <pubDate>Thu, 20 Mar 2025 00:18:35 GMT</pubDate>
   </item><item>
-    <title>플라이웨이트 패턴(Flyweight Pattern)</title>
-    <link>https://quartz.jzhao.xyz/%ED%94%8C%EB%9D%BC%EC%9D%B4%EC%9B%A8%EC%9D%B4%ED%8A%B8-%ED%8C%A8%ED%84%B4(Flyweight-Pattern)</link>
-    <guid>https://quartz.jzhao.xyz/%ED%94%8C%EB%9D%BC%EC%9D%B4%EC%9B%A8%EC%9D%B4%ED%8A%B8-%ED%8C%A8%ED%84%B4(Flyweight-Pattern)</guid>
-    <description>플라이웨이트 패턴은 구조 패턴의 하나로, 많은 수의 유사한 객체들이 필요할 때 메모리 사용을 최적화하기 위한 디자인 패턴입니다. 이 패턴은 객체의 상태를 ‘고유한(intrinsic) 상태’와 ‘공유한(extrinsic) 상태’로 분리하여, 동일한 고유 상태를 가진 객체들을 공유함으로써 메모리 사용량을 크게 줄일 수 있습니다.</description>
-    <pubDate>Mon, 17 Mar 2025 08:17:31 GMT</pubDate>
+    <title>프로세스(Process)</title>
+    <link>https://quartz.jzhao.xyz/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4(Process)</link>
+    <guid>https://quartz.jzhao.xyz/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4(Process)</guid>
+    <description>프로세스는 컴퓨터 시스템에서 실행 중인 프로그램의 인스턴스를 의미합니다. 운영체제는 이러한 프로세스들을 관리하고, 각 프로세스에 필요한 자원을 할당하며, 프로세스 간의 상호작용을 조정합니다. 프로세스는 현대 컴퓨팅 환경의 핵심 개념으로, 다중 작업 처리와 시스템 자원의 효율적 활용을 가능하게 합니다.</description>
+    <pubDate>Thu, 20 Mar 2025 00:18:06 GMT</pubDate>
   </item><item>
-    <title>클래스 기반 언어(Class-based Language)</title>
-    <link>https://quartz.jzhao.xyz/%ED%81%B4%EB%9E%98%EC%8A%A4-%EA%B8%B0%EB%B0%98-%EC%96%B8%EC%96%B4(Class-based-Language)</link>
-    <guid>https://quartz.jzhao.xyz/%ED%81%B4%EB%9E%98%EC%8A%A4-%EA%B8%B0%EB%B0%98-%EC%96%B8%EC%96%B4(Class-based-Language)</guid>
-    <description>정의 클래스 기반 언어는 객체 지향 언어 패러다임을 따르는 언어 중에서, **클래스(class)**를 중심으로 객체(object)를 생성하고 관리하는 방식을 채택한 언어를 의미한다. 클래스 : 데이터(필드,상태)와 이를 조작하는 메서드(행동, 프로시즈)를 포함하는 청사진(템플릿) 역할을 한다.</description>
-    <pubDate>Mon, 17 Mar 2025 08:17:31 GMT</pubDate>
+    <title>스레드(Thread)</title>
+    <link>https://quartz.jzhao.xyz/%EC%8A%A4%EB%A0%88%EB%93%9C(Thread)</link>
+    <guid>https://quartz.jzhao.xyz/%EC%8A%A4%EB%A0%88%EB%93%9C(Thread)</guid>
+    <description>스레드(Thread)는 프로세스 내에서 실행되는 작업의 가장 작은 단위입니다. 하나의 프로세스는 여러 개의 스레드를 가질 수 있으며, 각 스레드는 동일한 프로세스 내의 자원을 공유하면서 독립적으로 실행됩니다. 이것이 바로 스레드가 ‘경량 프로세스’라고 불리는 이유입니다. 스레드는 현대 소프트웨어 개발에서 매우 중요한 개념으로, 멀티스레딩 기법을 통해 애플리케이션의 성능과 응답성을 크게 향상시킬 수 있습니다.</description>
+    <pubDate>Thu, 20 Mar 2025 00:14:05 GMT</pubDate>
   </item><item>
-    <title>클래스 기반 언어가 아니면서 OOP 패러다임을 따르는 언어</title>
-    <link>https://quartz.jzhao.xyz/%ED%81%B4%EB%9E%98%EC%8A%A4-%EA%B8%B0%EB%B0%98-%EC%96%B8%EC%96%B4%EA%B0%80-%EC%95%84%EB%8B%88%EB%A9%B4%EC%84%9C-OOP-%ED%8C%A8%EB%9F%AC%EB%8B%A4%EC%9E%84%EC%9D%84-%EB%94%B0%EB%A5%B4%EB%8A%94-%EC%96%B8%EC%96%B4</link>
-    <guid>https://quartz.jzhao.xyz/%ED%81%B4%EB%9E%98%EC%8A%A4-%EA%B8%B0%EB%B0%98-%EC%96%B8%EC%96%B4%EA%B0%80-%EC%95%84%EB%8B%88%EB%A9%B4%EC%84%9C-OOP-%ED%8C%A8%EB%9F%AC%EB%8B%A4%EC%9E%84%EC%9D%84-%EB%94%B0%EB%A5%B4%EB%8A%94-%EC%96%B8%EC%96%B4</guid>
-    <description> 프로토타입 기반 언어 - 클래스 기번 언어와 프로토 타입 기반 언어의 차이점 모듈 기반 OOP 클래스 없이도 객체 지향을 지원하는 이유.</description>
-    <pubDate>Mon, 17 Mar 2025 08:17:31 GMT</pubDate>
+    <title>동시성(Concurrency)</title>
+    <link>https://quartz.jzhao.xyz/%EB%8F%99%EC%8B%9C%EC%84%B1(Concurrency)</link>
+    <guid>https://quartz.jzhao.xyz/%EB%8F%99%EC%8B%9C%EC%84%B1(Concurrency)</guid>
+    <description>소프트웨어 개발에서 동시성(Concurrency)의 개념과 구현 방법, 그리고 관련 패턴에 대한 포괄적인 설명.</description>
+    <pubDate>Thu, 20 Mar 2025 00:00:02 GMT</pubDate>
   </item><item>
-    <title>클래스 기번 언어와 프로토 타입 기반 언어의 차이점</title>
-    <link>https://quartz.jzhao.xyz/%ED%81%B4%EB%9E%98%EC%8A%A4-%EA%B8%B0%EB%B2%88-%EC%96%B8%EC%96%B4%EC%99%80-%ED%94%84%EB%A1%9C%ED%86%A0-%ED%83%80%EC%9E%85-%EA%B8%B0%EB%B0%98-%EC%96%B8%EC%96%B4%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90</link>
-    <guid>https://quartz.jzhao.xyz/%ED%81%B4%EB%9E%98%EC%8A%A4-%EA%B8%B0%EB%B2%88-%EC%96%B8%EC%96%B4%EC%99%80-%ED%94%84%EB%A1%9C%ED%86%A0-%ED%83%80%EC%9E%85-%EA%B8%B0%EB%B0%98-%EC%96%B8%EC%96%B4%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90</guid>
-    <description>1 . 개념적 차이 프로토타입 기반 언어클래스 기반 언어객체 생성 방식기존 객체를 복사(Prototype)하여 새로운 객체를 생성클래스를 정의하고, 클래스를 기반으로 객체를 생성(인스턴스화)상속 구조객체 간의 직접적인 복제 및 프로토타입 체인을 통해 상속클래스를 통한 계층적 상속 구조(부모 → 자식)유연성런타임에 동적으로 속성과 메서드를 추가 가능객체 구조가 클래스 정의에 의해 제한됨코드 재사용프로토타입을 복사하여 공유상속과 추상화를 통해 재사용 대표 언어 프로토타입 기반 언어: JavaScript, Lua, Self 등 클래스 기반 언어: Java, C++, Python, C#, Swift 등 2.</description>
-    <pubDate>Mon, 17 Mar 2025 08:17:31 GMT</pubDate>
+    <title>SW 개발 사이클</title>
+    <link>https://quartz.jzhao.xyz/SW-%EA%B0%9C%EB%B0%9C-%EC%82%AC%EC%9D%B4%ED%81%B4</link>
+    <guid>https://quartz.jzhao.xyz/SW-%EA%B0%9C%EB%B0%9C-%EC%82%AC%EC%9D%B4%ED%81%B4</guid>
+    <description>기능 추가 기획에서 신규 기능을 정의 신규 기능을 개발에 전달 개발에서 기능을 검토 기능 요구사항과 관련된 현황 정보를 수집 기능 요구사항에 아래 요소가 있는지 검토하고 없으면 부족한 점을 기획에 다시 전달 기능이 기존 정책을 어기는 등 물리적으로 구현이 불가능한지 검토 기능이 필요한 이유가 포함되어 있는지 검토(정확한 문제를 진단하기 위함) 문제를 해결하는데 ...</description>
+    <pubDate>Wed, 19 Mar 2025 07:44:39 GMT</pubDate>
   </item><item>
-    <title>클래스 없이도 객체 지향을 지원하는 이유</title>
-    <link>https://quartz.jzhao.xyz/%ED%81%B4%EB%9E%98%EC%8A%A4-%EC%97%86%EC%9D%B4%EB%8F%84-%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5%EC%9D%84-%EC%A7%80%EC%9B%90%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0</link>
-    <guid>https://quartz.jzhao.xyz/%ED%81%B4%EB%9E%98%EC%8A%A4-%EC%97%86%EC%9D%B4%EB%8F%84-%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5%EC%9D%84-%EC%A7%80%EC%9B%90%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0</guid>
-    <description>클래스 없이도 객체 지향을 지원하는 이유는 객체의 **상태(state)**와 **행동(behavior)**을 캡슐화하고, 객체들 간의 상호작용을 다루는 방식에 집중하기 때문입니다. 객체 지향의 핵심 개념인 캡슐화, 상속, 다형성은 클래스 없이도 구현할 수 있습니다. 클래스는 단지 이 개념을 표현하는 하나의 방법일 뿐입니다.</description>
-    <pubDate>Mon, 17 Mar 2025 08:17:31 GMT</pubDate>
+    <title>OpenAI Responses</title>
+    <link>https://quartz.jzhao.xyz/OpenAI-Responses</link>
+    <guid>https://quartz.jzhao.xyz/OpenAI-Responses</guid>
+    <description></description>
+    <pubDate>Wed, 19 Mar 2025 04:00:19 GMT</pubDate>
   </item><item>
     <title>패키지의 한계와 문제점</title>
     <link>https://quartz.jzhao.xyz/%ED%8C%A8%ED%82%A4%EC%A7%80%EC%9D%98-%ED%95%9C%EA%B3%84%EC%99%80-%EB%AC%B8%EC%A0%9C%EC%A0%90</link>
     <guid>https://quartz.jzhao.xyz/%ED%8C%A8%ED%82%A4%EC%A7%80%EC%9D%98-%ED%95%9C%EA%B3%84%EC%99%80-%EB%AC%B8%EC%A0%9C%EC%A0%90</guid>
     <description>패키지의 한계와 문제점 자바에서 패키지는 클래스와 인터페이스를 논리적인 그룹으로 묶어주는 역할을 합니다. 이를 통해 네임스페이스를 관리하고, 클래스 간의 충돌을 방지하며, 코드의 조직화를 돕습니다. 하지만 패키지만으로는 다음과 같은 한계가 있습니다. 1. 캡슐화의 제한 공개 범위의 한계: public으로 선언된 클래스나 인터페이스는 모든 패키지에서 접근 가능합니다.</description>
-    <pubDate>Mon, 17 Mar 2025 08:17:31 GMT</pubDate>
+    <pubDate>Mon, 17 Mar 2025 09:08:52 GMT</pubDate>
   </item>
     </channel>
   </rss>
