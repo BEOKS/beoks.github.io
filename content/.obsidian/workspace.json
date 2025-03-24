@@ -104,9 +104,317 @@
               "icon": "lucide-file",
               "title": "Hibernate Session"
             }
+          },
+          {
+            "id": "4f2210a158e9e15d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hibernate Session.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hibernate Session"
+            }
+          },
+          {
+            "id": "5ac1d9a3c49d3b17",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hibernate Session.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hibernate Session"
+            }
+          },
+          {
+            "id": "94c070eab526dc9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hibernate 트랜잭션 관리 전략.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hibernate 트랜잭션 관리 전략"
+            }
+          },
+          {
+            "id": "c9aecc95f4507fad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hibernate 트랜잭션 관리 전략.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hibernate 트랜잭션 관리 전략"
+            }
+          },
+          {
+            "id": "3a51d9ed6b18498e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hibernate 트랜잭션 관리 전략.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hibernate 트랜잭션 관리 전략"
+            }
+          },
+          {
+            "id": "d9acb3481398e4f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "인터페이스 분리 원칙(Interface Segregation Principle).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "인터페이스 분리 원칙(Interface Segregation Principle)"
+            }
+          },
+          {
+            "id": "eeab8d1806833457",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOLID 원칙.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SOLID 원칙"
+            }
+          },
+          {
+            "id": "8e539666b1edfb21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "단일 책임 원칙(Single Responsibility Principle).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "단일 책임 원칙(Single Responsibility Principle)"
+            }
+          },
+          {
+            "id": "f9bdd6e026e4a626",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOLID 원칙.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SOLID 원칙"
+            }
+          },
+          {
+            "id": "00b8646c9b329c2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOLID 원칙.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SOLID 원칙"
+            }
+          },
+          {
+            "id": "03af3872c1f41022",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "캡슐화(Encapsulation).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "캡슐화(Encapsulation)"
+            }
+          },
+          {
+            "id": "e48d9116724e93cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "클래스 기반 언어(Class-based Language).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "클래스 기반 언어(Class-based Language)"
+            }
+          },
+          {
+            "id": "da462bf3e9b915a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOLID 원칙.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SOLID 원칙"
+            }
+          },
+          {
+            "id": "5de70832e0f81b75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOLID 원칙.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SOLID 원칙"
+            }
+          },
+          {
+            "id": "a3b81b36ad80f313",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOLID 원칙.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SOLID 원칙"
+            }
+          },
+          {
+            "id": "db37672632c01400",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOLID 원칙.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SOLID 원칙"
+            }
+          },
+          {
+            "id": "76975d9a390c474b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOLID 원칙.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SOLID 원칙"
+            }
+          },
+          {
+            "id": "c4aa0c2df675605e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "의존성 역전 원칙 (Dependency Inversion Principle).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "의존성 역전 원칙 (Dependency Inversion Principle)"
+            }
+          },
+          {
+            "id": "dadaeed35b79ea09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "의존성 역전 원칙 (Dependency Inversion Principle).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "의존성 역전 원칙 (Dependency Inversion Principle)"
+            }
+          },
+          {
+            "id": "e3aee8dc9c4fa252",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "의존성 역전 원칙 적용 전략.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "의존성 역전 원칙 적용 전략"
+            }
+          },
+          {
+            "id": "bbd9d317aba9f4dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "객체 지향 프로그래밍 실전 적용법.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "객체 지향 프로그래밍 실전 적용법"
+            }
+          },
+          {
+            "id": "9439f075792296fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "객체 지향 프로그래밍 실전 적용법.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "객체 지향 프로그래밍 실전 적용법"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 28
       }
     ],
     "direction": "vertical"
@@ -138,10 +446,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "도메인 주도",
+                "query": "객체 지향 프로그래밍 실전 적용법",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -159,7 +467,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -179,7 +488,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hibernate Session.md",
+                "file": "객체 지향 프로그래밍 실전 적용법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +498,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Hibernate Session"
+              "title": "Backlinks for 객체 지향 프로그래밍 실전 적용법"
             }
           },
           {
@@ -250,34 +559,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "066c61fbd4ac16cc",
+  "active": "9439f075792296fd",
   "lastOpenFiles": [
-    "Hibernate Session 관리 전략.md",
-    "Hibernate Session.md",
-    "Hibernate 캐싱 전략.md",
-    "Hibernate 엔티티 상태 관리.md",
-    "ibernate Session.md",
-    "도메인 모델(Domain Model).md",
-    "유비쿼터스 언어(Ubiquitous Language).md",
-    "컨텍스트 맵핑(Context Mapping).md",
-    "바운디드 컨텍스트(Bounded Context).md",
-    "도메인 주도 설계(DDD,Domain Driven Design).md",
-    "주제영역(Subject Area).md",
-    "엔티티(Entity).md",
-    "동시성(Concurrency).md",
-    "Public 함수 작성 원칙.md",
-    "Untitled.md",
-    "Value Objects.md",
-    "엔티티(Entity) 와 Value Objects 의 차이.md",
-    "모델(Model).md",
+    "객체 지향 프로그래밍 실전 적용법.md",
+    "객체 지향 프로그래밍(OOP).md",
+    "의존성 역전 원칙 적용 전략.md",
+    "추상화 수준 결정 방법론.md",
+    "의존성 역전 원칙 (Dependency Inversion Principle).md",
+    "SOLID 원칙.md",
+    "리스코프 치환 원칙 (Liskov Substitution Principle).md",
+    "인터페이스 분리 원칙(Interface Segregation Principle).md",
+    "ORM(Object-Relational Mapping).md",
+    "Layered Architecture(계층형 아키텍처).md",
+    "JPA Specification.md",
+    "Java abstract keword.md",
+    "Java 언어 소개.md",
+    "Java 메서드, 생성자, 열거형, 레코드.md",
+    "클래스 기번 언어와 프로토 타입 기반 언어의 차이점.md",
+    "클래스 기반 언어가 아니면서 OOP 패러다임을 따르는 언어.md",
+    "클래스 기반 언어(Class-based Language).md",
+    "코드의 확장성(Extensibility).md",
+    "코드 스멜.md",
+    "캡슐화(Encapsulation).md",
+    "추상화(Abstraction).md",
+    "자바를 가장 효과적으로 배우는 법.md",
+    "자바 추상 클래스와 인터페이스와의 차이.md",
+    "엔티티 관계(Entity Relationship).md",
     "모델 주도 설계(Model-Driven Design).md",
-    "Hands-On Modelers.md",
-    "프로토타입 기반 언어 2.md",
-    "클래스 없이도 객체 지향을 지원하는 이유 2.md",
-    "클래스 기번 언어와 프로토 타입 기반 언어의 차이점 2.md",
-    "클래스 기반 언어가 아니면서 OOP 패러다임을 따르는 언어 2.md",
-    "클래스 기반 언어(Class-based Language) 2.md",
-    "콘텐츠 보안 정책(Content Security Policy) 설정 2.md",
+    "인터페이스(Interface).md",
     "Pasted image 20250225222207.png",
     "Pasted image 20250225222206.png",
     "Pasted image 20250224215859.png",

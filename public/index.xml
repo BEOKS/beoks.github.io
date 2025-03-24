@@ -6,65 +6,65 @@
       <description>최근 10 건 on 🪴 Beoks Blog</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>동시성과 병렬성의 차이</title>
-    <link>https://quartz.jzhao.xyz/%EB%8F%99%EC%8B%9C%EC%84%B1%EA%B3%BC-%EB%B3%91%EB%A0%AC%EC%84%B1%EC%9D%98-%EC%B0%A8%EC%9D%B4</link>
-    <guid>https://quartz.jzhao.xyz/%EB%8F%99%EC%8B%9C%EC%84%B1%EA%B3%BC-%EB%B3%91%EB%A0%AC%EC%84%B1%EC%9D%98-%EC%B0%A8%EC%9D%B4</guid>
-    <description>동시성(Concurrency)과 병렬성(Parallelism)은 현대 소프트웨어 개발에서 중요한 개념이지만, 종종 혼동되어 사용됩니다. 이 두 개념은 여러 작업을 동시에 처리하는 방식에 관한 것이지만, 실제 구현 방식과 목적에서 중요한 차이가 있습니다. 동시성(Concurrency) 동시성은 여러 작업을 논리적으로 동시에 실행하는 것처럼 보이게 하는 개념입니다.</description>
-    <pubDate>Thu, 20 Mar 2025 00:43:51 GMT</pubDate>
+    <title>추상화 수준 결정 방법론</title>
+    <link>https://quartz.jzhao.xyz/%EC%B6%94%EC%83%81%ED%99%94-%EC%88%98%EC%A4%80-%EA%B2%B0%EC%A0%95-%EB%B0%A9%EB%B2%95%EB%A1%A0</link>
+    <guid>https://quartz.jzhao.xyz/%EC%B6%94%EC%83%81%ED%99%94-%EC%88%98%EC%A4%80-%EA%B2%B0%EC%A0%95-%EB%B0%A9%EB%B2%95%EB%A1%A0</guid>
+    <description>추상화 수준 결정 방법론은 소프트웨어 설계에서 가장 중요한 요소 중 하나입니다. 적절한 추상화 수준을 결정하는 것은 프로그램의 유지보수성, 확장성, 그리고 가독성에 직접적인 영향을 미칩니다. 이 글에서는 효과적인 추상화 수준을 결정하는 방법에 대해 알아보겠습니다. 추상화 수준 결정 프레임워크 효과적인 추상화 수준을 결정하기 위한 체계적인 접근 방식을 소개합니다.</description>
+    <pubDate>Mon, 24 Mar 2025 13:30:38 GMT</pubDate>
   </item><item>
-    <title>프로세스 메모리 구조</title>
-    <link>https://quartz.jzhao.xyz/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B5%AC%EC%A1%B0</link>
-    <guid>https://quartz.jzhao.xyz/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B5%AC%EC%A1%B0</guid>
-    <description>프로세스 메모리 구조는 운영체제가 각 프로세스에 할당하는 가상 메모리 공간의 논리적 구조입니다. 이 구조는 프로그램이 실행되는 동안 코드와 데이터를 효율적으로 관리하고 접근할 수 있도록 설계되어 있습니다. 프로세스 메모리 구조를 이해하는 것은 메모리 관리와 프로그램 최적화에 필수적인 지식입니다.</description>
-    <pubDate>Thu, 20 Mar 2025 00:22:17 GMT</pubDate>
+    <title>의존성 역전 원칙 적용 전략</title>
+    <link>https://quartz.jzhao.xyz/%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%97%AD%EC%A0%84-%EC%9B%90%EC%B9%99-%EC%A0%81%EC%9A%A9-%EC%A0%84%EB%9E%B5</link>
+    <guid>https://quartz.jzhao.xyz/%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%97%AD%EC%A0%84-%EC%9B%90%EC%B9%99-%EC%A0%81%EC%9A%A9-%EC%A0%84%EB%9E%B5</guid>
+    <description>의존성 역전 원칙 (Dependency Inversion Principle)을 효과적으로 적용하는 것은 고품질 소프트웨어 설계의 핵심입니다. 이 문서에서는 다양한 상황에서 의존성 역전 원칙을 적용하기 위한 구체적인 전략과 방법론을 살펴봅니다. 올바른 적용 전략을 통해 시스템의 유연성, 확장성, 그리고 테스트 용이성을 극대화할 수 있습니다.</description>
+    <pubDate>Mon, 24 Mar 2025 13:27:56 GMT</pubDate>
   </item><item>
-    <title>IPC(Inter-Process Communication)</title>
-    <link>https://quartz.jzhao.xyz/IPC(Inter-Process-Communication)</link>
-    <guid>https://quartz.jzhao.xyz/IPC(Inter-Process-Communication)</guid>
-    <description>프로세스 간 통신(Inter-Process Communication, IPC)은 서로 다른 프로세스가 데이터를 공유하고 서로 통신할 수 있게 해주는 메커니즘입니다. 현대 컴퓨팅 환경에서는 대부분의 복잡한 시스템이 여러 프로세스로 구성되어 있어, 이들 간의 효율적인 통신이 성능과 기능성에 직접적인 영향을 미칩니다.</description>
-    <pubDate>Thu, 20 Mar 2025 00:19:08 GMT</pubDate>
-  </item><item>
-    <title>프로세스와 스레드의 차이</title>
-    <link>https://quartz.jzhao.xyz/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80-%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98-%EC%B0%A8%EC%9D%B4</link>
-    <guid>https://quartz.jzhao.xyz/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80-%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98-%EC%B0%A8%EC%9D%B4</guid>
-    <description>...</description>
-    <pubDate>Thu, 20 Mar 2025 00:18:35 GMT</pubDate>
-  </item><item>
-    <title>프로세스(Process)</title>
-    <link>https://quartz.jzhao.xyz/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4(Process)</link>
-    <guid>https://quartz.jzhao.xyz/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4(Process)</guid>
-    <description>프로세스는 컴퓨터 시스템에서 실행 중인 프로그램의 인스턴스를 의미합니다. 운영체제는 이러한 프로세스들을 관리하고, 각 프로세스에 필요한 자원을 할당하며, 프로세스 간의 상호작용을 조정합니다. 프로세스는 현대 컴퓨팅 환경의 핵심 개념으로, 다중 작업 처리와 시스템 자원의 효율적 활용을 가능하게 합니다.</description>
-    <pubDate>Thu, 20 Mar 2025 00:18:06 GMT</pubDate>
-  </item><item>
-    <title>스레드(Thread)</title>
-    <link>https://quartz.jzhao.xyz/%EC%8A%A4%EB%A0%88%EB%93%9C(Thread)</link>
-    <guid>https://quartz.jzhao.xyz/%EC%8A%A4%EB%A0%88%EB%93%9C(Thread)</guid>
-    <description>스레드(Thread)는 프로세스 내에서 실행되는 작업의 가장 작은 단위입니다. 하나의 프로세스는 여러 개의 스레드를 가질 수 있으며, 각 스레드는 동일한 프로세스 내의 자원을 공유하면서 독립적으로 실행됩니다. 이것이 바로 스레드가 ‘경량 프로세스’라고 불리는 이유입니다. 스레드는 현대 소프트웨어 개발에서 매우 중요한 개념으로, 멀티스레딩 기법을 통해 애플리케이션의 성능과 응답성을 크게 향상시킬 수 있습니다.</description>
-    <pubDate>Thu, 20 Mar 2025 00:14:05 GMT</pubDate>
-  </item><item>
-    <title>동시성(Concurrency)</title>
-    <link>https://quartz.jzhao.xyz/%EB%8F%99%EC%8B%9C%EC%84%B1(Concurrency)</link>
-    <guid>https://quartz.jzhao.xyz/%EB%8F%99%EC%8B%9C%EC%84%B1(Concurrency)</guid>
-    <description>소프트웨어 개발에서 동시성(Concurrency)의 개념과 구현 방법, 그리고 관련 패턴에 대한 포괄적인 설명.</description>
-    <pubDate>Thu, 20 Mar 2025 00:00:02 GMT</pubDate>
-  </item><item>
-    <title>SW 개발 사이클</title>
-    <link>https://quartz.jzhao.xyz/SW-%EA%B0%9C%EB%B0%9C-%EC%82%AC%EC%9D%B4%ED%81%B4</link>
-    <guid>https://quartz.jzhao.xyz/SW-%EA%B0%9C%EB%B0%9C-%EC%82%AC%EC%9D%B4%ED%81%B4</guid>
-    <description>기능 추가 기획에서 신규 기능을 정의 신규 기능을 개발에 전달 개발에서 기능을 검토 기능 요구사항과 관련된 현황 정보를 수집 기능 요구사항에 아래 요소가 있는지 검토하고 없으면 부족한 점을 기획에 다시 전달 기능이 기존 정책을 어기는 등 물리적으로 구현이 불가능한지 검토 기능이 필요한 이유가 포함되어 있는지 검토(정확한 문제를 진단하기 위함) 문제를 해결하는데 ...</description>
-    <pubDate>Wed, 19 Mar 2025 07:44:39 GMT</pubDate>
-  </item><item>
-    <title>OpenAI Responses</title>
-    <link>https://quartz.jzhao.xyz/OpenAI-Responses</link>
-    <guid>https://quartz.jzhao.xyz/OpenAI-Responses</guid>
+    <title>객체 지향 프로그래밍 실전 적용법</title>
+    <link>https://quartz.jzhao.xyz/%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%8B%A4%EC%A0%84-%EC%A0%81%EC%9A%A9%EB%B2%95</link>
+    <guid>https://quartz.jzhao.xyz/%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%8B%A4%EC%A0%84-%EC%A0%81%EC%9A%A9%EB%B2%95</guid>
     <description></description>
-    <pubDate>Wed, 19 Mar 2025 04:00:19 GMT</pubDate>
+    <pubDate>Mon, 24 Mar 2025 13:26:25 GMT</pubDate>
   </item><item>
-    <title>패키지의 한계와 문제점</title>
-    <link>https://quartz.jzhao.xyz/%ED%8C%A8%ED%82%A4%EC%A7%80%EC%9D%98-%ED%95%9C%EA%B3%84%EC%99%80-%EB%AC%B8%EC%A0%9C%EC%A0%90</link>
-    <guid>https://quartz.jzhao.xyz/%ED%8C%A8%ED%82%A4%EC%A7%80%EC%9D%98-%ED%95%9C%EA%B3%84%EC%99%80-%EB%AC%B8%EC%A0%9C%EC%A0%90</guid>
-    <description>패키지의 한계와 문제점 자바에서 패키지는 클래스와 인터페이스를 논리적인 그룹으로 묶어주는 역할을 합니다. 이를 통해 네임스페이스를 관리하고, 클래스 간의 충돌을 방지하며, 코드의 조직화를 돕습니다. 하지만 패키지만으로는 다음과 같은 한계가 있습니다. 1. 캡슐화의 제한 공개 범위의 한계: public으로 선언된 클래스나 인터페이스는 모든 패키지에서 접근 가능합니다.</description>
-    <pubDate>Mon, 17 Mar 2025 09:08:52 GMT</pubDate>
+    <title>의존성 역전 원칙 (Dependency Inversion Principle)</title>
+    <link>https://quartz.jzhao.xyz/%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%97%AD%EC%A0%84-%EC%9B%90%EC%B9%99-(Dependency-Inversion-Principle)</link>
+    <guid>https://quartz.jzhao.xyz/%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%97%AD%EC%A0%84-%EC%9B%90%EC%B9%99-(Dependency-Inversion-Principle)</guid>
+    <description>의존성 역전 원칙은 객체 지향 설계의 핵심 원칙 중 하나로, SOLID 원칙의 마지막 ‘D’에 해당합니다. 이 원칙은 소프트웨어 모듈 간의 의존성 방향을 제어하여 시스템의 유연성, 재사용성, 그리고 테스트 용이성을 크게 향상시킵니다. 의존성 역전 원칙은 현대 소프트웨어 아키텍처의 근간이 되는 개념으로, 특히 대규모 엔터프라이즈 애플리케이션 개발에서 매우 중요한 역할을 합니다.</description>
+    <pubDate>Mon, 24 Mar 2025 13:23:17 GMT</pubDate>
+  </item><item>
+    <title>객체 지향 프로그래밍의 4대 원칙</title>
+    <link>https://quartz.jzhao.xyz/%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%98-4%EB%8C%80-%EC%9B%90%EC%B9%99</link>
+    <guid>https://quartz.jzhao.xyz/%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%98-4%EB%8C%80-%EC%9B%90%EC%B9%99</guid>
+    <description>객체 지향 프로그래밍(OOP)은 현대 소프트웨어 개발의 핵심 패러다임으로, 복잡한 시스템을 객체라는 단위로 모델링하여 개발하는 방법론입니다. 객체 지향 프로그래밍의 근간이 되는 네 가지 핵심 원칙은 캡슐화(Encapsulation), 상속(Inheritance), 다형성(Polymorphism), 추상화(Abstraction)입니다.</description>
+    <pubDate>Mon, 24 Mar 2025 13:11:11 GMT</pubDate>
+  </item><item>
+    <title>캡슐화(Encapsulation)</title>
+    <link>https://quartz.jzhao.xyz/%EC%BA%A1%EC%8A%90%ED%99%94(Encapsulation)</link>
+    <guid>https://quartz.jzhao.xyz/%EC%BA%A1%EC%8A%90%ED%99%94(Encapsulation)</guid>
+    <description>캡슐화는 객체 지향 프로그래밍의 네 가지 핵심 원칙 중 하나로, 데이터(속성)와 해당 데이터를 처리하는 메서드(행위)를 하나의 단위로 묶고 외부로부터 객체의 내부 구현을 숨기는 메커니즘입니다. 캡슐화는 ‘정보 은닉(Information Hiding)‘과 밀접한 관련이 있으며, 객체의 내부 상태를 보호하고 객체 간의 결합도를 낮추는 데 중요한 역할을 합니다.</description>
+    <pubDate>Mon, 24 Mar 2025 13:08:57 GMT</pubDate>
+  </item><item>
+    <title>리스코프 치환 원칙 (Liskov Substitution Principle)</title>
+    <link>https://quartz.jzhao.xyz/%EB%A6%AC%EC%8A%A4%EC%BD%94%ED%94%84-%EC%B9%98%ED%99%98-%EC%9B%90%EC%B9%99-(Liskov-Substitution-Principle)</link>
+    <guid>https://quartz.jzhao.xyz/%EB%A6%AC%EC%8A%A4%EC%BD%94%ED%94%84-%EC%B9%98%ED%99%98-%EC%9B%90%EC%B9%99-(Liskov-Substitution-Principle)</guid>
+    <description>리스코프 치환 원칙(LSP)은 객체 지향 프로그래밍의 다섯 가지 SOLID 원칙 중 하나로, 바바라 리스코프(Barbara Liskov)가 1987년에 제안한 개념입니다. 이 원칙은 상속 관계에서 하위 타입(자식 클래스)이 상위 타입(부모 클래스)을 대체할 수 있어야 한다는 것을 의미합니다.</description>
+    <pubDate>Mon, 24 Mar 2025 13:05:48 GMT</pubDate>
+  </item><item>
+    <title>상속(Inheritance)</title>
+    <link>https://quartz.jzhao.xyz/%EC%83%81%EC%86%8D(Inheritance)</link>
+    <guid>https://quartz.jzhao.xyz/%EC%83%81%EC%86%8D(Inheritance)</guid>
+    <description></description>
+    <pubDate>Mon, 24 Mar 2025 13:05:07 GMT</pubDate>
+  </item><item>
+    <title>객체 지향 프로그래밍(OOP)</title>
+    <link>https://quartz.jzhao.xyz/%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D(OOP)</link>
+    <guid>https://quartz.jzhao.xyz/%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D(OOP)</guid>
+    <description>객체 지향 프로그래밍(Object-Oriented Programming, OOP)은 프로그램을 객체들의 집합으로 모델링하는 프로그래밍 패러다임입니다. 각 객체는 데이터와 해당 데이터를 조작하는 메서드를 함께 캡슐화하며, 이를 통해 복잡한 소프트웨어 시스템을 보다 모듈화하고 유지보수하기 쉽게 구성할 수 있습니다.</description>
+    <pubDate>Mon, 24 Mar 2025 13:04:38 GMT</pubDate>
+  </item><item>
+    <title>다형성(Polymorphism)</title>
+    <link>https://quartz.jzhao.xyz/%EB%8B%A4%ED%98%95%EC%84%B1(Polymorphism)</link>
+    <guid>https://quartz.jzhao.xyz/%EB%8B%A4%ED%98%95%EC%84%B1(Polymorphism)</guid>
+    <description>다형성(Polymorphism)은 객체 지향 프로그래밍의 핵심 원칙 중 하나로, ‘여러 형태를 가지는 능력’을 의미합니다. 이는 동일한 인터페이스를 통해 다양한 객체 타입이 다른 방식으로 응답할 수 있게 해주는 메커니즘입니다. 다형성은 코드의 유연성, 재사용성, 확장성을 크게 향상시키며 현대 소프트웨어 개발에서 필수적인 개념입니다.</description>
+    <pubDate>Mon, 24 Mar 2025 13:02:45 GMT</pubDate>
   </item>
     </channel>
   </rss>
