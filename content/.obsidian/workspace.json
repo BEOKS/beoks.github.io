@@ -412,9 +412,289 @@
               "icon": "lucide-file",
               "title": "객체 지향 프로그래밍 실전 적용법"
             }
+          },
+          {
+            "id": "194c28939dcbc7d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "동기(Synchronous).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "동기(Synchronous)"
+            }
+          },
+          {
+            "id": "5d12344f8a60708f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "비동기(Asynchronous).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "비동기(Asynchronous)"
+            }
+          },
+          {
+            "id": "e91d40f7009d3e74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "동기(Synchronous).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "동기(Synchronous)"
+            }
+          },
+          {
+            "id": "4a2665a3ff5aa89c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "비동기(Asynchronous).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "비동기(Asynchronous)"
+            }
+          },
+          {
+            "id": "d68ca95db29c54a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "비동기(Asynchronous).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "비동기(Asynchronous)"
+            }
+          },
+          {
+            "id": "96c16678383ca3d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "동기와 비동기의 차이.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "동기와 비동기의 차이"
+            }
+          },
+          {
+            "id": "29276aaee4e87272",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "비동기(Asynchronous).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "비동기(Asynchronous)"
+            }
+          },
+          {
+            "id": "2823ec04cdf8fa24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "동기와 비동기의 차이.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "동기와 비동기의 차이"
+            }
+          },
+          {
+            "id": "2a9afa1155c66250",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "블로킹(blocking).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "블로킹(blocking)"
+            }
+          },
+          {
+            "id": "6d041a153fb7a7b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "콜백 체인(Callback Chain).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "콜백 체인(Callback Chain)"
+            }
+          },
+          {
+            "id": "a8f2933bd35cf5c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "콜백 체인(Callback Chain).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "콜백 체인(Callback Chain)"
+            }
+          },
+          {
+            "id": "35a9f00e0c2caa1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CompletableFuture.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CompletableFuture"
+            }
+          },
+          {
+            "id": "5b854df277eb53cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CompletableFuture.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CompletableFuture"
+            }
+          },
+          {
+            "id": "32fb495aa2b48b2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "콜백 체인(Callback Chain).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "콜백 체인(Callback Chain)"
+            }
+          },
+          {
+            "id": "80f5871142ff2a57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "반응형 프로그래밍(Reactive Programming).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "반응형 프로그래밍(Reactive Programming)"
+            }
+          },
+          {
+            "id": "a07f990abfce62ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "반응형 프로그래밍(Reactive Programming).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "반응형 프로그래밍(Reactive Programming)"
+            }
+          },
+          {
+            "id": "b3ddf2788ecf6b42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java Flow API.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Java Flow API"
+            }
+          },
+          {
+            "id": "5f10749c7266600f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "콜백 체인(Callback Chain).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "콜백 체인(Callback Chain)"
+            }
+          },
+          {
+            "id": "7b92a52e5e112715",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "콜백 체인(Callback Chain).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "콜백 체인(Callback Chain)"
+            }
+          },
+          {
+            "id": "7e428bbe0180a4b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java Flow API.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Java Flow API"
+            }
           }
         ],
-        "currentTab": 28
+        "currentTab": 48
       }
     ],
     "direction": "vertical"
@@ -446,7 +726,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "객체 지향 프로그래밍 실전 적용법",
+                "query": "콜백 체인",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -488,7 +768,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "객체 지향 프로그래밍 실전 적용법.md",
+                "file": "Java Flow API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -498,7 +778,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 객체 지향 프로그래밍 실전 적용법"
+              "title": "Backlinks for Java Flow API"
             }
           },
           {
@@ -559,34 +839,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9439f075792296fd",
+  "active": "7e428bbe0180a4b2",
   "lastOpenFiles": [
+    "반응형 프로그래밍(Reactive Programming).md",
+    "Java Flow API.md",
+    "콜백 체인(Callback Chain).md",
+    "CompletableFuture.md",
+    "Future 인터페이스.md",
+    "동기 논블로킹(Synchronous Non-Blocking).md",
+    "동기(Synchronous).md",
+    "동기와 비동기의 차이.md",
+    "비동기(Asynchronous).md",
+    "논블로킹(Non-blocking).md",
+    "동기와 블로킹의 차이.md",
+    "이벤트 기반 아키텍처(Event-Driven Architecture).md",
+    "블로킹(blocking).md",
+    "멀티스레딩(Multithreading).md",
     "객체 지향 프로그래밍 실전 적용법.md",
-    "객체 지향 프로그래밍(OOP).md",
-    "의존성 역전 원칙 적용 전략.md",
-    "추상화 수준 결정 방법론.md",
-    "의존성 역전 원칙 (Dependency Inversion Principle).md",
-    "SOLID 원칙.md",
-    "리스코프 치환 원칙 (Liskov Substitution Principle).md",
-    "인터페이스 분리 원칙(Interface Segregation Principle).md",
-    "ORM(Object-Relational Mapping).md",
-    "Layered Architecture(계층형 아키텍처).md",
-    "JPA Specification.md",
-    "Java abstract keword.md",
-    "Java 언어 소개.md",
-    "Java 메서드, 생성자, 열거형, 레코드.md",
-    "클래스 기번 언어와 프로토 타입 기반 언어의 차이점.md",
-    "클래스 기반 언어가 아니면서 OOP 패러다임을 따르는 언어.md",
-    "클래스 기반 언어(Class-based Language).md",
-    "코드의 확장성(Extensibility).md",
-    "코드 스멜.md",
-    "캡슐화(Encapsulation).md",
-    "추상화(Abstraction).md",
-    "자바를 가장 효과적으로 배우는 법.md",
-    "자바 추상 클래스와 인터페이스와의 차이.md",
-    "엔티티 관계(Entity Relationship).md",
-    "모델 주도 설계(Model-Driven Design).md",
-    "인터페이스(Interface).md",
+    "프로토타입 패턴(Prototype Pattern).md",
+    "팩토리 메소드 패턴(Factory Method Pattern).md",
+    "추상 팩토리 패턴(Abstract Factory Pattern).md",
+    "이벤트와 명령의 차이.md",
+    "이벤트(Event).md",
+    "이벤트 소싱(Event Sourcing).md",
+    "애그리게이트(Aggregate).md",
+    "싱글톤 패턴(Singleton Pattern).md",
+    "싱글톤 패턴 vs 유틸리티 클래스.md",
+    "스프링 이벤트(Spring Event).md",
+    "스프링 부트 네이티브 지원.md",
     "Pasted image 20250225222207.png",
     "Pasted image 20250225222206.png",
     "Pasted image 20250224215859.png",
