@@ -6,65 +6,65 @@
       <description>최근 10 건 on 🪴 Beoks Blog</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>프로토타입 패턴(Prototype Pattern)</title>
-    <link>https://quartz.jzhao.xyz/%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85-%ED%8C%A8%ED%84%B4(Prototype-Pattern)</link>
-    <guid>https://quartz.jzhao.xyz/%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85-%ED%8C%A8%ED%84%B4(Prototype-Pattern)</guid>
-    <description>프로토타입 패턴은 기존 객체를 복제하여 새로운 객체를 생성하는 생성 패턴(Creational Pattern)입니다. 이 패턴은 객체 생성 비용이 큰 경우, 비슷한 객체가 이미 존재하는 경우, 또는 객체 생성이 복잡한 경우에 특히 유용합니다. 프로토타입 패턴의 핵심 개념 프로토타입 패턴의 핵심은 객체 복제 기능을 제공하는 인터페이스를 정의하고, 이를 통해 클라이언트 코드에서 구체적인 클래스에 의존하지 않고도 객체를 복제할 수 있게 하는 것입니다.</description>
-    <pubDate>Wed, 26 Mar 2025 01:11:26 GMT</pubDate>
+    <title>애그리게이트(Aggregate)</title>
+    <link>https://quartz.jzhao.xyz/%EC%95%A0%EA%B7%B8%EB%A6%AC%EA%B2%8C%EC%9D%B4%ED%8A%B8(Aggregate)</link>
+    <guid>https://quartz.jzhao.xyz/%EC%95%A0%EA%B7%B8%EB%A6%AC%EA%B2%8C%EC%9D%B4%ED%8A%B8(Aggregate)</guid>
+    <description>애그리게이트(Aggregate)는 도메인 주도 설계(Domain-Driven Design, DDD)에서 가장 중요한 개념 중 하나입니다. 이는 관련된 객체들의 집합을 하나의 단위로 취급하는 패턴으로, 데이터 일관성과 트랜잭션 경계를 명확히 정의하는 데 도움을 줍니다. 애그리게이트는 복잡한 도메인 모델을 더 작고 관리하기 쉬운 단위로 나누는 데 중요한 역할을 합니다.</description>
+    <pubDate>Wed, 26 Mar 2025 07:45:42 GMT</pubDate>
+  </item><item>
+    <title>이벤트 소싱(Event Sourcing)</title>
+    <link>https://quartz.jzhao.xyz/%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EC%86%8C%EC%8B%B1(Event-Sourcing)</link>
+    <guid>https://quartz.jzhao.xyz/%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EC%86%8C%EC%8B%B1(Event-Sourcing)</guid>
+    <description>이벤트 소싱(Event Sourcing)은 애플리케이션의 상태 변화를 일련의 이벤트로 저장하는 설계 패턴입니다. 전통적인 데이터 저장 방식과는 달리, 이벤트 소싱은 객체나 엔티티의 현재 상태만 저장하지 않고, 해당 상태에 이르게 된 모든 변경 이벤트의 시퀀스를 저장합니다.</description>
+    <pubDate>Wed, 26 Mar 2025 07:41:58 GMT</pubDate>
+  </item><item>
+    <title>스프링 이벤트(Spring Event)</title>
+    <link>https://quartz.jzhao.xyz/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9D%B4%EB%B2%A4%ED%8A%B8(Spring-Event)</link>
+    <guid>https://quartz.jzhao.xyz/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9D%B4%EB%B2%A4%ED%8A%B8(Spring-Event)</guid>
+    <description>Spring Event는 Spring 프레임워크에서 제공하는 이벤트 기반 프로그래밍을 지원하는 메커니즘입니다. 이 메커니즘을 통해 애플리케이션 컴포넌트 간의 느슨한 결합을 유지하면서 효과적인 통신이 가능해집니다. Spring의 이벤트 시스템은 옵저버 패턴을 기반으로 하며, 발행-구독(Publish-Subscribe) 모델을 따릅니다.</description>
+    <pubDate>Wed, 26 Mar 2025 07:06:30 GMT</pubDate>
+  </item><item>
+    <title>이벤트와 명령의 차이</title>
+    <link>https://quartz.jzhao.xyz/%EC%9D%B4%EB%B2%A4%ED%8A%B8%EC%99%80-%EB%AA%85%EB%A0%B9%EC%9D%98-%EC%B0%A8%EC%9D%B4</link>
+    <guid>https://quartz.jzhao.xyz/%EC%9D%B4%EB%B2%A4%ED%8A%B8%EC%99%80-%EB%AA%85%EB%A0%B9%EC%9D%98-%EC%B0%A8%EC%9D%B4</guid>
+    <description>이벤트(Event)와 명령(Command)은 소프트웨어 시스템에서 상호작용과 정보 전달을 위한 핵심 메커니즘입니다. 두 개념은 시스템의 여러 부분 간 통신 방식에 있어 근본적인 차이를 가지고 있으며, 각각 다른 문제 해결 접근법을 제공합니다. 이 두 패턴을 올바르게 이해하고 적절하게 활용하는 것이 견고하고 유지보수하기 쉬운 소프트웨어 설계의 중요한 요소입니다.</description>
+    <pubDate>Wed, 26 Mar 2025 07:02:10 GMT</pubDate>
+  </item><item>
+    <title>이벤트(Event)</title>
+    <link>https://quartz.jzhao.xyz/%EC%9D%B4%EB%B2%A4%ED%8A%B8(Event)</link>
+    <guid>https://quartz.jzhao.xyz/%EC%9D%B4%EB%B2%A4%ED%8A%B8(Event)</guid>
+    <description>이벤트(Event)는 소프트웨어 시스템에서 발생한 중요한 상태 변화나 행위를 나타내는 개념입니다. 시스템의 특정 부분에서 발생한 일을 다른 부분에 알리는 메커니즘으로, 현대 소프트웨어 아키텍처에서 핵심적인 역할을 담당합니다. 이벤트 기반 프로그래밍은 시스템 컴포넌트 간의 결합도를 낮추고 확장성을 높이는 효과적인 방법입니다.</description>
+    <pubDate>Wed, 26 Mar 2025 06:59:08 GMT</pubDate>
+  </item><item>
+    <title>구성 기반 개발(Configuration Driven Development)</title>
+    <link>https://quartz.jzhao.xyz/%EA%B5%AC%EC%84%B1-%EA%B8%B0%EB%B0%98-%EA%B0%9C%EB%B0%9C(Configuration-Driven-Development)</link>
+    <guid>https://quartz.jzhao.xyz/%EA%B5%AC%EC%84%B1-%EA%B8%B0%EB%B0%98-%EA%B0%9C%EB%B0%9C(Configuration-Driven-Development)</guid>
+    <description>Configuration Driven Development(구성 기반 개발)는 애플리케이션의 동작을 코드로 하드코딩하는 대신 외부 설정을 통해 정의하고 제어하는 소프트웨어 개발 방법론입니다. 이 접근 방식은 비즈니스 로직과 규칙이 자주 변경되는 현대 소프트웨어 환경에서 특히 유용합니다.</description>
+    <pubDate>Wed, 26 Mar 2025 06:36:00 GMT</pubDate>
   </item><item>
     <title>빌더 패턴(Builder Pattern)</title>
     <link>https://quartz.jzhao.xyz/%EB%B9%8C%EB%8D%94-%ED%8C%A8%ED%84%B4(Builder-Pattern)</link>
     <guid>https://quartz.jzhao.xyz/%EB%B9%8C%EB%8D%94-%ED%8C%A8%ED%84%B4(Builder-Pattern)</guid>
-    <description>빌더 패턴은 복잡한 객체의 생성 과정과 표현 방법을 분리하여 다양한 구성의 인스턴스를 만드는 생성 디자인 패턴입니다. 이 패턴은 특히 선택적 매개변수가 많은 복잡한 객체를 생성할 때 유용하며, 생성 패턴(Creational Patterns)중 하나로 분류됩니다. 빌더 패턴이 해결하는 문제 객체 생성 시 다음과 같은 문제가 있을 때 빌더 패턴이 효과적인 해결책이 될 수 있습니다: 생성자 매개변수가 많을 때: 매개변수가 많으면 코드 가독성이 떨어지고 매개변수 순서를 기억하기 어려워집니다.</description>
-    <pubDate>Wed, 26 Mar 2025 01:10:10 GMT</pubDate>
+    <description>빌더 패턴은 복잡한 객체의 생성 과정과 표현 방법을 분리하여 다양한 구성의 인스턴스를 만드는 생성 디자인 패턴입니다. 이 패턴은 특히 선택적 매개변수가 많은 복잡한 객체를 생성할 때 유용하며, 생성 패턴(Creational Pattern)중 하나로 분류됩니다. 빌더 패턴이 해결하는 문제 객체 생성 시 다음과 같은 문제가 있을 때 빌더 패턴이 효과적인 해결책이 될 수 있습니다: 생성자 매개변수가 많을 때: 매개변수가 많으면 코드 가독성이 떨어지고 매개변수 순서를 기억하기 어려워집니다.</description>
+    <pubDate>Wed, 26 Mar 2025 01:14:06 GMT</pubDate>
   </item><item>
     <title>추상 팩토리 패턴(Abstract Factory Pattern)</title>
     <link>https://quartz.jzhao.xyz/%EC%B6%94%EC%83%81-%ED%8C%A9%ED%86%A0%EB%A6%AC-%ED%8C%A8%ED%84%B4(Abstract-Factory-Pattern)</link>
     <guid>https://quartz.jzhao.xyz/%EC%B6%94%EC%83%81-%ED%8C%A9%ED%86%A0%EB%A6%AC-%ED%8C%A8%ED%84%B4(Abstract-Factory-Pattern)</guid>
-    <description>팩토리 패턴은 관련 있는 객체들의 집합을 생성하기 위한 인터페이스를 제공하는 생성 패턴(Creational Patterns)입니다. 이 패턴은 구체적인 클래스를 지정하지 않고도 연관된 객체들의 집합을 생성할 수 있게 해주며, 객체 생성 로직을 클라이언트 코드로부터 분리하는 데 큰 도움이 됩니다.</description>
-    <pubDate>Wed, 26 Mar 2025 01:02:16 GMT</pubDate>
+    <description>팩토리 패턴은 관련 있는 객체들의 집합을 생성하기 위한 인터페이스를 제공하는 생성 패턴(Creational Pattern)입니다. 이 패턴은 구체적인 클래스를 지정하지 않고도 연관된 객체들의 집합을 생성할 수 있게 해주며, 객체 생성 로직을 클라이언트 코드로부터 분리하는 데 큰 도움이 됩니다.</description>
+    <pubDate>Wed, 26 Mar 2025 01:14:06 GMT</pubDate>
   </item><item>
-    <title>팩토리 메소드 패턴(Factory Method Pattern)</title>
-    <link>https://quartz.jzhao.xyz/%ED%8C%A9%ED%86%A0%EB%A6%AC-%EB%A9%94%EC%86%8C%EB%93%9C-%ED%8C%A8%ED%84%B4(Factory-Method-Pattern)</link>
-    <guid>https://quartz.jzhao.xyz/%ED%8C%A9%ED%86%A0%EB%A6%AC-%EB%A9%94%EC%86%8C%EB%93%9C-%ED%8C%A8%ED%84%B4(Factory-Method-Pattern)</guid>
-    <description>팩토리 메소드 패턴은 객체 생성을 위한 인터페이스를 정의하지만, 어떤 클래스의 인스턴스를 생성할지는 서브클래스가 결정하도록 하는 디자인 패턴입니다. 이 패턴은 객체 생성의 책임을 클라이언트에서 팩토리 클래스로 분리함으로써 객체 생성 로직의 캡슐화를 통해 유연성과 확장성을 제공합니다.</description>
-    <pubDate>Wed, 26 Mar 2025 00:54:00 GMT</pubDate>
+    <title>디자인 패턴(Design Pattern)</title>
+    <link>https://quartz.jzhao.xyz/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4(Design-Pattern)</link>
+    <guid>https://quartz.jzhao.xyz/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4(Design-Pattern)</guid>
+    <description>디자인 패턴은 소프트웨어 개발 과정에서 자주 발생하는 문제들에 대한 검증된 해결책입니다. 이러한 패턴들은 수많은 개발자들의 경험과 지식을 통해 정제되어 왔으며, 코드의 재사용성, 유지보수성, 확장성을 높이는 데 큰 도움이 됩니다. 디자인 패턴을 이해하고 적절히 활용하는 것은 효율적인 소프트웨어 설계를 위한 핵심 역량이라고 할 수 있습니다.</description>
+    <pubDate>Wed, 26 Mar 2025 01:14:06 GMT</pubDate>
   </item><item>
-    <title>병렬 프로그래밍(Parallel Programming)</title>
-    <link>https://quartz.jzhao.xyz/%EB%B3%91%EB%A0%AC-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D(Parallel-Programming)</link>
-    <guid>https://quartz.jzhao.xyz/%EB%B3%91%EB%A0%AC-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D(Parallel-Programming)</guid>
-    <description>병렬 프로그래밍(Parallel Programming)은 여러 계산을 동시에 수행하여 문제를 더 빠르게 해결하는 컴퓨팅 방식입니다. 이 접근법은 작업을 여러 개의 작은 부분으로 분할하고, 이들을 병렬로 처리하여 전체 실행 시간을 단축시킵니다. 현대의 다중 코어 프로세서와 분산 시스템의 등장으로 병렬 프로그래밍은 소프트웨어 개발의 핵심 요소가 되었습니다.</description>
-    <pubDate>Wed, 26 Mar 2025 00:48:55 GMT</pubDate>
-  </item><item>
-    <title>멀티스레딩(Multithreading)</title>
-    <link>https://quartz.jzhao.xyz/%EB%A9%80%ED%8B%B0%EC%8A%A4%EB%A0%88%EB%94%A9(Multithreading)</link>
-    <guid>https://quartz.jzhao.xyz/%EB%A9%80%ED%8B%B0%EC%8A%A4%EB%A0%88%EB%94%A9(Multithreading)</guid>
-    <description>하나의 프로세스 내에서 여러 개의 스레드를 동시에 실행하는 프로그래밍 기법입니다. 이 기술을 통해 CPU의 사용률을 극대화하고, 프로그램의 응답성을 향상시키며, 자원을 효율적으로 활용할 수 있습니다. 현대 소프트웨어 개발에서 멀티스레딩은 더 이상 선택이 아닌 필수적인 요소로 자리 잡았습니다.</description>
-    <pubDate>Wed, 26 Mar 2025 00:48:28 GMT</pubDate>
-  </item><item>
-    <title>경쟁 상태(Race Condition)</title>
-    <link>https://quartz.jzhao.xyz/%EA%B2%BD%EC%9F%81-%EC%83%81%ED%83%9C(Race-Condition)</link>
-    <guid>https://quartz.jzhao.xyz/%EA%B2%BD%EC%9F%81-%EC%83%81%ED%83%9C(Race-Condition)</guid>
-    <description>경쟁 상태(Race Condition)는 둘 이상의 스레드나 프로세스가 공유 자원에 동시에 접근하여 결과값이 실행 순서에 따라 예측할 수 없게 변하는 상황을 의미합니다. 이는 멀티스레딩(Multithreading)과 병렬 프로그래밍(Parallel Programming)에서 발생하는 가장 흔하고 위험한 문제 중 하나입니다.</description>
-    <pubDate>Wed, 26 Mar 2025 00:47:54 GMT</pubDate>
-  </item><item>
-    <title>싱글톤 패턴 vs 유틸리티 클래스</title>
-    <link>https://quartz.jzhao.xyz/%EC%8B%B1%EA%B8%80%ED%86%A4-%ED%8C%A8%ED%84%B4-vs-%EC%9C%A0%ED%8B%B8%EB%A6%AC%ED%8B%B0-%ED%81%B4%EB%9E%98%EC%8A%A4</link>
-    <guid>https://quartz.jzhao.xyz/%EC%8B%B1%EA%B8%80%ED%86%A4-%ED%8C%A8%ED%84%B4-vs-%EC%9C%A0%ED%8B%B8%EB%A6%AC%ED%8B%B0-%ED%81%B4%EB%9E%98%EC%8A%A4</guid>
-    <description>싱글톤 패턴과 유틸리티 클래스는 자바 애플리케이션에서 자주 사용되는 두 가지 접근 방식으로, 언뜻 보기에 유사해 보이지만 설계 철학과 사용 목적에서 중요한 차이점이 있습니다. 이 두 방식을 정확히 이해하고 적절한 상황에서 활용하는 것은 효과적인 객체지향 설계를 위해 중요합니다.</description>
-    <pubDate>Wed, 26 Mar 2025 00:43:12 GMT</pubDate>
-  </item><item>
-    <title>싱글톤 패턴(Singleton Pattern)</title>
-    <link>https://quartz.jzhao.xyz/%EC%8B%B1%EA%B8%80%ED%86%A4-%ED%8C%A8%ED%84%B4(Singleton-Pattern)</link>
-    <guid>https://quartz.jzhao.xyz/%EC%8B%B1%EA%B8%80%ED%86%A4-%ED%8C%A8%ED%84%B4(Singleton-Pattern)</guid>
-    <description>싱글톤 패턴은 클래스의 인스턴스가 오직 하나만 생성되도록 보장하고, 그 인스턴스에 대한 전역적인 접근점을 제공하는 디자인 패턴입니다. 이 패턴은 소프트웨어 디자인에서 가장 많이 사용되는 패턴 중 하나로, 객체 지향 프로그래밍(OOP)의 원칙과 함께 시스템 전체에서 상태를 공유해야 할 때 유용합니다.</description>
-    <pubDate>Wed, 26 Mar 2025 00:37:27 GMT</pubDate>
-  </item><item>
-    <title>소프트웨어 설계의 유연성(Flexibility)</title>
-    <link>https://quartz.jzhao.xyz/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%84%A4%EA%B3%84%EC%9D%98-%EC%9C%A0%EC%97%B0%EC%84%B1(Flexibility)</link>
-    <guid>https://quartz.jzhao.xyz/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%84%A4%EA%B3%84%EC%9D%98-%EC%9C%A0%EC%97%B0%EC%84%B1(Flexibility)</guid>
-    <description>소프트웨어 설계의 유연성은 변화하는 요구사항과 환경에 적응할 수 있는 시스템의 능력을 의미합니다. 유연한 설계는 미래의 변경사항을 수용하고 확장할 수 있도록 소프트웨어를 구조화하는 방법입니다. 현대 소프트웨어 개발에서 유연성은 단순한 선택사항이 아닌 필수 요소로 자리잡았습니다.</description>
-    <pubDate>Wed, 26 Mar 2025 00:32:42 GMT</pubDate>
+    <title>프로토타입 패턴(Prototype Pattern)</title>
+    <link>https://quartz.jzhao.xyz/%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85-%ED%8C%A8%ED%84%B4(Prototype-Pattern)</link>
+    <guid>https://quartz.jzhao.xyz/%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85-%ED%8C%A8%ED%84%B4(Prototype-Pattern)</guid>
+    <description>프로토타입 패턴은 기존 객체를 복제하여 새로운 객체를 생성하는 생성 패턴(Creational Pattern)입니다. 이 패턴은 객체 생성 비용이 큰 경우, 비슷한 객체가 이미 존재하는 경우, 또는 객체 생성이 복잡한 경우에 특히 유용합니다. 프로토타입 패턴의 핵심 개념 프로토타입 패턴의 핵심은 객체 복제 기능을 제공하는 인터페이스를 정의하고, 이를 통해 클라이언트 코드에서 구체적인 클래스에 의존하지 않고도 객체를 복제할 수 있게 하는 것입니다.</description>
+    <pubDate>Wed, 26 Mar 2025 01:13:52 GMT</pubDate>
   </item>
     </channel>
   </rss>

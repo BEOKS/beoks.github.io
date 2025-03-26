@@ -5351,14 +5351,14 @@ var defaultContentPageLayout = {
           zoom: true,
           depth: -1,
           scale: 0.9,
-          repelForce: 0.9,
-          centerForce: 0.6,
+          repelForce: 1.3,
+          centerForce: 0.9,
           linkDistance: 20,
           fontSize: 0.2,
           opacityScale: 1,
           removeTags: [],
           // what tags to remove from the graph
-          showTags: true,
+          showTags: false,
           // whether to show tags in the graph
           enableRadial: true
           // whether to constrain the graph, similar to Obsidian
