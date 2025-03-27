@@ -172,7 +172,7 @@ sequenceDiagram
 
 ### 2. 통합 프레임워크
 
-- **Spring Cloud Stream**: 메시지 브로커 기반 애플리케이션 개발을 위한 프레임워크
+- **[[Spring Cloud Stream]]**: 메시지 브로커 기반 애플리케이션 개발을 위한 프레임워크
 - **Apache Camel**: 통합 패턴 구현을 위한 프레임워크
 - **MuleSoft**: 엔터프라이즈 통합을 위한 플랫폼
 
