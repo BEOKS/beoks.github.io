@@ -11,6 +11,9 @@
     <loc>https://quartz.jzhao.xyz/Cache-Aside</loc>
     <lastmod>2025-03-17T09:08:52.726Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/CompletableFuture</loc>
+    <lastmod>2025-03-27T00:25:01.720Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Docker-Compose%EB%A1%9C-Redis-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0</loc>
     <lastmod>2025-03-17T09:08:52.726Z</lastmod>
   </url><url>
@@ -19,6 +22,9 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/EIS(Enterprise-Information-Systems)</loc>
     <lastmod>2025-03-25T00:26:06.936Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Future-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4</loc>
+    <lastmod>2025-03-27T00:25:01.720Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/GraalVM-Native-Image</loc>
     <lastmod>2025-03-25T05:10:10.897Z</lastmod>
@@ -59,6 +65,9 @@
     <loc>https://quartz.jzhao.xyz/HttpOnly-%EC%BF%A0%ED%82%A4</loc>
     <lastmod>2025-03-17T09:08:52.727Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/IO-%EB%A9%80%ED%8B%B0%ED%94%8C%EB%A0%89%EC%8B%B1(IO-Multiplexing)</loc>
+    <lastmod>2025-03-27T00:50:41.973Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/IPC(Inter-Process-Communication)</loc>
     <lastmod>2025-03-20T00:53:21.464Z</lastmod>
   </url><url>
@@ -85,6 +94,9 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/Java-EE(Java-Enterprise-Edition)</loc>
     <lastmod>2025-03-25T00:26:06.937Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Java-Flow-API</loc>
+    <lastmod>2025-03-27T00:25:01.720Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Java-Keyword</loc>
     <lastmod>2025-03-17T09:08:52.729Z</lastmod>
@@ -159,7 +171,10 @@
     <lastmod>2025-03-17T09:08:52.740Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Spring-Cloud-Config</loc>
-    <lastmod>2025-03-25T05:32:55.451Z</lastmod>
+    <lastmod>2025-03-26T06:40:38.510Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Spring-Cloud-Stream</loc>
+    <lastmod>2025-03-27T01:08:23.247Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Ubiquitous-Language</loc>
     <lastmod>2025-03-17T09:08:52.740Z</lastmod>
@@ -207,10 +222,16 @@
     <lastmod>2025-03-25T00:26:06.940Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/%EA%B5%AC%EC%84%B1-%EA%B8%B0%EB%B0%98-%EA%B0%9C%EB%B0%9C(Configuration-Driven-Development)</loc>
-    <lastmod>2025-03-26T06:36:00.131Z</lastmod>
+    <lastmod>2025-03-26T06:43:58.345Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/%EA%B5%AC%EC%A1%B0-%ED%8C%A8%ED%84%B4(Structural-Patterns)</loc>
     <lastmod>2025-03-26T00:31:12.788Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/%EB%85%BC%EB%B8%94%EB%A1%9C%ED%82%B9-%EC%86%8C%EC%BC%93(Nonblocking-Socket)</loc>
+    <lastmod>2025-03-27T00:29:12.226Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/%EB%85%BC%EB%B8%94%EB%A1%9C%ED%82%B9(Non-blocking)</loc>
+    <lastmod>2025-03-27T00:25:01.720Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/%EB%8B%A4%ED%98%95%EC%84%B1(Polymorphism)</loc>
     <lastmod>2025-03-25T00:26:06.940Z</lastmod>
@@ -232,6 +253,18 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/%EB%8F%84%EB%A9%94%EC%9D%B8(Domain)</loc>
     <lastmod>2025-03-17T09:08:52.775Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/%EB%8F%99%EA%B8%B0-%EB%85%BC%EB%B8%94%EB%A1%9C%ED%82%B9(Synchronous-Non-Blocking)</loc>
+    <lastmod>2025-03-27T00:25:01.721Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/%EB%8F%99%EA%B8%B0(Synchronous)</loc>
+    <lastmod>2025-03-27T00:25:01.721Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/%EB%8F%99%EA%B8%B0%EC%99%80-%EB%B8%94%EB%A1%9C%ED%82%B9%EC%9D%98-%EC%B0%A8%EC%9D%B4</loc>
+    <lastmod>2025-03-27T00:25:01.721Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/%EB%8F%99%EA%B8%B0%EC%99%80-%EB%B9%84%EB%8F%99%EA%B8%B0%EC%9D%98-%EC%B0%A8%EC%9D%B4</loc>
+    <lastmod>2025-03-27T00:25:01.723Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/%EB%8F%99%EC%8B%9C%EC%84%B1-%EC%96%B8%EC%96%B4(Concurrent-Language)</loc>
     <lastmod>2025-03-21T00:39:35.700Z</lastmod>
@@ -272,11 +305,23 @@
     <loc>https://quartz.jzhao.xyz/%EB%B0%94%EC%9A%B4%EB%94%94%EB%93%9C-%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8(Bounded-Context)</loc>
     <lastmod>2025-03-17T09:08:52.776Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/%EB%B0%98%EC%9D%91%ED%98%95-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D(Reactive-Programming)</loc>
+    <lastmod>2025-03-27T00:25:01.723Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/%EB%B2%94%EC%9A%A9-%EC%96%B8%EC%96%B4(general-purpose)</loc>
     <lastmod>2025-03-17T09:08:52.776Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/%EB%B3%91%EB%A0%AC-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D(Parallel-Programming)</loc>
     <lastmod>2025-03-26T00:52:01.762Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/%EB%B8%94%EB%A1%9C%ED%82%B9-%EC%86%8C%EC%BC%93(Blocking-Socket)</loc>
+    <lastmod>2025-03-27T00:30:43.094Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/%EB%B8%94%EB%A1%9C%ED%82%B9(blocking)</loc>
+    <lastmod>2025-03-27T00:25:01.723Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/%EB%B9%84%EB%8F%99%EA%B8%B0(Asynchronous)</loc>
+    <lastmod>2025-03-27T00:25:01.723Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/%EB%B9%8C%EB%8D%94-%ED%8C%A8%ED%84%B4(Builder-Pattern)</loc>
     <lastmod>2025-03-26T01:14:06.408Z</lastmod>
@@ -302,6 +347,9 @@
     <loc>https://quartz.jzhao.xyz/%EC%84%B8%EC%85%98(Session)%EA%B3%BC-JWT(JSON-Web-Token)%EC%9D%98-%EB%B9%84%EA%B5%90</loc>
     <lastmod>2025-03-17T09:08:52.778Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/%EC%86%8C%EC%BC%93-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EA%B8%B0%EB%B0%98-%EC%B2%98%EB%A6%AC-%EB%B0%A9%EC%8B%9D</loc>
+    <lastmod>2025-03-27T00:53:43.191Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%84%A4%EA%B3%84%EC%9D%98-%EC%9C%A0%EC%97%B0%EC%84%B1(Flexibility)</loc>
     <lastmod>2025-03-26T00:47:45.977Z</lastmod>
   </url><url>
@@ -315,7 +363,7 @@
     <lastmod>2025-03-25T05:10:40.828Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9D%B4%EB%B2%A4%ED%8A%B8(Spring-Event)</loc>
-    <lastmod>2025-03-26T07:06:30.915Z</lastmod>
+    <lastmod>2025-03-26T07:07:21.849Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/%EC%8B%A4%EC%8B%9C%EA%B0%84-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%B2%98%EB%A6%AC</loc>
     <lastmod>2025-03-17T09:08:52.778Z</lastmod>
@@ -330,7 +378,7 @@
     <lastmod>2025-03-17T09:08:52.778Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/%EC%95%A0%EA%B7%B8%EB%A6%AC%EA%B2%8C%EC%9D%B4%ED%8A%B8(Aggregate)</loc>
-    <lastmod>2025-03-26T07:45:42.483Z</lastmod>
+    <lastmod>2025-03-26T07:52:14.661Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/%EC%97%90%EB%9F%AC-%ED%95%B8%EB%93%A4%EB%A7%81(Error-Handling)</loc>
     <lastmod>2025-03-17T09:08:52.779Z</lastmod>
@@ -399,19 +447,22 @@
     <lastmod>2025-03-25T00:26:06.941Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EA%B8%B0%EB%B0%98-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98(Event-Driven-Architecture)</loc>
-    <lastmod>2025-03-25T05:43:54.648Z</lastmod>
+    <lastmod>2025-03-27T01:06:36.201Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%A3%A8%ED%94%84(Event-Loop)</loc>
+    <lastmod>2025-03-27T01:03:17.052Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EC%86%8C%EC%8B%B1(Event-Sourcing)</loc>
-    <lastmod>2025-03-26T07:41:58.257Z</lastmod>
+    <lastmod>2025-03-26T07:47:26.217Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B0%8D(Event-Streaming)</loc>
     <lastmod>2025-03-17T09:08:52.782Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/%EC%9D%B4%EB%B2%A4%ED%8A%B8(Event)</loc>
-    <lastmod>2025-03-26T06:59:08.347Z</lastmod>
+    <lastmod>2025-03-26T07:06:52.651Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/%EC%9D%B4%EB%B2%A4%ED%8A%B8%EC%99%80-%EB%AA%85%EB%A0%B9%EC%9D%98-%EC%B0%A8%EC%9D%B4</loc>
-    <lastmod>2025-03-26T07:02:10.729Z</lastmod>
+    <lastmod>2025-03-26T07:44:29.989Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/%EC%9D%B4%EC%83%81%EC%A0%81%EC%9D%B8-Spring-MVC-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EA%B5%AC%EC%A1%B0</loc>
     <lastmod>2025-03-17T09:08:52.782Z</lastmod>
@@ -488,6 +539,12 @@
     <loc>https://quartz.jzhao.xyz/%EC%BD%98%ED%85%90%EC%B8%A0-%EB%B3%B4%EC%95%88-%EC%A0%95%EC%B1%85(Content-Security-Policy)-%EC%84%A4%EC%A0%95</loc>
     <lastmod>2025-03-17T09:08:52.786Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/%EC%BD%9C-%EC%8A%A4%ED%83%9D(Call-Stack)</loc>
+    <lastmod>2025-03-27T01:00:48.424Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/%EC%BD%9C%EB%B0%B1-%EC%B2%B4%EC%9D%B8(Callback-Chain)</loc>
+    <lastmod>2025-03-27T00:25:01.723Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/%ED%81%B4%EB%9E%98%EC%8A%A4-%EA%B8%B0%EB%B0%98-%EC%96%B8%EC%96%B4(Class-based-Language)</loc>
     <lastmod>2025-03-25T00:26:06.943Z</lastmod>
   </url><url>
@@ -529,4 +586,46 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/%ED%94%8C%EB%9D%BC%EC%9D%B4%EC%9B%A8%EC%9D%B4%ED%8A%B8-%ED%8C%A8%ED%84%B4(Flyweight-Pattern)</loc>
     <lastmod>2025-03-17T09:08:52.789Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/%EB%A9%94%EC%8B%9C%EC%A7%80-%EB%B8%8C%EB%A1%9C%EC%BB%A4(Message-Broker)</loc>
+    <lastmod>2025-03-27T01:19:45.433Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Untitled</loc>
+    <lastmod>2025-03-27T04:09:35.012Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/%EB%B9%84%EB%8F%99%EA%B8%B0%EA%B0%80-%ED%95%84%EC%9A%94%ED%95%98%EC%A7%80%EB%A7%8C-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EA%B8%B0%EB%B0%98-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%A9%B4-%EC%95%88%EB%90%98%EB%8A%94-%EA%B2%BD%EC%9A%B0</loc>
+    <lastmod>2025-03-27T01:54:07.057Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/%EC%88%9C%EC%84%9C-%EB%B3%B4%EC%9E%A5-%EB%A9%94%EC%8B%9C%EC%A7%95-%ED%8C%A8%ED%84%B4</loc>
+    <lastmod>2025-03-27T01:56:09.893Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Spring-Async-%EB%8F%99%EC%9E%91-%EC%9B%90%EB%A6%AC</loc>
+    <lastmod>2025-03-27T02:00:56.114Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Spring-Async</loc>
+    <lastmod>2025-03-27T02:00:56.114Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/%EB%A9%94%EC%8B%9C%EC%A7%80%EC%99%80-%EC%9D%B4%EB%B2%A4%ED%8A%B8%EC%9D%98-%EC%B0%A8%EC%9D%B4</loc>
+    <lastmod>2025-03-27T04:09:35.012Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/%EB%A9%94%EC%8B%9C%EC%A7%80(Message)</loc>
+    <lastmod>2025-03-27T04:09:06.786Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/JMS(Java-Message-Service)</loc>
+    <lastmod>2025-03-27T04:12:11.517Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/%EB%A9%94%EC%8B%9C%EC%A7%80-%EA%B8%B0%EB%B0%98-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98(Message-Based-Architecture)</loc>
+    <lastmod>2025-03-27T04:13:54.614Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/%EB%A9%94%EC%8B%9C%EC%A7%80-%EC%A7%80%ED%96%A5-%EB%AF%B8%EB%93%A4%EC%9B%A8%EC%96%B4(Message-Oriented-Middleware,-MOM)</loc>
+    <lastmod>2025-03-27T04:15:50.795Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/%EB%B6%84%EC%82%B0-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98</loc>
+    <lastmod>2025-03-27T04:18:37.762Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/%EB%B6%84%EC%82%B0-%EC%8B%9C%EC%8A%A4%ED%85%9C</loc>
+    <lastmod>2025-03-27T04:18:37.762Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/CAP-%EC%9D%B4%EB%A1%A0</loc>
+    <lastmod>2025-03-27T04:23:58.523Z</lastmod>
   </url></urlset>

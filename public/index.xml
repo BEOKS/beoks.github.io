@@ -6,65 +6,65 @@
       <description>최근 10 건 on 🪴 Beoks Blog</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>애그리게이트(Aggregate)</title>
-    <link>https://quartz.jzhao.xyz/%EC%95%A0%EA%B7%B8%EB%A6%AC%EA%B2%8C%EC%9D%B4%ED%8A%B8(Aggregate)</link>
-    <guid>https://quartz.jzhao.xyz/%EC%95%A0%EA%B7%B8%EB%A6%AC%EA%B2%8C%EC%9D%B4%ED%8A%B8(Aggregate)</guid>
-    <description>애그리게이트(Aggregate)는 도메인 주도 설계(Domain-Driven Design, DDD)에서 가장 중요한 개념 중 하나입니다. 이는 관련된 객체들의 집합을 하나의 단위로 취급하는 패턴으로, 데이터 일관성과 트랜잭션 경계를 명확히 정의하는 데 도움을 줍니다. 애그리게이트는 복잡한 도메인 모델을 더 작고 관리하기 쉬운 단위로 나누는 데 중요한 역할을 합니다.</description>
-    <pubDate>Wed, 26 Mar 2025 07:45:42 GMT</pubDate>
+    <title>CAP 이론</title>
+    <link>https://quartz.jzhao.xyz/CAP-%EC%9D%B4%EB%A1%A0</link>
+    <guid>https://quartz.jzhao.xyz/CAP-%EC%9D%B4%EB%A1%A0</guid>
+    <description>CAP 이론은 분산 시스템에서 세 가지 핵심 속성인 일관성(Consistency), 가용성(Availability), 분할 내성(Partition tolerance)을 동시에 모두 만족시키는 것이 수학적으로 불가능하다는 중요한 정리입니다. 2000년 컴퓨터 과학자 에릭 브루어(Eric Brewer)가 처음 제안한 이 이론은 분산 데이터베이스 및 시스템 설계에 있어 근본적인 제약 조건으로 작용합니다.</description>
+    <pubDate>Thu, 27 Mar 2025 04:23:58 GMT</pubDate>
   </item><item>
-    <title>이벤트 소싱(Event Sourcing)</title>
-    <link>https://quartz.jzhao.xyz/%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EC%86%8C%EC%8B%B1(Event-Sourcing)</link>
-    <guid>https://quartz.jzhao.xyz/%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EC%86%8C%EC%8B%B1(Event-Sourcing)</guid>
-    <description>이벤트 소싱(Event Sourcing)은 애플리케이션의 상태 변화를 일련의 이벤트로 저장하는 설계 패턴입니다. 전통적인 데이터 저장 방식과는 달리, 이벤트 소싱은 객체나 엔티티의 현재 상태만 저장하지 않고, 해당 상태에 이르게 된 모든 변경 이벤트의 시퀀스를 저장합니다.</description>
-    <pubDate>Wed, 26 Mar 2025 07:41:58 GMT</pubDate>
+    <title>분산 시스템 아키텍처</title>
+    <link>https://quartz.jzhao.xyz/%EB%B6%84%EC%82%B0-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98</link>
+    <guid>https://quartz.jzhao.xyz/%EB%B6%84%EC%82%B0-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98</guid>
+    <description></description>
+    <pubDate>Thu, 27 Mar 2025 04:18:37 GMT</pubDate>
   </item><item>
-    <title>스프링 이벤트(Spring Event)</title>
-    <link>https://quartz.jzhao.xyz/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9D%B4%EB%B2%A4%ED%8A%B8(Spring-Event)</link>
-    <guid>https://quartz.jzhao.xyz/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9D%B4%EB%B2%A4%ED%8A%B8(Spring-Event)</guid>
-    <description>Spring Event는 Spring 프레임워크에서 제공하는 이벤트 기반 프로그래밍을 지원하는 메커니즘입니다. 이 메커니즘을 통해 애플리케이션 컴포넌트 간의 느슨한 결합을 유지하면서 효과적인 통신이 가능해집니다. Spring의 이벤트 시스템은 옵저버 패턴을 기반으로 하며, 발행-구독(Publish-Subscribe) 모델을 따릅니다.</description>
-    <pubDate>Wed, 26 Mar 2025 07:06:30 GMT</pubDate>
+    <title>분산 시스템</title>
+    <link>https://quartz.jzhao.xyz/%EB%B6%84%EC%82%B0-%EC%8B%9C%EC%8A%A4%ED%85%9C</link>
+    <guid>https://quartz.jzhao.xyz/%EB%B6%84%EC%82%B0-%EC%8B%9C%EC%8A%A4%ED%85%9C</guid>
+    <description>분산 시스템은 네트워크로 연결된 여러 독립적인 컴퓨터들이 하나의 시스템처럼 동작하는 컴퓨팅 환경입니다. 사용자 관점에서는 단일 시스템처럼 보이지만, 실제로는 여러 노드가 협력하여 작업을 처리합니다. 이러한 분산 시스템은 오늘날 대규모 웹 서비스, 클라우드 컴퓨팅, 빅데이터 처리 등 다양한 영역에서 필수적인 요소가 되었습니다.</description>
+    <pubDate>Thu, 27 Mar 2025 04:18:37 GMT</pubDate>
   </item><item>
-    <title>이벤트와 명령의 차이</title>
-    <link>https://quartz.jzhao.xyz/%EC%9D%B4%EB%B2%A4%ED%8A%B8%EC%99%80-%EB%AA%85%EB%A0%B9%EC%9D%98-%EC%B0%A8%EC%9D%B4</link>
-    <guid>https://quartz.jzhao.xyz/%EC%9D%B4%EB%B2%A4%ED%8A%B8%EC%99%80-%EB%AA%85%EB%A0%B9%EC%9D%98-%EC%B0%A8%EC%9D%B4</guid>
-    <description>이벤트(Event)와 명령(Command)은 소프트웨어 시스템에서 상호작용과 정보 전달을 위한 핵심 메커니즘입니다. 두 개념은 시스템의 여러 부분 간 통신 방식에 있어 근본적인 차이를 가지고 있으며, 각각 다른 문제 해결 접근법을 제공합니다. 이 두 패턴을 올바르게 이해하고 적절하게 활용하는 것이 견고하고 유지보수하기 쉬운 소프트웨어 설계의 중요한 요소입니다.</description>
-    <pubDate>Wed, 26 Mar 2025 07:02:10 GMT</pubDate>
+    <title>메시지 지향 미들웨어(Message-Oriented Middleware, MOM)</title>
+    <link>https://quartz.jzhao.xyz/%EB%A9%94%EC%8B%9C%EC%A7%80-%EC%A7%80%ED%96%A5-%EB%AF%B8%EB%93%A4%EC%9B%A8%EC%96%B4(Message-Oriented-Middleware,-MOM)</link>
+    <guid>https://quartz.jzhao.xyz/%EB%A9%94%EC%8B%9C%EC%A7%80-%EC%A7%80%ED%96%A5-%EB%AF%B8%EB%93%A4%EC%9B%A8%EC%96%B4(Message-Oriented-Middleware,-MOM)</guid>
+    <description>메시지 지향 미들웨어(Message-Oriented Middleware, MOM)는 분산 시스템 간의 메시지 교환을 가능하게 하는 소프트웨어 또는 하드웨어 인프라입니다. 이 미들웨어는 서로 다른 애플리케이션 간에 비동기 통신을 제공하며, 시스템 간의 직접적인 연결 없이도 데이터를 안전하게 교환할 수 있도록 합니다.</description>
+    <pubDate>Thu, 27 Mar 2025 04:15:50 GMT</pubDate>
   </item><item>
-    <title>이벤트(Event)</title>
-    <link>https://quartz.jzhao.xyz/%EC%9D%B4%EB%B2%A4%ED%8A%B8(Event)</link>
-    <guid>https://quartz.jzhao.xyz/%EC%9D%B4%EB%B2%A4%ED%8A%B8(Event)</guid>
-    <description>이벤트(Event)는 소프트웨어 시스템에서 발생한 중요한 상태 변화나 행위를 나타내는 개념입니다. 시스템의 특정 부분에서 발생한 일을 다른 부분에 알리는 메커니즘으로, 현대 소프트웨어 아키텍처에서 핵심적인 역할을 담당합니다. 이벤트 기반 프로그래밍은 시스템 컴포넌트 간의 결합도를 낮추고 확장성을 높이는 효과적인 방법입니다.</description>
-    <pubDate>Wed, 26 Mar 2025 06:59:08 GMT</pubDate>
+    <title>메시지 기반 아키텍처(Message-Based Architecture)</title>
+    <link>https://quartz.jzhao.xyz/%EB%A9%94%EC%8B%9C%EC%A7%80-%EA%B8%B0%EB%B0%98-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98(Message-Based-Architecture)</link>
+    <guid>https://quartz.jzhao.xyz/%EB%A9%94%EC%8B%9C%EC%A7%80-%EA%B8%B0%EB%B0%98-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98(Message-Based-Architecture)</guid>
+    <description>메시지 기반 아키텍처는 시스템 간의 통신을 메시지 교환을 통해 수행하는 소프트웨어 설계 패턴입니다. 이 아키텍처에서는 시스템 구성 요소가 직접적인 호출 대신 메시지를 통해 정보를 교환하며, 이를 통해 느슨한 결합(Loose Coupling)과 비동기(Asynchronous) 처리가 가능해집니다.</description>
+    <pubDate>Thu, 27 Mar 2025 04:13:54 GMT</pubDate>
   </item><item>
-    <title>구성 기반 개발(Configuration Driven Development)</title>
-    <link>https://quartz.jzhao.xyz/%EA%B5%AC%EC%84%B1-%EA%B8%B0%EB%B0%98-%EA%B0%9C%EB%B0%9C(Configuration-Driven-Development)</link>
-    <guid>https://quartz.jzhao.xyz/%EA%B5%AC%EC%84%B1-%EA%B8%B0%EB%B0%98-%EA%B0%9C%EB%B0%9C(Configuration-Driven-Development)</guid>
-    <description>Configuration Driven Development(구성 기반 개발)는 애플리케이션의 동작을 코드로 하드코딩하는 대신 외부 설정을 통해 정의하고 제어하는 소프트웨어 개발 방법론입니다. 이 접근 방식은 비즈니스 로직과 규칙이 자주 변경되는 현대 소프트웨어 환경에서 특히 유용합니다.</description>
-    <pubDate>Wed, 26 Mar 2025 06:36:00 GMT</pubDate>
+    <title>JMS(Java Message Service)</title>
+    <link>https://quartz.jzhao.xyz/JMS(Java-Message-Service)</link>
+    <guid>https://quartz.jzhao.xyz/JMS(Java-Message-Service)</guid>
+    <description>MS(Java Message Service)는 자바 기반 애플리케이션 간에 메시지를 주고받을 수 있도록 하는 표준 API입니다. 이 API는 Java EE(Enterprise Edition)의 일부로서, 서로 다른 시스템 간의 안정적인 비동기 통신을 가능하게 합니다. JMS는 메시지 지향 미들웨어(Message-Oriented Middleware, MOM)의 개념을 자바 환경에서 구현한 것으로, 분산 시스템 간의 느슨한 결합을 촉진합니다.</description>
+    <pubDate>Thu, 27 Mar 2025 04:12:11 GMT</pubDate>
   </item><item>
-    <title>빌더 패턴(Builder Pattern)</title>
-    <link>https://quartz.jzhao.xyz/%EB%B9%8C%EB%8D%94-%ED%8C%A8%ED%84%B4(Builder-Pattern)</link>
-    <guid>https://quartz.jzhao.xyz/%EB%B9%8C%EB%8D%94-%ED%8C%A8%ED%84%B4(Builder-Pattern)</guid>
-    <description>빌더 패턴은 복잡한 객체의 생성 과정과 표현 방법을 분리하여 다양한 구성의 인스턴스를 만드는 생성 디자인 패턴입니다. 이 패턴은 특히 선택적 매개변수가 많은 복잡한 객체를 생성할 때 유용하며, 생성 패턴(Creational Pattern)중 하나로 분류됩니다. 빌더 패턴이 해결하는 문제 객체 생성 시 다음과 같은 문제가 있을 때 빌더 패턴이 효과적인 해결책이 될 수 있습니다: 생성자 매개변수가 많을 때: 매개변수가 많으면 코드 가독성이 떨어지고 매개변수 순서를 기억하기 어려워집니다.</description>
-    <pubDate>Wed, 26 Mar 2025 01:14:06 GMT</pubDate>
+    <title>Untitled</title>
+    <link>https://quartz.jzhao.xyz/Untitled</link>
+    <guid>https://quartz.jzhao.xyz/Untitled</guid>
+    <description></description>
+    <pubDate>Thu, 27 Mar 2025 04:09:35 GMT</pubDate>
   </item><item>
-    <title>추상 팩토리 패턴(Abstract Factory Pattern)</title>
-    <link>https://quartz.jzhao.xyz/%EC%B6%94%EC%83%81-%ED%8C%A9%ED%86%A0%EB%A6%AC-%ED%8C%A8%ED%84%B4(Abstract-Factory-Pattern)</link>
-    <guid>https://quartz.jzhao.xyz/%EC%B6%94%EC%83%81-%ED%8C%A9%ED%86%A0%EB%A6%AC-%ED%8C%A8%ED%84%B4(Abstract-Factory-Pattern)</guid>
-    <description>팩토리 패턴은 관련 있는 객체들의 집합을 생성하기 위한 인터페이스를 제공하는 생성 패턴(Creational Pattern)입니다. 이 패턴은 구체적인 클래스를 지정하지 않고도 연관된 객체들의 집합을 생성할 수 있게 해주며, 객체 생성 로직을 클라이언트 코드로부터 분리하는 데 큰 도움이 됩니다.</description>
-    <pubDate>Wed, 26 Mar 2025 01:14:06 GMT</pubDate>
+    <title>메시지와 이벤트의 차이</title>
+    <link>https://quartz.jzhao.xyz/%EB%A9%94%EC%8B%9C%EC%A7%80%EC%99%80-%EC%9D%B4%EB%B2%A4%ED%8A%B8%EC%9D%98-%EC%B0%A8%EC%9D%B4</link>
+    <guid>https://quartz.jzhao.xyz/%EB%A9%94%EC%8B%9C%EC%A7%80%EC%99%80-%EC%9D%B4%EB%B2%A4%ED%8A%B8%EC%9D%98-%EC%B0%A8%EC%9D%B4</guid>
+    <description>메시지 브로커 시스템을 설계하고 구현할 때 ‘메시지’와 ‘이벤트’라는 용어가 자주 혼용되지만, 둘 사이에는 개념적으로 중요한 차이가 있습니다. 이 차이를 이해하면 분산 시스템을 더 효과적으로 설계하고 구현할 수 있습니다. 기본 개념 차이 메시지(Message) 정의: 송신자가 수신자에게 전달하려는 데이터 단위입니다.</description>
+    <pubDate>Thu, 27 Mar 2025 04:09:35 GMT</pubDate>
   </item><item>
-    <title>디자인 패턴(Design Pattern)</title>
-    <link>https://quartz.jzhao.xyz/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4(Design-Pattern)</link>
-    <guid>https://quartz.jzhao.xyz/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4(Design-Pattern)</guid>
-    <description>디자인 패턴은 소프트웨어 개발 과정에서 자주 발생하는 문제들에 대한 검증된 해결책입니다. 이러한 패턴들은 수많은 개발자들의 경험과 지식을 통해 정제되어 왔으며, 코드의 재사용성, 유지보수성, 확장성을 높이는 데 큰 도움이 됩니다. 디자인 패턴을 이해하고 적절히 활용하는 것은 효율적인 소프트웨어 설계를 위한 핵심 역량이라고 할 수 있습니다.</description>
-    <pubDate>Wed, 26 Mar 2025 01:14:06 GMT</pubDate>
+    <title>메시지(Message)</title>
+    <link>https://quartz.jzhao.xyz/%EB%A9%94%EC%8B%9C%EC%A7%80(Message)</link>
+    <guid>https://quartz.jzhao.xyz/%EB%A9%94%EC%8B%9C%EC%A7%80(Message)</guid>
+    <description>메시지는 분산 시스템에서 애플리케이션 간 데이터를 전달하는 기본 단위입니다. 메시지 브로커(Message Broker)와 같은 중간 계층을 통해 송신자(Producer)가 수신자(Consumer)에게 정보를 전달하기 위해 사용하는 데이터 패킷입니다. 메시지는 현대 소프트웨어 아키텍처, 특히 마이크로서비스 환경에서 시스템 간 통신의 핵심 요소로 작용합니다.</description>
+    <pubDate>Thu, 27 Mar 2025 04:09:06 GMT</pubDate>
   </item><item>
-    <title>프로토타입 패턴(Prototype Pattern)</title>
-    <link>https://quartz.jzhao.xyz/%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85-%ED%8C%A8%ED%84%B4(Prototype-Pattern)</link>
-    <guid>https://quartz.jzhao.xyz/%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85-%ED%8C%A8%ED%84%B4(Prototype-Pattern)</guid>
-    <description>프로토타입 패턴은 기존 객체를 복제하여 새로운 객체를 생성하는 생성 패턴(Creational Pattern)입니다. 이 패턴은 객체 생성 비용이 큰 경우, 비슷한 객체가 이미 존재하는 경우, 또는 객체 생성이 복잡한 경우에 특히 유용합니다. 프로토타입 패턴의 핵심 개념 프로토타입 패턴의 핵심은 객체 복제 기능을 제공하는 인터페이스를 정의하고, 이를 통해 클라이언트 코드에서 구체적인 클래스에 의존하지 않고도 객체를 복제할 수 있게 하는 것입니다.</description>
-    <pubDate>Wed, 26 Mar 2025 01:13:52 GMT</pubDate>
+    <title>Spring Async 동작 원리</title>
+    <link>https://quartz.jzhao.xyz/Spring-Async-%EB%8F%99%EC%9E%91-%EC%9B%90%EB%A6%AC</link>
+    <guid>https://quartz.jzhao.xyz/Spring-Async-%EB%8F%99%EC%9E%91-%EC%9B%90%EB%A6%AC</guid>
+    <description>Spring Framework에서 제공하는 비동기 처리 기능인 Async는 시간이 오래 걸리는 작업을 별도의 스레드에서 실행하여 애플리케이션의 응답성과 성능을 향상시키는 중요한 기능입니다. Spring Async의 동작 원리를 이해하면 더 효율적인 애플리케이션을 설계하고 구현할 수 있습니다.</description>
+    <pubDate>Thu, 27 Mar 2025 02:00:56 GMT</pubDate>
   </item>
     </channel>
   </rss>
