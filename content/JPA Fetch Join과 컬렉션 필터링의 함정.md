@@ -31,7 +31,7 @@ for (Device d : devices) {
 
 ## 원인 분석: Fetch Join과 WHERE 절의 상호작용
 
-이 문제의 원인은 [[ORM (Object-Relational Mapping)]]의 동작 방식, 특히 `WorkspaceJoin`과 `WHERE` 절이 데이터베이스 쿼리 레벨에서 어떻게 상호작용하는지에 대한 이해 부족이었습니다.
+이 문제의 원인은 [[ORM (Object-Relational Mapping)]]의 동작 방식, 특히 `Fetch Join`과 `WHERE` 절이 데이터베이스 쿼리 레벨에서 어떻게 상호작용하는지에 대한 이해 부족이었습니다.
 
 1. **SQL 변환**: `WorkspaceJoin`을 사용하면 JPA는 `Device` 테이블과 `IpAddress` 테이블을 조인하는 SQL을 생성합니다. 예를 들면 `SELECT d.*, ip.* FROM device d LEFT OUTER JOIN ip_address ip ON d.id = ip.device_id ...` 와 같은 형태가 됩니다.
 2. **WHERE 절 필터링**: 여기에 `where(ipAddress.address.contains(searchIp))` 조건이 추가되면, 데이터베이스는 조인된 결과 _로우(row)_ 중에서 `ip_address` 테이블의 `address` 컬럼 값이 `searchIp`를 포함하는 로우만 필터링합니다.
