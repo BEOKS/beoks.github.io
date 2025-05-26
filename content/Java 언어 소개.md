@@ -1,5 +1,5 @@
 - Java 프로그래밍 언어는
-	-  [[범용 언어(general-purpose)]], [[동시성 언어(concurrent)]], [[클래스 기반 언어(Class-based Language)| 클래스 기반]], [[객체 지향 언어]]입니다.
+	-  [[범용 언어(general-purpose)]], [[동시성 언어(Concurrent Language)]], [[클래스 기반 언어(Class-based Language)| 클래스 기반]], [[객체 지향 언어]]입니다.
 	- 많은 프로그래머가 능숙히 익히도록 간단히 설계되었습니다.
 	- [[연구 언어(Research Language)| 연구 언어]]가 아닌 [[프로덕션 언어(Production Language)|프로덕션 언어]]로 의도되었습니다.
 	- 강력하고 [[정적 타이핑(Static Typing)|정적으로 유형이 지정]]됩니다.

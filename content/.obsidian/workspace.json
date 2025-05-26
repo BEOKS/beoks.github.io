@@ -25,308 +25,676 @@
             "id": "368c6c47aee8f43b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "534e38c02c332b0b",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "도메인 모델(Domain Model).md",
+                "file": "Hibernate 엔티티 상태 관리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "도메인 모델(Domain Model)"
+              "title": "Hibernate 엔티티 상태 관리"
             }
           },
           {
-            "id": "80910e7f52f87d42",
+            "id": "e184bfbd2c07f6cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "유비쿼터스 언어(Ubiquitous Language).md",
+                "file": "Hibernate 캐싱 전략.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "유비쿼터스 언어(Ubiquitous Language)"
+              "title": "Hibernate 캐싱 전략"
             }
           },
           {
-            "id": "53e36b88db4bebf0",
+            "id": "b4ccf6c7b3484969",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "유비쿼터스 언어(Ubiquitous Language).md",
+                "file": "Hibernate 엔티티 상태 관리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "유비쿼터스 언어(Ubiquitous Language)"
+              "title": "Hibernate 엔티티 상태 관리"
             }
           },
           {
-            "id": "1731f37aa7920e76",
+            "id": "d5649d630c9ee7f6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "유비쿼터스 언어(Ubiquitous Language).md",
+                "file": "Hibernate 캐싱 전략.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "유비쿼터스 언어(Ubiquitous Language)"
+              "title": "Hibernate 캐싱 전략"
             }
           },
           {
-            "id": "3e5b566e1d205ca2",
+            "id": "4774c5bef579eac3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "컨텍스트 맵핑(Context Mapping).md",
+                "file": "Hibernate Session.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "컨텍스트 맵핑(Context Mapping)"
+              "title": "Hibernate Session"
             }
           },
           {
-            "id": "2835439673a55a34",
+            "id": "066c61fbd4ac16cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "컨텍스트 맵핑(Context Mapping).md",
+                "file": "Hibernate Session.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "컨텍스트 맵핑(Context Mapping)"
+              "title": "Hibernate Session"
             }
           },
           {
-            "id": "79a02e5028170b4d",
+            "id": "4f2210a158e9e15d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "바운디드 컨텍스트(Bounded Context).md",
+                "file": "Hibernate Session.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "바운디드 컨텍스트(Bounded Context)"
+              "title": "Hibernate Session"
             }
           },
           {
-            "id": "376e162820f8c696",
+            "id": "5ac1d9a3c49d3b17",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "컨텍스트 맵핑(Context Mapping).md",
+                "file": "Hibernate Session.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "컨텍스트 맵핑(Context Mapping)"
+              "title": "Hibernate Session"
             }
           },
           {
-            "id": "b8c79aed2ef181ac",
+            "id": "94c070eab526dc9d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "컨텍스트 맵핑(Context Mapping).md",
+                "file": "Hibernate 트랜잭션 관리 전략.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "컨텍스트 맵핑(Context Mapping)"
+              "title": "Hibernate 트랜잭션 관리 전략"
             }
           },
           {
-            "id": "86eeb6ec76e5c931",
+            "id": "c9aecc95f4507fad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "컨텍스트 맵핑(Context Mapping).md",
+                "file": "Hibernate 트랜잭션 관리 전략.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "컨텍스트 맵핑(Context Mapping)"
+              "title": "Hibernate 트랜잭션 관리 전략"
             }
           },
           {
-            "id": "da5ccff2980d3c5d",
+            "id": "3a51d9ed6b18498e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "컨텍스트 맵핑(Context Mapping).md",
+                "file": "Hibernate 트랜잭션 관리 전략.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "컨텍스트 맵핑(Context Mapping)"
+              "title": "Hibernate 트랜잭션 관리 전략"
             }
           },
           {
-            "id": "17675a7e6955bdcb",
+            "id": "d9acb3481398e4f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "도메인 주도 설계(DDD,Domain Driven Design).md",
+                "file": "인터페이스 분리 원칙(Interface Segregation Principle).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "도메인 주도 설계(DDD,Domain Driven Design)"
+              "title": "인터페이스 분리 원칙(Interface Segregation Principle)"
             }
           },
           {
-            "id": "7f8196985bfc8417",
+            "id": "eeab8d1806833457",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "주제영역(Subject Area).md",
+                "file": "SOLID 원칙.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "주제영역(Subject Area)"
+              "title": "SOLID 원칙"
             }
           },
           {
-            "id": "470ed1207b57b179",
+            "id": "8e539666b1edfb21",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "엔티티(Entity).md",
+                "file": "단일 책임 원칙(Single Responsibility Principle).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "엔티티(Entity)"
+              "title": "단일 책임 원칙(Single Responsibility Principle)"
             }
           },
           {
-            "id": "4813050cdf951a7e",
+            "id": "f9bdd6e026e4a626",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "주제영역(Subject Area).md",
+                "file": "SOLID 원칙.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "주제영역(Subject Area)"
+              "title": "SOLID 원칙"
             }
           },
           {
-            "id": "ea0d0ae494db6665",
+            "id": "00b8646c9b329c2b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "주제영역(Subject Area).md",
+                "file": "SOLID 원칙.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "주제영역(Subject Area)"
+              "title": "SOLID 원칙"
             }
           },
           {
-            "id": "6f44f41c3ff29b6d",
+            "id": "03af3872c1f41022",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "주제영역(Subject Area).md",
+                "file": "캡슐화(Encapsulation).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "주제영역(Subject Area)"
+              "title": "캡슐화(Encapsulation)"
             }
           },
           {
-            "id": "2f844ecd7245c242",
+            "id": "e48d9116724e93cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "주제영역(Subject Area).md",
+                "file": "클래스 기반 언어(Class-based Language).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "주제영역(Subject Area)"
+              "title": "클래스 기반 언어(Class-based Language)"
             }
           },
           {
-            "id": "e460b35db6314a02",
+            "id": "da462bf3e9b915a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Value Objects.md",
+                "file": "SOLID 원칙.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Value Objects"
+              "title": "SOLID 원칙"
             }
           },
           {
-            "id": "3aea30676946bbc4",
+            "id": "5de70832e0f81b75",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "도메인 주도 설계(DDD,Domain Driven Design).md",
+                "file": "SOLID 원칙.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "도메인 주도 설계(DDD,Domain Driven Design)"
+              "title": "SOLID 원칙"
             }
           },
           {
-            "id": "bff5f88a984fe3d6",
+            "id": "a3b81b36ad80f313",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "도메인 모델(Domain Model).md",
+                "file": "SOLID 원칙.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "도메인 모델(Domain Model)"
+              "title": "SOLID 원칙"
+            }
+          },
+          {
+            "id": "db37672632c01400",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOLID 원칙.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SOLID 원칙"
+            }
+          },
+          {
+            "id": "76975d9a390c474b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOLID 원칙.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SOLID 원칙"
+            }
+          },
+          {
+            "id": "c4aa0c2df675605e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "의존성 역전 원칙 (Dependency Inversion Principle).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "의존성 역전 원칙 (Dependency Inversion Principle)"
+            }
+          },
+          {
+            "id": "dadaeed35b79ea09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "의존성 역전 원칙 (Dependency Inversion Principle).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "의존성 역전 원칙 (Dependency Inversion Principle)"
+            }
+          },
+          {
+            "id": "e3aee8dc9c4fa252",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "의존성 역전 원칙 적용 전략.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "의존성 역전 원칙 적용 전략"
+            }
+          },
+          {
+            "id": "bbd9d317aba9f4dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "객체 지향 프로그래밍 실전 적용법.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "객체 지향 프로그래밍 실전 적용법"
+            }
+          },
+          {
+            "id": "9439f075792296fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "객체 지향 프로그래밍 실전 적용법.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "객체 지향 프로그래밍 실전 적용법"
+            }
+          },
+          {
+            "id": "194c28939dcbc7d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "동기(Synchronous).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "동기(Synchronous)"
+            }
+          },
+          {
+            "id": "5d12344f8a60708f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "비동기(Asynchronous).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "비동기(Asynchronous)"
+            }
+          },
+          {
+            "id": "e91d40f7009d3e74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "동기(Synchronous).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "동기(Synchronous)"
+            }
+          },
+          {
+            "id": "4a2665a3ff5aa89c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "비동기(Asynchronous).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "비동기(Asynchronous)"
+            }
+          },
+          {
+            "id": "d68ca95db29c54a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "비동기(Asynchronous).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "비동기(Asynchronous)"
+            }
+          },
+          {
+            "id": "96c16678383ca3d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "동기와 비동기의 차이.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "동기와 비동기의 차이"
+            }
+          },
+          {
+            "id": "29276aaee4e87272",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "비동기(Asynchronous).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "비동기(Asynchronous)"
+            }
+          },
+          {
+            "id": "2823ec04cdf8fa24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "동기와 비동기의 차이.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "동기와 비동기의 차이"
+            }
+          },
+          {
+            "id": "2a9afa1155c66250",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "블로킹(blocking).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "블로킹(blocking)"
+            }
+          },
+          {
+            "id": "6d041a153fb7a7b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "콜백 체인(Callback Chain).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "콜백 체인(Callback Chain)"
+            }
+          },
+          {
+            "id": "a8f2933bd35cf5c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "콜백 체인(Callback Chain).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "콜백 체인(Callback Chain)"
+            }
+          },
+          {
+            "id": "35a9f00e0c2caa1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CompletableFuture.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CompletableFuture"
+            }
+          },
+          {
+            "id": "5b854df277eb53cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CompletableFuture.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CompletableFuture"
+            }
+          },
+          {
+            "id": "32fb495aa2b48b2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "콜백 체인(Callback Chain).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "콜백 체인(Callback Chain)"
+            }
+          },
+          {
+            "id": "80f5871142ff2a57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "반응형 프로그래밍(Reactive Programming).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "반응형 프로그래밍(Reactive Programming)"
+            }
+          },
+          {
+            "id": "a07f990abfce62ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "반응형 프로그래밍(Reactive Programming).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "반응형 프로그래밍(Reactive Programming)"
+            }
+          },
+          {
+            "id": "b3ddf2788ecf6b42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java Flow API.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Java Flow API"
+            }
+          },
+          {
+            "id": "5f10749c7266600f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "콜백 체인(Callback Chain).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "콜백 체인(Callback Chain)"
+            }
+          },
+          {
+            "id": "7b92a52e5e112715",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "콜백 체인(Callback Chain).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "콜백 체인(Callback Chain)"
+            }
+          },
+          {
+            "id": "7e428bbe0180a4b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java Flow API.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Java Flow API"
             }
           }
         ],
-        "currentTab": 22
+        "currentTab": 48
       }
     ],
     "direction": "vertical"
@@ -358,10 +726,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "도메인 주도",
+                "query": "콜백 체인",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -379,7 +747,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -399,7 +768,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "도메인 모델(Domain Model).md",
+                "file": "Java Flow API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -409,7 +778,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 도메인 모델(Domain Model)"
+              "title": "Backlinks for Java Flow API"
             }
           },
           {
@@ -470,34 +839,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bff5f88a984fe3d6",
+  "active": "7e428bbe0180a4b2",
   "lastOpenFiles": [
-    "Public 함수 작성 원칙.md",
-    "Untitled.md",
-    "엔티티(Entity).md",
-    "도메인 주도 설계(DDD,Domain Driven Design).md",
-    "Value Objects.md",
-    "엔티티(Entity) 와 Value Objects 의 차이.md",
-    "모델(Model).md",
-    "모델 주도 설계(Model-Driven Design).md",
-    "Hands-On Modelers.md",
-    "바운디드 컨텍스트(Bounded Context).md",
-    "프로토타입 기반 언어 2.md",
-    "클래스 없이도 객체 지향을 지원하는 이유 2.md",
-    "클래스 기번 언어와 프로토 타입 기반 언어의 차이점 2.md",
-    "클래스 기반 언어가 아니면서 OOP 패러다임을 따르는 언어 2.md",
-    "클래스 기반 언어(Class-based Language) 2.md",
-    "콘텐츠 보안 정책(Content Security Policy) 설정 2.md",
-    "코드의 확장성(Extensibility) 2.md",
-    "코드의 유지보수성 2.md",
-    "코드 스멜.md",
-    "코드 스멜 2.md",
-    "캐싱(Caching) 2.md",
-    "추상화 2.md",
-    "주제영역(Subject Area) 2.md",
-    "좋은 코드 리뷰의 조건.md",
-    "정적 타이핑(Static Typing) 2.md",
-    "전략 디자인 패턴(Strategy Design Pattern) 2.md",
+    "반응형 프로그래밍(Reactive Programming).md",
+    "Java Flow API.md",
+    "콜백 체인(Callback Chain).md",
+    "CompletableFuture.md",
+    "Future 인터페이스.md",
+    "동기 논블로킹(Synchronous Non-Blocking).md",
+    "동기(Synchronous).md",
+    "동기와 비동기의 차이.md",
+    "비동기(Asynchronous).md",
+    "논블로킹(Non-blocking).md",
+    "동기와 블로킹의 차이.md",
+    "이벤트 기반 아키텍처(Event-Driven Architecture).md",
+    "블로킹(blocking).md",
+    "멀티스레딩(Multithreading).md",
+    "객체 지향 프로그래밍 실전 적용법.md",
+    "프로토타입 패턴(Prototype Pattern).md",
+    "팩토리 메소드 패턴(Factory Method Pattern).md",
+    "추상 팩토리 패턴(Abstract Factory Pattern).md",
+    "이벤트와 명령의 차이.md",
+    "이벤트(Event).md",
+    "이벤트 소싱(Event Sourcing).md",
+    "애그리게이트(Aggregate).md",
+    "싱글톤 패턴(Singleton Pattern).md",
+    "싱글톤 패턴 vs 유틸리티 클래스.md",
+    "스프링 이벤트(Spring Event).md",
+    "스프링 부트 네이티브 지원.md",
     "Pasted image 20250225222207.png",
     "Pasted image 20250225222206.png",
     "Pasted image 20250224215859.png",
