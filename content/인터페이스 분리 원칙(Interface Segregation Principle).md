@@ -165,7 +165,7 @@ graph TD
 
 ### 3. 다른 SOLID 원칙과의 균형
 
-인터페이스 분리 원칙은 다른 SOLID 원칙, 특히 [[단일 책임 원칙(Single Responsibility Principle)]]과 [[개방-폐쇄 원칙(OCP)]]과 함께 고려되어야 합니다. 때로는 이러한 원칙들 간에 균형을 맞추는 것이 필요합니다.
+인터페이스 분리 원칙은 다른 SOLID 원칙, 특히 [[단일 책임 원칙(Single Responsibility Principle)]]과 [[개방-폐쇄 원칙 (Open-Closed Principle)]]과 함께 고려되어야 합니다. 때로는 이러한 원칙들 간에 균형을 맞추는 것이 필요합니다.
 
 ## 인터페이스 분리 원칙과 마이크로서비스 아키텍처
 
