@@ -3,7 +3,11 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
       <module name="cucumber-jvm" target="17" />
+      <module name="cucumber-jvm.main" target="17" />
+      <module name="cucumber-jvm.test" target="17" />
       <module name="cucumber-kotlin" target="17" />
+      <module name="cucumber-kotlin.main" target="17" />
+      <module name="cucumber-kotlin.test" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

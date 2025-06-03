@@ -12,18 +12,10 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/cucumber-jvm" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/cucumber-kotlin-gradle" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/cucumber-jvm" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/cucumber-kotlin" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/cucumber-kotlin" />
+            <option value="$PROJECT_DIR$/cucumber-kotlin-gradle" />
           </set>
         </option>
       </GradleProjectSettings>
