@@ -142,20 +142,10 @@ package com.example.demo.cucumber.steps
 import io.cucumber.java.en.Given
 import io.cucumber.java.en.Then
 import io.cucumber.java.en.When
-import io.cucumber.spring.CucumberContextConfiguration
 import org.assertj.core.api.Assertions.assertThat
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.context.SpringBootTest
-// DemoApplication은 실제 Spring Boot 애플리케이션의 메인 클래스입니다.
-// import com.example.demo.DemoApplication
-// GreetingService는 테스트 대상 Spring Service (Java로 작성된 예시)입니다.
-// import com.example.demo.service.GreetingService
 
-// Spring Boot 애플리케이션 컨텍스트 로드를 위한 설정
-// 실제 애플리케이션 클래스를 지정해야 합니다. (예: DemoApplication::class)
-// classes 속성은 메인 애플리케이션 클래스나 테스트용 Configuration 클래스를 지정합니다.
-@CucumberContextConfiguration
-@SpringBootTest // (classes = [DemoApplication::class]) // 실제 Application Class 지정
 class GreetingSteps {
 
     @Autowired
