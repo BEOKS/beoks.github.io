@@ -158,7 +158,7 @@ public class UserFindByIdStub implements UserRepository {
 
 ### 2. 테스트 프레임워크/라이브러리 사용 (Using Testing Frameworks/Libraries)
 
-[[Mockito]], EasyMock, JMock (Java의 경우)와 같은 목킹(Mocking) 프레임워크를 사용하면 스텁을 훨씬 간결하고 유연하게 생성할 수 있습니다. 이러한 도구들은 런타임에 동적으로 스텁 객체를 생성하고 그 동작을 정의할 수 있게 해줍니다.
+[[Mockito Strict Stubbing]], EasyMock, JMock (Java의 경우)와 같은 목킹(Mocking) 프레임워크를 사용하면 스텁을 훨씬 간결하고 유연하게 생성할 수 있습니다. 이러한 도구들은 런타임에 동적으로 스텁 객체를 생성하고 그 동작을 정의할 수 있게 해줍니다.
 
 **예시 (Java - Mockito 사용):**
 

@@ -62,7 +62,7 @@ public class CalculatorService {
 }
 ```
 
-이 `CalculatorService`를 테스트할 때, 우리는 실제 `TaxCalculator`의 동작이나 상태에 영향을 받고 싶지 않습니다. 오직 `calculateTotalPrice` 메서드의 논리가 올바른지만 확인하고 싶습니다. 이때 [[Mockito]]와 같은 Mocking 프레임워크를 사용합니다.
+이 `CalculatorService`를 테스트할 때, 우리는 실제 `TaxCalculator`의 동작이나 상태에 영향을 받고 싶지 않습니다. 오직 `calculateTotalPrice` 메서드의 논리가 올바른지만 확인하고 싶습니다. 이때 [[Mockito Strict Stubbing]]와 같은 Mocking 프레임워크를 사용합니다.
 
 ```java
 // JUnit5와 Mockito를 사용한 단위 테스트

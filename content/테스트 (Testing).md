@@ -40,7 +40,7 @@
 
 ### 단위 테스트(Unit Test) 예시
 
-[[JUnit]]과 [[Mockito]]와 같은 라이브러리를 사용하여 외부 의존성을 격리하고 순수하게 비즈니스 로직만 테스트하는 것이 중요합니다.
+[[JUnit]]과 [[Mockito Strict Stubbing]]와 같은 라이브러리를 사용하여 외부 의존성을 격리하고 순수하게 비즈니스 로직만 테스트하는 것이 중요합니다.
 
 ```java
 // MemberService.java

@@ -73,7 +73,7 @@ Then 단계는 "어떤 결과가 나와야 하는가"를 명확히 기술하며,
 
 ## Java 및 Spring 환경에서의 예시 ☕
 
-백문이 불여일견입니다. 간단한 Java 코드와 [[JUnit]] 및 [[Mockito]]를 사용하여 Given-When-Then 패턴을 적용한 테스트 예시를 살펴보겠습니다. 사용자를 관리하는 `UserService`가 있고, `getUserById`라는 메서드를 테스트한다고 가정해 봅시다.
+백문이 불여일견입니다. 간단한 Java 코드와 [[JUnit]] 및 [[Mockito Strict Stubbing]]를 사용하여 Given-When-Then 패턴을 적용한 테스트 예시를 살펴보겠습니다. 사용자를 관리하는 `UserService`가 있고, `getUserById`라는 메서드를 테스트한다고 가정해 봅시다.
 
 ```java
 // 테스트 대상 클래스 (간략화된 예시)

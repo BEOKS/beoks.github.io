@@ -53,7 +53,7 @@
 
 ## Java 예시 (Mockito 활용)
 
-다음은 [[Mockito]] 프레임워크를 사용하여 행위 검증을 수행하는 Java 예시입니다.
+다음은 [[Mockito Strict Stubbing]] 프레임워크를 사용하여 행위 검증을 수행하는 Java 예시입니다.
 
 **검증 대상 시스템 로직:**
 
