@@ -6,65 +6,65 @@
       <description>최근 10 건 on 🪴 Beoks Blog</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>RESTful API</title>
-    <link>https://quartz.jzhao.xyz/RESTful-API</link>
-    <guid>https://quartz.jzhao.xyz/RESTful-API</guid>
-    <description>RESTful API는 현대 웹 개발에서 가장 널리 사용되는 아키텍처 스타일입니다. 하지만 REST의 본질적 의미와 설계 원칙을 제대로 이해하고 적용하는 개발자는 많지 않습니다. 이는 REST가 단순한 HTTP 메서드 사용법이 아니라, 분산 시스템을 위한 정교한 아키텍처 철학에 기반하기 때문입니다.</description>
-    <pubDate>Mon, 30 Jun 2025 05:54:31 GMT</pubDate>
+    <title>코루틴 동작 방식 (하드웨어 및 OS 레벨)</title>
+    <link>https://quartz.jzhao.xyz/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EB%8F%99%EC%9E%91-%EB%B0%A9%EC%8B%9D-(%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4-%EB%B0%8F-OS-%EB%A0%88%EB%B2%A8)</link>
+    <guid>https://quartz.jzhao.xyz/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EB%8F%99%EC%9E%91-%EB%B0%A9%EC%8B%9D-(%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4-%EB%B0%8F-OS-%EB%A0%88%EB%B2%A8)</guid>
+    <description>코루틴 동작 방식 (하드웨어 및 OS 레벨) 코루틴은 비동기 프로그래밍을 위한 강력한 추상화이지만, 그 내부 동작은 운영체제(OS) 스레드와 하드웨어의 상호작용 방식과는 다소 차이가 있습니다. 코루틴이 ‘경량 스레드’라고 불리는 이유와 그 효율성의 근원을 이해하기 위해서는 OS 및 하드웨어 레벨에서의 동작 방식을 살펴보는 것이 중요합니다.</description>
+    <pubDate>Thu, 03 Jul 2025 02:44:46 GMT</pubDate>
   </item><item>
-    <title>컨텐트 협상(Content Negotiation)</title>
-    <link>https://quartz.jzhao.xyz/%EC%BB%A8%ED%85%90%ED%8A%B8-%ED%98%91%EC%83%81(Content-Negotiation)</link>
-    <guid>https://quartz.jzhao.xyz/%EC%BB%A8%ED%85%90%ED%8A%B8-%ED%98%91%EC%83%81(Content-Negotiation)</guid>
-    <description>컨텐트 협상(Content Negotiation)은 HTTP(HyperText Transfer Protocol) 프로토콜에서 클라이언트와 서버가 동일한 리소스에 대해 가장 적합한 표현(representation)을 선택하는 메커니즘입니다. 이는 RESTful API 설계의 핵심 원칙 중 하나로, 하나의 엔드포인트에서 여러 형식의 응답을 제공할 수 있게 해줍니다.</description>
-    <pubDate>Mon, 30 Jun 2025 05:43:29 GMT</pubDate>
+    <title>코루틴 (Coroutines)</title>
+    <link>https://quartz.jzhao.xyz/%EC%BD%94%EB%A3%A8%ED%8B%B4-(Coroutines)</link>
+    <guid>https://quartz.jzhao.xyz/%EC%BD%94%EB%A3%A8%ED%8B%B4-(Coroutines)</guid>
+    <description>코루틴(Coroutine)은 비동기 프로그래밍을 위한 경량 스레드(lightweight thread)입니다. 스레드와 유사하게 동시성(Concurrency)을 제공하지만, 운영체제가 아닌 사용자 레벨에서 스케줄링되어 스레드보다 훨씬 적은 자원을 사용하고 오버헤드가 적습니다.</description>
+    <pubDate>Thu, 03 Jul 2025 02:30:38 GMT</pubDate>
   </item><item>
-    <title>Spring 엑셀 다운로드 기능 구현</title>
-    <link>https://quartz.jzhao.xyz/Spring-%EC%97%91%EC%85%80-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%EA%B8%B0%EB%8A%A5-%EA%B5%AC%ED%98%84</link>
-    <guid>https://quartz.jzhao.xyz/Spring-%EC%97%91%EC%85%80-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%EA%B8%B0%EB%8A%A5-%EA%B5%AC%ED%98%84</guid>
-    <description>API 응답 데이터를 다양한 형식으로 제공해야 하는 요구사항은 현대 웹 서비스 개발에서 자주 마주치는 과제입니다. 특히 관리자 페이지나 보고서 시스템에서는 JSON 형태의 API 응답을 엑셀 파일로 다운로드할 수 있는 기능이 필요한 경우가 많습니다. 이 글에서는 Spring Framework에서 컨텐트 협상(Content Negotiation)을 활용하여 동일한 API 엔드포인트에서 JSON과 엑셀 파일을 모두 제공할 수 있는 기능을 구현하는 방법을 소개합니다.</description>
-    <pubDate>Mon, 30 Jun 2025 05:41:15 GMT</pubDate>
+    <title>동시성(Concurrency)</title>
+    <link>https://quartz.jzhao.xyz/%EB%8F%99%EC%8B%9C%EC%84%B1(Concurrency)</link>
+    <guid>https://quartz.jzhao.xyz/%EB%8F%99%EC%8B%9C%EC%84%B1(Concurrency)</guid>
+    <description>소프트웨어 개발에서 동시성(Concurrency)의 개념과 구현 방법, 그리고 관련 패턴에 대한 포괄적인 설명.</description>
+    <pubDate>Thu, 03 Jul 2025 02:17:19 GMT</pubDate>
   </item><item>
-    <title>동시성과 병렬성의 차이</title>
-    <link>https://quartz.jzhao.xyz/%EB%8F%99%EC%8B%9C%EC%84%B1%EA%B3%BC-%EB%B3%91%EB%A0%AC%EC%84%B1%EC%9D%98-%EC%B0%A8%EC%9D%B4</link>
-    <guid>https://quartz.jzhao.xyz/%EB%8F%99%EC%8B%9C%EC%84%B1%EA%B3%BC-%EB%B3%91%EB%A0%AC%EC%84%B1%EC%9D%98-%EC%B0%A8%EC%9D%B4</guid>
-    <description>동시성(Concurrency)과 병렬성(Parallelism)은 현대 소프트웨어 개발에서 중요한 개념이지만, 종종 혼동되어 사용됩니다. 이 두 개념은 여러 작업을 동시에 처리하는 방식에 관한 것이지만, 실제 구현 방식과 목적에서 중요한 차이가 있습니다. 동시성(Concurrency) 동시성은 여러 작업을 논리적으로 동시에 실행하는 것처럼 보이게 하는 개념입니다.</description>
-    <pubDate>Mon, 30 Jun 2025 05:38:22 GMT</pubDate>
+    <title>스레드(Thread)</title>
+    <link>https://quartz.jzhao.xyz/%EC%8A%A4%EB%A0%88%EB%93%9C(Thread)</link>
+    <guid>https://quartz.jzhao.xyz/%EC%8A%A4%EB%A0%88%EB%93%9C(Thread)</guid>
+    <description>스레드(Thread)는 프로세스 내에서 실행되는 작업의 가장 작은 단위입니다. 하나의 프로세스는 여러 개의 스레드를 가질 수 있으며, 각 스레드는 동일한 프로세스 내의 자원을 공유하면서 독립적으로 실행됩니다. 이것이 바로 스레드가 ‘경량 프로세스’라고 불리는 이유입니다. 스레드는 현대 소프트웨어 개발에서 매우 중요한 개념으로, 멀티스레딩 기법을 통해 애플리케이션의 성능과 응답성을 크게 향상시킬 수 있습니다.</description>
+    <pubDate>Thu, 03 Jul 2025 02:17:08 GMT</pubDate>
   </item><item>
-    <title> Spring 데이터베이스 커넥션 관리</title>
-    <link>https://quartz.jzhao.xyz/-Spring-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%BB%A4%EB%84%A5%EC%85%98-%EA%B4%80%EB%A6%AC</link>
-    <guid>https://quartz.jzhao.xyz/-Spring-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%BB%A4%EB%84%A5%EC%85%98-%EA%B4%80%EB%A6%AC</guid>
-    <description>Spring 데이터베이스 커넥션 관리 Spring 애플리케이션에서 데이터베이스 커넥션 관리는 성능과 안정성을 좌우하는 핵심 요소입니다. 효율적인 커넥션 관리 없이는 데이터베이스 연결 지연, 메모리 누수, 시스템 장애 등 다양한 문제가 발생할 수 있습니다. Spring은 이러한 복잡성을 추상화하여 개발자가 비즈니스 로직에 집중할 수 있도록 돕는 강력한 커넥션 관리 메커니즘을 제공합니다.</description>
-    <pubDate>Wed, 25 Jun 2025 06:52:01 GMT</pubDate>
+    <title>비동기(Asynchronous)</title>
+    <link>https://quartz.jzhao.xyz/%EB%B9%84%EB%8F%99%EA%B8%B0(Asynchronous)</link>
+    <guid>https://quartz.jzhao.xyz/%EB%B9%84%EB%8F%99%EA%B8%B0(Asynchronous)</guid>
+    <description>비동기(Asynchronous)는 프로그래밍에서 코드의 실행이 순차적으로 진행되지 않고, 작업이 완료되기를 기다리지 않고 다음 작업을 계속 진행하는 방식을 의미합니다. 이 방식에서는 작업이 완료되면 콜백, 이벤트, 약속(Promise) 등의 메커니즘을 통해 결과를 처리합니다.</description>
+    <pubDate>Thu, 03 Jul 2025 02:17:00 GMT</pubDate>
   </item><item>
-    <title>Spring @TestConfiguration 어노테이션</title>
-    <link>https://quartz.jzhao.xyz/Spring-@TestConfiguration-%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98</link>
-    <guid>https://quartz.jzhao.xyz/Spring-@TestConfiguration-%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98</guid>
-    <description>Spring @TestConfiguration 어노테이션 @TestConfiguration은 Spring Boot에서 테스트 환경에 특화된 설정을 정의하기 위한 어노테이션입니다. 이 어노테이션을 사용하면 운영 환경과는 별도로 테스트에만 사용할 빈을 정의하거나 기존 빈을 테스트용으로 대체할 수 있으며, 테스트의 독립성과 안정성을 보장하는 데 핵심적인 역할을 합니다.</description>
-    <pubDate>Wed, 25 Jun 2025 01:19:18 GMT</pubDate>
+    <title>Kotlin</title>
+    <link>https://quartz.jzhao.xyz/Kotlin</link>
+    <guid>https://quartz.jzhao.xyz/Kotlin</guid>
+    <description>Kotlin: 현대적인 개발을 위한 실용적인 언어 Kotlin은 JetBrains에서 개발한 정적 타입 프로그래밍 언어로, JVM(Java Virtual Machine)에서 실행됩니다. 간결하고 안전하며 Java와의 완벽한 상호 운용성을 제공하여, 안드로이드 앱 개발부터 서버 사이드, 웹 프론트엔드, 심지어 멀티플랫폼 개발까지 다양한 분야에서 빠르게 채택되고 있습니다.</description>
+    <pubDate>Thu, 03 Jul 2025 02:16:43 GMT</pubDate>
   </item><item>
-    <title>Spring @ContextConfiguration 어노테이션</title>
-    <link>https://quartz.jzhao.xyz/Spring-@ContextConfiguration-%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98</link>
-    <guid>https://quartz.jzhao.xyz/Spring-@ContextConfiguration-%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98</guid>
-    <description>@ContextConfiguration은 Spring 테스트 프레임워크에서 ApplicationContext를 구성하기 위한 핵심 어노테이션입니다. 이 어노테이션을 통해 테스트에서 사용할 Spring 설정을 명시적으로 지정할 수 있으며, 다양한 방식으로 애플리케이션 컨텍스트를 로드할 수 있습니다.</description>
-    <pubDate>Wed, 25 Jun 2025 01:05:19 GMT</pubDate>
+    <title>개발 계획서, 언제 어떻게 작성해야 할까?</title>
+    <link>https://quartz.jzhao.xyz/%EA%B0%9C%EB%B0%9C-%EA%B3%84%ED%9A%8D%EC%84%9C-%EC%9E%91%EC%84%B1-%EA%B0%80%EC%9D%B4%EB%93%9C</link>
+    <guid>https://quartz.jzhao.xyz/%EA%B0%9C%EB%B0%9C-%EA%B3%84%ED%9A%8D%EC%84%9C-%EC%9E%91%EC%84%B1-%EA%B0%80%EC%9D%B4%EB%93%9C</guid>
+    <description>많은 개발자들이 “일단 코딩부터 시작하자”는 유혹에 빠지곤 합니다. 특히 빠르게 변화하는 스타트업이나 애자일 환경에서는 문서 작업이 불필요한 시간 낭비처럼 느껴질 수 있습니다. 하지만 잘 작성된 개발 계획서는 단순한 서류 작업을 넘어, 프로젝트를 성공으로 이끄는 나침반 역할을 합니다.</description>
+    <pubDate>Thu, 03 Jul 2025 00:00:00 GMT</pubDate>
   </item><item>
-    <title>ComponentScan과 EntityScan의 차이점</title>
-    <link>https://quartz.jzhao.xyz/ComponentScan%EA%B3%BC-EntityScan%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90</link>
-    <guid>https://quartz.jzhao.xyz/ComponentScan%EA%B3%BC-EntityScan%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90</guid>
-    <description>@ComponentScan과 @EntityScan의 차이점 Spring Boot 개발에서 자주 혼동되는 두 어노테이션인 @ComponentScan과 @EntityScan의 차이점을 명확히 이해하는 것은 효율적인 애플리케이션 구성을 위해 매우 중요합니다. 이 두 어노테이션은 비슷해 보이지만 완전히 다른 목적과 역할을 가지고 있습니다.</description>
-    <pubDate>Wed, 25 Jun 2025 00:56:41 GMT</pubDate>
+    <title>모범적인 개발 계획서 예시: 쇼핑몰 리뷰 기능 개발</title>
+    <link>https://quartz.jzhao.xyz/%EB%AA%A8%EB%B2%94%EC%A0%81%EC%9D%B8-%EA%B0%9C%EB%B0%9C-%EA%B3%84%ED%9A%8D%EC%84%9C-%EC%98%88%EC%8B%9C</link>
+    <guid>https://quartz.jzhao.xyz/%EB%AA%A8%EB%B2%94%EC%A0%81%EC%9D%B8-%EA%B0%9C%EB%B0%9C-%EA%B3%84%ED%9A%8D%EC%84%9C-%EC%98%88%EC%8B%9C</guid>
+    <description>이 문서는 개발 계획서 작성 가이드에서 설명하는 원칙에 따라 작성된 “쇼핑몰 리뷰 기능 개발” 프로젝트의 구체적인 개발 계획서 예시입니다. 이러한 계획서의 초안을 효율적으로 작성하고 싶다면, LLM을 활용한 효과적인 개발 계획서 작성법 문서도 함께 참고해 보세요. 1. 프로젝트 개요 프로젝트명: 쇼핑몰 리뷰 기능 개발 담당팀: 이커머스 개발팀 프로젝트 기간: 2025년 8월 4일 ~ 2025년 8월 29일 (4주) 프로젝트 총괄: 최기획 PM 2.</description>
+    <pubDate>Thu, 03 Jul 2025 00:00:00 GMT</pubDate>
   </item><item>
-    <title>EntityScan 어노테이션</title>
-    <link>https://quartz.jzhao.xyz/EntityScan-%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98</link>
-    <guid>https://quartz.jzhao.xyz/EntityScan-%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98</guid>
-    <description>@EntityScan 어노테이션 @EntityScan은 Spring Boot에서 JPA 엔티티(Entity) 클래스들을 스캔할 패키지를 명시적으로 지정하는 어노테이션입니다. Spring Boot의 기본 자동 구성(Auto Configuration) 메커니즘을 보완하여, 복잡한 프로젝트 구조나 특별한 요구사항이 있는 경우에 엔티티 스캔 경로를 정밀하게 제어할 수 있습니다.</description>
-    <pubDate>Wed, 25 Jun 2025 00:49:17 GMT</pubDate>
+    <title>LLM을 활용한 효과적인 개발 계획서 작성법</title>
+    <link>https://quartz.jzhao.xyz/LLM%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%ED%9A%A8%EA%B3%BC%EC%A0%81%EC%9D%B8-%EA%B0%9C%EB%B0%9C-%EA%B3%84%ED%9A%8D%EC%84%9C-%EC%9E%91%EC%84%B1%EB%B2%95</link>
+    <guid>https://quartz.jzhao.xyz/LLM%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%ED%9A%A8%EA%B3%BC%EC%A0%81%EC%9D%B8-%EA%B0%9C%EB%B0%9C-%EA%B3%84%ED%9A%8D%EC%84%9C-%EC%9E%91%EC%84%B1%EB%B2%95</guid>
+    <description>최근 GPT-4, Gemini와 같은 대규모 언어 모델(LLM)이 개발 워크플로우에 빠르게 통합되고 있습니다. 아이디어 구상부터 코드 작성, 테스트에 이르기까지 LLM은 이제 강력한 개발 보조 도구로 자리 잡았습니다. 그렇다면 복잡하고 시간이 많이 소요되는 ‘개발 계획서’ 작성에도 LLM을 효과적으로 활용할 수 있지 않을까요? 이 글에서는 LLM을 활용하여 개발 계획서의 초안을 만들고, 내용을 구체화하는 실용적인 방법과 주의사항에 대해 알아봅니다.</description>
+    <pubDate>Thu, 03 Jul 2025 00:00:00 GMT</pubDate>
   </item><item>
-    <title>DataJpaTest 어노테이션</title>
-    <link>https://quartz.jzhao.xyz/DataJpaTest-%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98</link>
-    <guid>https://quartz.jzhao.xyz/DataJpaTest-%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98</guid>
-    <description>@DataJpaTest 어노테이션 @DataJpaTest는 Spring Boot에서 제공하는 테스트 슬라이스 어노테이션으로, JPA 관련 컴포넌트만을 테스트 컨텍스트에 로드하여 효율적인 데이터 계층 테스트를 가능하게 합니다. 이 어노테이션은 JPA 리포지토리와 엔티티의 동작을 검증하는 데 특화되어 있으며, 전체 애플리케이션 컨텍스트를 로드하지 않아 빠른 테스트 실행이 가능합니다.</description>
-    <pubDate>Tue, 24 Jun 2025 04:12:18 GMT</pubDate>
+    <title>AI 시대, 벡엔드 개발자의 생존과 진화</title>
+    <link>https://quartz.jzhao.xyz/AI-%EC%8B%9C%EB%8C%80,-%EB%B2%A1%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-%EC%83%9D%EC%A1%B4%EA%B3%BC-%EC%A7%84%ED%99%94</link>
+    <guid>https://quartz.jzhao.xyz/AI-%EC%8B%9C%EB%8C%80,-%EB%B2%A1%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-%EC%83%9D%EC%A1%B4%EA%B3%BC-%EC%A7%84%ED%99%94</guid>
+    <description>서론: 코드의 종말이 아닌, 역할의 위대한 진화 인공지능(AI) 기술이 소프트웨어 개발 생태계 전반에 걸쳐 지각 변동을 일으키고 있다. 과거의 AI가 특정 영역의 작업을 보조하는 도구에 머물렀다면, 오늘날의 생성형 AI는 코드 작성, 디버깅, 테스트, 배포에 이르는 개발의 전 과정을 재정의하는 근본적인 패러다임 전환을 촉발하고 있다.1 이러한 변화는 단순히 새로운 기술의 등장을 넘어, 백엔드 개발자의 본질적인 가치와 역할에 대한 근본적인 질문을 제기한다.</description>
+    <pubDate>Wed, 02 Jul 2025 00:45:09 GMT</pubDate>
   </item>
     </channel>
   </rss>
