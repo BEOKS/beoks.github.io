@@ -218,6 +218,9 @@
     <loc>https://quartz.jzhao.xyz/Kotlin</loc>
     <lastmod>2025-07-03T02:16:43.716Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/LLM%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%ED%9A%A8%EA%B3%BC%EC%A0%81%EC%9D%B8-%EA%B0%9C%EB%B0%9C-%EA%B3%84%ED%9A%8D%EC%84%9C-%EC%9E%91%EC%84%B1%EB%B2%95</loc>
+    <lastmod>2025-07-03T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/MCP-Client</loc>
     <lastmod>2025-06-09T00:12:55.301Z</lastmod>
   </url><url>
@@ -298,6 +301,9 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/Oracle-%EC%82%BD%EC%9E%85-%EC%8B%9C-%EC%9C%A0%EB%8B%88%ED%81%AC-%EC%A0%9C%EC%95%BD%EC%A1%B0%EA%B1%B4-%EB%AC%B4%EC%8B%9C</loc>
     <lastmod>2025-03-17T09:08:52.733Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Passkey-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EA%B0%80%EC%9D%B4%EB%93%9C</loc>
+    <lastmod>2025-07-04T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Public-%ED%95%A8%EC%88%98-%EC%9E%91%EC%84%B1-%EC%9B%90%EC%B9%99</loc>
     <lastmod>2025-03-17T09:08:52.737Z</lastmod>
@@ -583,6 +589,9 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/%EB%AA%A8%EB%93%88%ED%99%94</loc>
     <lastmod>2025-03-17T09:08:52.776Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/%EB%AA%A8%EB%B2%94%EC%A0%81%EC%9D%B8-%EA%B0%9C%EB%B0%9C-%EA%B3%84%ED%9A%8D%EC%84%9C-%EC%98%88%EC%8B%9C</loc>
+    <lastmod>2025-07-03T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/%EB%B0%94%EC%9A%B4%EB%94%94%EB%93%9C-%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8(Bounded-Context)</loc>
     <lastmod>2025-03-17T09:08:52.776Z</lastmod>
@@ -1091,9 +1100,24 @@
     <loc>https://quartz.jzhao.xyz/%ED%9A%A8%EA%B3%BC%EC%A0%81%EC%9D%B8-%ED%86%B5%ED%95%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B5%AC%EC%B6%95-%EC%A0%84%EB%9E%B5</loc>
     <lastmod>2025-05-28T05:45:38.305Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/%EB%AA%A8%EB%B2%94%EC%A0%81%EC%9D%B8-%EA%B0%9C%EB%B0%9C-%EA%B3%84%ED%9A%8D%EC%84%9C-%EC%98%88%EC%8B%9C</loc>
-    <lastmod>2025-07-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/Passkey-%EA%B0%9C%EB%85%90-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0</loc>
+    <lastmod>2025-07-04T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/LLM%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%ED%9A%A8%EA%B3%BC%EC%A0%81%EC%9D%B8-%EA%B0%9C%EB%B0%9C-%EA%B3%84%ED%9A%8D%EC%84%9C-%EC%9E%91%EC%84%B1%EB%B2%95</loc>
-    <lastmod>2025-07-03T00:00:00.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/%EA%B3%B5%EA%B0%9C-%ED%82%A4-%EC%95%94%ED%98%B8%ED%99%94-(Public-Key-Cryptography)</loc>
+    <lastmod>2025-07-04T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/%EB%94%94%EC%A7%80%ED%84%B8-%EC%84%9C%EB%AA%85-(Digital-Signature)</loc>
+    <lastmod>2025-07-04T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/%EA%B3%B5%EA%B0%9C-%ED%82%A4-%EC%9D%B8%ED%94%84%EB%9D%BC-(PKI)</loc>
+    <lastmod>2025-07-04T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/%EC%9D%B8%EC%A6%9D%EC%84%9C-%ED%8F%90%EA%B8%B0-%EB%AA%A9%EB%A1%9D-(CRL)</loc>
+    <lastmod>2025-07-04T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/%EC%9D%B8%EC%A6%9D-%EA%B8%B0%EA%B4%80-(CA)</loc>
+    <lastmod>2025-07-04T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Passkey-%EB%8F%84%EC%9E%85%ED%95%98%EA%B8%B0</loc>
+    <lastmod>2025-07-04T05:08:53.484Z</lastmod>
   </url></urlset>

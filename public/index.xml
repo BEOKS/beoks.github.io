@@ -6,6 +6,54 @@
       <description>최근 10 건 on 🪴 Beoks Blog</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Passkey 도입하기</title>
+    <link>https://quartz.jzhao.xyz/Passkey-%EB%8F%84%EC%9E%85%ED%95%98%EA%B8%B0</link>
+    <guid>https://quartz.jzhao.xyz/Passkey-%EB%8F%84%EC%9E%85%ED%95%98%EA%B8%B0</guid>
+    <description>Passkey 구현: 프론트엔드 TypeScript WebAuthn 활용 현대 웹 환경에서 사용자 인증은 보안과 편의성이라는 두 가지 중요한 축을 중심으로 발전하고 있습니다. 전통적인 비밀번호 기반 인증 방식은 피싱 공격, 비밀번호 재사용 등으로 인해 보안에 취약하며 사용자 경험 또한 좋지 않습니다.</description>
+    <pubDate>Fri, 04 Jul 2025 05:08:53 GMT</pubDate>
+  </item><item>
+    <title>Passkey 개발자 가이드</title>
+    <link>https://quartz.jzhao.xyz/Passkey-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EA%B0%80%EC%9D%B4%EB%93%9C</link>
+    <guid>https://quartz.jzhao.xyz/Passkey-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EA%B0%80%EC%9D%B4%EB%93%9C</guid>
+    <description>Passkey, WebAuthn, FIDO는 현대 웹 환경에서 비밀번호 없는(passwordless) 인증을 구현하기 위한 핵심 기술 스택입니다. 개발자 관점에서 이들의 기술적 세부 사항을 이해하는 것은 안전하고 사용자 친화적인 인증 시스템을 구축하는 데 필수적입니다. 1.</description>
+    <pubDate>Fri, 04 Jul 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Passkey 개념 이해하기</title>
+    <link>https://quartz.jzhao.xyz/Passkey-%EA%B0%9C%EB%85%90-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0</link>
+    <guid>https://quartz.jzhao.xyz/Passkey-%EA%B0%9C%EB%85%90-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0</guid>
+    <description>현대 디지털 환경에서 비밀번호는 보안과 편의성 사이의 오랜 딜레마였습니다. 복잡한 비밀번호를 기억하고 관리하는 것은 사용자에게 큰 부담이었고, 피싱과 같은 공격에 취약하다는 문제점도 있었습니다. 이러한 문제들을 해결하기 위해 등장한 것이 바로 **Passkey(패스키)**입니다.</description>
+    <pubDate>Fri, 04 Jul 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>공개 키 암호화 (Public Key Cryptography)</title>
+    <link>https://quartz.jzhao.xyz/%EA%B3%B5%EA%B0%9C-%ED%82%A4-%EC%95%94%ED%98%B8%ED%99%94-(Public-Key-Cryptography)</link>
+    <guid>https://quartz.jzhao.xyz/%EA%B3%B5%EA%B0%9C-%ED%82%A4-%EC%95%94%ED%98%B8%ED%99%94-(Public-Key-Cryptography)</guid>
+    <description>공개 키 암호화(Public Key Cryptography)는 현대 암호학의 핵심 기술 중 하나로, 비대칭 암호화(Asymmetric Cryptography)라고도 불립니다. 이 방식은 데이터를 암호화하고 복호화하는 데 서로 다른 두 개의 키, 즉 공개 키(Public Key)와 개인 키(Private Key)를 사용하는 것이 특징입니다.</description>
+    <pubDate>Fri, 04 Jul 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>디지털 서명 (Digital Signature)</title>
+    <link>https://quartz.jzhao.xyz/%EB%94%94%EC%A7%80%ED%84%B8-%EC%84%9C%EB%AA%85-(Digital-Signature)</link>
+    <guid>https://quartz.jzhao.xyz/%EB%94%94%EC%A7%80%ED%84%B8-%EC%84%9C%EB%AA%85-(Digital-Signature)</guid>
+    <description>디지털 서명은 디지털 문서나 메시지의 진위성, 무결성, 그리고 부인 방지를 보장하는 데 사용되는 암호화 기술입니다. 이는 손으로 쓰는 서명과 유사하지만, 훨씬 더 높은 수준의 보안을 제공합니다. 1. 작동 원리 디지털 서명은 주로 공개 키 암호화 (Public Key Cryptography), 해시 함수, 그리고 디지털 인증서의 세 가지 핵심 기술을 기반으로 작동합니다.</description>
+    <pubDate>Fri, 04 Jul 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>공개 키 인프라 (PKI)</title>
+    <link>https://quartz.jzhao.xyz/%EA%B3%B5%EA%B0%9C-%ED%82%A4-%EC%9D%B8%ED%94%84%EB%9D%BC-(PKI)</link>
+    <guid>https://quartz.jzhao.xyz/%EA%B3%B5%EA%B0%9C-%ED%82%A4-%EC%9D%B8%ED%94%84%EB%9D%BC-(PKI)</guid>
+    <description>공개 키 인프라(PKI, Public Key Infrastructure)는 디지털 환경에서 안전한 통신과 신뢰할 수 있는 신원 확인을 가능하게 하는 체계적인 보안 인프라입니다. PKI는 공개 키 암호화 (Public Key Cryptography)를 기반으로 하며, 디지털 인증서를 통해 사용자와 시스템 간의 신뢰를 보장하고 키의 생성, 배포, 폐기까지의 수명 주기를 안전하게 관리합니다.</description>
+    <pubDate>Fri, 04 Jul 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>인증서 폐기 목록 (CRL)</title>
+    <link>https://quartz.jzhao.xyz/%EC%9D%B8%EC%A6%9D%EC%84%9C-%ED%8F%90%EA%B8%B0-%EB%AA%A9%EB%A1%9D-(CRL)</link>
+    <guid>https://quartz.jzhao.xyz/%EC%9D%B8%EC%A6%9D%EC%84%9C-%ED%8F%90%EA%B8%B0-%EB%AA%A9%EB%A1%9D-(CRL)</guid>
+    <description>디지털 인증서는 온라인 환경에서 신원 확인과 데이터 보안을 위해 필수적인 요소입니다. 하지만 인증서가 유출되거나 오용될 경우, 해당 인증서를 더 이상 신뢰할 수 없게 되므로 이를 무효화하는 절차가 필요합니다. 이러한 인증서의 유효성을 확인하고 폐기된 인증서를 관리하는 주요 방법으로 **인증서 폐기 목록 (CRL)**과 OCSP가 사용됩니다.</description>
+    <pubDate>Fri, 04 Jul 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>인증 기관 (CA)</title>
+    <link>https://quartz.jzhao.xyz/%EC%9D%B8%EC%A6%9D-%EA%B8%B0%EA%B4%80-(CA)</link>
+    <guid>https://quartz.jzhao.xyz/%EC%9D%B8%EC%A6%9D-%EA%B8%B0%EA%B4%80-(CA)</guid>
+    <description>인증 기관(CA, Certificate Authority)은 디지털 인증서를 발급하고 관리하는 신뢰할 수 있는 제3자입니다. 인터넷 상에서 통신하는 주체(예: 웹사이트, 개인, 조직)의 신원을 확인하고, 해당 신원에 공개 키를 안전하게 연결하여 디지털 신뢰를 구축하는 핵심적인 역할을 수행합니다.</description>
+    <pubDate>Fri, 04 Jul 2025 00:00:00 GMT</pubDate>
+  </item><item>
     <title>코루틴 동작 방식 (하드웨어 및 OS 레벨)</title>
     <link>https://quartz.jzhao.xyz/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EB%8F%99%EC%9E%91-%EB%B0%A9%EC%8B%9D-(%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4-%EB%B0%8F-OS-%EB%A0%88%EB%B2%A8)</link>
     <guid>https://quartz.jzhao.xyz/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EB%8F%99%EC%9E%91-%EB%B0%A9%EC%8B%9D-(%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4-%EB%B0%8F-OS-%EB%A0%88%EB%B2%A8)</guid>
@@ -17,54 +65,6 @@
     <guid>https://quartz.jzhao.xyz/%EC%BD%94%EB%A3%A8%ED%8B%B4-(Coroutines)</guid>
     <description>코루틴(Coroutine)은 비동기 프로그래밍을 위한 경량 스레드(lightweight thread)입니다. 스레드와 유사하게 동시성(Concurrency)을 제공하지만, 운영체제가 아닌 사용자 레벨에서 스케줄링되어 스레드보다 훨씬 적은 자원을 사용하고 오버헤드가 적습니다.</description>
     <pubDate>Thu, 03 Jul 2025 02:30:38 GMT</pubDate>
-  </item><item>
-    <title>동시성(Concurrency)</title>
-    <link>https://quartz.jzhao.xyz/%EB%8F%99%EC%8B%9C%EC%84%B1(Concurrency)</link>
-    <guid>https://quartz.jzhao.xyz/%EB%8F%99%EC%8B%9C%EC%84%B1(Concurrency)</guid>
-    <description>소프트웨어 개발에서 동시성(Concurrency)의 개념과 구현 방법, 그리고 관련 패턴에 대한 포괄적인 설명.</description>
-    <pubDate>Thu, 03 Jul 2025 02:17:19 GMT</pubDate>
-  </item><item>
-    <title>스레드(Thread)</title>
-    <link>https://quartz.jzhao.xyz/%EC%8A%A4%EB%A0%88%EB%93%9C(Thread)</link>
-    <guid>https://quartz.jzhao.xyz/%EC%8A%A4%EB%A0%88%EB%93%9C(Thread)</guid>
-    <description>스레드(Thread)는 프로세스 내에서 실행되는 작업의 가장 작은 단위입니다. 하나의 프로세스는 여러 개의 스레드를 가질 수 있으며, 각 스레드는 동일한 프로세스 내의 자원을 공유하면서 독립적으로 실행됩니다. 이것이 바로 스레드가 ‘경량 프로세스’라고 불리는 이유입니다. 스레드는 현대 소프트웨어 개발에서 매우 중요한 개념으로, 멀티스레딩 기법을 통해 애플리케이션의 성능과 응답성을 크게 향상시킬 수 있습니다.</description>
-    <pubDate>Thu, 03 Jul 2025 02:17:08 GMT</pubDate>
-  </item><item>
-    <title>비동기(Asynchronous)</title>
-    <link>https://quartz.jzhao.xyz/%EB%B9%84%EB%8F%99%EA%B8%B0(Asynchronous)</link>
-    <guid>https://quartz.jzhao.xyz/%EB%B9%84%EB%8F%99%EA%B8%B0(Asynchronous)</guid>
-    <description>비동기(Asynchronous)는 프로그래밍에서 코드의 실행이 순차적으로 진행되지 않고, 작업이 완료되기를 기다리지 않고 다음 작업을 계속 진행하는 방식을 의미합니다. 이 방식에서는 작업이 완료되면 콜백, 이벤트, 약속(Promise) 등의 메커니즘을 통해 결과를 처리합니다.</description>
-    <pubDate>Thu, 03 Jul 2025 02:17:00 GMT</pubDate>
-  </item><item>
-    <title>Kotlin</title>
-    <link>https://quartz.jzhao.xyz/Kotlin</link>
-    <guid>https://quartz.jzhao.xyz/Kotlin</guid>
-    <description>Kotlin: 현대적인 개발을 위한 실용적인 언어 Kotlin은 JetBrains에서 개발한 정적 타입 프로그래밍 언어로, JVM(Java Virtual Machine)에서 실행됩니다. 간결하고 안전하며 Java와의 완벽한 상호 운용성을 제공하여, 안드로이드 앱 개발부터 서버 사이드, 웹 프론트엔드, 심지어 멀티플랫폼 개발까지 다양한 분야에서 빠르게 채택되고 있습니다.</description>
-    <pubDate>Thu, 03 Jul 2025 02:16:43 GMT</pubDate>
-  </item><item>
-    <title>개발 계획서, 언제 어떻게 작성해야 할까?</title>
-    <link>https://quartz.jzhao.xyz/%EA%B0%9C%EB%B0%9C-%EA%B3%84%ED%9A%8D%EC%84%9C-%EC%9E%91%EC%84%B1-%EA%B0%80%EC%9D%B4%EB%93%9C</link>
-    <guid>https://quartz.jzhao.xyz/%EA%B0%9C%EB%B0%9C-%EA%B3%84%ED%9A%8D%EC%84%9C-%EC%9E%91%EC%84%B1-%EA%B0%80%EC%9D%B4%EB%93%9C</guid>
-    <description>많은 개발자들이 “일단 코딩부터 시작하자”는 유혹에 빠지곤 합니다. 특히 빠르게 변화하는 스타트업이나 애자일 환경에서는 문서 작업이 불필요한 시간 낭비처럼 느껴질 수 있습니다. 하지만 잘 작성된 개발 계획서는 단순한 서류 작업을 넘어, 프로젝트를 성공으로 이끄는 나침반 역할을 합니다.</description>
-    <pubDate>Thu, 03 Jul 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>모범적인 개발 계획서 예시: 쇼핑몰 리뷰 기능 개발</title>
-    <link>https://quartz.jzhao.xyz/%EB%AA%A8%EB%B2%94%EC%A0%81%EC%9D%B8-%EA%B0%9C%EB%B0%9C-%EA%B3%84%ED%9A%8D%EC%84%9C-%EC%98%88%EC%8B%9C</link>
-    <guid>https://quartz.jzhao.xyz/%EB%AA%A8%EB%B2%94%EC%A0%81%EC%9D%B8-%EA%B0%9C%EB%B0%9C-%EA%B3%84%ED%9A%8D%EC%84%9C-%EC%98%88%EC%8B%9C</guid>
-    <description>이 문서는 개발 계획서 작성 가이드에서 설명하는 원칙에 따라 작성된 “쇼핑몰 리뷰 기능 개발” 프로젝트의 구체적인 개발 계획서 예시입니다. 이러한 계획서의 초안을 효율적으로 작성하고 싶다면, LLM을 활용한 효과적인 개발 계획서 작성법 문서도 함께 참고해 보세요. 1. 프로젝트 개요 프로젝트명: 쇼핑몰 리뷰 기능 개발 담당팀: 이커머스 개발팀 프로젝트 기간: 2025년 8월 4일 ~ 2025년 8월 29일 (4주) 프로젝트 총괄: 최기획 PM 2.</description>
-    <pubDate>Thu, 03 Jul 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>LLM을 활용한 효과적인 개발 계획서 작성법</title>
-    <link>https://quartz.jzhao.xyz/LLM%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%ED%9A%A8%EA%B3%BC%EC%A0%81%EC%9D%B8-%EA%B0%9C%EB%B0%9C-%EA%B3%84%ED%9A%8D%EC%84%9C-%EC%9E%91%EC%84%B1%EB%B2%95</link>
-    <guid>https://quartz.jzhao.xyz/LLM%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%ED%9A%A8%EA%B3%BC%EC%A0%81%EC%9D%B8-%EA%B0%9C%EB%B0%9C-%EA%B3%84%ED%9A%8D%EC%84%9C-%EC%9E%91%EC%84%B1%EB%B2%95</guid>
-    <description>최근 GPT-4, Gemini와 같은 대규모 언어 모델(LLM)이 개발 워크플로우에 빠르게 통합되고 있습니다. 아이디어 구상부터 코드 작성, 테스트에 이르기까지 LLM은 이제 강력한 개발 보조 도구로 자리 잡았습니다. 그렇다면 복잡하고 시간이 많이 소요되는 ‘개발 계획서’ 작성에도 LLM을 효과적으로 활용할 수 있지 않을까요? 이 글에서는 LLM을 활용하여 개발 계획서의 초안을 만들고, 내용을 구체화하는 실용적인 방법과 주의사항에 대해 알아봅니다.</description>
-    <pubDate>Thu, 03 Jul 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>AI 시대, 벡엔드 개발자의 생존과 진화</title>
-    <link>https://quartz.jzhao.xyz/AI-%EC%8B%9C%EB%8C%80,-%EB%B2%A1%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-%EC%83%9D%EC%A1%B4%EA%B3%BC-%EC%A7%84%ED%99%94</link>
-    <guid>https://quartz.jzhao.xyz/AI-%EC%8B%9C%EB%8C%80,-%EB%B2%A1%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-%EC%83%9D%EC%A1%B4%EA%B3%BC-%EC%A7%84%ED%99%94</guid>
-    <description>서론: 코드의 종말이 아닌, 역할의 위대한 진화 인공지능(AI) 기술이 소프트웨어 개발 생태계 전반에 걸쳐 지각 변동을 일으키고 있다. 과거의 AI가 특정 영역의 작업을 보조하는 도구에 머물렀다면, 오늘날의 생성형 AI는 코드 작성, 디버깅, 테스트, 배포에 이르는 개발의 전 과정을 재정의하는 근본적인 패러다임 전환을 촉발하고 있다.1 이러한 변화는 단순히 새로운 기술의 등장을 넘어, 백엔드 개발자의 본질적인 가치와 역할에 대한 근본적인 질문을 제기한다.</description>
-    <pubDate>Wed, 02 Jul 2025 00:45:09 GMT</pubDate>
   </item>
     </channel>
   </rss>
