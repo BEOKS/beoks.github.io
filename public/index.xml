@@ -6,6 +6,12 @@
       <description>최근 10 건 on 🪴 Beoks Blog</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Untitled 1</title>
+    <link>https://quartz.jzhao.xyz/Untitled-1</link>
+    <guid>https://quartz.jzhao.xyz/Untitled-1</guid>
+    <description></description>
+    <pubDate>Fri, 04 Jul 2025 07:40:12 GMT</pubDate>
+  </item><item>
     <title>Passkey 도입하기</title>
     <link>https://quartz.jzhao.xyz/Passkey-%EB%8F%84%EC%9E%85%ED%95%98%EA%B8%B0</link>
     <guid>https://quartz.jzhao.xyz/Passkey-%EB%8F%84%EC%9E%85%ED%95%98%EA%B8%B0</guid>
@@ -59,12 +65,6 @@
     <guid>https://quartz.jzhao.xyz/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EB%8F%99%EC%9E%91-%EB%B0%A9%EC%8B%9D-(%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4-%EB%B0%8F-OS-%EB%A0%88%EB%B2%A8)</guid>
     <description>코루틴 동작 방식 (하드웨어 및 OS 레벨) 코루틴은 비동기 프로그래밍을 위한 강력한 추상화이지만, 그 내부 동작은 운영체제(OS) 스레드와 하드웨어의 상호작용 방식과는 다소 차이가 있습니다. 코루틴이 ‘경량 스레드’라고 불리는 이유와 그 효율성의 근원을 이해하기 위해서는 OS 및 하드웨어 레벨에서의 동작 방식을 살펴보는 것이 중요합니다.</description>
     <pubDate>Thu, 03 Jul 2025 02:44:46 GMT</pubDate>
-  </item><item>
-    <title>코루틴 (Coroutines)</title>
-    <link>https://quartz.jzhao.xyz/%EC%BD%94%EB%A3%A8%ED%8B%B4-(Coroutines)</link>
-    <guid>https://quartz.jzhao.xyz/%EC%BD%94%EB%A3%A8%ED%8B%B4-(Coroutines)</guid>
-    <description>코루틴(Coroutine)은 비동기 프로그래밍을 위한 경량 스레드(lightweight thread)입니다. 스레드와 유사하게 동시성(Concurrency)을 제공하지만, 운영체제가 아닌 사용자 레벨에서 스케줄링되어 스레드보다 훨씬 적은 자원을 사용하고 오버헤드가 적습니다.</description>
-    <pubDate>Thu, 03 Jul 2025 02:30:38 GMT</pubDate>
   </item>
     </channel>
   </rss>
