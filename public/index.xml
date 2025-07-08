@@ -6,65 +6,65 @@
       <description>최근 10 건 on 🪴 Beoks Blog</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Untitled 1</title>
-    <link>https://quartz.jzhao.xyz/Untitled-1</link>
-    <guid>https://quartz.jzhao.xyz/Untitled-1</guid>
-    <description></description>
-    <pubDate>Fri, 04 Jul 2025 07:40:12 GMT</pubDate>
+    <title>B Tree</title>
+    <link>https://quartz.jzhao.xyz/B-Tree</link>
+    <guid>https://quartz.jzhao.xyz/B-Tree</guid>
+    <description>B 트리(B Tree)는 B+ 트리와 마찬가지로 데이터베이스 및 파일 시스템에서 대량의 데이터를 효율적으로 저장하고 검색하기 위해 사용되는 자가 균형 이진 탐색 트리(Self-balancing Binary Search Tree)의 일반화된 형태입니다. B 트리는 특히 디스크와 같은 블록 지향 저장 장치에 최적화되어 있으며, 모든 노드에 데이터가 저장될 수 있다는 점에서 B+ 트리와 주요한 차이를 보입니다.</description>
+    <pubDate>Tue, 08 Jul 2025 05:47:06 GMT</pubDate>
   </item><item>
-    <title>Passkey 도입하기</title>
-    <link>https://quartz.jzhao.xyz/Passkey-%EB%8F%84%EC%9E%85%ED%95%98%EA%B8%B0</link>
-    <guid>https://quartz.jzhao.xyz/Passkey-%EB%8F%84%EC%9E%85%ED%95%98%EA%B8%B0</guid>
-    <description>Passkey 구현: 프론트엔드 TypeScript WebAuthn 활용 현대 웹 환경에서 사용자 인증은 보안과 편의성이라는 두 가지 중요한 축을 중심으로 발전하고 있습니다. 전통적인 비밀번호 기반 인증 방식은 피싱 공격, 비밀번호 재사용 등으로 인해 보안에 취약하며 사용자 경험 또한 좋지 않습니다.</description>
-    <pubDate>Fri, 04 Jul 2025 05:08:53 GMT</pubDate>
+    <title>Permission 인터페이스 정의</title>
+    <link>https://quartz.jzhao.xyz/Permission-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4-%EC%A0%95%EC%9D%98</link>
+    <guid>https://quartz.jzhao.xyz/Permission-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4-%EC%A0%95%EC%9D%98</guid>
+    <description>Permission 인터페이스는 시스템 내에서 정의되는 권한의 기본 구조를 나타냅니다. public interface Permission { Long getId(); String getName(); void setId(Long id); void setName(String name); }.</description>
+    <pubDate>Tue, 08 Jul 2025 05:30:13 GMT</pubDate>
   </item><item>
-    <title>Passkey 개발자 가이드</title>
-    <link>https://quartz.jzhao.xyz/Passkey-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EA%B0%80%EC%9D%B4%EB%93%9C</link>
-    <guid>https://quartz.jzhao.xyz/Passkey-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EA%B0%80%EC%9D%B4%EB%93%9C</guid>
-    <description>Passkey, WebAuthn, FIDO는 현대 웹 환경에서 비밀번호 없는(passwordless) 인증을 구현하기 위한 핵심 기술 스택입니다. 개발자 관점에서 이들의 기술적 세부 사항을 이해하는 것은 안전하고 사용자 친화적인 인증 시스템을 구축하는 데 필수적입니다. 1.</description>
-    <pubDate>Fri, 04 Jul 2025 00:00:00 GMT</pubDate>
+    <title>Role 인터페이스 정의</title>
+    <link>https://quartz.jzhao.xyz/Role-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4-%EC%A0%95%EC%9D%98</link>
+    <guid>https://quartz.jzhao.xyz/Role-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4-%EC%A0%95%EC%9D%98</guid>
+    <description>Role 인터페이스는 시스템 내에서 정의되는 역할의 기본 구조를 나타냅니다. public interface Role { Long getId(); String getName(); Set&lt;Permission&gt; getPermissions(); void setId(Long id); void setName(String name); void setPermissions(Set&lt;Permission&gt; permissions); }.</description>
+    <pubDate>Tue, 08 Jul 2025 05:30:09 GMT</pubDate>
   </item><item>
-    <title>Passkey 개념 이해하기</title>
-    <link>https://quartz.jzhao.xyz/Passkey-%EA%B0%9C%EB%85%90-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0</link>
-    <guid>https://quartz.jzhao.xyz/Passkey-%EA%B0%9C%EB%85%90-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0</guid>
-    <description>현대 디지털 환경에서 비밀번호는 보안과 편의성 사이의 오랜 딜레마였습니다. 복잡한 비밀번호를 기억하고 관리하는 것은 사용자에게 큰 부담이었고, 피싱과 같은 공격에 취약하다는 문제점도 있었습니다. 이러한 문제들을 해결하기 위해 등장한 것이 바로 **Passkey(패스키)**입니다.</description>
-    <pubDate>Fri, 04 Jul 2025 00:00:00 GMT</pubDate>
+    <title>RBAC 인터페이스 정의</title>
+    <link>https://quartz.jzhao.xyz/RBAC-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4-%EC%A0%95%EC%9D%98</link>
+    <guid>https://quartz.jzhao.xyz/RBAC-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4-%EC%A0%95%EC%9D%98</guid>
+    <description>RBAC 시스템의 각 핵심 컴포넌트(역할, 권한, 사용자-역할 매핑, 역할-권한 매핑)는 명확한 인터페이스를 통해 상호작용하도록 설계하는 것이 좋습니다. 이는 시스템의 모듈성을 높이고, 향후 구현 변경에 유연하게 대응할 수 있도록 합니다. 역할(Role)과 권한(Permission)의 상세 인터페이스 정의는 각각 Role 인터페이스 정의와 Permission 인터페이스 정의를 참고해주세요.</description>
+    <pubDate>Tue, 08 Jul 2025 05:28:52 GMT</pubDate>
   </item><item>
-    <title>공개 키 암호화 (Public Key Cryptography)</title>
-    <link>https://quartz.jzhao.xyz/%EA%B3%B5%EA%B0%9C-%ED%82%A4-%EC%95%94%ED%98%B8%ED%99%94-(Public-Key-Cryptography)</link>
-    <guid>https://quartz.jzhao.xyz/%EA%B3%B5%EA%B0%9C-%ED%82%A4-%EC%95%94%ED%98%B8%ED%99%94-(Public-Key-Cryptography)</guid>
-    <description>공개 키 암호화(Public Key Cryptography)는 현대 암호학의 핵심 기술 중 하나로, 비대칭 암호화(Asymmetric Cryptography)라고도 불립니다. 이 방식은 데이터를 암호화하고 복호화하는 데 서로 다른 두 개의 키, 즉 공개 키(Public Key)와 개인 키(Private Key)를 사용하는 것이 특징입니다.</description>
-    <pubDate>Fri, 04 Jul 2025 00:00:00 GMT</pubDate>
+    <title>기능 추가에 따른 RBAC 관리 비용 절감 전략</title>
+    <link>https://quartz.jzhao.xyz/%EA%B8%B0%EB%8A%A5-%EC%B6%94%EA%B0%80%EC%97%90-%EB%94%B0%EB%A5%B8-RBAC-%EA%B4%80%EB%A6%AC-%EB%B9%84%EC%9A%A9-%EC%A0%88%EA%B0%90-%EC%A0%84%EB%9E%B5</link>
+    <guid>https://quartz.jzhao.xyz/%EA%B8%B0%EB%8A%A5-%EC%B6%94%EA%B0%80%EC%97%90-%EB%94%B0%EB%A5%B8-RBAC-%EA%B4%80%EB%A6%AC-%EB%B9%84%EC%9A%A9-%EC%A0%88%EA%B0%90-%EC%A0%84%EB%9E%B5</guid>
+    <description>RBAC(역할 기반 접근 제어)는 강력하고 직관적인 접근 제어 모델이지만, 새로운 기능이 추가될 때마다 관련된 권한(Permission)과 역할(Role)을 수동으로 정의하고 연결하는 작업은 상당한 관리 비용을 유발합니다. 이는 개발 속도를 저해하고, 권한 설정 오류의 가능성을 높이는 원인이 되기도 합니다.</description>
+    <pubDate>Tue, 08 Jul 2025 05:21:53 GMT</pubDate>
   </item><item>
-    <title>디지털 서명 (Digital Signature)</title>
-    <link>https://quartz.jzhao.xyz/%EB%94%94%EC%A7%80%ED%84%B8-%EC%84%9C%EB%AA%85-(Digital-Signature)</link>
-    <guid>https://quartz.jzhao.xyz/%EB%94%94%EC%A7%80%ED%84%B8-%EC%84%9C%EB%AA%85-(Digital-Signature)</guid>
-    <description>디지털 서명은 디지털 문서나 메시지의 진위성, 무결성, 그리고 부인 방지를 보장하는 데 사용되는 암호화 기술입니다. 이는 손으로 쓰는 서명과 유사하지만, 훨씬 더 높은 수준의 보안을 제공합니다. 1. 작동 원리 디지털 서명은 주로 공개 키 암호화 (Public Key Cryptography), 해시 함수, 그리고 디지털 인증서의 세 가지 핵심 기술을 기반으로 작동합니다.</description>
-    <pubDate>Fri, 04 Jul 2025 00:00:00 GMT</pubDate>
+    <title>ABAC 개발 가이드 (Attribute-Based Access Control Development Guide)</title>
+    <link>https://quartz.jzhao.xyz/ABAC-%EA%B0%9C%EB%B0%9C-%EA%B0%80%EC%9D%B4%EB%93%9C</link>
+    <guid>https://quartz.jzhao.xyz/ABAC-%EA%B0%9C%EB%B0%9C-%EA%B0%80%EC%9D%B4%EB%93%9C</guid>
+    <description>속성 기반 접근 제어(ABAC)는 사용자, 리소스, 환경 등 접근 요청과 관련된 다양한 **속성(Attribute)**들을 기반으로 정책을 수립하고, 이 정책에 따라 접근 권한을 동적으로 결정하는 접근 제어 모델입니다. RBAC가 역할에 기반한 정적인 권한 관리에 강점이 있다면, ABAC는 매우 세분화되고 동적인 접근 제어가 필요한 복잡한 환경에 적합합니다.</description>
+    <pubDate>Tue, 08 Jul 2025 02:03:12 GMT</pubDate>
   </item><item>
-    <title>공개 키 인프라 (PKI)</title>
-    <link>https://quartz.jzhao.xyz/%EA%B3%B5%EA%B0%9C-%ED%82%A4-%EC%9D%B8%ED%94%84%EB%9D%BC-(PKI)</link>
-    <guid>https://quartz.jzhao.xyz/%EA%B3%B5%EA%B0%9C-%ED%82%A4-%EC%9D%B8%ED%94%84%EB%9D%BC-(PKI)</guid>
-    <description>공개 키 인프라(PKI, Public Key Infrastructure)는 디지털 환경에서 안전한 통신과 신뢰할 수 있는 신원 확인을 가능하게 하는 체계적인 보안 인프라입니다. PKI는 공개 키 암호화 (Public Key Cryptography)를 기반으로 하며, 디지털 인증서를 통해 사용자와 시스템 간의 신뢰를 보장하고 키의 생성, 배포, 폐기까지의 수명 주기를 안전하게 관리합니다.</description>
-    <pubDate>Fri, 04 Jul 2025 00:00:00 GMT</pubDate>
+    <title>RBAC 개발 가이드 (Role-Based Access Control Development Guide)</title>
+    <link>https://quartz.jzhao.xyz/RBAC-%EA%B0%9C%EB%B0%9C-%EA%B0%80%EC%9D%B4%EB%93%9C</link>
+    <guid>https://quartz.jzhao.xyz/RBAC-%EA%B0%9C%EB%B0%9C-%EA%B0%80%EC%9D%B4%EB%93%9C</guid>
+    <description>역할 기반 접근 제어(RBAC)는 현대 소프트웨어 시스템에서 효율적이고 안전한 권한 관리를 위한 핵심적인 모델입니다. 이 가이드는 RBAC를 실제 시스템에 구현하기 위한 개발 관점의 접근 방법과 모범 사례를 제공합니다. 1. RBAC 구현의 핵심 단계 RBAC를 시스템에 성공적으로 구현하기 위해서는 다음과 같은 핵심 단계를 따르는 것이 중요합니다.</description>
+    <pubDate>Tue, 08 Jul 2025 01:55:37 GMT</pubDate>
   </item><item>
-    <title>인증서 폐기 목록 (CRL)</title>
-    <link>https://quartz.jzhao.xyz/%EC%9D%B8%EC%A6%9D%EC%84%9C-%ED%8F%90%EA%B8%B0-%EB%AA%A9%EB%A1%9D-(CRL)</link>
-    <guid>https://quartz.jzhao.xyz/%EC%9D%B8%EC%A6%9D%EC%84%9C-%ED%8F%90%EA%B8%B0-%EB%AA%A9%EB%A1%9D-(CRL)</guid>
-    <description>디지털 인증서는 온라인 환경에서 신원 확인과 데이터 보안을 위해 필수적인 요소입니다. 하지만 인증서가 유출되거나 오용될 경우, 해당 인증서를 더 이상 신뢰할 수 없게 되므로 이를 무효화하는 절차가 필요합니다. 이러한 인증서의 유효성을 확인하고 폐기된 인증서를 관리하는 주요 방법으로 **인증서 폐기 목록 (CRL)**과 OCSP가 사용됩니다.</description>
-    <pubDate>Fri, 04 Jul 2025 00:00:00 GMT</pubDate>
+    <title>역할 기반 접근 제어 (RBAC: Role-Based Access Control)</title>
+    <link>https://quartz.jzhao.xyz/%EC%97%AD%ED%95%A0-%EA%B8%B0%EB%B0%98-%EC%A0%91%EA%B7%BC-%EC%A0%9C%EC%96%B4(RBAC)</link>
+    <guid>https://quartz.jzhao.xyz/%EC%97%AD%ED%95%A0-%EA%B8%B0%EB%B0%98-%EC%A0%91%EA%B7%BC-%EC%A0%9C%EC%96%B4(RBAC)</guid>
+    <description>소프트웨어 시스템에서 **접근 제어(Access Control)**는 사용자가 특정 리소스나 기능에 접근할 수 있는 권한을 관리하는 핵심적인 보안 메커니즘입니다. 다양한 접근 제어 모델 중 **역할 기반 접근 제어(Role-Based Access Control, RBAC)**는 오늘날 가장 널리 사용되고 효과적인 모델 중 하나입니다.</description>
+    <pubDate>Tue, 08 Jul 2025 01:53:43 GMT</pubDate>
   </item><item>
-    <title>인증 기관 (CA)</title>
-    <link>https://quartz.jzhao.xyz/%EC%9D%B8%EC%A6%9D-%EA%B8%B0%EA%B4%80-(CA)</link>
-    <guid>https://quartz.jzhao.xyz/%EC%9D%B8%EC%A6%9D-%EA%B8%B0%EA%B4%80-(CA)</guid>
-    <description>인증 기관(CA, Certificate Authority)은 디지털 인증서를 발급하고 관리하는 신뢰할 수 있는 제3자입니다. 인터넷 상에서 통신하는 주체(예: 웹사이트, 개인, 조직)의 신원을 확인하고, 해당 신원에 공개 키를 안전하게 연결하여 디지털 신뢰를 구축하는 핵심적인 역할을 수행합니다.</description>
-    <pubDate>Fri, 04 Jul 2025 00:00:00 GMT</pubDate>
+    <title>인가(Authorization)란 무엇일까?</title>
+    <link>https://quartz.jzhao.xyz/Authorization</link>
+    <guid>https://quartz.jzhao.xyz/Authorization</guid>
+    <description>소프트웨어 시스템에서 **인가(Authorization)**는 사용자가 특정 리소스나 기능에 접근할 수 있는 권한을 부여하고 제어하는 과정을 의미합니다. 많은 사람들이 Authentication과 인가를 혼동하지만, 이 둘은 명확히 구분되는 개념입니다. Authentication과 인가(Authorization)의 차이 자세한 내용은 Authentication 문서의 ‘인증(Authentication)이란 무엇일까요?’ 섹션을 참고해주세요.</description>
+    <pubDate>Tue, 08 Jul 2025 00:00:00 GMT</pubDate>
   </item><item>
-    <title>코루틴 동작 방식 (하드웨어 및 OS 레벨)</title>
-    <link>https://quartz.jzhao.xyz/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EB%8F%99%EC%9E%91-%EB%B0%A9%EC%8B%9D-(%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4-%EB%B0%8F-OS-%EB%A0%88%EB%B2%A8)</link>
-    <guid>https://quartz.jzhao.xyz/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EB%8F%99%EC%9E%91-%EB%B0%A9%EC%8B%9D-(%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4-%EB%B0%8F-OS-%EB%A0%88%EB%B2%A8)</guid>
-    <description>코루틴 동작 방식 (하드웨어 및 OS 레벨) 코루틴은 비동기 프로그래밍을 위한 강력한 추상화이지만, 그 내부 동작은 운영체제(OS) 스레드와 하드웨어의 상호작용 방식과는 다소 차이가 있습니다. 코루틴이 ‘경량 스레드’라고 불리는 이유와 그 효율성의 근원을 이해하기 위해서는 OS 및 하드웨어 레벨에서의 동작 방식을 살펴보는 것이 중요합니다.</description>
-    <pubDate>Thu, 03 Jul 2025 02:44:46 GMT</pubDate>
+    <title>인증(Authentication)이란 무엇인가?</title>
+    <link>https://quartz.jzhao.xyz/Authentication</link>
+    <guid>https://quartz.jzhao.xyz/Authentication</guid>
+    <description>인증은 간단해 보이지만, 그 이면에는 다양한 기술과 원칙이 숨어있습니다. 이 글을 통해 인증의 정확한 의미부터 최신 프로토콜, 그리고 Spring Security를 활용한 구현 방법까지 명확하게 이해하실 수 있을 것입니다. 인증(Authentication)이란 무엇일까요? **인증(Authentication)**은 시스템에 접근하려는 사용자가 **“자신이 주장하는 그 사람이 맞는지”**를 확인하는 절차입니다.</description>
+    <pubDate>Tue, 08 Jul 2025 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
