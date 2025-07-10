@@ -180,7 +180,7 @@ public class TestDatabaseConfiguration {
 
 ### 4. 성능 고려사항
 
-불필요한 패키지까지 스캔하지 않도록 스캔 범위를 최소화하는 것이 [[애플리케이션 시작 시간(Application Startup Time)]]을 단축하는 데 도움이 됩니다.
+불필요한 패키지까지 스캔하지 않도록 스캔 범위를 최소화하는 것이 애플리케이션 시작 시간(Application Startup Time)을 단축하는 데 도움이 됩니다.
 
 ## 다른 어노테이션과의 관계
 
