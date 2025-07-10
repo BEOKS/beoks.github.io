@@ -47,7 +47,7 @@ go 라고 말하면 위 작업을 하나의 문서에 하나씩 수행하고 tod
 - [x] Hibernate 캐싱 전략
 - [x] Hibernate 트랜잭션 관리 전략
 - [x] Hibernate에서 Cascade="all-delete-orphan" 오류 해결하기
-- [ ] HMAC(Hash-based Message Authentication Code)
+- [x] HMAC(Hash-based Message Authentication Code)
 - [ ] HTTP 1.0
 - [ ] HTTP 1.1
 - [ ] HTTP 2.0
