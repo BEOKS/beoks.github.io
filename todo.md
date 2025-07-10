@@ -23,7 +23,7 @@ go 라고 말하면 위 작업을 하나의 문서에 하나씩 수행하고 tod
 - [x] Confluence 문서 검색 API 개발
 - [x] CPU 바운드 vs IO 바운드 작업
 - [x] CSRF(Cross-Site Request Forgery)
-- [ ] Cucumber
+- [x] Cucumber
 - [ ] DataJpaTest 어노테이션
 - [ ] Docker Compose로 Redis 설정하기
 - [ ] Docker 로 Redis 설치하기
