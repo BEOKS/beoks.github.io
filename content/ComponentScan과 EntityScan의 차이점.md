@@ -522,5 +522,5 @@ public class TestConfig {
 
 - Spring Framework 공식 문서: Component Scanning
 - Spring Boot 공식 문서: Auto-configuration
-- [[Spring Boot 어노테이션 가이드]]
+- Spring Boot 어노테이션 가이드
 - [[JPA 엔티티 매핑 전략]] 
