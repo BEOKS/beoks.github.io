@@ -35,7 +35,7 @@ go 라고 말하면 위 작업을 하나의 문서에 하나씩 수행하고 tod
 - [x] Gherkin
 - [x] Given-When-Then 패턴 (Arrange-Act-Assert 패턴)
 - [x] GoF(Gang of Four)
-- [ ] GraalVM Native Image
+- [x] GraalVM Native Image
 - [ ] GraalVM
 - [ ] GTM(Go-to-Market) 전략
 - [ ] Hands-On Modelers
