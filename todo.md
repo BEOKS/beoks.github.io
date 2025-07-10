@@ -37,7 +37,7 @@ go 라고 말하면 위 작업을 하나의 문서에 하나씩 수행하고 tod
 - [x] GoF(Gang of Four)
 - [x] GraalVM Native Image
 - [x] GraalVM
-- [ ] GTM(Go-to-Market) 전략
+- [x] GTM(Go-to-Market) 전략
 - [ ] Hands-On Modelers
 - [ ] HAProxy
 - [ ] Hibernate Session 관리 전략
