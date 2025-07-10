@@ -30,7 +30,7 @@ go 라고 말하면 위 작업을 하나의 문서에 하나씩 수행하고 tod
 - [x] EIS(Enterprise Information Systems)
 - [x] EntityScan 어노테이션
 - [x] ETL 프로세스
-- [ ] Future 인터페이스
+- [x] Future 인터페이스
 - [ ] Gherkin 문법 기초
 - [ ] Gherkin
 - [ ] Given-When-Then 패턴 (Arrange-Act-Assert 패턴)
