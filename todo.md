@@ -41,7 +41,7 @@ go 라고 말하면 위 작업을 하나의 문서에 하나씩 수행하고 tod
 - [x] Hands-On Modelers
 - [x] HAProxy
 - [x] Hibernate Session 관리 전략
-- [ ] Hibernate Session
+- [x] Hibernate Session
 - [ ] Hibernate 를 이용한 Soft Delete 구현
 - [ ] Hibernate 엔티티 상태 관리
 - [ ] Hibernate 캐싱 전략
