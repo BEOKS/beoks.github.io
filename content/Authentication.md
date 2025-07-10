@@ -81,7 +81,7 @@ OAuth 2.0은 **인가(Authorization)**를 위한 표준 프로토콜입니다. �
 OIDC는 **OAuth 2.0 위에 구축된 인증 계층**입니다. OAuth 2.0의 인가 흐름을 그대로 활용하면서, **ID 토큰(JWT 형식)**을 추가로 발급하여 사용자의 신원 정보를 표준화된 방식으로 제공합니다. 이를 통해 클라이언트는 사용자가 누구인지 확실하게 인증할 수 있습니다.
 > **OIDC = OAuth 2.0 (인가) + 인증**
 
-### [[SAML(Security Assertion Markup Language)]]
+### SAML(Security Assertion Markup Language)
 
 SAML은 주로 기업 환경에서 SSO를 구현하기 위해 사용되는 XML 기반의 표준입니다. 신원 제공자(IdP)와 서비스 제공자(SP) 간에 인증 정보를 안전하게 교환하여, 한 번의 로그인으로 여러 시스템을 이용할 수 있게 해줍니다.
 
