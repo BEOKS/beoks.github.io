@@ -8,7 +8,7 @@ go 라고 말하면 위 작업을 하나의 문서에 하나씩 수행하고 tod
 - [x] ABAC 개발 가이드
 - [x] ACID 원칙
 - [x] Agent Experience
-- [ ] AI 시대, 벡엔드 개발자의 생존과 진화
+- [x] AI 시대, 벡엔드 개발자의 생존과 진화
 - [ ] AOT(Ahead-of-Time) 컴파일
 - [ ] API 단위 테스트
 - [ ] Authentication
