@@ -73,7 +73,7 @@ go 라고 말하면 위 작업을 하나의 문서에 하나씩 수행하고 tod
 - [x] Java 어휘 구조
 - [x] Java 언어 명세서, Java SE 22 Edition
 - [x] Java 언어 소개
-- [ ] Java 타입, 값, 변수
+- [x] Java 타입, 값, 변수
 - [ ] Java 패키지 vs Gradle 모듈
 - [ ] Java 패키지, 모듈
 - [ ] Java
