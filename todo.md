@@ -96,7 +96,7 @@ go 라고 말하면 위 작업을 하나의 문서에 하나씩 수행하고 tod
 - [x] MCP Server
 - [x] MCP Tools
 - [x] MCP 리소스 공유 (Resource Sharing)
-- [ ] MCP 메시지 구조 (Message Structure)
+- [x] MCP 메시지 구조 (Message Structure)
 - [ ] MCP 서버 도구 등록 및 관리
 - [ ] MCP 아키텍처
 - [ ] MCP 역방향 LLM 샘플링 (Reverse LLM Sampling)
