@@ -297,7 +297,7 @@ Spring Cloud Stream은 지속적으로 발전하고 있으며, 최근 릴리스�
 3. **성능 최적화**: 메시지 처리 성능 향상
 4. **Reactive Streams 지원**: Reactive Programming 패러다임 통합
 
-향후에는 클라우드 네이티브(Cloud Native) 환경에서의 더 나은 통합과 서버리스(Serverless) 아키텍처에 대한 지원이 강화될 것으로 예상됩니다.
+향후에는 [[클라우드 네이티브(Cloud Native)]] 환경에서의 더 나은 통합과 [[서버리스(Serverless)]] 아키텍처에 대한 지원이 강화될 것으로 예상됩니다.
 
 ## 결론
 
