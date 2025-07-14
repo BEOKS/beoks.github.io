@@ -100,7 +100,7 @@ go 라고 말하면 위 작업을 하나의 문서에 하나씩 수행하고 tod
 - [x] MCP 서버 도구 등록 및 관리
 - [x] MCP 아키텍처
 - [x] MCP 역방향 LLM 샘플링 (Reverse LLM Sampling)
-- [ ] MCP 원격 도구 호출 (Remote Tool Calling)
+- [x] MCP 원격 도구 호출 (Remote Tool Calling)
 - [ ] MCP 전송 계층 (Transport Layer)
 - [ ] MCP 클라이언트 초기화 및 기능 협상
 - [ ] MCP 프로토콜 계층 (Protocol Layer)
