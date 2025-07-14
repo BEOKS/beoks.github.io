@@ -139,7 +139,7 @@ go 라고 말하면 위 작업을 하나의 문서에 하나씩 수행하고 tod
 - [x] Soft Delete
 - [x] SOLID 원칙
 - [x] Spring @ContextConfiguration 어노테이션
-- [ ] Spring @TestConfiguration 어노테이션
+- [x] Spring @TestConfiguration 어노테이션
 - [ ] Spring Async
 - [ ] Spring Bean Validation 공용 사용 가이드
 - [ ] Spring Boot Session Redis 연동하기
