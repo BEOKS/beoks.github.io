@@ -262,7 +262,7 @@ pre:hover > .expand-button {
 <li><strong><code>EXPLAIN</code>을 생활화하세요.</strong> 인덱스를 생성한 후에는 반드시 <code>EXPLAIN</code>을 통해 MySQL이 실제로 커버링 인덱스를 사용하고 있는지 (<code>Extra</code> 필드에 <code>Using index</code> 표시 확인), 불필요한 작업(예: <code>Using filesort</code>)은 없는지 확인해야 합니다.</li>
 <li><strong>트레이드오프를 인지하세요.</strong> 커버링 인덱스는 일반적으로 컬럼 수가 많아져 인덱스 크기가 커지고, <code>INSERT/UPDATE/DELETE</code> 시 인덱스 업데이트 비용이 증가할 수 있습니다. 하지만 읽기 성능이 매우 중요한 분석 쿼리에서는 이러한 비용을 감수할 가치가 충분한 경우가 많습니다.</li>
 </ul>
-<p>단순히 인덱스를 거는 것에서 한 걸음 더 나아가, 쿼리의 특성을 정확히 이해하고 그에 맞는 ‘커버링’ 전략을 구사하는 것이 <a href="./MySQL-성능-최적화" class="internal alias" data-slug="MySQL-성능-최적화">MySQL 성능 최적화</a>의 중요한 열쇠입니다. 이번 경험이 여러분의 쿼리 성능 개선 여정에 큰 도움이 되기를 바랍니다!</p>
+<p>단순히 인덱스를 거는 것에서 한 걸음 더 나아가, 쿼리의 특성을 정확히 이해하고 그에 맞는 ‘커버링’ 전략을 구사하는 것이 MySQL 성능 최적화의 중요한 열쇠입니다. 이번 경험이 여러분의 쿼리 성능 개선 여정에 큰 도움이 되기를 바랍니다!</p>
 <hr/>
 <h2 id="참고-자료">참고 자료<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#참고-자료" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
 <ul>
