@@ -53,7 +53,7 @@ go 라고 말하면 위 작업을 하나의 문서에 하나씩 수행하고 tod
 - [x] HTTP 2.0
 - [x] HTTP Archive (HAR)
 - [x] HTTP(HyperText Transfer Protocol)
-- [ ] HttpOnly 쿠키
+- [x] HttpOnly 쿠키
 - [ ] ibernate Session
 - [ ] IEEE 830
 - [ ] index
