@@ -124,7 +124,7 @@ go 라고 말하면 위 작업을 하나의 문서에 하나씩 수행하고 tod
 - [x] Passkey 도입하기
 - [x] Permission 인터페이스 정의
 - [x] Public 함수 작성 원칙
-- [ ] Publisher(Reactive Stream)
+- [x] Publisher(Reactive Stream)
 - [ ] RBAC 개발 가이드
 - [ ] RBAC 인터페이스 정의
 - [ ] Read Through 캐싱 전략
