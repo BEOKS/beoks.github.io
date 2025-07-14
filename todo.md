@@ -161,7 +161,7 @@ go 라고 말하면 위 작업을 하나의 문서에 하나씩 수행하고 tod
 - [x] Write Through
 - [x] XSS(Cross-Site Scripting)
 - [x] 값 객체(Value Objects)
-- [ ] 개발 계획서 작성 가이드
+- [x] 개발 계획서 작성 가이드
 - [ ] 개발 공부 노트 정리에 옵시디언을 사용하는 이유
 - [ ] 개방-폐쇄 원칙 (Open-Closed Principle)
 - [ ] 객체 지향 프로그래밍 실전 적용법
