@@ -80,7 +80,7 @@ go 라고 말하면 위 작업을 하나의 문서에 하나씩 수행하고 tod
 - [x] JIT(Just-In-Time) 컴파일
 - [x] JMS(Java Message Service)
 - [x] JPA Criteria API
-- [ ] JPA Fetch Join과 컬렉션 필터링의 함정
+- [x] JPA Fetch Join과 컬렉션 필터링의 함정
 - [ ] JPA Specification vs QueryDSL
 - [ ] JPA Specification
 - [ ] JPA에서 Soft Delete와 유니크 제약조건 처리하기
