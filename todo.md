@@ -122,7 +122,7 @@ go 라고 말하면 위 작업을 하나의 문서에 하나씩 수행하고 tod
 - [x] Passkey 개념 이해하기
 - [x] Passkey 개발자 가이드
 - [x] Passkey 도입하기
-- [ ] Permission 인터페이스 정의
+- [x] Permission 인터페이스 정의
 - [ ] Public 함수 작성 원칙
 - [ ] Publisher(Reactive Stream)
 - [ ] RBAC 개발 가이드
