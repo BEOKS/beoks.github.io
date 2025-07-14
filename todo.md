@@ -94,7 +94,7 @@ go 라고 말하면 위 작업을 하나의 문서에 하나씩 수행하고 tod
 - [x] Mac 에서 Redis 설치하기
 - [x] MCP Client
 - [x] MCP Server
-- [ ] MCP Tools
+- [x] MCP Tools
 - [ ] MCP 리소스 공유 (Resource Sharing)
 - [ ] MCP 메시지 구조 (Message Structure)
 - [ ] MCP 서버 도구 등록 및 관리
