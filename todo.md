@@ -93,7 +93,7 @@ go 라고 말하면 위 작업을 하나의 문서에 하나씩 수행하고 tod
 - [x] LLM을 활용한 효과적인 개발 계획서 작성법
 - [x] Mac 에서 Redis 설치하기
 - [x] MCP Client
-- [ ] MCP Server
+- [x] MCP Server
 - [ ] MCP Tools
 - [ ] MCP 리소스 공유 (Resource Sharing)
 - [ ] MCP 메시지 구조 (Message Structure)
