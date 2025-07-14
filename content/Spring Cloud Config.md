@@ -408,7 +408,7 @@ config-repo/
 - 설정 저장소 복제 구성
 - 로컬 캐싱 활용으로, Config Server 일시적 장애 대응
 
-자세한 모범 사례는 [[Spring Cloud Config 모범 사례]]를 참고해주세요.
+자세한 모범 사례는 Spring Cloud Config 모범 사례를 참고해주세요.
 
 ## 결론
 
