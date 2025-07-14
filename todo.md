@@ -148,7 +148,7 @@ go 라고 말하면 위 작업을 하나의 문서에 하나씩 수행하고 tod
 
 - [x] Spring Redis Session 저장 방식
 - [x] Spring Statemachine
-- [ ] Spring 엑셀 다운로드 기능 구현
+- [x] Spring 엑셀 다운로드 기능 구현
 - [ ] SseClientTransport
 - [ ] Subscriber(Reactive Stream)
 - [ ] Subscription(Reactive Stream)
