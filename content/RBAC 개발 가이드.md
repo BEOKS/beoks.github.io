@@ -250,7 +250,7 @@ public class ProductController {
 
 ## 3. 세분화된 리소스 인스턴스 제어 (Fine-Grained Resource Instance Control)
 
-RBAC는 역할 기반으로 권한을 부여하므로, 특정 리소스의 *인스턴스*에 대한 접근 제어(예: '1번 사용자만 자신의 프로필을 수정할 수 있다', '관리자만 1번 사용자를 삭제할 수 있다')와 같이 매우 세분화된 제어에는 한계가 있습니다. 이러한 경우에는 Spring Security의 `@PreAuthorize` 어노테이션과 SpEL(Spring Expression Language)을 활용하여 [[속성 기반 접근 제어(ABAC)]]의 요소를 결합할 수 있습니다.
+RBAC는 역할 기반으로 권한을 부여하므로, 특정 리소스의 *인스턴스*에 대한 접근 제어(예: '1번 사용자만 자신의 프로필을 수정할 수 있다', '관리자만 1번 사용자를 삭제할 수 있다')와 같이 매우 세분화된 제어에는 한계가 있습니다. 이러한 경우에는 Spring Security의 `@PreAuthorize` 어노테이션과 SpEL(Spring Expression Language)을 활용하여 속성 기반 접근 제어(ABAC)의 요소를 결합할 수 있습니다.
 
 ### 3.1. 특정 사용자 삭제 권한 제어 예시
 
