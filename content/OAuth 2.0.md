@@ -166,7 +166,7 @@ public class TokenRefreshService {
 
 ### ID 토큰
 
-[[OpenID Connect]]에서 도입된 개념으로, 사용자의 신원 정보를 포함하는 JWT(JSON Web Token) 형식의 토큰입니다. ID 토큰은 인증의 결과로, 사용자의 프로필 정보를 포함합니다.
+OpenID Connect에서 도입된 개념으로, 사용자의 신원 정보를 포함하는 JWT(JSON Web Token) 형식의 토큰입니다. ID 토큰은 인증의 결과로, 사용자의 프로필 정보를 포함합니다.
 
 ## 스프링 부트에서 OAuth 2.0 구현하기
 
