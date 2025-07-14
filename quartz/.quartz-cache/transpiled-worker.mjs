@@ -5325,17 +5325,17 @@ var defaultContentPageLayout = {
           // whether to allow panning the view around
           zoom: true,
           // whether to allow zooming in and out
-          depth: 1,
+          depth: 2,
           // how many hops of notes to display
           scale: 1.5,
           // default view scale
-          repelForce: 0.5,
+          repelForce: 1,
           // how much nodes should repel each other
           centerForce: 0.3,
           // how much force to use when trying to center the nodes
-          linkDistance: 30,
+          linkDistance: 50,
           // how long should the links be by default?
-          fontSize: 1.2,
+          fontSize: 2,
           // what size should the node labels be?
           opacityScale: 1,
           // how quickly do we fade out the labels when zooming out?
@@ -5351,11 +5351,13 @@ var defaultContentPageLayout = {
           zoom: true,
           depth: -1,
           scale: 1,
-          repelForce: 10,
-          centerForce: 0.52,
-          linkDistance: 250,
-          fontSize: 1,
+          repelForce: 20,
+          centerForce: 0.3,
+          linkDistance: 300,
+          fontSize: 1.5,
+          // what size should the node labels be?
           opacityScale: 1,
+          // how quickly do we fade out the labels when zooming out?
           removeTags: [],
           // what tags to remove from the graph
           showTags: false,

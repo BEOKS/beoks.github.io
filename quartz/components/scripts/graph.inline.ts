@@ -203,9 +203,9 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     if (isCurrent) {
       return computedStyleMap["--secondary"]
     } else if (visited.has(d.id) || d.id.startsWith("tags/")) {
-      return computedStyleMap["--tertiary"]
+      return computedStyleMap["--dark"]
     } else {
-      return computedStyleMap["--gray"]
+      return computedStyleMap["--darkgray"]
     }
   }
 
@@ -213,7 +213,7 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     const numLinks = graphData.links.filter(
       (l) => l.source.id === d.id || l.target.id === d.id,
     ).length
-    return 2 + Math.sqrt(numLinks)
+    return 2 + 2 * Math.sqrt(numLinks)
   }
 
   let hoveredNodeId: string | null = null
@@ -540,7 +540,7 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
       l.gfx.moveTo(linkData.source.x! + width / 2, linkData.source.y! + height / 2)
       l.gfx
         .lineTo(linkData.target.x! + width / 2, linkData.target.y! + height / 2)
-        .stroke({ alpha: l.alpha, width: 1, color: l.color })
+                .stroke({ alpha: l.alpha, width: Math.max(1, 2 / currentTransform.k), color: l.color })
     }
 
     tweens.forEach((t) => t.update(time))
