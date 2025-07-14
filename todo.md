@@ -79,7 +79,7 @@ go 라고 말하면 위 작업을 하나의 문서에 하나씩 수행하고 tod
 - [x] Java
 - [x] JIT(Just-In-Time) 컴파일
 - [x] JMS(Java Message Service)
-- [ ] JPA Criteria API
+- [x] JPA Criteria API
 - [ ] JPA Fetch Join과 컬렉션 필터링의 함정
 - [ ] JPA Specification vs QueryDSL
 - [ ] JPA Specification
