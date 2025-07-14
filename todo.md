@@ -62,7 +62,7 @@ go 라고 말하면 위 작업을 하나의 문서에 하나씩 수행하고 tod
 - [x] ISO_IEC_IEEE 29148
 - [x] Jakarta EE Platform
 
-- [ ] Java abstract keword
+- [x] Java abstract keword
 - [ ] Java EE(Java Enterprise Edition)
 - [ ] Java Flow API
 - [ ] Java Keyword
