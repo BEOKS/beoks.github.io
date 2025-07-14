@@ -142,7 +142,7 @@ go 라고 말하면 위 작업을 하나의 문서에 하나씩 수행하고 tod
 - [x] Spring @TestConfiguration 어노테이션
 - [x] Spring Async
 - [x] Spring Bean Validation 공용 사용 가이드
-- [ ] Spring Boot Session Redis 연동하기
+- [x] Spring Boot Session Redis 연동하기
 - [ ] Spring Cloud Config
 - [ ] Spring Cloud Stream
 - [ ] Spring Redis Session 을 삭제하는 방법
