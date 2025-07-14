@@ -274,7 +274,7 @@ Fielding의 논문은 이상적인 REST 아키텍처를 제시하지만, 실제 
 - **HAL(Hypertext Application Language)**: 표준화된 하이퍼미디어 형식 사용
 - **점진적 적용**: 중요한 자원부터 하이퍼링크 적용
 
-자세한 HATEOAS 구현 전략은 [[실용적인 HATEOAS 구현 방법]]을 참고해주세요.
+자세한 HATEOAS 구현 전략은 실용적인 HATEOAS 구현 방법를 참고해주세요.
 
 ## REST의 영향과 교훈
 
