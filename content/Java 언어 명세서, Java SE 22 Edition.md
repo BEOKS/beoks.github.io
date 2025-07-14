@@ -24,5 +24,3 @@ draft: true
 19. [[Java 구문(Syntax)]]
 ### 참고자료
 -[The Java® Language Specification](https://docs.oracle.com/javase/specs/jls/se22/html/index.html)
-### 관련 노트
-- [[자바 언어 딥다이브 커리큘럼]]
