@@ -83,7 +83,7 @@ go 라고 말하면 위 작업을 하나의 문서에 하나씩 수행하고 tod
 - [x] JPA Fetch Join과 컬렉션 필터링의 함정
 
 - [x] JPA Specification
-- [ ] JPA에서 Soft Delete와 유니크 제약조건 처리하기
+- [x] JPA에서 Soft Delete와 유니크 제약조건 처리하기
 - [ ] JSON-RPC 2.0
 - [ ] JSON-RPC
 - [ ] JSON-RPC와 REST API의 차이점
