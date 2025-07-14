@@ -134,7 +134,7 @@ go 라고 말하면 위 작업을 하나의 문서에 하나씩 수행하고 tod
 - [x] Redis를 활용한 실시간 데이터 처리 방법
 - [x] RESTful API
 - [x] Role 인터페이스 정의
-- [ ] SDLC(Sofware Development Life Cycle)
+- [x] SDLC(Sofware Development Life Cycle)
 - [ ] Soft Delete 의 시스템 복잡성
 - [ ] Soft Delete
 - [ ] SOLID 원칙
