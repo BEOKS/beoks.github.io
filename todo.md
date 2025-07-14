@@ -129,7 +129,7 @@ go 라고 말하면 위 작업을 하나의 문서에 하나씩 수행하고 tod
 - [x] RBAC 인터페이스 정의
 - [x] Read Through 캐싱 전략
 - [x] Redis 기본 명령어
-- [ ] Redis 설치하기
+- [x] Redis 설치하기
 - [ ] Redis
 - [ ] Redis를 활용한 실시간 데이터 처리 방법
 - [ ] RESTful API
