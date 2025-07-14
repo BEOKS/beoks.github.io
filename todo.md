@@ -127,7 +127,7 @@ go 라고 말하면 위 작업을 하나의 문서에 하나씩 수행하고 tod
 - [x] Publisher(Reactive Stream)
 - [x] RBAC 개발 가이드
 - [x] RBAC 인터페이스 정의
-- [ ] Read Through 캐싱 전략
+- [x] Read Through 캐싱 전략
 - [ ] Redis 기본 명령어
 - [ ] Redis 설치하기
 - [ ] Redis
