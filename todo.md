@@ -159,7 +159,7 @@ go 라고 말하면 위 작업을 하나의 문서에 하나씩 수행하고 tod
 - [x] Untitled
 - [x] WebSocketClientTransport
 - [x] Write Through
-- [ ] XSS(Cross-Site Scripting)
+- [x] XSS(Cross-Site Scripting)
 - [ ] 값 객체(Value Objects)
 - [ ] 개발 계획서 작성 가이드
 - [ ] 개발 공부 노트 정리에 옵시디언을 사용하는 이유
