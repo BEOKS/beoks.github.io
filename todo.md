@@ -118,7 +118,7 @@ go 라고 말하면 위 작업을 하나의 문서에 하나씩 수행하고 tod
 
 
 - [x] Oracle 삽입 시 유니크 제약조건 무시
-- [ ] ORM(Object-Relational Mapping)
+- [x] ORM(Object-Relational Mapping)
 - [ ] Passkey 개념 이해하기
 - [ ] Passkey 개발자 가이드
 - [ ] Passkey 도입하기
