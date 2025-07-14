@@ -91,7 +91,7 @@ go 라고 말하면 위 작업을 하나의 문서에 하나씩 수행하고 tod
 - [x] Kotlin
 - [x] KPT
 - [x] LLM을 활용한 효과적인 개발 계획서 작성법
-- [ ] Mac 에서 Redis 설치하기
+- [x] Mac 에서 Redis 설치하기
 - [ ] MCP Client
 - [ ] MCP Server
 - [ ] MCP Tools
