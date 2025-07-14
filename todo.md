@@ -65,7 +65,7 @@ go 라고 말하면 위 작업을 하나의 문서에 하나씩 수행하고 tod
 - [x] Java abstract keword
 - [x] Java EE(Java Enterprise Edition)
 - [x] Java Flow API
-- [ ] Java Keyword
+- [x] Java Keyword
 - [ ] Java Transaction API (JTA)
 - [ ] Java 네이밍
 - [ ] Java 메서드, 생성자, 열거형, 레코드
