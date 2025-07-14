@@ -108,7 +108,7 @@ go 라고 말하면 위 작업을 하나의 문서에 하나씩 수행하고 tod
 - [x] MCP프롬프트 등록 및 관리
 - [x] MECE 원칙
 - [x] Memcached vs. Redis
-- [ ] Memcached
+- [x] Memcached
 - [ ] Mockito Strict Stubbing
 - [ ] Model Context Protocol (MCP)
 - [ ] MySQL ROLLUP 성능 개선
