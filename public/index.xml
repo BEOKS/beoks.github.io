@@ -6,65 +6,65 @@
       <description>최근 10 건 on 🪴 Beoks Blog</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>초개인화 UI</title>
-    <link>https://quartz.jzhao.xyz/%EC%B4%88%EA%B0%9C%EC%9D%B8%ED%99%94-UI</link>
-    <guid>https://quartz.jzhao.xyz/%EC%B4%88%EA%B0%9C%EC%9D%B8%ED%99%94-UI</guid>
-    <description>정적인 프로그램에서 동적인 프로그램으로 현대의 모든 정보 기술(IT) 서비스는 데이터를 어떻게 다루고 사용자에게 제시하는가에 그 기반을 두고 있다. 그러나 모든 사용자의 요구사항과 작업 방식이 다르기 때문에, ‘모두에게 맞는 단 하나의(one-size-fits-all)’ 인터페이스는 필연적으로 비효율을 낳는다.</description>
-    <pubDate>Mon, 14 Jul 2025 06:07:38 GMT</pubDate>
+    <title>역 인덱스(Inverted Index)</title>
+    <link>https://quartz.jzhao.xyz/%EC%97%AD-%EC%9D%B8%EB%8D%B1%EC%8A%A4(Inverted-Index)</link>
+    <guid>https://quartz.jzhao.xyz/%EC%97%AD-%EC%9D%B8%EB%8D%B1%EC%8A%A4(Inverted-Index)</guid>
+    <description>역 인덱스(Inverted Index)란 무엇인가? 역 인덱스(Inverted Index)는 정보 검색 및 최신 검색 엔진의 핵심에 있는 데이터 구조입니다. 문서 본문에서 용어(term)를 찾아 해당 용어가 포함된 문서의 목록을 즉시 찾을 수 있도록 설계되었습니다. 이는 책 뒷면의 색인과 매우 유사하며, 키워드를 찾고 해당 키워드가 나타나는 페이지 번호를 찾는 방식과 같습니다.</description>
+    <pubDate>Mon, 14 Jul 2025 08:39:31 GMT</pubDate>
   </item><item>
-    <title>HTTP 1.0</title>
-    <link>https://quartz.jzhao.xyz/HTTP-1.0</link>
-    <guid>https://quartz.jzhao.xyz/HTTP-1.0</guid>
-    <description>HTTP 1.0은 월드 와이드 웹(World Wide Web)에서 데이터를 전송하기 위한 프로토콜로, 1996년 5월에 RFC 1945로 공식화되었습니다. 인터넷의 기초를 형성한 이 프로토콜은 현대 웹 개발의 근간이 되었으며, 우리가 지금 사용하는 더 발전된 HTTP 버전들의 출발점이 되었습니다.</description>
-    <pubDate>Thu, 10 Jul 2025 10:45:56 GMT</pubDate>
+    <title>효과적인 통합 테스트 구축 전략</title>
+    <link>https://quartz.jzhao.xyz/%ED%9A%A8%EA%B3%BC%EC%A0%81%EC%9D%B8-%ED%86%B5%ED%95%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B5%AC%EC%B6%95-%EC%A0%84%EB%9E%B5</link>
+    <guid>https://quartz.jzhao.xyz/%ED%9A%A8%EA%B3%BC%EC%A0%81%EC%9D%B8-%ED%86%B5%ED%95%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B5%AC%EC%B6%95-%EC%A0%84%EB%9E%B5</guid>
+    <description>효과적인 통합 테스트를 구축하는 핵심은 ‘모든 것을 테스트하는 것’이 아니라, **‘비용 대비 최대의 신뢰도’**를 얻을 수 있도록 전략적으로 접근하는 데 있습니다. 통합 테스트는 느리고 관리하기 어렵다는 단점이 명확하기에, 현명한 전략 없이는 오히려 개발 속도를 저해하는 애물단지가 될 수 있습니다.</description>
+    <pubDate>Mon, 14 Jul 2025 08:08:58 GMT</pubDate>
   </item><item>
-    <title>HMAC(Hash-based Message Authentication Code)</title>
-    <link>https://quartz.jzhao.xyz/HMAC(Hash-based-Message-Authentication-Code)</link>
-    <guid>https://quartz.jzhao.xyz/HMAC(Hash-based-Message-Authentication-Code)</guid>
-    <description>HMAC(Hash-based Message Authentication Code)에 대한 심층적인 이해와 구현 방법을 설명합니다.</description>
-    <pubDate>Thu, 10 Jul 2025 10:37:10 GMT</pubDate>
+    <title>회고(Retrospective)</title>
+    <link>https://quartz.jzhao.xyz/%ED%9A%8C%EA%B3%A0(Retrospective)</link>
+    <guid>https://quartz.jzhao.xyz/%ED%9A%8C%EA%B3%A0(Retrospective)</guid>
+    <description>회고(Retrospective) 는 팀이 정기적으로 자신들의 일하는 방식(프로세스, 도구, 협업 등)을 되돌아보고, 다음 단계에서 더 나은 방향으로 나아가기 위한 구체적인 개선점을 찾아 실행을 약속하는 활동입니다. 단순히 “무엇을 잘못했는가”를 따지는 자리가 아니라, “어떻게 하면 우리가 더 나아질 수 있을까?” 라는 미래지향적인 질문에 답을 찾는 건설적인 논의의 장입니다.</description>
+    <pubDate>Mon, 14 Jul 2025 08:08:58 GMT</pubDate>
   </item><item>
-    <title>Hibernate 캐싱 전략</title>
-    <link>https://quartz.jzhao.xyz/Hibernate-%EC%BA%90%EC%8B%B1-%EC%A0%84%EB%9E%B5</link>
-    <guid>https://quartz.jzhao.xyz/Hibernate-%EC%BA%90%EC%8B%B1-%EC%A0%84%EB%9E%B5</guid>
-    <description>Hibernate는 자바 생태계에서 가장 널리 사용되는 ORM(Object-Relational Mapping) 프레임워크입니다. 데이터베이스 액세스의 효율성을 높이기 위해 Hibernate는 다양한 캐싱 전략을 제공하며, 이를 통해 애플리케이션의 성능을 크게 향상시킬 수 있습니다.</description>
-    <pubDate>Thu, 10 Jul 2025 10:22:53 GMT</pubDate>
+    <title>회의실 예약 기능 상세 설계 예시</title>
+    <link>https://quartz.jzhao.xyz/%ED%9A%8C%EC%9D%98%EC%8B%A4-%EC%98%88%EC%95%BD-%EA%B8%B0%EB%8A%A5-%EC%83%81%EC%84%B8-%EC%84%A4%EA%B3%84-%EC%98%88%EC%8B%9C</link>
+    <guid>https://quartz.jzhao.xyz/%ED%9A%8C%EC%9D%98%EC%8B%A4-%EC%98%88%EC%95%BD-%EA%B8%B0%EB%8A%A5-%EC%83%81%EC%84%B8-%EC%84%A4%EA%B3%84-%EC%98%88%EC%8B%9C</guid>
+    <description>1. 클래스 다이어그램 (Class Diagrams) classDiagram class User { +String userId +String name +String email } class Room { +String roomId +String name +int capacity +String location +String description } class Booking { +String bookingId +String roomId +String userId +DateTime startTime +DateTime endTime +String title +BookingStatus status } class BookingRequestDto { +String roomId +String userId +String startTime +String endTime +String title } class BookingResponseDto { +String bookingId +String roomId +String userId +DateTime startTime +DateTime endTime +String title +String status } class BookingStatus { &lt;&lt;enumeration&gt;&gt; PENDING CONFIRMED CANCELLED COMPLETED } class BookingController { -BookingService bookingService +createBooking(request: BookingRequestDto): BookingResponseDto } class BookingService { -BookingRepository bookingRepository -RoomRepository roomRepository +createBooking(bookingDetails: BookingRequestDto): BookingResponseDto +isRoomAvailable(roomId: String, startTime: DateTime, endTime: DateTime): boolean } class BookingRepository { +save(booking: Booking): Booking +findOverlappingBookings(roomId: String, startTime: DateTime, endTime: DateTime): List~Booking~ +findById(bookingId: String): Optional~Booking~ } class RoomRepository { +findById(roomId: String): Optional~Room~ } %% Relationships BookingController --&gt; BookingService : uses BookingService --&gt; BookingRepository : uses BookingService --&gt; RoomRepository : uses BookingController ..&gt; BookingRequestDto : depends on (parameter) BookingController ..&gt; BookingResponseDto : depends on (return) BookingService ..&gt; BookingRequestDto : depends on (parameter) BookingService ..&gt; BookingResponseDto : depends on (return) BookingService ..&gt; Booking : creates &amp; manages BookingService ..&gt; Room : uses (checks existence) BookingRepository ..&gt; Booking : interacts with RoomRepository ..&gt; Room : interacts with Booking &quot;1&quot; *-- &quot;1&quot; BookingStatus : has Booking &quot;1&quot; -- &quot;1&quot; Room : books (referenced by roomId) Booking &quot;1&quot; -- &quot;1&quot; User : made by (referenced by userId) 2.</description>
+    <pubDate>Mon, 14 Jul 2025 08:08:58 GMT</pubDate>
   </item><item>
-    <title>Hibernate 엔티티 상태 관리</title>
-    <link>https://quartz.jzhao.xyz/Hibernate-%EC%97%94%ED%8B%B0%ED%8B%B0-%EC%83%81%ED%83%9C-%EA%B4%80%EB%A6%AC</link>
-    <guid>https://quartz.jzhao.xyz/Hibernate-%EC%97%94%ED%8B%B0%ED%8B%B0-%EC%83%81%ED%83%9C-%EA%B4%80%EB%A6%AC</guid>
-    <description>Hibernate는 Java 애플리케이션에서 객체와 관계형 데이터베이스 간의 매핑을 관리하는 ORM(Object-Relational Mapping) 프레임워크입니다. Hibernate의 핵심 개념 중 하나는 엔티티의 상태 관리입니다. 엔티티 객체는 생명주기 동안 여러 상태를 거치며, 이러한 상태에 따라 Hibernate가 해당 객체를 어떻게 처리할지가 결정됩니다.</description>
-    <pubDate>Thu, 10 Jul 2025 10:19:36 GMT</pubDate>
+    <title>헥사고널 아키텍처(Hexagonal Architecture)</title>
+    <link>https://quartz.jzhao.xyz/%ED%97%A5%EC%82%AC%EA%B3%A0%EB%84%90-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98(Hexagonal-Architecture)</link>
+    <guid>https://quartz.jzhao.xyz/%ED%97%A5%EC%82%AC%EA%B3%A0%EB%84%90-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98(Hexagonal-Architecture)</guid>
+    <description>소프트웨어 개발 분야에서 아키텍처는 시스템의 품질, 유지보수성, 확장성을 결정짓는 매우 중요한 요소입니다. 다양한 아키텍처 패턴 중에서, 최근 몇 년간 많은 개발자에게 주목받으며 그 중요성이 강조되고 있는 패턴 중 하나가 바로 헥사고널 아키텍처(Hexagonal Architecture) 입니다.</description>
+    <pubDate>Mon, 14 Jul 2025 08:08:58 GMT</pubDate>
   </item><item>
-    <title>Hibernate Session</title>
-    <link>https://quartz.jzhao.xyz/Hibernate-Session</link>
-    <guid>https://quartz.jzhao.xyz/Hibernate-Session</guid>
-    <description>Hibernate Session은 Java 애플리케이션과 데이터베이스 사이의 연결을 나타내는 핵심 인터페이스입니다. Session은 특정 데이터베이스에 대한 연결을 캡슐화하고, 객체를 저장하고 조회하는 기본 단위로 작동합니다. 간단히 말해, Session은 데이터베이스 작업을 수행하기 위한 일종의 창구 역할을 합니다.</description>
-    <pubDate>Thu, 10 Jul 2025 10:09:06 GMT</pubDate>
+    <title>행위 패턴(Behavioral Patterns)</title>
+    <link>https://quartz.jzhao.xyz/%ED%96%89%EC%9C%84-%ED%8C%A8%ED%84%B4(Behavioral-Patterns)</link>
+    <guid>https://quartz.jzhao.xyz/%ED%96%89%EC%9C%84-%ED%8C%A8%ED%84%B4(Behavioral-Patterns)</guid>
+    <description>이 글에서는 객체 간의 상호작용 및 책임 분배에 초점을 맞추는 행위 패턴에 대해 깊이 있게 알아보고자 합니다. 행위 패턴을 이해하고 올바르게 사용하면, 객체들이 어떻게 소통하고 협력하여 작업을 완수하는지에 대한 명확한 청사진을 그릴 수 있습니다. 이는 결국 유연하고, 유지보수가 용이하며, 확장 가능한 소프트웨어를 만드는 데 핵심적인 역할을 합니다.</description>
+    <pubDate>Mon, 14 Jul 2025 08:08:58 GMT</pubDate>
   </item><item>
-    <title>Hibernate Session 관리 전략</title>
-    <link>https://quartz.jzhao.xyz/Hibernate-Session-%EA%B4%80%EB%A6%AC-%EC%A0%84%EB%9E%B5</link>
-    <guid>https://quartz.jzhao.xyz/Hibernate-Session-%EA%B4%80%EB%A6%AC-%EC%A0%84%EB%9E%B5</guid>
-    <description>Hibernate Session의 효율적인 관리는 애플리케이션의 성능, 확장성 및 안정성에 직접적인 영향을 미칩니다. 적절한 Session 관리 전략을 선택하고 구현하는 것은 ORM 기반 애플리케이션의 성공에 핵심적인 요소입니다. 이 문서에서는 다양한 Hibernate Session 관리 전략과 각 전략의 장단점, 적용 시나리오에 대해 알아보겠습니다.</description>
-    <pubDate>Thu, 10 Jul 2025 10:06:06 GMT</pubDate>
+    <title>행위 주도 개발(BDD)</title>
+    <link>https://quartz.jzhao.xyz/%ED%96%89%EC%9C%84-%EC%A3%BC%EB%8F%84-%EA%B0%9C%EB%B0%9C(BDD)</link>
+    <guid>https://quartz.jzhao.xyz/%ED%96%89%EC%9C%84-%EC%A3%BC%EB%8F%84-%EA%B0%9C%EB%B0%9C(BDD)</guid>
+    <description>소프트웨어 개발의 궁극적인 목표는 사용자에게 가치를 전달하고, 복잡한 비즈니스 요구사항을 정확히 충족시키는 것입니다. 하지만 프로젝트를 진행하다 보면 기획자, 개발자, QA 테스터 등 다양한 이해관계자들 사이에 미묘한 오해나 잘못된 해석으로 인해 예상치 못한 결과물이 나오거나, 프로젝트 막바지에 중요한 요구사항이 누락되었음을 발견하는 안타까운 상황을 종종 마주하게 됩니다.</description>
+    <pubDate>Mon, 14 Jul 2025 08:08:58 GMT</pubDate>
   </item><item>
-    <title>HAProxy</title>
-    <link>https://quartz.jzhao.xyz/HAProxy</link>
-    <guid>https://quartz.jzhao.xyz/HAProxy</guid>
-    <description>HAProxy는 ‘High Availability Proxy’ 의 약자로, 이름에서 알 수 있듯이 고가용성(High Availability)을 제공하는 TCP/HTTP 프록시(Proxy) 및 로드 밸런서(Load Balancer) 소프트웨어입니다. 오픈 소스로 제공되며, 아주 적은 리소스를 사용하면서도 뛰어난 성능과 안정성을 자랑하여 전 세계적으로 널리 사용되고 있습니다.</description>
-    <pubDate>Thu, 10 Jul 2025 10:02:21 GMT</pubDate>
+    <title>행위 검증(Behavior Verification)</title>
+    <link>https://quartz.jzhao.xyz/%ED%96%89%EC%9C%84-%EA%B2%80%EC%A6%9D(Behavior-Verification)</link>
+    <guid>https://quartz.jzhao.xyz/%ED%96%89%EC%9C%84-%EA%B2%80%EC%A6%9D(Behavior-Verification)</guid>
+    <description>행위 검증 (Behavior Verification) 마스터하기: 객체 간의 올바른 소통 확인 소프트웨어 테스트에서 우리가 검증하고자 하는 것은 단순히 최종 결과 값만이 아닙니다. 때로는 시스템의 특정 부분이 다른 부분과 “올바르게 소통”했는지, 즉 올바른 작업을 올바른 순서와 방식으로 요청했는지를 확인하는 것이 중요할 때가 있습니다.</description>
+    <pubDate>Mon, 14 Jul 2025 08:08:58 GMT</pubDate>
   </item><item>
-    <title>GTM(Go-to-Market) 전략</title>
-    <link>https://quartz.jzhao.xyz/GTM(Go-to-Market)-%EC%A0%84%EB%9E%B5</link>
-    <guid>https://quartz.jzhao.xyz/GTM(Go-to-Market)-%EC%A0%84%EB%9E%B5</guid>
-    <description>GTM(Go-to-Market) 전략은 신제품이나 서비스를 시장에 성공적으로 출시하고, 목표 고객에게 도달하여 경쟁 우위를 확보하기 위한 전반적인 실행 계획을 의미합니다. 이는 단순히 ‘어떻게 팔 것인가’를 넘어 ‘누구에게’, ‘어떤 가치를’, ‘어떤 방법으로’ 전달할 것인지를 총체적으로 다루는 비즈니스의 핵심 로드맵입니다.</description>
-    <pubDate>Thu, 10 Jul 2025 09:56:49 GMT</pubDate>
+    <title>하향식 통합 테스트(Top-Down Integration Testing)</title>
+    <link>https://quartz.jzhao.xyz/%ED%95%98%ED%96%A5%EC%8B%9D-%ED%86%B5%ED%95%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8(Top-Down-Integration-Testing)</link>
+    <guid>https://quartz.jzhao.xyz/%ED%95%98%ED%96%A5%EC%8B%9D-%ED%86%B5%ED%95%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8(Top-Down-Integration-Testing)</guid>
+    <description></description>
+    <pubDate>Mon, 14 Jul 2025 08:08:58 GMT</pubDate>
   </item><item>
-    <title>GraalVM</title>
-    <link>https://quartz.jzhao.xyz/GraalVM</link>
-    <guid>https://quartz.jzhao.xyz/GraalVM</guid>
-    <description>GraalVM GraalVM은 Oracle에서 개발한 고성능 런타임으로, 기존 JDK의 기능을 확장하여 향상된 성능과 다양한 언어 지원을 제공하는 플랫폼입니다. GraalVM의 가장 주목할 만한 특징은 AOT(Ahead-of-Time) 컴파일을 통한 Native Image 생성 기능입니다.</description>
-    <pubDate>Thu, 10 Jul 2025 09:52:21 GMT</pubDate>
+    <title>하향식 통합 테스트</title>
+    <link>https://quartz.jzhao.xyz/%ED%95%98%ED%96%A5%EC%8B%9D-%ED%86%B5%ED%95%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8</link>
+    <guid>https://quartz.jzhao.xyz/%ED%95%98%ED%96%A5%EC%8B%9D-%ED%86%B5%ED%95%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8</guid>
+    <description>하향식 통합 테스트(Top-down Integration Testing)는 , 소프트웨어 시스템의 최상위 제어 모듈부터 시작하여 계층 구조를 따라 아래 방향으로 점차 하위 모듈들을 통합하며 테스트를 진행하는 방법입니다. 이 방식은 시스템의 전체적인 구조와 주요 제어 흐름을 초기에 검증하는 데 중점을 둡니다.</description>
+    <pubDate>Mon, 14 Jul 2025 08:08:58 GMT</pubDate>
   </item>
     </channel>
   </rss>
