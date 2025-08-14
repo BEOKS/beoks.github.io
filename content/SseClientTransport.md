@@ -6,7 +6,7 @@
 
 ### SseClientTransport의 핵심 동작 원리
 
-`SseClientTransport`의 가장 큰 특징은 메시지를 받는 경로와 보내는 경로가 다르다는 점입니다. 이는 [[Server-Sent Events (SSE)]] 프로토콜의 특성에서 기인합니다.
+`SseClientTransport`의 가장 큰 특징은 메시지를 받는 경로와 보내는 경로가 다르다는 점입니다. 이는 Server-Sent Events (SSE) 프로토콜의 특성에서 기인합니다.
 
 - **메시지 수신 (Server -> Client)**: 클라이언트는 서버의 특정 엔드포인트(코드에서는 `/sse`)로 HTTP GET 요청을 보내고, 이 연결을 계속 유지합니다. 서버는 이 연결을 통해 클라이언트에게 데이터를 실시간으로 '푸시'할 수 있습니다.
 - **메시지 전송 (Client -> Server)**: 클라이언트가 서버에게 메시지를 보내야 할 때는, SSE 연결과는 별개로 새로운 HTTP POST 요청을 생성하여 전송합니다.

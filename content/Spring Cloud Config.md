@@ -1,6 +1,6 @@
 Spring Cloud Config는 분산 시스템에서 설정 관리를 위한 서버 및 클라이언트 지원을 제공하는 프레임워크입니다. 이 도구는 [[마이크로서비스 아키텍처(Microservice Architecture)]]서 여러 애플리케이션과 환경에 걸쳐 일관된 구성을 중앙에서 관리할 수 있게 해줍니다.
 
-Spring Cloud Config를 사용하면 개발, 테스트, 스테이징, 프로덕션과 같은 다양한 환경에서 애플리케이션의 구성을 외부화하고 중앙에서 관리할 수 있습니다. 이는 [[12-Factor App]] 방법론의 핵심 원칙 중 하나인 "[[구성 기반 개발(Configuration Driven Development)|구성의 외부화]]"를 실현하는 방법입니다.
+Spring Cloud Config를 사용하면 개발, 테스트, 스테이징, 프로덕션과 같은 다양한 환경에서 애플리케이션의 구성을 외부화하고 중앙에서 관리할 수 있습니다. 이는 12-Factor App 방법론의 핵심 원칙 중 하나인 "구성의 외부화"를 실현하는 방법입니다.
 
 ## 주요 개념
 
@@ -78,7 +78,7 @@ spring:
 
 위 설정에서 Config Server는 Git 저장소에서 설정 파일을 가져오며, 애플리케이션 이름과 프로필에 따라 설정 파일을 찾습니다. Git 이외에도 파일 시스템, JDBC, Vault 등 다양한 백엔드 저장소를 지원합니다.
 
-자세한 Config Server 설정 옵션은 [[Spring Cloud Config Server 설정 옵션]]을 참고해주세요.
+자세한 Config Server 설정 옵션은 Spring Cloud Config Server 설정 옵션을 참고해주세요.
 
 ## Config Client 설정
 
@@ -178,7 +178,7 @@ public class MessageController {
 
 설정이 변경된 후, `/actuator/refresh` 엔드포인트를 호출하면 @RefreshScope가 적용된 빈이 다시 생성되어 새로운 설정 값이 적용됩니다.
 
-대규모 마이크로서비스 환경에서는 각 서비스의 `/actuator/refresh` 엔드포인트를 수동으로 호출하는 것이 비효율적입니다. 이런 경우 [[Spring Cloud Bus]]를 사용하여 모든 애플리케이션에 설정 변경 이벤트를 브로드캐스트할 수 있습니다.
+대규모 마이크로서비스 환경에서는 각 서비스의 `/actuator/refresh` 엔드포인트를 수동으로 호출하는 것이 비효율적입니다. 이런 경우 [[Spring Cloud Stream]]를 사용하여 모든 애플리케이션에 설정 변경 이벤트를 브로드캐스트할 수 있습니다.
 
 ## 보안 설정
 
@@ -242,7 +242,7 @@ datasource:
   password: '{cipher}AQA...'
 ```
 
-민감 정보 관리에 대한 자세한 내용은 [[Spring Cloud Config 보안 관리]]를 참고해주세요.
+민감 정보 관리에 대한 자세한 내용은 [[Spring Cloud Config]]를 참고해주세요.
 
 ## 고급 기능
 
@@ -338,7 +338,7 @@ spring:
 
 이 설정을 통해 클라이언트는 Eureka를 통해 Config Server를 찾을 수 있습니다.
 
-Spring Cloud 컴포넌트와의 통합에 대한 자세한 내용은 [[Spring Cloud 컴포넌트 통합]]을 참고해주세요.
+Spring Cloud 컴포넌트와의 통합에 대한 자세한 내용은 Spring Cloud 컴포넌트 통합을 참고해주세요.
 
 ## 장단점
 
@@ -358,7 +358,7 @@ Spring Cloud 컴포넌트와의 통합에 대한 자세한 내용은 [[Spring Cl
 - 초기 부트스트랩 과정에서 지연 발생 가능
 - 설정 저장소 접근 실패 시 애플리케이션 시작 실패 위험
 
-Spring Cloud Config의 대안 및 보완책에 대한 내용은 [[구성 관리 패턴과 대안]]을 참고해주세요.
+Spring Cloud Config의 대안 및 보완책에 대한 내용은 구성 관리 패턴과 대안을 참고해주세요.
 
 ## 실제 사용 사례
 

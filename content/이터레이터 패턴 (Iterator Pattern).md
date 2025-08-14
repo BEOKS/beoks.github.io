@@ -68,7 +68,7 @@ classDiagram
 
 ### **Java에서의 이터레이터 패턴 활용**
 
-사실 Java 개발자라면 이미 자신도 모르게 이터레이터 패턴을 매일 사용하고 있을 가능성이 높습니다. Java의 [[컬렉션 프레임워크(Collection Framework)]]가 바로 이터레이터 패턴을 기반으로 설계되었기 때문입니다.
+사실 Java 개발자라면 이미 자신도 모르게 이터레이터 패턴을 매일 사용하고 있을 가능성이 높습니다. Java의 컬렉션 프레임워크(Collection Framework)가 바로 이터레이터 패턴을 기반으로 설계되었기 때문입니다.
 
 `java.util.Iterator` 인터페이스와 `java.lang.Iterable` 인터페이스가 이 패턴의 핵심입니다.
 

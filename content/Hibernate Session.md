@@ -190,7 +190,7 @@ try {
 }
 ```
 
-더 많은 모범 사례와 성능 최적화 팁은 [[Hibernate 성능 최적화 기법]]을 참고해주세요.
+더 많은 모범 사례와 성능 최적화 팁은 Hibernate 성능 최적화 기법을 참고해주세요.
 
 ## 스프링 프레임워크와 Hibernate Session 통합
 
@@ -246,7 +246,7 @@ public interface UserRepository extends JpaRepository<User, Long> {
 }
 ```
 
-스프링과 Hibernate의 통합에 대한 자세한 내용은 [[스프링과 Hibernate 통합]]을 참고해주세요.
+스프링과 Hibernate의 통합에 대한 자세한 내용은 스프링과 Hibernate 통합을 참고해주세요.
 
 ## 자주 발생하는 문제와 해결 방법
 
@@ -261,7 +261,7 @@ Hibernate Session 사용 시 자주 발생하는 문제와 해결 방법은 다�
 4. **메모리 누수**: 세션이 제대로 닫히지 않아 발생하는 문제입니다. 해결 방법: try-with-resources 구문 사용, 스프링의 트랜잭션 관리 활용 등을 고려합니다.
     
 
-자주 발생하는 문제와 해결 방법에 대한 자세한 내용은 [[Hibernate 문제 해결 가이드]]를 참고해주세요.
+자주 발생하는 문제와 해결 방법에 대한 자세한 내용은 Hibernate 문제 해결 가이드를 참고해주세요.
 
 ## 결론
 

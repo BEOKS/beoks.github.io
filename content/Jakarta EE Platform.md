@@ -6,4 +6,4 @@
 
 표시된 대로, Java™ 플랫폼, 스탠다드 에디션(Java SE)의 API는 각 애플리케이션 구성 요소 유형에 대해 Java SE 런타임 환경에 의해 지원됩니다.
 
-![[Pasted image 20250318230051.png]]
+!Pasted image 20250318230051.png

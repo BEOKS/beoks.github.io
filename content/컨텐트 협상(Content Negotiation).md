@@ -10,7 +10,7 @@
 
 ### Accept 헤더
 
-클라이언트가 선호하는 [[미디어 타입(Media Type)]]을 서버에 알리는 데 사용합니다:
+클라이언트가 선호하는 미디어 타입(Media Type)을 서버에 알리는 데 사용합니다:
 
 ```http
 Accept: application/json
@@ -100,7 +100,7 @@ public class UserController {
 
 ### Message Converter 활용
 
-Spring은 [[HttpMessageConverter]]를 통해 객체를 다양한 형식으로 변환합니다:
+Spring은 HttpMessageConverter를 통해 객체를 다양한 형식으로 변환합니다:
 
 ```java
 @Configuration
@@ -336,7 +336,7 @@ class ContentNegotiationTest {
 
 Spring Framework는 이러한 컨텐트 협상을 쉽게 구현할 수 있는 강력한 기능들을 제공하므로, 이를 적절히 활용하면 더 유연하고 확장 가능한 API를 설계할 수 있습니다.
 
-컨텐트 협상을 구현할 때는 성능, 보안, 사용자 경험을 모두 고려하여 적절한 전략을 선택하는 것이 중요합니다. 특히 [[캐싱 전략]], [[인증과 인가]], [[에러 핸들링]] 등과 함께 종합적으로 설계해야 합니다.
+컨텐트 협상을 구현할 때는 성능, 보안, 사용자 경험을 모두 고려하여 적절한 전략을 선택하는 것이 중요합니다. 특히 캐싱 전략, 인증과 인가, 에러 핸들링 등과 함께 종합적으로 설계해야 합니다.
 
 ## 참고 자료
 

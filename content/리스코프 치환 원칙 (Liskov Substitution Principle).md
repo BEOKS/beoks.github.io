@@ -88,7 +88,7 @@ void testRectangle(Rectangle rectangle) {
 
 `Rectangle` 타입으로 선언된 변수에 `Square` 객체를 할당하면, `testRectangle` 메서드는 예상대로 동작하지 않습니다. 정사각형에서는 너비를 설정한 후 높이를 설정하면 너비도 같이 변경되기 때문입니다.
 
-이 문제는 `Square`가 `Rectangle`의 행동 방식을 변경하여 리스코프 치환 원칙을 위반한 사례입니다. 이러한 경우, 상속보다는 [[합성(Composition)]]을 고려하는 것이 좋습니다.
+이 문제는 `Square`가 `Rectangle`의 행동 방식을 변경하여 리스코프 치환 원칙을 위반한 사례입니다. 이러한 경우, 상속보다는 합성(Composition)을 고려하는 것이 좋습니다.
 
 ### 2. 메서드 오버라이딩 문제
 

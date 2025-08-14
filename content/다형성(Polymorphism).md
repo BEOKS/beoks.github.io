@@ -8,7 +8,7 @@
 
 ### 1. 컴파일 타임 다형성 (정적 다형성)
 
-컴파일 타임 다형성은 컴파일 시점에 결정되는 다형성으로, 주로 [[메소드 오버로딩(Method Overloading)]]을 통해 구현됩니다.
+컴파일 타임 다형성은 컴파일 시점에 결정되는 다형성으로, 주로 메소드 오버로딩(Method Overloading)을 통해 구현됩니다.
 
 ```java
 public class Calculator {
@@ -33,7 +33,7 @@ public class Calculator {
 
 ### 2. 런타임 다형성 (동적 다형성)
 
-런타임 다형성은 실행 시점에 결정되는 다형성으로, 주로 [[메소드 오버라이딩(Method Overriding)]]과 [[인터페이스(Interface)]]를 통해 구현됩니다.
+런타임 다형성은 실행 시점에 결정되는 다형성으로, 주로 메소드 오버라이딩(Method Overriding)과 [[인터페이스(Interface)]]를 통해 구현됩니다.
 
 ```mermaid
 classDiagram
@@ -195,7 +195,7 @@ public class Motorcycle extends Vehicle {
 }
 ```
 
-자세한 내용은 [[Java에서의 다형성 구현 방법]]을 참고해주세요.
+자세한 내용은 Java에서의 다형성 구현 방법을 참고해주세요.
 
 ## 다형성의 핵심 개념
 
@@ -234,7 +234,7 @@ if (animal instanceof Dog) {
 1. **정적 바인딩(Static Binding)**: 컴파일 시점에 결정되는 바인딩으로, 오버로딩된 메소드나 `static` 메소드에 사용됩니다.
 2. **동적 바인딩(Dynamic Binding)**: 실행 시점에 결정되는 바인딩으로, 오버라이딩된 메소드에 사용됩니다.
 
-자세한 내용은 [[바인딩과 다형성의 관계]]를 참고해주세요.
+자세한 내용은 바인딩과 다형성의 관계를 참고해주세요.
 
 ## 스프링 프레임워크에서의 다형성 활용
 
@@ -283,7 +283,7 @@ public class OrderService {
 
 ### 전략 패턴과 다형성
 
-스프링에서는 [[전략 패턴(Strategy Pattern)]]을 구현할 때 다형성이 자주 활용됩니다.
+스프링에서는 [[전략 패턴 (Strategy Pattern)]]을 구현할 때 다형성이 자주 활용됩니다.
 
 ```java
 public interface DiscountStrategy {
@@ -328,7 +328,7 @@ public class PricingService {
 }
 ```
 
-자세한 내용은 [[스프링에서의 다형성 활용]]을 참고해주세요.
+자세한 내용은 스프링에서의 다형성 활용을 참고해주세요.
 
 ## 다형성의 장단점
 
@@ -366,7 +366,7 @@ public class PricingService {
 4. **상속보다 컴포지션 선호**: 상속은 강한 결합을 만들 수 있으므로 필요한 경우에만 사용합니다.
 5. **적절한 추상화 수준 유지**: 너무 추상적이거나 너무 구체적인 인터페이스는 피합니다.
 
-자세한 내용은 [[다형성 활용 모범 사례]]를 참고해주세요.
+자세한 내용은 다형성 활용 모범 사례를 참고해주세요.
 
 ## 결론
 
@@ -374,7 +374,7 @@ public class PricingService {
 
 Java와 스프링 프레임워크는 다형성을 완벽하게 지원하며, 이를 활용하여 견고하고 유연한 애플리케이션을 구축할 수 있습니다. 다형성은 단순한 프로그래밍 기법을 넘어, 소프트웨어 설계의 패러다임을 변화시키는 핵심 원칙입니다.
 
-현대적인 소프트웨어 개발에서는 다형성과 함께 [[함수형 프로그래밍(Functional Programming)]], [[디자인 패턴(Design Patterns)]], [[마이크로서비스 아키텍처(Microservice Architecture)]] 등의 개념을 조화롭게 적용하여 더욱 강력하고 유연한 시스템을 구축할 수 있습니다.
+현대적인 소프트웨어 개발에서는 다형성과 함께 함수형 프로그래밍(Functional Programming), [[디자인 패턴(Design Pattern)]], [[마이크로서비스 아키텍처(Microservice Architecture)]] 등의 개념을 조화롭게 적용하여 더욱 강력하고 유연한 시스템을 구축할 수 있습니다.
 
 ## 참고 자료
 

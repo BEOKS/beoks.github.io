@@ -1,6 +1,6 @@
 # @EntityScan 어노테이션
 
-`@EntityScan`은 Spring Boot에서 JPA [[엔티티(Entity)]] 클래스들을 스캔할 패키지를 명시적으로 지정하는 어노테이션입니다. Spring Boot의 기본 [[자동 구성(Auto Configuration)]] 메커니즘을 보완하여, 복잡한 프로젝트 구조나 특별한 요구사항이 있는 경우에 엔티티 스캔 경로를 정밀하게 제어할 수 있습니다.
+`@EntityScan`은 Spring Boot에서 JPA [[엔티티(Entity)]] 클래스들을 스캔할 패키지를 명시적으로 지정하는 어노테이션입니다. Spring Boot의 기본 자동 구성(Auto Configuration) 메커니즘을 보완하여, 복잡한 프로젝트 구조나 특별한 요구사항이 있는 경우에 엔티티 스캔 경로를 정밀하게 제어할 수 있습니다.
 
 ## 기본 엔티티 스캔 메커니즘
 
@@ -94,7 +94,7 @@ public class MyEntityScanConfiguration {
 }
 ```
 
-이 방법은 테스트 환경에서 특정 엔티티만 로드하여 [[테스트 성능(Test Performance)]]을 향상시키거나, 특정 기능별로 엔티티를 분리하여 관리할 때 유용합니다.
+이 방법은 테스트 환경에서 특정 엔티티만 로드하여 테스트 성능(Test Performance)을 향상시키거나, 특정 기능별로 엔티티를 분리하여 관리할 때 유용합니다.
 
 ## 멀티모듈 프로젝트에서의 활용
 
@@ -114,7 +114,7 @@ public class ECommerceApplication {
 }
 ```
 
-이러한 구조는 [[도메인 주도 설계(Domain Driven Design)]]를 적용한 프로젝트에서 각 [[바운디드 컨텍스트(Bounded Context)]]별로 엔티티를 분리할 때 특히 유용합니다.
+이러한 구조는 [[도메인 주도 설계(DDD,Domain Driven Design)]]를 적용한 프로젝트에서 각 [[바운디드 컨텍스트(Bounded Context)]]별로 엔티티를 분리할 때 특히 유용합니다.
 
 ## NoSQL 데이터베이스와의 사용
 
@@ -164,7 +164,7 @@ com.example.app
 
 ### 2. 순환 참조 방지
 
-여러 모듈에서 엔티티를 스캔할 때 [[순환 참조(Circular Reference)]] 문제가 발생하지 않도록 주의해야 합니다.
+여러 모듈에서 엔티티를 스캔할 때 순환 참조(Circular Reference) 문제가 발생하지 않도록 주의해야 합니다.
 
 ### 3. 테스트 구성 분리
 
@@ -260,11 +260,11 @@ public class MyApplication {
 
 `@EntityScan` 어노테이션은 Spring Boot 애플리케이션에서 엔티티 스캔을 정밀하게 제어할 수 있는 강력한 도구입니다. 기본 자동 구성만으로는 해결하기 어려운 복잡한 프로젝트 구조나 특별한 요구사항을 만족시킬 수 있으며, 멀티모듈 프로젝트나 NoSQL 데이터베이스를 사용하는 프로젝트에서 특히 유용합니다.
 
-올바른 패키지 구조와 함께 `@EntityScan`을 적절히 활용하면 [[유지보수성(Maintainability)]]이 높고 확장 가능한 데이터 접근 계층을 구축할 수 있습니다. 다만 스캔 범위를 최소화하여 성능을 최적화하고, 다른 스캔 관련 어노테이션들과의 관계를 잘 이해하여 사용하는 것이 중요합니다.
+올바른 패키지 구조와 함께 `@EntityScan`을 적절히 활용하면 유지보수성(Maintainability)이 높고 확장 가능한 데이터 접근 계층을 구축할 수 있습니다. 다만 스캔 범위를 최소화하여 성능을 최적화하고, 다른 스캔 관련 어노테이션들과의 관계를 잘 이해하여 사용하는 것이 중요합니다.
 
 ## 참고 자료
 
 - Spring Boot 공식 문서: Auto-configuration
 - Spring Data JPA 레퍼런스 가이드
-- [[JPA 엔티티 매핑 전략]]
-- [[Spring Boot 멀티모듈 프로젝트 구성]]
+- JPA 엔티티 매핑 전략
+- Spring Boot 멀티모듈 프로젝트 구성

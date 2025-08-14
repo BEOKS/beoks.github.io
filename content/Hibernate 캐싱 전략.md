@@ -308,7 +308,7 @@ public class ProductRepository extends JpaRepository<Product, Long> {
 3. **고가용성이 필요한 엔터프라이즈 환경**
     - 권장 프로바이더: Redis, Infinispan
 
-자세한 캐싱 전략 선택 방법은 [[Hibernate 캐싱 전략 선택 가이드]]를 참고해주세요.
+자세한 캐싱 전략 선택 방법은 [[Hibernate 캐싱 전략]]를 참고해주세요.
 
 ## 성능 모니터링 및 최적화
 
@@ -338,7 +338,7 @@ public void printCacheStatistics() {
 
 캐시 히트율이 낮다면 캐싱 설정을 재검토하고 최적화해야 합니다.
 
-성능 모니터링 및 최적화에 대한 자세한 내용은 [[Hibernate 성능 모니터링과 최적화]]를 참고해주세요.
+성능 모니터링 및 최적화에 대한 자세한 내용은 Hibernate 성능 모니터링과 최적화를 참고해주세요.
 
 ## 주의사항 및 모범 사례
 

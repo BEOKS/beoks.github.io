@@ -23,7 +23,7 @@ tags: ["Security", "Authorization", "Authentication", "RBAC", "ABAC", "Spring Se
 
 ## 스프링 시큐리티에서의 인가 처리
 
-Java, 특히 스프링 프레임워크에서는 [[Spring Security]]를 통해 강력한 인가 기능을 구현할 수 있습니다.
+Java, 특히 스프링 프레임워크에서는 Spring Security를 통해 강력한 인가 기능을 구현할 수 있습니다.
 
 ### URL 기반 인가
 
@@ -65,7 +65,7 @@ public class ProductService {
 
 `@PreAuthorize` 어노테이션은 메서드 실행 전에, `@PostAuthorize`는 실행 후에 권한을 검사합니다. 이를 사용하기 위해서는 설정에 `@EnableMethodSecurity`를 추가해야 합니다.
 
-자세한 내용은 [[Spring Security 인가 설정 방법]]을 참고해주세요.
+자세한 내용은 Spring Security 인가 설정 방법을 참고해주세요.
 
 ## 최소 권한 원칙
 

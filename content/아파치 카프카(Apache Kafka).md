@@ -389,5 +389,5 @@ public class KafkaConsumerService {
 
 - [[이벤트 스트리밍(Event Streaming)]]
 - [[이벤트 소싱(Event Sourcing)]]
-- [[분산 시스템 설계]]
-- [[마이크로서비스 아키텍처]]
+- 분산 시스템 설계
+- 마이크로서비스 아키텍처

@@ -67,7 +67,7 @@ executor.shutdown();
 
 ## Future의 구현 클래스: FutureTask
 
-Java에서 제공하는 Future 인터페이스의 주요 구현체는 [[FutureTask]] 클래스입니다. FutureTask는 Future와 Runnable 인터페이스를 모두 구현하여, 비동기 작업의 결과를 나타내면서도 직접 실행 가능한 작업으로 사용할 수 있습니다.
+Java에서 제공하는 Future 인터페이스의 주요 구현체는 FutureTask 클래스입니다. FutureTask는 Future와 Runnable 인터페이스를 모두 구현하여, 비동기 작업의 결과를 나타내면서도 직접 실행 가능한 작업으로 사용할 수 있습니다.
 
 ```java
 // Callable을 사용한 FutureTask 생성
@@ -103,7 +103,7 @@ Future 인터페이스는 비동기 프로그래밍의 기초를 제공하지만
 
 ## Future와 ExecutorService의 관계
 
-Future는 일반적으로 [[ExecutorService]]와 함께 사용됩니다. ExecutorService는 비동기 작업을 제출하고 실행하기 위한 인터페이스로, 작업을 제출하면 Future 객체를 반환합니다:
+Future는 일반적으로 ExecutorService와 함께 사용됩니다. ExecutorService는 비동기 작업을 제출하고 실행하기 위한 인터페이스로, 작업을 제출하면 Future 객체를 반환합니다:
 
 ```java
 ExecutorService executor = Executors.newFixedThreadPool(4);
@@ -504,7 +504,7 @@ Future 인터페이스는 Java의 비동기 프로그래밍에서 가장 기본�
 
 Java 8 이후로는 CompletableFuture, Spring의 ListenableFuture, Reactor 및 RxJava와 같은 반응형 라이브러리 등 더 강력한 비동기 프로그래밍 도구가 등장했습니다. 그러나 Future의 기본 개념과 동작 원리를 이해하는 것은 더 고급 비동기 프로그래밍 기법을 마스터하기 위한 필수적인 기반이 됩니다.
 
-비동기 프로그래밍의 다양한 측면과 고급 기법에 대한 자세한 내용은 [[비동기 프로그래밍 패러다임]], [[CompletableFuture 심화]], Java 동시성 프로그래밍을 참고해주세요.
+비동기 프로그래밍의 다양한 측면과 고급 기법에 대한 자세한 내용은 비동기 프로그래밍 패러다임, [[CompletableFuture]], Java 동시성 프로그래밍을 참고해주세요.
 
 ## 참고 자료
 
