@@ -1,0 +1,275 @@
+이벤트(Event)와 명령(Command)은 소프트웨어 시스템에서 상호작용과 정보 전달을 위한 핵심 메커니즘입니다. 두 개념은 시스템의 여러 부분 간 통신 방식에 있어 근본적인 차이를 가지고 있으며, 각각 다른 문제 해결 접근법을 제공합니다. 이 두 패턴을 올바르게 이해하고 적절하게 활용하는 것이 견고하고 유지보수하기 쉬운 소프트웨어 설계의 중요한 요소입니다.
+
+## 핵심 개념 비교
+
+이벤트와 명령을 이해하기 위해서는 근본적인 차이점과 사용 목적을 살펴보아야 합니다.
+
+### 이벤트(Event)
+
+이벤트는 **"무언가 발생했다(Something happened)"**는 사실을 알리는 메시지입니다. 이벤트는 과거 시제로 표현되며, 이미 발생한 일에 대한 정보를 전달합니다.
+
+주요 특징:
+
+1. **알림 성격**: 이미 일어난 사실을 알림
+2. **과거 시제**: UserRegistered, OrderPlaced 등
+3. **단방향 통신**: 발행자(Publisher)는 구독자(Subscriber)를 알지 못함
+4. **여러 수신자**: 하나의 이벤트는 여러 리스너에 의해 처리될 수 있음
+
+### 명령(Command)
+
+명령은 **"무언가를 수행하라(Do something)"**는 지시사항입니다. 명령은 명령형 또는 미래 시제로 표현되며, 수행되어야 할 행동을 지시합니다.
+
+주요 특징:
+
+1. **지시 성격**: 어떤 작업을 수행하라고 지시
+2. **명령형**: RegisterUser, PlaceOrder 등
+3. **양방향 통신**: 발신자는 특정 수신자에게 직접 요청하고 결과를 기대함
+4. **단일 수신자**: 하나의 명령은 일반적으로 하나의 핸들러에 의해 처리됨
+
+## 이벤트와 명령의 흐름 비교
+
+이벤트와 명령의 흐름 차이를 시각적으로 이해하기 위해 다음 다이어그램을 살펴보겠습니다.
+
+```mermaid
+graph TD
+    subgraph "이벤트 흐름"
+        A1[발행자/Publisher] -->|이벤트 발행| B1[이벤트 버스/Event Bus]
+        B1 -->|이벤트 전달| C1[구독자 1/Subscriber 1]
+        B1 -->|이벤트 전달| D1[구독자 2/Subscriber 2]
+        B1 -->|이벤트 전달| E1[구독자 3/Subscriber 3]
+    end
+    
+    subgraph "명령 흐름"
+        A2[호출자/Caller] -->|명령 전송| B2[명령 핸들러/Command Handler]
+        B2 -->|결과 반환| A2
+    end
+```
+
+## 이벤트 기반 아키텍처
+
+이벤트 기반 아키텍처는 시스템 컴포넌트 간 느슨한 결합(Loose Coupling)을 제공하며, [[이벤트 주도 설계(Event-Driven Design)]]의 핵심 개념입니다.
+
+### 이벤트의 구성 요소
+
+1. **이벤트 발행자(Publisher)**: 이벤트를 생성하고 발행하는 주체
+2. **이벤트 메시지**: 발생한 사건에 대한 정보를 담은 데이터 구조
+3. **이벤트 버스/브로커**: 이벤트를 중개하는 메커니즘
+4. **이벤트 구독자(Subscriber)**: 이벤트를 수신하고 처리하는 주체
+
+### 이벤트 사용 사례
+
+이벤트는 다음과 같은 상황에서 특히 유용합니다:
+
+1. **도메인 간 통신**: 서로 다른 바운디드 컨텍스트 간의 통신
+2. **부수 효과(Side Effects) 처리**: 핵심 비즈니스 로직 외에 추가로 수행해야 할 작업들
+3. **분산 시스템 연동**: 마이크로서비스 아키텍처에서 서비스 간 통신
+
+자세한 사용 패턴과 구현 방법은 [[이벤트 기반 아키텍처(Event-Driven Architecture)]]을 참고해주세요.
+
+## 명령 패턴
+
+명령 패턴은 작업 수행을 요청하는 객체와 실제 작업을 수행하는 객체를 분리하는 [[디자인 패턴(Design Pattern)]]입니다. 명령 패턴은 [[CQRS(Command Query Responsibility Segregation)]]와 함께 많이 사용됩니다.
+
+### 명령의 구성 요소
+
+1. **명령(Command)**: 수행할 작업에 대한 모든 정보를 포함하는 객체
+2. **명령 발송자(Sender)**: 명령을 생성하고 전송하는 주체
+3. **명령 핸들러(Handler)**: 명령을 수신하고 실행하는 주체
+4. **수신자(Receiver)**: 실제 작업을 수행하는 객체
+
+### 명령 사용 사례
+
+명령은 다음과 같은 상황에서 특히 유용합니다:
+
+1. **사용자 액션 처리**: UI에서 발생하는 사용자 요청 처리
+2. **트랜잭션 작업**: 원자적으로 수행되어야 하는 작업
+3. **작업의 지연, 큐잉, 재시도**: 비동기 처리가 필요한 작업
+4. **작업의 취소(Undo)**: 수행된 작업을 취소할 수 있어야 하는 경우
+
+자세한 구현 패턴은 [[명령 패턴 구현 방법]]을 참고해주세요.
+
+## Java와 Spring에서의 구현
+
+### 이벤트 구현
+
+Spring 프레임워크는 애플리케이션 내부 이벤트 처리를 위한 `ApplicationEventPublisher`와 `@EventListener` 기능을 제공합니다.
+
+```java
+// 이벤트 클래스 정의
+public class OrderPlacedEvent {
+    private final String orderId;
+    private final LocalDateTime timestamp;
+    
+    public OrderPlacedEvent(String orderId) {
+        this.orderId = orderId;
+        this.timestamp = LocalDateTime.now();
+    }
+    
+    // Getter 메서드들
+    public String getOrderId() {
+        return orderId;
+    }
+    
+    public LocalDateTime getTimestamp() {
+        return timestamp;
+    }
+}
+
+// 이벤트 발행
+@Service
+public class OrderService {
+    private final ApplicationEventPublisher eventPublisher;
+    
+    @Autowired
+    public OrderService(ApplicationEventPublisher eventPublisher) {
+        this.eventPublisher = eventPublisher;
+    }
+    
+    public void placeOrder(OrderDto orderDto) {
+        // 주문 로직 처리
+        String orderId = saveOrder(orderDto);
+        
+        // 이벤트 발행
+        eventPublisher.publishEvent(new OrderPlacedEvent(orderId));
+    }
+}
+
+// 이벤트 구독
+@Component
+public class NotificationService {
+    @EventListener
+    public void handleOrderPlacedEvent(OrderPlacedEvent event) {
+        // 알림 발송 로직
+        sendNotification("Order " + event.getOrderId() + " has been placed");
+    }
+}
+```
+
+### 명령 구현
+
+명령 패턴은 Spring에서 직접 지원하지는 않지만, 간단한 명령 버스를 구현할 수 있습니다.
+
+```java
+// 명령 인터페이스
+public interface Command {
+}
+
+// 명령 핸들러 인터페이스
+public interface CommandHandler<T extends Command> {
+    void handle(T command);
+}
+
+// 명령 버스
+@Service
+public class CommandBus {
+    private final Map<Class<? extends Command>, CommandHandler> handlers = new HashMap<>();
+    
+    public void registerHandler(Class<? extends Command> commandClass, CommandHandler handler) {
+        handlers.put(commandClass, handler);
+    }
+    
+    public void dispatch(Command command) {
+        CommandHandler handler = handlers.get(command.getClass());
+        if (handler == null) {
+            throw new IllegalStateException("No handler registered for " + command.getClass());
+        }
+        handler.handle(command);
+    }
+}
+
+// 구체적인 명령
+public class CreateUserCommand implements Command {
+    private final String username;
+    private final String email;
+    
+    public CreateUserCommand(String username, String email) {
+        this.username = username;
+        this.email = email;
+    }
+    
+    // Getter 메서드들
+}
+
+// 명령 핸들러
+@Component
+public class CreateUserCommandHandler implements CommandHandler<CreateUserCommand> {
+    private final UserRepository userRepository;
+    
+    @Autowired
+    public CreateUserCommandHandler(UserRepository userRepository, CommandBus commandBus) {
+        this.userRepository = userRepository;
+        commandBus.registerHandler(CreateUserCommand.class, this);
+    }
+    
+    @Override
+    public void handle(CreateUserCommand command) {
+        // 사용자 생성 로직
+        User user = new User(command.getUsername(), command.getEmail());
+        userRepository.save(user);
+    }
+}
+```
+
+더 복잡한 구현에 대해서는 [[Spring에서 명령-이벤트 패턴 구현]]을 참고해주세요.
+
+## 이벤트와 명령 선택 기준
+
+시스템을 설계할 때 이벤트와 명령 중 어떤 것을 사용할지 결정하는 기준은 다음과 같습니다:
+
+### 이벤트 사용 권장 상황
+
+- 여러 컴포넌트가 특정 상태 변화에 반응해야 할 때
+- 발행자가 구독자를 알 필요가 없을 때
+- 느슨한 결합이 중요할 때
+- 시스템이 확장 가능하고 유연해야 할 때
+
+### 명령 사용 권장 상황
+
+- 특정 작업의 수행을 명시적으로 요청할 때
+- 작업의 성공/실패 여부를 알아야 할 때
+- 작업이 원자적으로 수행되어야 할 때
+- 작업의 순서가 중요할 때
+
+## 실무 적용 사례
+
+### 이커머스 시스템
+
+이커머스 시스템에서 주문 처리를 예로 들면:
+
+1. **명령**: `PlaceOrderCommand` - 주문을 생성하고 결제를 처리하는 명시적 요청
+2. **이벤트**: `OrderPlacedEvent` - 주문이 성공적으로 생성된 후 발행되어 재고 시스템, 배송 시스템, 알림 시스템 등이 각자의 작업을 수행하도록 함
+
+### 소셜 미디어 플랫폼
+
+소셜 미디어 플랫폼에서:
+
+1. **명령**: `PostStatusCommand` - 사용자가 새 게시물을 작성하도록 요청
+2. **이벤트**: `StatusPostedEvent` - 게시물이 생성된 후 발행되어 타임라인 업데이트, 알림 발송, 통계 집계 등의 작업이 수행되도록 함
+
+## 이벤트와 명령의 결합: 이벤트 소싱
+
+[[이벤트 소싱(Event Sourcing)]]은 시스템의 상태 변화를 이벤트의 시퀀스로 저장하는 패턴으로, 명령과 이벤트가 함께 작동하는 방식을 보여줍니다:
+
+1. 명령이 시스템에 도착하여 유효성 검사
+2. 유효한 명령은 도메인 객체에 의해 처리
+3. 도메인 상태 변화는 이벤트로 기록
+4. 이벤트는 저장되고 다른 컴포넌트에 발행
+5. 시스템 상태는 저장된 이벤트를 재생하여 재구성 가능
+
+이벤트 소싱에 대한 자세한 내용은 [[이벤트 소싱 패턴]]을 참고해주세요.
+
+## 결론
+
+이벤트와 명령은 각각 고유한 특성과 사용 사례를 가지고 있으며, 상호 보완적으로 사용될 수 있습니다. 이벤트는 "무언가 발생했음"을 알리는 알림 메커니즘으로, 시스템 컴포넌트 간의 느슨한 결합을 촉진합니다. 반면, 명령은 "무언가를 수행하라"는 직접적인 지시로, 명확한 의도와 책임을 표현합니다.
+
+현대 소프트웨어 아키텍처, 특히 [[분산 시스템(Distributed System)]]과  [[마이크로서비스 아키텍처(Microservice Architecture)]]에서는 이벤트와 명령을 적절히 조합하여 사용하는 것이 중요합니다. 각 패턴의 장단점을 이해하고 시스템 요구사항에 맞게 적용함으로써, 확장 가능하고 유지보수하기 쉬운 소프트웨어를 설계할 수 있습니다.
+
+효과적인 시스템 설계를 위해서는 비즈니스 도메인에 대한 깊은 이해와 함께, 이벤트와 명령의 적절한 활용 방법을 숙지하는 것이 필수적입니다. 이를 통해 복잡한 시스템에서도 명확한 책임 분리와 효율적인 통신을 구현할 수 있습니다.
+
+## 참고 자료
+
+- Domain-Driven Design - Eric Evans
+- Enterprise Integration Patterns - Gregor Hohpe, Bobby Woolf
+- Building Microservices - Sam Newman
+- Clean Architecture - Robert C. Martin
+- Spring 공식 문서 (https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#context-functionality-events)

@@ -6,65 +6,65 @@
       <description>최근 10 건 on 🪴 Beoks Blog</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>역 인덱스(Inverted Index)</title>
-    <link>https://quartz.jzhao.xyz/%EC%97%AD-%EC%9D%B8%EB%8D%B1%EC%8A%A4(Inverted-Index)</link>
-    <guid>https://quartz.jzhao.xyz/%EC%97%AD-%EC%9D%B8%EB%8D%B1%EC%8A%A4(Inverted-Index)</guid>
-    <description>역 인덱스(Inverted Index)란 무엇인가? 역 인덱스(Inverted Index)는 정보 검색 및 최신 검색 엔진의 핵심에 있는 데이터 구조입니다. 문서 본문에서 용어(term)를 찾아 해당 용어가 포함된 문서의 목록을 즉시 찾을 수 있도록 설계되었습니다. 이는 책 뒷면의 색인과 매우 유사하며, 키워드를 찾고 해당 키워드가 나타나는 페이지 번호를 찾는 방식과 같습니다.</description>
-    <pubDate>Mon, 14 Jul 2025 08:39:31 GMT</pubDate>
+    <title>GraphQL의 배신? 1분 타임아웃을 6초로 단축시킨 엑셀 다운로드 성능 개선기</title>
+    <link>https://quartz.jzhao.xyz/GraphQL%EC%9D%98-%EB%B0%B0%EC%8B%A0-1%EB%B6%84-%ED%83%80%EC%9E%84%EC%95%84%EC%9B%83%EC%9D%84-6%EC%B4%88%EB%A1%9C-%EB%8B%A8%EC%B6%95%EC%8B%9C%ED%82%A8-%EC%97%91%EC%85%80-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%EC%84%B1%EB%8A%A5-%EA%B0%9C%EC%84%A0%EA%B8%B0</link>
+    <guid>https://quartz.jzhao.xyz/GraphQL%EC%9D%98-%EB%B0%B0%EC%8B%A0-1%EB%B6%84-%ED%83%80%EC%9E%84%EC%95%84%EC%9B%83%EC%9D%84-6%EC%B4%88%EB%A1%9C-%EB%8B%A8%EC%B6%95%EC%8B%9C%ED%82%A8-%EC%97%91%EC%85%80-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%EC%84%B1%EB%8A%A5-%EA%B0%9C%EC%84%A0%EA%B8%B0</guid>
+    <description> 본 포스트는 사내에서 작성한 문서를 외부 공유하기 위해 LLM 을 이용해 가상의 도메인으로 교체한 것임을 밝힙니다. 개발자라면 누구나 한 번쯤 겪어봤을 법한 이야기가 있습니다. 로컬과 개발 서버에서는 완벽하게 작동하던 기능이, 실제 데이터가 쌓인 운영 환경에서 속절없이 무너지는 경험 말이죠.</description>
+    <pubDate>Mon, 25 Aug 2025 01:10:41 GMT</pubDate>
   </item><item>
-    <title>효과적인 통합 테스트 구축 전략</title>
-    <link>https://quartz.jzhao.xyz/%ED%9A%A8%EA%B3%BC%EC%A0%81%EC%9D%B8-%ED%86%B5%ED%95%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B5%AC%EC%B6%95-%EC%A0%84%EB%9E%B5</link>
-    <guid>https://quartz.jzhao.xyz/%ED%9A%A8%EA%B3%BC%EC%A0%81%EC%9D%B8-%ED%86%B5%ED%95%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B5%AC%EC%B6%95-%EC%A0%84%EB%9E%B5</guid>
-    <description>효과적인 통합 테스트를 구축하는 핵심은 ‘모든 것을 테스트하는 것’이 아니라, **‘비용 대비 최대의 신뢰도’**를 얻을 수 있도록 전략적으로 접근하는 데 있습니다. 통합 테스트는 느리고 관리하기 어렵다는 단점이 명확하기에, 현명한 전략 없이는 오히려 개발 속도를 저해하는 애물단지가 될 수 있습니다.</description>
-    <pubDate>Mon, 14 Jul 2025 08:08:58 GMT</pubDate>
-  </item><item>
-    <title>회고(Retrospective)</title>
-    <link>https://quartz.jzhao.xyz/%ED%9A%8C%EA%B3%A0(Retrospective)</link>
-    <guid>https://quartz.jzhao.xyz/%ED%9A%8C%EA%B3%A0(Retrospective)</guid>
-    <description>회고(Retrospective) 는 팀이 정기적으로 자신들의 일하는 방식(프로세스, 도구, 협업 등)을 되돌아보고, 다음 단계에서 더 나은 방향으로 나아가기 위한 구체적인 개선점을 찾아 실행을 약속하는 활동입니다. 단순히 “무엇을 잘못했는가”를 따지는 자리가 아니라, “어떻게 하면 우리가 더 나아질 수 있을까?” 라는 미래지향적인 질문에 답을 찾는 건설적인 논의의 장입니다.</description>
-    <pubDate>Mon, 14 Jul 2025 08:08:58 GMT</pubDate>
-  </item><item>
-    <title>회의실 예약 기능 상세 설계 예시</title>
-    <link>https://quartz.jzhao.xyz/%ED%9A%8C%EC%9D%98%EC%8B%A4-%EC%98%88%EC%95%BD-%EA%B8%B0%EB%8A%A5-%EC%83%81%EC%84%B8-%EC%84%A4%EA%B3%84-%EC%98%88%EC%8B%9C</link>
-    <guid>https://quartz.jzhao.xyz/%ED%9A%8C%EC%9D%98%EC%8B%A4-%EC%98%88%EC%95%BD-%EA%B8%B0%EB%8A%A5-%EC%83%81%EC%84%B8-%EC%84%A4%EA%B3%84-%EC%98%88%EC%8B%9C</guid>
-    <description>1. 클래스 다이어그램 (Class Diagrams) classDiagram class User { +String userId +String name +String email } class Room { +String roomId +String name +int capacity +String location +String description } class Booking { +String bookingId +String roomId +String userId +DateTime startTime +DateTime endTime +String title +BookingStatus status } class BookingRequestDto { +String roomId +String userId +String startTime +String endTime +String title } class BookingResponseDto { +String bookingId +String roomId +String userId +DateTime startTime +DateTime endTime +String title +String status } class BookingStatus { &lt;&lt;enumeration&gt;&gt; PENDING CONFIRMED CANCELLED COMPLETED } class BookingController { -BookingService bookingService +createBooking(request: BookingRequestDto): BookingResponseDto } class BookingService { -BookingRepository bookingRepository -RoomRepository roomRepository +createBooking(bookingDetails: BookingRequestDto): BookingResponseDto +isRoomAvailable(roomId: String, startTime: DateTime, endTime: DateTime): boolean } class BookingRepository { +save(booking: Booking): Booking +findOverlappingBookings(roomId: String, startTime: DateTime, endTime: DateTime): List~Booking~ +findById(bookingId: String): Optional~Booking~ } class RoomRepository { +findById(roomId: String): Optional~Room~ } %% Relationships BookingController --&gt; BookingService : uses BookingService --&gt; BookingRepository : uses BookingService --&gt; RoomRepository : uses BookingController ..&gt; BookingRequestDto : depends on (parameter) BookingController ..&gt; BookingResponseDto : depends on (return) BookingService ..&gt; BookingRequestDto : depends on (parameter) BookingService ..&gt; BookingResponseDto : depends on (return) BookingService ..&gt; Booking : creates &amp; manages BookingService ..&gt; Room : uses (checks existence) BookingRepository ..&gt; Booking : interacts with RoomRepository ..&gt; Room : interacts with Booking &quot;1&quot; *-- &quot;1&quot; BookingStatus : has Booking &quot;1&quot; -- &quot;1&quot; Room : books (referenced by roomId) Booking &quot;1&quot; -- &quot;1&quot; User : made by (referenced by userId) 2.</description>
-    <pubDate>Mon, 14 Jul 2025 08:08:58 GMT</pubDate>
-  </item><item>
-    <title>헥사고널 아키텍처(Hexagonal Architecture)</title>
-    <link>https://quartz.jzhao.xyz/%ED%97%A5%EC%82%AC%EA%B3%A0%EB%84%90-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98(Hexagonal-Architecture)</link>
-    <guid>https://quartz.jzhao.xyz/%ED%97%A5%EC%82%AC%EA%B3%A0%EB%84%90-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98(Hexagonal-Architecture)</guid>
-    <description>소프트웨어 개발 분야에서 아키텍처는 시스템의 품질, 유지보수성, 확장성을 결정짓는 매우 중요한 요소입니다. 다양한 아키텍처 패턴 중에서, 최근 몇 년간 많은 개발자에게 주목받으며 그 중요성이 강조되고 있는 패턴 중 하나가 바로 헥사고널 아키텍처(Hexagonal Architecture) 입니다.</description>
-    <pubDate>Mon, 14 Jul 2025 08:08:58 GMT</pubDate>
-  </item><item>
-    <title>행위 패턴(Behavioral Patterns)</title>
-    <link>https://quartz.jzhao.xyz/%ED%96%89%EC%9C%84-%ED%8C%A8%ED%84%B4(Behavioral-Patterns)</link>
-    <guid>https://quartz.jzhao.xyz/%ED%96%89%EC%9C%84-%ED%8C%A8%ED%84%B4(Behavioral-Patterns)</guid>
-    <description>이 글에서는 객체 간의 상호작용 및 책임 분배에 초점을 맞추는 행위 패턴에 대해 깊이 있게 알아보고자 합니다. 행위 패턴을 이해하고 올바르게 사용하면, 객체들이 어떻게 소통하고 협력하여 작업을 완수하는지에 대한 명확한 청사진을 그릴 수 있습니다. 이는 결국 유연하고, 유지보수가 용이하며, 확장 가능한 소프트웨어를 만드는 데 핵심적인 역할을 합니다.</description>
-    <pubDate>Mon, 14 Jul 2025 08:08:58 GMT</pubDate>
-  </item><item>
-    <title>행위 주도 개발(BDD)</title>
-    <link>https://quartz.jzhao.xyz/%ED%96%89%EC%9C%84-%EC%A3%BC%EB%8F%84-%EA%B0%9C%EB%B0%9C(BDD)</link>
-    <guid>https://quartz.jzhao.xyz/%ED%96%89%EC%9C%84-%EC%A3%BC%EB%8F%84-%EA%B0%9C%EB%B0%9C(BDD)</guid>
-    <description>소프트웨어 개발의 궁극적인 목표는 사용자에게 가치를 전달하고, 복잡한 비즈니스 요구사항을 정확히 충족시키는 것입니다. 하지만 프로젝트를 진행하다 보면 기획자, 개발자, QA 테스터 등 다양한 이해관계자들 사이에 미묘한 오해나 잘못된 해석으로 인해 예상치 못한 결과물이 나오거나, 프로젝트 막바지에 중요한 요구사항이 누락되었음을 발견하는 안타까운 상황을 종종 마주하게 됩니다.</description>
-    <pubDate>Mon, 14 Jul 2025 08:08:58 GMT</pubDate>
-  </item><item>
-    <title>행위 검증(Behavior Verification)</title>
-    <link>https://quartz.jzhao.xyz/%ED%96%89%EC%9C%84-%EA%B2%80%EC%A6%9D(Behavior-Verification)</link>
-    <guid>https://quartz.jzhao.xyz/%ED%96%89%EC%9C%84-%EA%B2%80%EC%A6%9D(Behavior-Verification)</guid>
-    <description>행위 검증 (Behavior Verification) 마스터하기: 객체 간의 올바른 소통 확인 소프트웨어 테스트에서 우리가 검증하고자 하는 것은 단순히 최종 결과 값만이 아닙니다. 때로는 시스템의 특정 부분이 다른 부분과 “올바르게 소통”했는지, 즉 올바른 작업을 올바른 순서와 방식으로 요청했는지를 확인하는 것이 중요할 때가 있습니다.</description>
-    <pubDate>Mon, 14 Jul 2025 08:08:58 GMT</pubDate>
-  </item><item>
-    <title>하향식 통합 테스트(Top-Down Integration Testing)</title>
-    <link>https://quartz.jzhao.xyz/%ED%95%98%ED%96%A5%EC%8B%9D-%ED%86%B5%ED%95%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8(Top-Down-Integration-Testing)</link>
-    <guid>https://quartz.jzhao.xyz/%ED%95%98%ED%96%A5%EC%8B%9D-%ED%86%B5%ED%95%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8(Top-Down-Integration-Testing)</guid>
+    <title>Rust</title>
+    <link>https://quartz.jzhao.xyz/Rust</link>
+    <guid>https://quartz.jzhao.xyz/Rust</guid>
     <description></description>
-    <pubDate>Mon, 14 Jul 2025 08:08:58 GMT</pubDate>
+    <pubDate>Mon, 25 Aug 2025 00:16:35 GMT</pubDate>
   </item><item>
-    <title>하향식 통합 테스트</title>
-    <link>https://quartz.jzhao.xyz/%ED%95%98%ED%96%A5%EC%8B%9D-%ED%86%B5%ED%95%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8</link>
-    <guid>https://quartz.jzhao.xyz/%ED%95%98%ED%96%A5%EC%8B%9D-%ED%86%B5%ED%95%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8</guid>
-    <description>하향식 통합 테스트(Top-down Integration Testing)는 , 소프트웨어 시스템의 최상위 제어 모듈부터 시작하여 계층 구조를 따라 아래 방향으로 점차 하위 모듈들을 통합하며 테스트를 진행하는 방법입니다. 이 방식은 시스템의 전체적인 구조와 주요 제어 흐름을 초기에 검증하는 데 중점을 둡니다.</description>
-    <pubDate>Mon, 14 Jul 2025 08:08:58 GMT</pubDate>
+    <title>컴포지트 패턴 (Composite Pattern)</title>
+    <link>https://quartz.jzhao.xyz/%EC%BB%B4%ED%8F%AC%EC%A7%80%ED%8A%B8-%ED%8C%A8%ED%84%B4-(Composite-Pattern)</link>
+    <guid>https://quartz.jzhao.xyz/%EC%BB%B4%ED%8F%AC%EC%A7%80%ED%8A%B8-%ED%8C%A8%ED%84%B4-(Composite-Pattern)</guid>
+    <description>마치 러시아 전통 인형인 마트료시카처럼, 큰 인형 안에 작은 인형이 있고 그 안에 또 더 작은 인형이 들어있는 구조를 상상해 보세요. 혹은 우리가 매일 사용하는 컴퓨터의 파일 시스템에서 폴더 안에 또 다른 폴더나 파일이 들어있는 모습을 떠올려도 좋습니다. 컴포지트 패턴은 바로 이러한 부분-전체 계층(Part-Whole Hierarchy) 또는 트리 구조(Tree Structure)를 표현하고, 개별 객체(잎, Leaf)와 복합 객체(가지, Composite)를 클라이언트 입장에서 동일한 방식으로 다룰 수 있도록 해줍니다.</description>
+    <pubDate>Thu, 14 Aug 2025 01:52:25 GMT</pubDate>
+  </item><item>
+    <title>동시성(Concurrency)</title>
+    <link>https://quartz.jzhao.xyz/%EB%8F%99%EC%8B%9C%EC%84%B1(Concurrency)</link>
+    <guid>https://quartz.jzhao.xyz/%EB%8F%99%EC%8B%9C%EC%84%B1(Concurrency)</guid>
+    <description>소프트웨어 개발에서 동시성(Concurrency)의 개념과 구현 방법, 그리고 관련 패턴에 대한 포괄적인 설명.</description>
+    <pubDate>Thu, 14 Aug 2025 01:52:25 GMT</pubDate>
+  </item><item>
+    <title>동기와 블로킹의 차이</title>
+    <link>https://quartz.jzhao.xyz/%EB%8F%99%EA%B8%B0%EC%99%80-%EB%B8%94%EB%A1%9C%ED%82%B9%EC%9D%98-%EC%B0%A8%EC%9D%B4</link>
+    <guid>https://quartz.jzhao.xyz/%EB%8F%99%EA%B8%B0%EC%99%80-%EB%B8%94%EB%A1%9C%ED%82%B9%EC%9D%98-%EC%B0%A8%EC%9D%B4</guid>
+    <description>동기(Synchronous)와 블로킹(blocking)은 프로그래밍 모델에서 자주 혼동되는 개념입니다. 이 두 용어는 서로 관련되어 있지만 서로 다른 측면을 설명합니다. 이 문서에서는 두 개념의 명확한 차이점을 살펴보겠습니다. 개념적 차이 동기와 비동기는 작업의 완료 여부를 어떻게 확인하는지에 관한 개념인 반면, 블로킹과 논블로킹은 호출한 함수가 제어권을 어떻게 다루는지에 관한 개념입니다.</description>
+    <pubDate>Thu, 14 Aug 2025 01:52:24 GMT</pubDate>
+  </item><item>
+    <title>인수 테스트(Acceptance Test)</title>
+    <link>https://quartz.jzhao.xyz/%EC%9D%B8%EC%88%98-%ED%85%8C%EC%8A%A4%ED%8A%B8(Acceptance-Test)</link>
+    <guid>https://quartz.jzhao.xyz/%EC%9D%B8%EC%88%98-%ED%85%8C%EC%8A%A4%ED%8A%B8(Acceptance-Test)</guid>
+    <description>소프트웨어 개발 프로젝트의 여정은 단순히 코드를 작성하고 기능을 구현하는 것에서 끝나지 않습니다. 진정한 성공은 개발된 소프트웨어가 실제 사용자의 요구사항을 만족시키고, 약속된 비즈니스 가치를 제공할 때 비로소 완성됩니다. 우리는 “소프트웨어가 잘 만들어졌는가?”라는 질문을 넘어, “과연 올바르게, 사용자가 원하는 대로 만들어졌는가?”라는 근본적인 질문에 답해야 합니다.</description>
+    <pubDate>Thu, 14 Aug 2025 01:52:24 GMT</pubDate>
+  </item><item>
+    <title>컨텐트 협상(Content Negotiation)</title>
+    <link>https://quartz.jzhao.xyz/%EC%BB%A8%ED%85%90%ED%8A%B8-%ED%98%91%EC%83%81(Content-Negotiation)</link>
+    <guid>https://quartz.jzhao.xyz/%EC%BB%A8%ED%85%90%ED%8A%B8-%ED%98%91%EC%83%81(Content-Negotiation)</guid>
+    <description>컨텐트 협상(Content Negotiation)은 HTTP(HyperText Transfer Protocol) 프로토콜에서 클라이언트와 서버가 동일한 리소스에 대해 가장 적합한 표현(representation)을 선택하는 메커니즘입니다. 이는 RESTful API 설계의 핵심 원칙 중 하나로, 하나의 엔드포인트에서 여러 형식의 응답을 제공할 수 있게 해줍니다.</description>
+    <pubDate>Thu, 14 Aug 2025 01:52:24 GMT</pubDate>
+  </item><item>
+    <title>Cucumber</title>
+    <link>https://quartz.jzhao.xyz/Cucumber</link>
+    <guid>https://quartz.jzhao.xyz/Cucumber</guid>
+    <description>안녕하세요, 개발자 여러분. 소프트웨어 개발 프로젝트를 진행하다 보면, “우리가 지금 만들고 있는 것이 정말 사용자가 원하는 것일까?”, “기획자와 개발자, 테스터가 같은 그림을 그리고 있을까?” 하는 고민에 빠질 때가 있습니다. 이러한 고민은 종종 시스템의 요구사항이 모호하거나, 팀원 간의 이해가 일치하지 않을 때 발생하곤 합니다.</description>
+    <pubDate>Thu, 14 Aug 2025 01:52:24 GMT</pubDate>
+  </item><item>
+    <title>디자인 패턴(Design Pattern)</title>
+    <link>https://quartz.jzhao.xyz/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4(Design-Pattern)</link>
+    <guid>https://quartz.jzhao.xyz/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4(Design-Pattern)</guid>
+    <description>디자인 패턴은 소프트웨어 개발 과정에서 자주 발생하는 문제들에 대한 검증된 해결책입니다. 이러한 패턴들은 수많은 개발자들의 경험과 지식을 통해 정제되어 왔으며, 코드의 재사용성, 유지보수성, 확장성을 높이는 데 큰 도움이 됩니다. 디자인 패턴을 이해하고 적절히 활용하는 것은 효율적인 소프트웨어 설계를 위한 핵심 역량이라고 할 수 있습니다.</description>
+    <pubDate>Thu, 14 Aug 2025 01:52:24 GMT</pubDate>
+  </item><item>
+    <title>AOT(Ahead-of-Time) 컴파일</title>
+    <link>https://quartz.jzhao.xyz/AOT(Ahead-of-Time)-%EC%BB%B4%ED%8C%8C%EC%9D%BC</link>
+    <guid>https://quartz.jzhao.xyz/AOT(Ahead-of-Time)-%EC%BB%B4%ED%8C%8C%EC%9D%BC</guid>
+    <description>AOT(Ahead-of-Time) 컴파일은 프로그램 실행 전에 소스 코드 또는 중간 코드를 타겟 시스템의 기계어로 미리 변환하는 컴파일 기법입니다. 이는 JIT(Just-In-Time) 컴파일과는 대조적인 접근 방식으로, Java 생태계에서 GraalVM Native Image가 대표적인 AOT 컴파일 구현체입니다.</description>
+    <pubDate>Thu, 14 Aug 2025 01:52:24 GMT</pubDate>
   </item>
     </channel>
   </rss>
