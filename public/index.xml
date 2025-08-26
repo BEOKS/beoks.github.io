@@ -12,12 +12,6 @@
     <description> 본 포스트는 사내에서 작성한 문서를 외부 공유하기 위해 LLM 을 이용해 가상의 도메인으로 교체한 것임을 밝힙니다. 개발자라면 누구나 한 번쯤 겪어봤을 법한 이야기가 있습니다. 로컬과 개발 서버에서는 완벽하게 작동하던 기능이, 실제 데이터가 쌓인 운영 환경에서 속절없이 무너지는 경험 말이죠.</description>
     <pubDate>Mon, 25 Aug 2025 01:18:57 GMT</pubDate>
   </item><item>
-    <title>Rust</title>
-    <link>https://quartz.jzhao.xyz/Rust</link>
-    <guid>https://quartz.jzhao.xyz/Rust</guid>
-    <description></description>
-    <pubDate>Mon, 25 Aug 2025 01:18:57 GMT</pubDate>
-  </item><item>
     <title>Hibernate에서 Cascade=&quot;all-delete-orphan&quot; 오류 해결하기</title>
     <link>https://quartz.jzhao.xyz/Hibernate%EC%97%90%EC%84%9C-Cascade=%22all-delete-orphan%22-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0</link>
     <guid>https://quartz.jzhao.xyz/Hibernate%EC%97%90%EC%84%9C-Cascade=%22all-delete-orphan%22-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0</guid>
@@ -64,6 +58,12 @@
     <link>https://quartz.jzhao.xyz/ABAC-%EA%B0%9C%EB%B0%9C-%EA%B0%80%EC%9D%B4%EB%93%9C</link>
     <guid>https://quartz.jzhao.xyz/ABAC-%EA%B0%9C%EB%B0%9C-%EA%B0%80%EC%9D%B4%EB%93%9C</guid>
     <description>속성 기반 접근 제어는 사용자, 리소스, 환경 등 접근 요청과 관련된 다양한 **속성(Attribute)**들을 기반으로 정책을 수립하고, 이 정책에 따라 접근 권한을 동적으로 결정하는 접근 제어 모델입니다. RBAC가 역할에 기반한 정적인 권한 관리에 강점이 있다면, ABAC는 매우 세분화되고 동적인 접근 제어가 필요한 복잡한 환경에 적합합니다.</description>
+    <pubDate>Tue, 08 Jul 2025 05:51:08 GMT</pubDate>
+  </item><item>
+    <title>B Tree</title>
+    <link>https://quartz.jzhao.xyz/B-Tree</link>
+    <guid>https://quartz.jzhao.xyz/B-Tree</guid>
+    <description>B 트리(B Tree)는 B+ Tree와 마찬가지로 데이터베이스 및 파일 시스템에서 대량의 데이터를 효율적으로 저장하고 검색하기 위해 사용되는 자가 균형 이진 탐색 트리(Self-balancing Binary Search Tree)의 일반화된 형태입니다. B 트리는 특히 디스크와 같은 블록 지향 저장 장치에 최적화되어 있으며, 모든 노드에 데이터가 저장될 수 있다는 점에서 B+ Tree와 주요한 차이를 보입니다.</description>
     <pubDate>Tue, 08 Jul 2025 05:51:08 GMT</pubDate>
   </item>
     </channel>
