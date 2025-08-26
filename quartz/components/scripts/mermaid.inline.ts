@@ -144,7 +144,9 @@ const cssVars = [
 ] as const
 
 let mermaidImport = undefined
-document.addEventListener("nav", async () => {
+
+// Mermaid 초기화 및 렌더링 함수
+async function initializeMermaid() {
   const center = document.querySelector(".center") as HTMLElement
   const nodes = center.querySelectorAll("code.mermaid") as NodeListOf<HTMLElement>
   if (nodes.length === 0) return
@@ -245,4 +247,10 @@ document.addEventListener("nav", async () => {
       document.removeEventListener("keydown", handleEscape)
     })
   }
-})
+}
+
+// 초기 페이지 로딩 시 Mermaid 초기화
+document.addEventListener("DOMContentLoaded", initializeMermaid)
+
+// 페이지 네비게이션 시에도 Mermaid 초기화
+document.addEventListener("nav", initializeMermaid)
