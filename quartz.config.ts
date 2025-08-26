@@ -20,6 +20,10 @@ const config: QuartzConfig = {
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     generateSocialImages: false,
+    // Use homePageLayout for the index page
+    pageLayoutMapping: {
+      "index": "homePageLayout",
+    },
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,

@@ -5206,15 +5206,59 @@ var MobileOnly_default = /* @__PURE__ */ __name((component) => {
   }
 }, "default");
 
+// quartz/components/styles/recentNotes.scss
+var recentNotes_default = "";
+
 // quartz/components/RecentNotes.tsx
 import { jsx as jsx30, jsxs as jsxs17 } from "preact/jsx-runtime";
+var defaultOptions18 = /* @__PURE__ */ __name((cfg) => ({
+  limit: 3,
+  linkToMore: false,
+  showTags: true,
+  filter: /* @__PURE__ */ __name(() => true, "filter"),
+  sort: byDateAndAlphabetical(cfg)
+}), "defaultOptions");
+var RecentNotes_default = /* @__PURE__ */ __name((userOpts) => {
+  const RecentNotes = /* @__PURE__ */ __name(({
+    allFiles,
+    fileData,
+    displayClass,
+    cfg
+  }) => {
+    const opts = { ...defaultOptions18(cfg), ...userOpts };
+    const pages = allFiles.filter(opts.filter).sort(opts.sort);
+    const remaining = Math.max(0, pages.length - opts.limit);
+    return /* @__PURE__ */ jsxs17("div", { class: classNames(displayClass, "recent-notes"), children: [
+      /* @__PURE__ */ jsx30("h3", { children: opts.title ?? i18n(cfg.locale).components.recentNotes.title }),
+      /* @__PURE__ */ jsx30("ul", { class: "recent-ul", children: pages.slice(0, opts.limit).map((page) => {
+        const title = page.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title;
+        const tags = page.frontmatter?.tags ?? [];
+        return /* @__PURE__ */ jsx30("li", { class: "recent-li", children: /* @__PURE__ */ jsxs17("div", { class: "section", children: [
+          /* @__PURE__ */ jsx30("div", { class: "desc", children: /* @__PURE__ */ jsx30("h3", { children: /* @__PURE__ */ jsx30("a", { href: resolveRelative(fileData.slug, page.slug), class: "internal", children: title }) }) }),
+          page.dates && /* @__PURE__ */ jsx30("p", { class: "meta", children: /* @__PURE__ */ jsx30(Date2, { date: getDate(cfg, page), locale: cfg.locale }) }),
+          opts.showTags && /* @__PURE__ */ jsx30("ul", { class: "tags", children: tags.map((tag) => /* @__PURE__ */ jsx30("li", { children: /* @__PURE__ */ jsx30(
+            "a",
+            {
+              class: "internal tag-link",
+              href: resolveRelative(fileData.slug, `tags/${tag}`),
+              children: tag
+            }
+          ) })) })
+        ] }) });
+      }) }),
+      opts.linkToMore && remaining > 0 && /* @__PURE__ */ jsx30("p", { children: /* @__PURE__ */ jsx30("a", { href: resolveRelative(fileData.slug, opts.linkToMore), children: i18n(cfg.locale).components.recentNotes.seeRemainingMore({ remaining }) }) })
+    ] });
+  }, "RecentNotes");
+  RecentNotes.css = recentNotes_default;
+  return RecentNotes;
+}, "default");
 
 // quartz/components/styles/breadcrumbs.scss
 var breadcrumbs_default = "";
 
 // quartz/components/Breadcrumbs.tsx
 import { Fragment as Fragment7, jsx as jsx31, jsxs as jsxs18 } from "preact/jsx-runtime";
-var defaultOptions18 = {
+var defaultOptions19 = {
   spacerSymbol: "\u276F",
   rootName: "Home",
   resolveFrontmatterTitle: true,
@@ -5229,7 +5273,7 @@ function formatCrumb(displayName, baseSlug, currentSlug) {
 }
 __name(formatCrumb, "formatCrumb");
 var Breadcrumbs_default = /* @__PURE__ */ __name((opts) => {
-  const options2 = { ...defaultOptions18, ...opts };
+  const options2 = { ...defaultOptions19, ...opts };
   let folderIndex;
   const Breadcrumbs = /* @__PURE__ */ __name(({
     fileData,
@@ -5369,6 +5413,14 @@ var defaultContentPageLayout = {
     ),
     DesktopOnly_default(TableOfContents_default()),
     Backlinks_default()
+  ],
+  afterBody: [
+    // Add RecentNotes to all content pages with 5 posts
+    RecentNotes_default({
+      title: "\uCD5C\uADFC \uAC8C\uC2DC\uAE00",
+      limit: 5,
+      showTags: true
+    })
   ]
 };
 var defaultListPageLayout = {
@@ -5381,6 +5433,59 @@ var defaultListPageLayout = {
     Explorer_default()
   ],
   right: []
+};
+var homePageLayout = {
+  beforeBody: [
+    ArticleTitle_default(),
+    ContentMeta_default(),
+    // Add RecentNotes with 20 posts for home page
+    RecentNotes_default({
+      title: "\uCD5C\uADFC \uAC8C\uC2DC\uAE00",
+      limit: 20,
+      showTags: true
+    })
+  ],
+  left: [
+    PageTitle_default(),
+    MobileOnly_default(Spacer_default()),
+    Search_default(),
+    Darkmode_default(),
+    Explorer_default()
+  ],
+  right: [
+    Graph_default({
+      localGraph: {
+        drag: true,
+        zoom: true,
+        depth: 2,
+        scale: 1.5,
+        repelForce: 1,
+        centerForce: 0.3,
+        linkDistance: 50,
+        fontSize: 2,
+        opacityScale: 1,
+        removeTags: [],
+        showTags: true,
+        enableRadial: false
+      },
+      globalGraph: {
+        drag: true,
+        zoom: true,
+        depth: -1,
+        scale: 1,
+        repelForce: 20,
+        centerForce: 0.3,
+        linkDistance: 300,
+        fontSize: 1.5,
+        opacityScale: 1,
+        removeTags: [],
+        showTags: false,
+        enableRadial: true
+      }
+    }),
+    DesktopOnly_default(TableOfContents_default()),
+    Backlinks_default()
+  ]
 };
 
 // quartz/plugins/emitters/contentPage.tsx
@@ -5900,7 +6005,7 @@ __name(_getFolders, "_getFolders");
 
 // quartz/plugins/emitters/contentIndex.ts
 import { toHtml as toHtml2 } from "hast-util-to-html";
-var defaultOptions19 = {
+var defaultOptions20 = {
   enableSiteMap: true,
   enableRSS: true,
   rssLimit: 10,
@@ -5951,7 +6056,7 @@ function generateRSSFeed(cfg, idx, limit) {
 }
 __name(generateRSSFeed, "generateRSSFeed");
 var ContentIndex = /* @__PURE__ */ __name((opts) => {
-  opts = { ...defaultOptions19, ...opts };
+  opts = { ...defaultOptions20, ...opts };
   return {
     name: "ContentIndex",
     async getDependencyGraph(ctx, content, _resources) {
@@ -6515,6 +6620,10 @@ var config = {
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     generateSocialImages: false,
+    // Use homePageLayout for the index page
+    pageLayoutMapping: {
+      "index": "homePageLayout"
+    },
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,

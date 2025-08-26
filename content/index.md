@@ -1,5 +1,6 @@
 ---
 title: Beoks의 개발자 블로그
+layout: homePageLayout
 ---
 
 # 소개
