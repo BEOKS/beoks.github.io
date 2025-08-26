@@ -3,6 +3,7 @@ import path from "path"
 import { Repository } from "@napi-rs/simple-git"
 import { QuartzTransformerPlugin } from "../types"
 import chalk from "chalk"
+import { execSync } from "child_process"
 
 export interface Options {
   priority: ("frontmatter" | "git" | "filesystem")[]
@@ -24,6 +25,30 @@ function coerceDate(fp: string, d: any): Date {
   }
 
   return invalidDate ? new Date() : dt
+}
+
+function getFileFirstCommitDate(filePath: string, cwd: string): Date | undefined {
+  try {
+    // Git 명령을 실행하여 파일의 첫 번째 커밋 날짜를 가져옴
+    const command = `git log --follow --format=%aI --reverse "${filePath}" | head -1`
+    const output = execSync(command, {
+      cwd,
+      encoding: 'utf-8',
+      stdio: ['pipe', 'pipe', 'pipe']
+    }).trim()
+
+    if (output) {
+      return new Date(output)
+    }
+  } catch (error) {
+    // Git 명령이 실패한 경우 (예: 파일이 Git에 없음)
+    console.log(
+      chalk.yellow(
+        `\nWarning: Could not get first commit date for ${filePath}, git command failed`,
+      ),
+    )
+  }
+  return undefined
 }
 
 type MaybeDate = undefined | string | number
@@ -60,7 +85,25 @@ export const CreatedModifiedDate: QuartzTransformerPlugin<Partial<Options>> = (u
                 }
 
                 try {
+                  // Get the latest modified date
                   modified ||= await repo.getFileLatestModifiedDateAsync(file.data.filePath!)
+
+                  // Get the first commit date (created date) if not already set
+                  if (!created) {
+                    const firstCommit = getFileFirstCommitDate(file.data.filePath!, file.cwd)
+                    if (firstCommit) {
+                      created = firstCommit
+                    } else {
+                      // If we can't get the first commit date, use the modified date as fallback
+                      created = modified
+                      console.log(
+                        chalk.yellow(
+                          `\nWarning: Could not get first commit date for ${file.data
+                            .filePath!}, using modified date as fallback`,
+                        ),
+                      )
+                    }
+                  }
                 } catch {
                   console.log(
                     chalk.yellow(

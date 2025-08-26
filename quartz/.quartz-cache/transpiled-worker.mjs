@@ -2455,6 +2455,7 @@ import fs from "fs";
 import path from "path";
 import { Repository } from "@napi-rs/simple-git";
 import chalk from "chalk";
+import { execSync } from "child_process";
 var defaultOptions3 = {
   priority: ["frontmatter", "git", "filesystem"]
 };
@@ -2472,6 +2473,28 @@ Warning: found invalid date "${d}" in \`${fp}\`. Supported formats: https://deve
   return invalidDate ? /* @__PURE__ */ new Date() : dt;
 }
 __name(coerceDate, "coerceDate");
+function getFileFirstCommitDate(filePath, cwd) {
+  try {
+    const command = `git log --follow --format=%aI --reverse "${filePath}" | head -1`;
+    const output = execSync(command, {
+      cwd,
+      encoding: "utf-8",
+      stdio: ["pipe", "pipe", "pipe"]
+    }).trim();
+    if (output) {
+      return new Date(output);
+    }
+  } catch (error) {
+    console.log(
+      chalk.yellow(
+        `
+Warning: Could not get first commit date for ${filePath}, git command failed`
+      )
+    );
+  }
+  return void 0;
+}
+__name(getFileFirstCommitDate, "getFileFirstCommitDate");
 var CreatedModifiedDate = /* @__PURE__ */ __name((userOpts) => {
   const opts = { ...defaultOptions3, ...userOpts };
   return {
@@ -2501,6 +2524,20 @@ var CreatedModifiedDate = /* @__PURE__ */ __name((userOpts) => {
                 }
                 try {
                   modified ||= await repo.getFileLatestModifiedDateAsync(file.data.filePath);
+                  if (!created) {
+                    const firstCommit = getFileFirstCommitDate(file.data.filePath, file.cwd);
+                    if (firstCommit) {
+                      created = firstCommit;
+                    } else {
+                      created = modified;
+                      console.log(
+                        chalk.yellow(
+                          `
+Warning: Could not get first commit date for ${file.data.filePath}, using modified date as fallback`
+                        )
+                      );
+                    }
+                  }
                 } catch {
                   console.log(
                     chalk.yellow(
@@ -6662,7 +6699,7 @@ var config = {
     transformers: [
       FrontMatter(),
       CreatedModifiedDate({
-        priority: ["frontmatter", "filesystem"]
+        priority: ["frontmatter", "git", "filesystem"]
       }),
       SyntaxHighlighting({
         theme: {

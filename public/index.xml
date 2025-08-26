@@ -6,65 +6,65 @@
       <description>최근 10 건 on 🪴 Beoks Blog</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Beoks의 개발자 블로그</title>
-    <link>https://quartz.jzhao.xyz/</link>
-    <guid>https://quartz.jzhao.xyz/</guid>
-    <description>소개 안녕하세요! 저는 백엔드 개발자 Beoks입니다. 이 블로그에서는 개발 이론을 어떻게 실전에서 활용할 수 있는지에 대해 이야기합니다. 이론을 깊이 있게 공부하고, 그것을 실제로 적용하는 데 관심이 많습니다. 최신 기술 트렌드를 따라가며, 이를 프로젝트에 활용하는 것을 좋아합니다.</description>
-    <pubDate>Tue, 26 Aug 2025 06:34:28 GMT</pubDate>
+    <title>GraphQL의 배신? 1분 타임아웃을 6초로 단축시킨 엑셀 다운로드 성능 개선기</title>
+    <link>https://quartz.jzhao.xyz/GraphQL%EC%9D%98-%EB%B0%B0%EC%8B%A0-1%EB%B6%84-%ED%83%80%EC%9E%84%EC%95%84%EC%9B%83%EC%9D%84-6%EC%B4%88%EB%A1%9C-%EB%8B%A8%EC%B6%95%EC%8B%9C%ED%82%A8-%EC%97%91%EC%85%80-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%EC%84%B1%EB%8A%A5-%EA%B0%9C%EC%84%A0%EA%B8%B0</link>
+    <guid>https://quartz.jzhao.xyz/GraphQL%EC%9D%98-%EB%B0%B0%EC%8B%A0-1%EB%B6%84-%ED%83%80%EC%9E%84%EC%95%84%EC%9B%83%EC%9D%84-6%EC%B4%88%EB%A1%9C-%EB%8B%A8%EC%B6%95%EC%8B%9C%ED%82%A8-%EC%97%91%EC%85%80-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%EC%84%B1%EB%8A%A5-%EA%B0%9C%EC%84%A0%EA%B8%B0</guid>
+    <description> 본 포스트는 사내에서 작성한 문서를 외부 공유하기 위해 LLM 을 이용해 가상의 도메인으로 교체한 것임을 밝힙니다. 개발자라면 누구나 한 번쯤 겪어봤을 법한 이야기가 있습니다. 로컬과 개발 서버에서는 완벽하게 작동하던 기능이, 실제 데이터가 쌓인 운영 환경에서 속절없이 무너지는 경험 말이죠.</description>
+    <pubDate>Mon, 25 Aug 2025 01:18:57 GMT</pubDate>
   </item><item>
-    <title>Mac 에서 Redis 설치하기</title>
-    <link>https://quartz.jzhao.xyz/Mac-%EC%97%90%EC%84%9C-Redis-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0</link>
-    <guid>https://quartz.jzhao.xyz/Mac-%EC%97%90%EC%84%9C-Redis-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0</guid>
-    <description> Info 이 설치방법은 7.4.2 버전 기준이며, 버전 업에 따라 방법이 달라질 수 있습니다. 최신 내용은 공식 문서를 참고해주세요. 사전 준비 Homebrew 설치 확인: 터미널을 열고 아래 명령어로 Homebrew 설치 여부를 확인하세요. brew --version Homebrew가 설치되어 있지 않다면 Homebrew 설치 가이드를 참고하여 설치하시기 바랍니다.</description>
-    <pubDate>Mon, 25 Aug 2025 01:19:01 GMT</pubDate>
+    <title>Rust</title>
+    <link>https://quartz.jzhao.xyz/Rust</link>
+    <guid>https://quartz.jzhao.xyz/Rust</guid>
+    <description></description>
+    <pubDate>Mon, 25 Aug 2025 01:18:57 GMT</pubDate>
   </item><item>
-    <title>JPA Criteria API</title>
-    <link>https://quartz.jzhao.xyz/JPA-Criteria-API</link>
-    <guid>https://quartz.jzhao.xyz/JPA-Criteria-API</guid>
-    <description>JPA(Java Persistence API)는 자바 애플리케이션에서 관계형 데이터를 관리하기 위한 표준 기술입니다. 그 중에서도 Criteria API는 타입 안전한(type-safe) 방식으로 쿼리를 구성할 수 있게 해주는 강력한 도구입니다. 이 글에서는 JPA Criteria API의 개념부터 실전 활용법까지 자세히 알아보겠습니다.</description>
-    <pubDate>Mon, 25 Aug 2025 01:19:01 GMT</pubDate>
+    <title>Hibernate에서 Cascade=&quot;all-delete-orphan&quot; 오류 해결하기</title>
+    <link>https://quartz.jzhao.xyz/Hibernate%EC%97%90%EC%84%9C-Cascade=%22all-delete-orphan%22-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0</link>
+    <guid>https://quartz.jzhao.xyz/Hibernate%EC%97%90%EC%84%9C-Cascade=%22all-delete-orphan%22-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0</guid>
+    <description>개발하면서 Hibernate를 사용하여 엔티티를 매핑할 때 cascade=&quot;all-delete-orphan&quot; 설정을 사용하면 편리하게 참조되지 않는 엔티티를 자동으로 삭제할 수 있습니다. 그러나 이 설정을 사용할 때 컬렉션을 새로운 인스턴스로 교체하면 다음과 같은 예외가 발생할 수 있습니다: org.hibernate.HibernateException: A collection with cascade=&quot;all-delete-orphan&quot; was no longer referenced by the owning entity instance: com.example.domain.entity.SubAccount.networkDiagrams 이번 글에서는 이 오류의 원인과 해결 방법을 상세하게 알아보겠습니다.</description>
+    <pubDate>Thu, 14 Aug 2025 02:22:38 GMT</pubDate>
   </item><item>
-    <title>AOT(Ahead-of-Time) 컴파일</title>
-    <link>https://quartz.jzhao.xyz/AOT(Ahead-of-Time)-%EC%BB%B4%ED%8C%8C%EC%9D%BC</link>
-    <guid>https://quartz.jzhao.xyz/AOT(Ahead-of-Time)-%EC%BB%B4%ED%8C%8C%EC%9D%BC</guid>
-    <description>AOT(Ahead-of-Time) 컴파일은 프로그램 실행 전에 소스 코드 또는 중간 코드를 타겟 시스템의 기계어로 미리 변환하는 컴파일 기법입니다. 이는 JIT(Just-In-Time) 컴파일과는 대조적인 접근 방식으로, Java 생태계에서 GraalVM Native Image가 대표적인 AOT 컴파일 구현체입니다.</description>
-    <pubDate>Mon, 25 Aug 2025 01:19:00 GMT</pubDate>
+    <title>생성형 AI 활용으로 인한 인지 능력 저하</title>
+    <link>https://quartz.jzhao.xyz/%EC%83%9D%EC%84%B1%ED%98%95-AI-%ED%99%9C%EC%9A%A9%EC%9C%BC%EB%A1%9C-%EC%9D%B8%ED%95%9C-%EC%9D%B8%EC%A7%80-%EB%8A%A5%EB%A0%A5-%EC%A0%80%ED%95%98</link>
+    <guid>https://quartz.jzhao.xyz/%EC%83%9D%EC%84%B1%ED%98%95-AI-%ED%99%9C%EC%9A%A9%EC%9C%BC%EB%A1%9C-%EC%9D%B8%ED%95%9C-%EC%9D%B8%EC%A7%80-%EB%8A%A5%EB%A0%A5-%EC%A0%80%ED%95%98</guid>
+    <description> 최근에 생성형 AI 가 대두되면서 이를 이용해 다양한 업무를 수행하고 있다. 업무 중에는 인지 활용이 필요한 업무들이 대다수인데 이를 생성형 AI 에 그대로 질문하고 답변을 수용하면서 스스로 인지 활용을 하지 않아. 기억력, 사고력, 관찰력 등 다양한 인지 능력의 저하가 느껴지고 있다.</description>
+    <pubDate>Thu, 14 Aug 2025 02:22:38 GMT</pubDate>
   </item><item>
-    <title>JPA Fetch Join과 컬렉션 필터링의 함정</title>
-    <link>https://quartz.jzhao.xyz/JPA-Fetch-Join%EA%B3%BC-%EC%BB%AC%EB%A0%89%EC%85%98-%ED%95%84%ED%84%B0%EB%A7%81%EC%9D%98-%ED%95%A8%EC%A0%95</link>
-    <guid>https://quartz.jzhao.xyz/JPA-Fetch-Join%EA%B3%BC-%EC%BB%AC%EB%A0%89%EC%85%98-%ED%95%84%ED%84%B0%EB%A7%81%EC%9D%98-%ED%95%A8%EC%A0%95</guid>
-    <description>오늘은 개발 프로젝트를 진행하면서 JPA와 QueryDSL을 사용하다 마주쳤던 문제와 그 해결 과정을 공유하고자 합니다. 특히 Fetch Join을 사용하여 연관된 컬렉션을 함께 조회할 때, 특정 조건으로 필터링하면 예상과 다른 결과가 나오는 상황이었죠. 문제 상황: 사라진 IP 주소들 저희는 Device라는 엔티티와, 이 Device가 가질 수 있는 여러 개의 IpAddress 엔티티(1:N 관계)를 관리하고 있었습니다.</description>
-    <pubDate>Mon, 25 Aug 2025 01:19:00 GMT</pubDate>
+    <title>생성형 AI의 활용</title>
+    <link>https://quartz.jzhao.xyz/%EC%83%9D%EC%84%B1%ED%98%95-AI%EC%9D%98-%ED%99%9C%EC%9A%A9</link>
+    <guid>https://quartz.jzhao.xyz/%EC%83%9D%EC%84%B1%ED%98%95-AI%EC%9D%98-%ED%99%9C%EC%9A%A9</guid>
+    <description>1. 생성형 AI의 양면성: 핵심 특성과 내재적 한계 생성형 인공지능(Generative AI)은 단순한 기술적 유행을 넘어, 비즈니스와 사회 전반에 걸쳐 패러다임의 전환을 예고하고 있다. 그러나 이 기술의 잠재력을 온전히 활용하고 위험을 효과적으로 관리하기 위해서는, 그 본질적 특성을 명확히 이해하는 것이 선행되어야 한다.</description>
+    <pubDate>Fri, 18 Jul 2025 01:07:06 GMT</pubDate>
   </item><item>
-    <title>MCP 전송 계층 (Transport Layer)</title>
-    <link>https://quartz.jzhao.xyz/MCP-%EC%A0%84%EC%86%A1-%EA%B3%84%EC%B8%B5-(Transport-Layer)</link>
-    <guid>https://quartz.jzhao.xyz/MCP-%EC%A0%84%EC%86%A1-%EA%B3%84%EC%B8%B5-(Transport-Layer)</guid>
-    <description>MCP(Model Context Protocol) 아키텍처에서 **전송 계층(Transport Layer)**은 클라이언트와 서버 간의 실제 데이터 전송을 담당하는 가장 기본적인 계층입니다. 이 계층의 주된 목적은 복잡한 네트워크 통신의 세부 사항을 숨기고, 그 위의 MCP 프로토콜 계층 (Protocol Layer)이 일관된 방식으로 데이터를 주고받을 수 있도록 신뢰성 있는 통로를 제공하는 것입니다.</description>
-    <pubDate>Mon, 25 Aug 2025 01:19:00 GMT</pubDate>
+    <title>생성형 AI, 활용과 한계점</title>
+    <link>https://quartz.jzhao.xyz/%EC%83%9D%EC%84%B1%ED%98%95-AI,-%ED%99%9C%EC%9A%A9%EA%B3%BC-%ED%95%9C%EA%B3%84%EC%A0%90</link>
+    <guid>https://quartz.jzhao.xyz/%EC%83%9D%EC%84%B1%ED%98%95-AI,-%ED%99%9C%EC%9A%A9%EA%B3%BC-%ED%95%9C%EA%B3%84%EC%A0%90</guid>
+    <description>제 1부: 생성형 AI의 양면성: 핵심 특성과 내재적 한계 생성형 인공지능(Generative AI)은 단순한 기술적 유행을 넘어, 비즈니스와 사회 전반에 걸쳐 패러다임의 전환을 예고하고 있다. 그러나 이 기술의 잠재력을 온전히 활용하고 위험을 효과적으로 관리하기 위해서는, 그 본질적 특성을 명확히 이해하는 것이 선행되어야 한다.</description>
+    <pubDate>Tue, 15 Jul 2025 05:16:47 GMT</pubDate>
   </item><item>
-    <title>MCP 클라이언트 초기화 및 기능 협상</title>
-    <link>https://quartz.jzhao.xyz/MCP-%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%B4%88%EA%B8%B0%ED%99%94-%EB%B0%8F-%EA%B8%B0%EB%8A%A5-%ED%98%91%EC%83%81</link>
-    <guid>https://quartz.jzhao.xyz/MCP-%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%B4%88%EA%B8%B0%ED%99%94-%EB%B0%8F-%EA%B8%B0%EB%8A%A5-%ED%98%91%EC%83%81</guid>
-    <description>**기능 협상(Capability Negotiation)**은 MCP Client와 서버가 통신을 시작하는 초기 단계에서 서로가 지원하는 기능과 프로토콜 버전을 교환하여 호환성을 확인하고, 이후의 상호작용 방식을 결정하는 핵심적인 프로세스입니다. 이는 단순히 “연결” 그 이상의 의미를 가지며, 서로 다른 버전의 클라이언트와 서버가 만나더라도 안정적으로 통신할 수 있는 기반을 마련하는 Handshake와 같습니다.</description>
-    <pubDate>Mon, 25 Aug 2025 01:19:00 GMT</pubDate>
+    <title>한 달 차이와 30일 차이</title>
+    <link>https://quartz.jzhao.xyz/%ED%95%9C-%EB%8B%AC-%EC%B0%A8%EC%9D%B4%EC%99%80-30%EC%9D%BC-%EC%B0%A8%EC%9D%B4</link>
+    <guid>https://quartz.jzhao.xyz/%ED%95%9C-%EB%8B%AC-%EC%B0%A8%EC%9D%B4%EC%99%80-30%EC%9D%BC-%EC%B0%A8%EC%9D%B4</guid>
+    <description>개발 과정에서 날짜와 시간을 다루는 것은 매우 흔한 일입니다. 특히 특정 기간을 계산하거나 만료일을 설정할 때, ‘한 달’이라는 개념과 ‘30일’이라는 개념을 동일하게 취급하여 예상치 못한 버그를 마주하는 경우가 많습니다. 이 글에서는 이 두 가지 개념의 근본적인 차이점을 명확히 이해하고, 실제 개발에서 발생할 수 있는 문제를 방지하는 방법에 대해 설명합니다.</description>
+    <pubDate>Tue, 15 Jul 2025 05:16:47 GMT</pubDate>
   </item><item>
-    <title>CompletableFuture</title>
-    <link>https://quartz.jzhao.xyz/CompletableFuture</link>
-    <guid>https://quartz.jzhao.xyz/CompletableFuture</guid>
-    <description>CompletableFuture는 Java 8에서 도입된 비동기(Asynchronous) 프로그래밍을 위한 클래스로, java.util.concurrent 패키지의 일부입니다. 기존의 Future 인터페이스를 확장하여 더 풍부한 기능을 제공하며, 비동기 작업의 완료 여부를 확인하고 결과를 처리하는 다양한 방법을 제공합니다.</description>
-    <pubDate>Mon, 25 Aug 2025 01:19:00 GMT</pubDate>
+    <title>역 인덱스(Inverted Index)</title>
+    <link>https://quartz.jzhao.xyz/%EC%97%AD-%EC%9D%B8%EB%8D%B1%EC%8A%A4(Inverted-Index)</link>
+    <guid>https://quartz.jzhao.xyz/%EC%97%AD-%EC%9D%B8%EB%8D%B1%EC%8A%A4(Inverted-Index)</guid>
+    <description>역 인덱스(Inverted Index)란 무엇인가? 역 인덱스(Inverted Index)는 정보 검색 및 최신 검색 엔진의 핵심에 있는 데이터 구조입니다. 문서 본문에서 용어(term)를 찾아 해당 용어가 포함된 문서의 목록을 즉시 찾을 수 있도록 설계되었습니다. 이는 책 뒷면의 색인과 매우 유사하며, 키워드를 찾고 해당 키워드가 나타나는 페이지 번호를 찾는 방식과 같습니다.</description>
+    <pubDate>Tue, 15 Jul 2025 02:03:35 GMT</pubDate>
   </item><item>
-    <title>JIT(Just-In-Time) 컴파일</title>
-    <link>https://quartz.jzhao.xyz/JIT(Just-In-Time)-%EC%BB%B4%ED%8C%8C%EC%9D%BC</link>
-    <guid>https://quartz.jzhao.xyz/JIT(Just-In-Time)-%EC%BB%B4%ED%8C%8C%EC%9D%BC</guid>
-    <description>IT(Just-In-Time) 컴파일은 프로그램을 실행하는 시점에 기계어로 변환하는 컴파일 기법입니다. 이 방식은 전통적인 인터프리터(Interpreter) 방식과 정적 컴파일(Static Compilation) 방식의 장점을 결합한 하이브리드 접근법으로, 현대 프로그래밍 언어 실행 환경에서 널리 사용되고 있습니다.</description>
-    <pubDate>Mon, 25 Aug 2025 01:19:00 GMT</pubDate>
+    <title>초개인화 UI</title>
+    <link>https://quartz.jzhao.xyz/%EC%B4%88%EA%B0%9C%EC%9D%B8%ED%99%94-UI</link>
+    <guid>https://quartz.jzhao.xyz/%EC%B4%88%EA%B0%9C%EC%9D%B8%ED%99%94-UI</guid>
+    <description>정적인 프로그램에서 동적인 프로그램으로 현대의 모든 정보 기술(IT) 서비스는 데이터를 어떻게 다루고 사용자에게 제시하는가에 그 기반을 두고 있다. 그러나 모든 사용자의 요구사항과 작업 방식이 다르기 때문에, ‘모두에게 맞는 단 하나의(one-size-fits-all)’ 인터페이스는 필연적으로 비효율을 낳는다.</description>
+    <pubDate>Mon, 14 Jul 2025 08:01:28 GMT</pubDate>
   </item><item>
-    <title>Hibernate Session 관리 전략</title>
-    <link>https://quartz.jzhao.xyz/Hibernate-Session-%EA%B4%80%EB%A6%AC-%EC%A0%84%EB%9E%B5</link>
-    <guid>https://quartz.jzhao.xyz/Hibernate-Session-%EA%B4%80%EB%A6%AC-%EC%A0%84%EB%9E%B5</guid>
-    <description>Hibernate Session의 효율적인 관리는 애플리케이션의 성능, 확장성 및 안정성에 직접적인 영향을 미칩니다. 적절한 Session 관리 전략을 선택하고 구현하는 것은 ORM 기반 애플리케이션의 성공에 핵심적인 요소입니다. 이 문서에서는 다양한 Hibernate Session 관리 전략과 각 전략의 장단점, 적용 시나리오에 대해 알아보겠습니다.</description>
-    <pubDate>Mon, 25 Aug 2025 01:19:00 GMT</pubDate>
+    <title>ABAC 개발 가이드 (Attribute-Based Access Control Development Guide)</title>
+    <link>https://quartz.jzhao.xyz/ABAC-%EA%B0%9C%EB%B0%9C-%EA%B0%80%EC%9D%B4%EB%93%9C</link>
+    <guid>https://quartz.jzhao.xyz/ABAC-%EA%B0%9C%EB%B0%9C-%EA%B0%80%EC%9D%B4%EB%93%9C</guid>
+    <description>속성 기반 접근 제어는 사용자, 리소스, 환경 등 접근 요청과 관련된 다양한 **속성(Attribute)**들을 기반으로 정책을 수립하고, 이 정책에 따라 접근 권한을 동적으로 결정하는 접근 제어 모델입니다. RBAC가 역할에 기반한 정적인 권한 관리에 강점이 있다면, ABAC는 매우 세분화되고 동적인 접근 제어가 필요한 복잡한 환경에 적합합니다.</description>
+    <pubDate>Tue, 08 Jul 2025 05:51:08 GMT</pubDate>
   </item>
     </channel>
   </rss>
