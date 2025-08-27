@@ -89,5 +89,5 @@ Hibernate에서 `cascade="all-delete-orphan"` 또는 `orphanRemoval = true`를 �
 ## 추가 자료
 
 - [[Hibernate 엔티티 상태 관리]]
-- [[JPA 영속성 컨텍스트]]
-- [[트랜잭션 관리 방법]]
+- JPA 영속성 컨텍스트
+- 트랜잭션 관리 방법

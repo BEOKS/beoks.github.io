@@ -120,7 +120,7 @@ while (!service.isTaskComplete(taskId)) {
 Result result = service.getTaskResult(taskId);
 ```
 
-동기 패턴에 대한 자세한 내용은 [[동기식 설계 패턴]]을 참고해주세요.
+동기 패턴에 대한 자세한 내용은 동기식 설계 패턴을 참고해주세요.
 
 ## 동기 처리의 장단점
 
@@ -230,7 +230,7 @@ public class CachingUserService implements UserService {
 }
 ```
 
-동기 처리 최적화에 대한 자세한 내용은 [[동기 프로그래밍 최적화 기법]]을 참고해주세요.
+동기 처리 최적화에 대한 자세한 내용은 동기 프로그래밍 최적화 기법을 참고해주세요.
 
 ## 동기와 비동기의 결합
 
@@ -315,7 +315,7 @@ public class ThreadSafeCache {
 }
 ```
 
-동기 프로그래밍 모범 사례에 대한 자세한 내용은 [[동기 프로그래밍 모범 사례]]를 참고해주세요.
+동기 프로그래밍 모범 사례에 대한 자세한 내용은 동기 프로그래밍 모범 사례를 참고해주세요.
 
 ## 실제 사용 사례
 

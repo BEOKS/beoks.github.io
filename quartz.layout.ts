@@ -65,6 +65,14 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
+  afterBody: [
+    // Add RecentNotes to all content pages with 5 posts
+    Component.RecentNotes({
+      title: "최근 게시글",
+      limit: 5,
+      showTags: true
+    }),
+  ],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
@@ -78,4 +86,59 @@ export const defaultListPageLayout: PageLayout = {
     Component.Explorer(),
   ],
   right: [],
+}
+
+// components for the home page
+export const homePageLayout: PageLayout = {
+  beforeBody: [
+    Component.ArticleTitle(),
+    Component.ContentMeta(),
+    // Add RecentNotes with 20 posts for home page
+    Component.RecentNotes({
+      title: "최근 게시글",
+      limit: 20,
+      showTags: true,
+    }),
+  ],
+  left: [
+    Component.PageTitle(),
+    Component.MobileOnly(Component.Spacer()),
+    Component.Search(),
+    Component.Darkmode(),
+    Component.Explorer(),
+  ],
+  right: [
+    Component.Graph({
+      localGraph: {
+        drag: true,
+        zoom: true,
+        depth: 2,
+        scale: 1.5,
+        repelForce: 1.0,
+        centerForce: 0.3,
+        linkDistance: 50,
+        fontSize: 2.0,
+        opacityScale: 1,
+        removeTags: [],
+        showTags: true,
+        enableRadial: false,
+      },
+      globalGraph: {
+        drag: true,
+        zoom: true,
+        depth: -1,
+        scale: 1,
+        repelForce: 20,
+        centerForce: 0.3,
+        linkDistance: 300,
+        fontSize: 1.5,
+        opacityScale: 1,
+        removeTags: [],
+        showTags: false,
+        enableRadial: true,
+      },
+    }),
+    Component.DesktopOnly(Component.TableOfContents()),
+    Component.Backlinks(),
+  ],
 }

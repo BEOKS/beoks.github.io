@@ -85,7 +85,7 @@ public class JsonDataProcessor extends AbstractDataProcessor {
 }
 ```
 
-이 구조를 통해 `process()`라는 전체적인 흐름은 `AbstractDataProcessor`가 제어하면서도, `parseData()`라는 핵심적인 가변 로직은 각 `ConcreteClass`가 책임지도록 역할을 분담할 수 있습니다. 이것이 바로 [[제어의 역전 (Inversion of Control)]] 원칙의 한 예이며, "Don't call us, we'll call you(우리를 호출하지 마세요. 우리가 당신을 호출할 겁니다)"라는 **할리우드 원칙**으로도 설명됩니다.
+이 구조를 통해 `process()`라는 전체적인 흐름은 `AbstractDataProcessor`가 제어하면서도, `parseData()`라는 핵심적인 가변 로직은 각 `ConcreteClass`가 책임지도록 역할을 분담할 수 있습니다. 이것이 바로 제어의 역전 (Inversion of Control) 원칙의 한 예이며, "Don't call us, we'll call you(우리를 호출하지 마세요. 우리가 당신을 호출할 겁니다)"라는 **할리우드 원칙**으로도 설명됩니다.
 
 ### 스프링 프레임워크에서의 활용: `JdbcTemplate`
 
@@ -100,7 +100,7 @@ public class JsonDataProcessor extends AbstractDataProcessor {
 5. **`try-catch-finally`를 사용한 자원(Connection, PreparedStatement, ResultSet) 해제**
 6. 예외 처리 및 전환
 
-이 중에서 1, 5, 6번은 거의 모든 JDBC 작업에서 동일하게 반복되는 상용구 코드(Boilerplate Code)입니다. `JdbcTemplate`은 이 반복적인 부분을 자신의 템플릿 메서드(`query()`, `update()` 등) 안에 숨겨두고, 개발자는 변하는 부분인 2, 3, 4번(실행할 SQL, 파라미터, 결과 처리 방식)만 [[콜백 (Callback)]] 형태로 제공하면 되도록 설계되었습니다.
+이 중에서 1, 5, 6번은 거의 모든 JDBC 작업에서 동일하게 반복되는 상용구 코드(Boilerplate Code)입니다. `JdbcTemplate`은 이 반복적인 부분을 자신의 템플릿 메서드(`query()`, `update()` 등) 안에 숨겨두고, 개발자는 변하는 부분인 2, 3, 4번(실행할 SQL, 파라미터, 결과 처리 방식)만 콜백 (Callback) 형태로 제공하면 되도록 설계되었습니다.
 
 ```java
 // 개발자는 RowMapper라는 콜백 인터페이스 구현만 제공하면 된다.

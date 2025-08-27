@@ -368,7 +368,7 @@ CompletableFuture는 다른 비동기 프로그래밍 기법과 비교하여 다
 - **백프레셔**: CompletableFuture는 백프레셔(생산자와 소비자 간의 처리 속도 조절) 메커니즘이 없습니다.
 - **오퍼레이터**: 반응형 프로그래밍은 더 풍부한 연산자와 변환 기능을 제공합니다.
 
-### 3. CompletableFuture vs [[코루틴(Coroutine)]]
+### 3. CompletableFuture vs [[코루틴 (Coroutines)]]
 
 - **구현 방식**: CompletableFuture는 콜백 기반인 반면, 코루틴은 중단 가능한 함수를 통해 구현됩니다.
 - **가독성**: 코루틴은 비동기 코드를 동기 코드처럼 작성할 수 있어 가독성이 더 좋을 수 있습니다.
@@ -512,7 +512,7 @@ CompletableFuture는 Java에서 비동기 프로그래밍을 위한 강력한 �
 
 Java의 비동기 프로그래밍 생태계는 계속 발전하고 있으며, CompletableFuture는 그 중심에 있습니다. 완전한 반응형 시스템이 필요한 경우 Reactor나 RxJava와 같은 라이브러리를 고려할 수 있지만, 단일 값이나 결과를 처리하는 대부분의 비동기 작업에는 CompletableFuture가 간결하고 효과적인 해결책을 제공합니다.
 
-자세한 사용 사례와 심화 내용은 [[비동기 프로그래밍 모범 사례]], [[Java 비동기 프로그래밍 기법 비교]], 반응형 프로그래밍 vs CompletableFuture를 참고해주세요.
+자세한 사용 사례와 심화 내용은 비동기 프로그래밍 모범 사례, Java 비동기 프로그래밍 기법 비교, 반응형 프로그래밍 vs CompletableFuture를 참고해주세요.
 
 ## 참고 자료
 

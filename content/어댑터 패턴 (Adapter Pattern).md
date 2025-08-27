@@ -76,7 +76,7 @@ classDiagram
 
 ### 1. 클래스 어댑터 패턴 (Class Adapter Pattern)
 
-클래스 어댑터 패턴은 [[클래스 상속]]을 사용하여 어댑터를 구현합니다. 어댑터 클래스가 `Target` 인터페이스를 구현(implements)하고, 동시에 `Adaptee` 클래스를 상속(extends)받는 방식입니다. (Java와 같은 단일 상속만 지원하는 언어에서는 `Target`이 인터페이스이고 `Adaptee`가 클래스여야 가능합니다.)
+클래스 어댑터 패턴은 클래스 상속을 사용하여 어댑터를 구현합니다. 어댑터 클래스가 `Target` 인터페이스를 구현(implements)하고, 동시에 `Adaptee` 클래스를 상속(extends)받는 방식입니다. (Java와 같은 단일 상속만 지원하는 언어에서는 `Target`이 인터페이스이고 `Adaptee`가 클래스여야 가능합니다.)
 
 **장점:**
 
@@ -124,7 +124,7 @@ public class Main {
 
 ### 2. 객체 어댑터 패턴 (Object Adapter Pattern)
 
-객체 어댑터 패턴은 [[객체 구성 (Composition)]]을 사용하여 어댑터를 구현합니다. 어댑터 클래스가 `Target` 인터페이스를 구현하고, 내부에 `Adaptee` 객체의 인스턴스를 멤버 변수로 가집니다. 클라이언트의 요청이 들어오면, 어댑터는 자신이 가지고 있는 `Adaptee` 객체에게 실제 작업을 위임합니다.
+객체 어댑터 패턴은 객체 구성 (Composition)을 사용하여 어댑터를 구현합니다. 어댑터 클래스가 `Target` 인터페이스를 구현하고, 내부에 `Adaptee` 객체의 인스턴스를 멤버 변수로 가집니다. 클라이언트의 요청이 들어오면, 어댑터는 자신이 가지고 있는 `Adaptee` 객체에게 실제 작업을 위임합니다.
 
 **장점:**
 
@@ -211,8 +211,8 @@ public class Computer {
 - **Java I/O 클래스**:
     - `java.io.InputStreamReader`: `InputStream` (바이트 스트림)을 `Reader` (문자 스트림)로 변환해주는 어댑터 역할을 합니다.
     - `java.io.OutputStreamWriter`: `OutputStream` (바이트 스트림)을 `Writer` (문자 스트림)로 변환해주는 어댑터 역할을 합니다.
-- **[[스프링 프레임워크 (Spring Framework)]]의 `HandlerAdapter`**:
-    - 스프링 MVC에서 `DispatcherServlet`은 다양한 타입의 핸들러(컨트롤러)를 실행해야 합니다. `HandlerAdapter`는 이 다양한 핸들러들을 `DispatcherServlet`이 일관된 방식으로 호출할 수 있도록 중간에서 어댑터 역할을 수행합니다. 자세한 내용은 [[스프링 HandlerAdapter 동작 방식]]에서 확인하실 수 있습니다.
+- **[[스프링 프레임워크(Spring Framework)]]의 `HandlerAdapter`**:
+    - 스프링 MVC에서 `DispatcherServlet`은 다양한 타입의 핸들러(컨트롤러)를 실행해야 합니다. `HandlerAdapter`는 이 다양한 핸들러들을 `DispatcherServlet`이 일관된 방식으로 호출할 수 있도록 중간에서 어댑터 역할을 수행합니다. 자세한 내용은 스프링 HandlerAdapter 동작 방식에서 확인하실 수 있습니다.
 - **각종 라이브러리 래퍼(Wrapper) 클래스**: 특정 라이브러리의 API를 사용하기 쉽게 감싸거나, 다른 인터페이스로 변환하여 제공하는 래퍼 클래스들이 어댑터 패턴의 한 예로 볼 수 있습니다.
 
 ## 결론

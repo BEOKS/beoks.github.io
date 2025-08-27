@@ -147,7 +147,7 @@ public class VisitorPatternDemo {
 
 스프링 컨테이너는 애플리케이션의 빈(Bean) 설정 메타데이터(`BeanDefinition`)를 관리합니다. `BeanDefinitionVisitor`는 이 `BeanDefinition` 구조를 순회하면서 특정 작업을 수행하는 데 사용됩니다. 예를 들어, `BeanDefinition`에 정의된 프로퍼티 값(예: `${...}`)을 실제 값으로 교체하는 `PropertyPlaceholderConfigurer`의 내부 동작은 `BeanDefinitionVisitor`를 사용하여 구현됩니다.
 
-이를 통해 스프링은 `BeanDefinition`이라는 핵심 데이터 구조는 변경하지 않으면서, 플레이스홀더 치환, 속성 오버라이딩 등 다양한 부가 기능을 `Visitor`를 통해 유연하게 처리합니다. 자세한 내용은 [[스프링 BeanDefinition 처리 과정]]을 참고해주세요.
+이를 통해 스프링은 `BeanDefinition`이라는 핵심 데이터 구조는 변경하지 않으면서, 플레이스홀더 치환, 속성 오버라이딩 등 다양한 부가 기능을 `Visitor`를 통해 유연하게 처리합니다. 자세한 내용은 스프링 BeanDefinition 처리 과정을 참고해주세요.
 
 ---
 

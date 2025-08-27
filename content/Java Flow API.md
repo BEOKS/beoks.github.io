@@ -1,4 +1,4 @@
-Java Flow API는 Java 9에서 도입된 [[반응형 프로그래밍(Reactive Programming)]]을 위한 표준 인터페이스 집합입니다. 이 API는 비동기적으로 데이터 스트림을 처리하고 [[백프레셔(Backpressure)]]를 관리하기 위한 표준 방식을 제공합니다. Flow API는 리액티브 스트림(Reactive Streams) 사양을 Java 표준 라이브러리에 통합한 것으로, 다양한 리액티브 라이브러리 간의 상호 운용성을 가능하게 합니다.
+Java Flow API는 Java 9에서 도입된 [[반응형 프로그래밍(Reactive Programming)]]을 위한 표준 인터페이스 집합입니다. 이 API는 비동기적으로 데이터 스트림을 처리하고 백프레셔(Backpressure)를 관리하기 위한 표준 방식을 제공합니다. Flow API는 리액티브 스트림(Reactive Streams) 사양을 Java 표준 라이브러리에 통합한 것으로, 다양한 리액티브 라이브러리 간의 상호 운용성을 가능하게 합니다.
 
 ## Flow API의 핵심 개념
 
@@ -68,7 +68,7 @@ public static interface Subscription {
 }
 ```
 
-- **request(long n)**: Subscriber가 n개의 데이터 항목을 요청합니다. 이것이 [[백프레셔(Backpressure)]]를 구현하는 핵심 메커니즘입니다.
+- **request(long n)**: Subscriber가 n개의 데이터 항목을 요청합니다. 이것이 백프레셔(Backpressure)를 구현하는 핵심 메커니즘입니다.
 - **cancel()**: 구독을 취소하고 리소스를 정리합니다.
 
 ### 4. Processor 인터페이스
@@ -222,7 +222,7 @@ Flow API의 가장 중요한 특징 중 하나는 백프레셔 메커니즘입�
 - 시스템 응답성 저하
 - 데이터 손실
 
-Flow API에서는 Subscriber가 `Subscription.request(n)` 메서드를 통해 처리할 수 있는 데이터의 양을 명시적으로 요청함으로써 백프레셔를 구현합니다. 자세한 내용은 [[백프레셔 구현 방법]]을 참고해주세요.
+Flow API에서는 Subscriber가 `Subscription.request(n)` 메서드를 통해 처리할 수 있는 데이터의 양을 명시적으로 요청함으로써 백프레셔를 구현합니다. 자세한 내용은 백프레셔 구현 방법을 참고해주세요.
 
 ## Flow API와 기존 비동기 프로그래밍 모델의 비교
 
@@ -235,7 +235,7 @@ Flow API는 기존의 비동기 프로그래밍 모델과 몇 가지 중요한 �
 |취소 지원|지원|제한적 지원|일반적으로 미지원|
 |오류 처리|내장|내장|수동 구현 필요|
 
-기존 비동기 모델과의 자세한 비교는 [[Java 비동기 프로그래밍 모델 비교]]를 참고해주세요.
+기존 비동기 모델과의 자세한 비교는 Java 비동기 프로그래밍 모델 비교를 참고해주세요.
 
 ## Spring WebFlux와 Flow API
 
@@ -271,7 +271,7 @@ public class ReactiveController {
 }
 ```
 
-이 예제에서는 클라이언트에게 Server-Sent Events(SSE) 형식으로 1초마다 숫자를 스트리밍합니다. 자세한 Spring WebFlux 활용법은 [[Spring WebFlux 활용법]]을 참고해주세요.
+이 예제에서는 클라이언트에게 Server-Sent Events(SSE) 형식으로 1초마다 숫자를 스트리밍합니다. 자세한 Spring WebFlux 활용법은 Spring WebFlux 활용법을 참고해주세요.
 
 ## Flow API 사용 시 주의사항
 

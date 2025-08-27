@@ -214,7 +214,7 @@ public class UserServiceTestWithMockito {
 
 - **장점:** 필요한 스텁 코드를 직접 작성하는 수고를 덜어줍니다. 다양한 상황에 대한 스텁의 동작을 유연하게 정의할 수 있으며, 테스트 코드의 가독성도 높일 수 있습니다.
 - **단점:** 해당 프레임워크의 사용법을 익혀야 합니다.
-- 더 자세한 Mockito 사용법은 [[Mockito로 스텁(Stub) 구현하기]] 노트를 참고해 주세요.
+- 더 자세한 Mockito 사용법은 Mockito로 스텁(Stub) 구현하기 노트를 참고해 주세요.
 
 ---
 
@@ -233,7 +233,7 @@ public class UserServiceTestWithMockito {
 
 간단히 말해, **스텁**은 주로 테스트 중 호출에 대해 미리 준비된 값을 반환하여 **상태 검증(state verification)**을 돕는 데 중점을 둡니다. 반면, **목**은 호출되었을 때의 행위(예: 특정 메서드가 특정 인자로 몇 번 호출되었는지)를 기록하고 이를 검증하는 **행위 검증(behavior verification)**에 더 중점을 둡니다.
 
-이들의 자세한 차이점은 [[Mocks, Stubs, Fakes의 차이]] 문서에서 더 깊이 있게 다루겠습니다.
+이들의 자세한 차이점은 Mocks, Stubs, Fakes의 차이 문서에서 더 깊이 있게 다루겠습니다.
 
 ---
 

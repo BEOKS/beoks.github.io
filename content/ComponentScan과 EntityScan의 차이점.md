@@ -5,10 +5,10 @@ Spring Boot 개발에서 자주 혼동되는 두 어노테이션인 `@ComponentS
 ## 기본 개념 비교
 
 ### @ComponentScan
-`@ComponentScan`은 Spring의 핵심 어노테이션으로, Spring이 관리하는 [[빈(Bean)]] 객체들을 찾아서 [[애플리케이션 컨텍스트(Application Context)]]에 등록하는 역할을 합니다. 주로 비즈니스 로직을 담당하는 컴포넌트들을 스캔합니다.
+`@ComponentScan`은 Spring의 핵심 어노테이션으로, Spring이 관리하는 빈(Bean) 객체들을 찾아서 애플리케이션 컨텍스트(Application Context)에 등록하는 역할을 합니다. 주로 비즈니스 로직을 담당하는 컴포넌트들을 스캔합니다.
 
 ### @EntityScan
-`@EntityScan`은 Spring Boot에서 제공하는 어노테이션으로, JPA 엔티티 클래스들을 찾아서 [[JPA 엔티티 매니저(Entity Manager)]]에 등록하는 역할을 합니다. 데이터베이스 테이블과 매핑되는 엔티티 클래스들을 스캔합니다.
+`@EntityScan`은 Spring Boot에서 제공하는 어노테이션으로, JPA 엔티티 클래스들을 찾아서 JPA 엔티티 매니저(Entity Manager)에 등록하는 역할을 합니다. 데이터베이스 테이블과 매핑되는 엔티티 클래스들을 스캔합니다.
 
 ## 스캔 대상 비교
 
@@ -514,13 +514,13 @@ public class TestConfig {
 - **@ComponentScan**: Spring이 관리하는 빈 객체들을 스캔하여 애플리케이션 컨텍스트에 등록
 - **@EntityScan**: 데이터베이스 매핑을 위한 엔티티 클래스들을 스캔하여 JPA 엔티티 매니저에 등록
 
-이 두 어노테이션의 차이점을 명확히 이해하고 적절히 활용하면 [[애플리케이션 구조(Application Architecture)]]를 더욱 체계적으로 관리할 수 있으며, 성능 최적화와 [[유지보수성(Maintainability)]] 향상에도 도움이 됩니다.
+이 두 어노테이션의 차이점을 명확히 이해하고 적절히 활용하면 애플리케이션 구조(Application Architecture)를 더욱 체계적으로 관리할 수 있으며, 성능 최적화와 유지보수성(Maintainability) 향상에도 도움이 됩니다.
 
-특히 대규모 프로젝트나 멀티모듈 프로젝트에서는 각각의 역할을 정확히 이해하고 적절한 스캔 범위를 설정하는 것이 중요합니다. 자세한 내용은 [[@EntityScan 어노테이션]]과 [[컴포넌트 스캔 최적화 방법]]을 참고해주세요.
+특히 대규모 프로젝트나 멀티모듈 프로젝트에서는 각각의 역할을 정확히 이해하고 적절한 스캔 범위를 설정하는 것이 중요합니다. 자세한 내용은 [[EntityScan 어노테이션]]과 컴포넌트 스캔 최적화 방법을 참고해주세요.
 
 ## 참고 자료
 
 - Spring Framework 공식 문서: Component Scanning
 - Spring Boot 공식 문서: Auto-configuration
 - Spring Boot 어노테이션 가이드
-- [[JPA 엔티티 매핑 전략]] 
+- JPA 엔티티 매핑 전략 

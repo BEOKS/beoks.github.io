@@ -45,7 +45,7 @@ print(numbers)  # [2, 3, 5, 8]
 
 제어 추상화는 제어 흐름 구조를 추상화하여 복잡한 제어 흐름을 단순화합니다. 루프나 조건문 등의 구조를 사용하여 복잡한 제어 흐름을 이해하기 쉽게 만듭니다.
 
-- **예시**: [[고차 함수(higher-order function)]]를 사용하여 반복적인 제어 흐름을 추상화합니다.
+- **예시**: 고차 함수(higher-order function)를 사용하여 반복적인 제어 흐름을 추상화합니다.
 
 ```python
 def apply_function(func, data):

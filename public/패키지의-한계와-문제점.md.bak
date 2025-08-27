@@ -1,0 +1,263 @@
+## 패키지의 한계와 문제점
+
+자바에서 패키지는 클래스와 인터페이스를 논리적인 그룹으로 묶어주는 역할을 합니다. 이를 통해 네임스페이스를 관리하고, 클래스 간의 충돌을 방지하며, 코드의 조직화를 돕습니다. 하지만 패키지만으로는 다음과 같은 한계가 있습니다.
+
+### 1. **캡슐화의 제한**
+
+- **공개 범위의 한계**: `public`으로 선언된 클래스나 인터페이스는 모든 패키지에서 접근 가능합니다. 내부 구현 클래스를 외부에 노출하고 싶지 않아도, 패키지 간에 접근하려면 `public`으로 선언해야 합니다.
+- **접근 제어의 부족**: 패키지 수준 접근 제어(default 접근 제어자)는 같은 패키지 내에서만 유효하며, 다른 패키지로 분리된 경우 적용되지 않습니다.
+
+### 2. **의존성 관리의 부족**
+
+- 패키지 간 의존성을 명시적으로 관리할 수 없습니다.
+- 어떤 패키지가 어떤 패키지에 의존하는지 추적하기 어렵고, 의도하지 않은 의존성이 생길 수 있습니다.
+
+### 3. **중복과 충돌의 가능성**
+
+- 동일한 이름의 패키지가 다른 라이브러리나 모듈에서 존재할 경우, 클래스 충돌이 발생할 수 있습니다.
+- 패키지만으로는 이러한 충돌을 효과적으로 방지하기 어렵습니다.
+
+---
+
+## 예시 코드를 통한 설명
+
+### 상황 설정
+
+두 개의 패키지 `com.example.api`와 `com.example.impl`가 있다고 가정해봅시다.
+
+- `com.example.api` 패키지는 외부에 공개해야 하는 공개 API를 포함합니다.
+- `com.example.impl` 패키지는 내부 구현을 포함하며, 외부에서 접근하지 못하도록 하고 싶습니다.
+
+### 패키지만 사용한 경우
+
+**com/example/api/MyService.java**
+
+```java
+package com.example.api;
+
+import com.example.impl.InternalLogic;
+
+public class MyService {
+    public void performAction() {
+        InternalLogic logic = new InternalLogic();
+        logic.execute();
+    }
+}
+```
+
+**com/example/impl/InternalLogic.java**
+
+```java
+package com.example.impl;
+
+public class InternalLogic {
+    public void execute() {
+        System.out.println("Executing internal logic...");
+    }
+}
+```
+
+- `MyService` 클래스는 공개 API로서 외부에 노출되어야 하므로 `public`으로 선언됩니다.
+- `InternalLogic` 클래스는 내부 구현이므로 외부에 노출되지 않기를 원하지만, `MyService`에서 접근하려면 `public`으로 선언해야 합니다.
+
+**문제점**
+
+- `InternalLogic` 클래스가 `public`으로 선언되어 있어, **외부 패키지에서도 접근이 가능합니다**.
+- 즉, 내부 구현이 외부에 노출되어 캡슐화가 깨집니다.
+
+**외부에서 InternalLogic에 접근하는 코드**
+
+```java
+package com.example.external;
+
+import com.example.impl.InternalLogic;
+
+public class ExternalUsage {
+    public static void main(String[] args) {
+        InternalLogic logic = new InternalLogic();
+        logic.execute();  // 내부 구현에 직접 접근
+    }
+}
+```
+
+위의 코드는 우리가 원치 않는 방식으로 내부 구현에 접근하고 있습니다.
+
+---
+
+## [[자바 모듈|자바 모듈]]을 이용한 해결 방법
+
+자바 9부터 도입된 모듈 시스템을 사용하면 이 문제를 해결할 수 있습니다.
+
+### 모듈 정의
+
+프로젝트에 모듈을 정의하고, `module-info.java` 파일을 생성합니다.
+
+**module-info.java**
+
+```java
+module com.example.module {
+    exports com.example.api;
+    // com.example.impl 패키지는 외부에 공개하지 않음
+}
+```
+
+- `exports com.example.api;`를 통해 `com.example.api` 패키지만 외부에 공개합니다.
+- `com.example.impl` 패키지는 `exports`하지 않으므로, 모듈 외부에서 접근할 수 없습니다.
+
+### 수정된 코드
+
+`InternalLogic` 클래스는 이전과 동일하게 `public`으로 선언되어 있지만, 모듈 시스템을 통해 외부에서의 접근을 막을 수 있습니다.
+
+**com/example/api/MyService.java**
+
+```java
+package com.example.api;
+
+import com.example.impl.InternalLogic;
+
+public class MyService {
+    public void performAction() {
+        InternalLogic logic = new InternalLogic();
+        logic.execute();
+    }
+}
+```
+
+**com/example/impl/InternalLogic.java**
+
+```java
+package com.example.impl;
+
+public class InternalLogic {
+    public void execute() {
+        System.out.println("Executing internal logic...");
+    }
+}
+```
+
+### 외부에서 접근 시도
+
+**com.example.external.ExternalUsage.java**
+
+```java
+package com.example.external;
+
+import com.example.impl.InternalLogic;
+
+public class ExternalUsage {
+    public static void main(String[] args) {
+        InternalLogic logic = new InternalLogic();
+        logic.execute();
+    }
+}
+```
+
+### 컴파일 시 오류 발생
+
+모듈 시스템에서는 `com.example.impl` 패키지를 외부에 공개하지 않았기 때문에, `com.example.external` 패키지에서 `InternalLogic` 클래스에 접근할 수 없습니다.
+
+컴파일 시 다음과 같은 오류가 발생합니다.
+
+```
+com/example/external/ExternalUsage.java:3: error: package com.example.impl is not visible
+import com.example.impl.InternalLogic;
+                     ^
+  (package com.example.impl is declared in module com.example.module, which does not export it)
+1 error
+```
+
+- **모듈 시스템을 통해 내부 구현을 안전하게 숨길 수 있습니다**.
+- 패키지 수준의 캡슐화를 넘어선 모듈 수준의 캡슐화를 제공합니다.
+
+---
+
+## 모듈 시스템의 의존성 관리
+
+모듈 시스템은 의존성도 명시적으로 관리할 수 있습니다.
+
+**다른 모듈이 있는 경우**
+
+예를 들어, `com.example.utils`라는 별도의 모듈이 있다고 가정해봅시다.
+
+**com.example.utils/module-info.java**
+
+```java
+module com.example.utils {
+    exports com.example.utils;
+}
+```
+
+**com/example/utils/Utility.java**
+
+```java
+package com.example.utils;
+
+public class Utility {
+    public void helperMethod() {
+        System.out.println("Utility helper method.");
+    }
+}
+```
+
+이제 `com.example.module`에서 이 유틸리티 모듈을 사용하려면, 의존성을 명시적으로 선언해야 합니다.
+
+**com.example.module/module-info.java**
+
+```java
+module com.example.module {
+    exports com.example.api;
+    requires com.example.utils;
+}
+```
+
+- `requires com.example.utils;`를 통해 의존성을 선언합니다.
+
+**코드에서의 사용**
+
+**com/example/api/MyService.java**
+
+```java
+package com.example.api;
+
+import com.example.impl.InternalLogic;
+import com.example.utils.Utility;
+
+public class MyService {
+    public void performAction() {
+        InternalLogic logic = new InternalLogic();
+        Utility util = new Utility();
+        logic.execute();
+        util.helperMethod();
+    }
+}
+```
+
+---
+
+## 요약
+
+- **패키지의 한계**: 패키지 만으로는 원하는 수준의 캡슐화를 제공하기 어렵습니다. 특히, `public` 멤버나 클래스를 외부에서 접근하지 못하게 제어할 수 없습니다.
+- **모듈의 도입**: 모듈 시스템을 사용하면 모듈 단위로 어떤 패키지를 외부에 공개할지 (`exports`) 명시적으로 결정할 수 있습니다.
+- **내부 구현 숨기기**: 모듈에서 `exports`하지 않은 패키지는 모듈 외부에서 접근할 수 없으므로, 내부 구현을 안전하게 숨길 수 있습니다.
+- **의존성 관리**: 모듈 간의 의존성을 `requires` 키워드를 통해 명시적으로 선언하여, 의존성 관계를 명확히 하고 충돌을 방지할 수 있습니다.
+
+---
+
+## 결론
+
+패키지는 클래스와 인터페이스를 그룹화하고 네임스페이스를 관리하는 데 유용하지만, 대규모 애플리케이션에서 다음과 같은 문제를 해결하기에는 한계가 있습니다.
+
+1. **캡슐화의 제한**: 내부 구현을 완전히 숨길 수 없습니다.
+2. **의존성 관리의 부족**: 패키지 간 의존성을 명시적으로 관리하기 어렵습니다.
+3. **모듈러리티 부족**: 재사용성과 유지보수성을 높이기 위한 모듈 단위의 설계가 어렵습니다.
+
+모듈 시스템은 이러한 문제를 해결하기 위해 도입되었으며, 다음과 같은 이점을 제공합니다.
+
+- **강력한 캡슐화**: 모듈 단위로 패키지의 공개 여부를 제어하여 내부 구현을 숨길 수 있습니다.
+- **명시적인 의존성 관리**: 모듈 간의 의존성을 선언하여 관계를 명확히 합니다.
+- **코드 조직화 개선**: 코드를 모듈 단위로 조직화하여 유지보수성과 재사용성을 높입니다.
+- **보안성과 안정성 향상**: 내부 구현의 노출을 방지하여 보안성을 높이고, 의존성 충돌을 방지하여 애플리케이션의 안정성을 향상시킵니다.
+
+---
+
+혹시 더 궁금한 점이나 추가로 알고 싶은 부분이 있다면 언제든지 질문해 주세요!

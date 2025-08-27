@@ -15,7 +15,7 @@ tags: ["Security", "Authentication", "Spring Security"]
 많은 분들이 [[Authorization]]와 혼동하시는데, 두 개념은 명확히 다릅니다.
 
 *   **인증(Authentication)**: 당신이 **누구인지** 증명하는 과정 (신분증 제시)
-*   **[[인가(Authorization)]]**: 당신이 **무엇을 할 수 있는지** 권한을 부여받는 과정 (권한 확인 후 출입증 발급)
+*   **[[Authorization]]**: 당신이 **무엇을 할 수 있는지** 권한을 부여받는 과정 (권한 확인 후 출입증 발급)
 
 인증 절차가 성공적으로 끝나야만, 시스템은 비로소 해당 사용자에게 적절한 권한을 부여하는 인가 절차를 진행할 수 있습니다.
 
@@ -38,7 +38,7 @@ tags: ["Security", "Authentication", "Spring Security"]
     *   **장점**: 사용이 편리하고 복제하기 매우 어렵습니다.
     *   **단점**: 생체 정보 유출 시 변경이 불가능하여 치명적일 수 있습니다.
 
-이러한 방식들을 두 가지 이상 조합하여 보안을 극대화하는 것을 **[[다중 인증(MFA, Multi-Factor Authentication)]]**이라고 부릅니다.
+이러한 방식들을 두 가지 이상 조합하여 보안을 극대화하는 것을 **다중 인증(MFA, Multi-Factor Authentication)**이라고 부릅니다.
 
 ## 토큰 기반 인증: 현대적인 API를 위한 선택
 
@@ -68,7 +68,7 @@ sequenceDiagram
 
 ## 연합 인증과 SSO: OAuth, OIDC, SAML
 
-여러 서비스가 연동되는 환경에서는 사용자가 각 서비스마다 로그인해야 하는 불편함이 있습니다. 이를 해결하기 위해 등장한 것이 **연합 인증(Federated Authentication)**과 **[[싱글 사인온(SSO, Single Sign-On)]]**입니다.
+여러 서비스가 연동되는 환경에서는 사용자가 각 서비스마다 로그인해야 하는 불편함이 있습니다. 이를 해결하기 위해 등장한 것이 **연합 인증(Federated Authentication)**과 **싱글 사인온(SSO, Single Sign-On)**입니다.
 
 ### [[OAuth 2.0]]
 
@@ -76,7 +76,7 @@ OAuth 2.0은 **인가(Authorization)**를 위한 표준 프로토콜입니다. �
 
 > **중요**: OAuth 2.0 자체는 인증 프로토콜이 아니라, 인가 프레임워크입니다.
 
-### [[OIDC(OpenID Connect)]]
+### OIDC(OpenID Connect)
 
 OIDC는 **OAuth 2.0 위에 구축된 인증 계층**입니다. OAuth 2.0의 인가 흐름을 그대로 활용하면서, **ID 토큰(JWT 형식)**을 추가로 발급하여 사용자의 신원 정보를 표준화된 방식으로 제공합니다. 이를 통해 클라이언트는 사용자가 누구인지 확실하게 인증할 수 있습니다.
 > **OIDC = OAuth 2.0 (인가) + 인증**

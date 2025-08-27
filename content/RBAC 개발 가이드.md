@@ -71,7 +71,7 @@ RBAC 시스템의 각 핵심 컴포넌트(역할, 권한, 사용자-역할 매�
 
 ## 2. Spring Security를 활용한 RBAC 구현 (Java 예시)
 
-Java 기반의 웹 애플리케이션에서는 [[Spring Security]] 프레임워크를 활용하여 RBAC를 효과적으로 구현할 수 있습니다. Spring Security는 강력한 인증(Authentication) 및 인가(Authorization) 기능을 제공합니다.
+Java 기반의 웹 애플리케이션에서는 Spring Security 프레임워크를 활용하여 RBAC를 효과적으로 구현할 수 있습니다. Spring Security는 강력한 인증(Authentication) 및 인가(Authorization) 기능을 제공합니다.
 
 ### 2.1. 의존성 추가
 
@@ -286,7 +286,7 @@ public class UserController {
 
 -   **계층적 역할(Hierarchical Roles)**: 역할 간에 상위/하위 관계를 설정하여 상위 역할이 하위 역할의 모든 권한을 상속받도록 할 수 있습니다. (예: `ADMIN` 역할이 `MANAGER` 역할의 권용을 포함)
 -   **역할 활성화(Role Activation)**: 사용자가 여러 역할을 가질 때, 특정 세션에서 어떤 역할을 활성화할지 선택하도록 할 수 있습니다. (예: 일반 사용자 역할로 로그인로 로그인 후, 필요 시 관리자 역할로 전환)
--   **동적 권한 부여**: 특정 조건(예: 시간, IP 주소, 데이터 내용)에 따라 동적으로 권한을 부여하거나 회수해야 하는 경우, [[속성 기반 접근 제어(ABAC)]]와의 조합을 고려할 수 있습니다. ABAC 구현에 대한 자세한 내용은 [[ABAC 개발 가이드]]를 참고해주세요.
+-   **동적 권한 부여**: 특정 조건(예: 시간, IP 주소, 데이터 내용)에 따라 동적으로 권한을 부여하거나 회수해야 하는 경우, [[역할 기반 접근 제어(RBAC)]]와의 조합을 고려할 수 있습니다. ABAC 구현에 대한 자세한 내용은 [[ABAC 개발 가이드]]를 참고해주세요.
 -   **감사 및 로깅**: 모든 접근 시도와 권한 부여/거부 이력을 상세히 로깅하여 보안 감사 및 문제 발생 시 추적에 활용합니다.
 -   **성능 최적화**: 대규모 시스템에서는 권한 확인 과정이 성능 병목이 될 수 있으므로, 캐싱 전략이나 효율적인 쿼리 설계를 고려해야 합니다.
 -   **관리 비용 절감**: 새로운 기능 추가에 따른 RBAC 관리 비용을 줄이는 전략은 [[기능 추가에 따른 RBAC 관리 비용 절감 전략]]을 참고해주세요.
@@ -298,8 +298,8 @@ RBAC는 시스템의 보안을 강화하고 관리 효율성을 높이는 강력
 ## 참고 자료
 
 -   [[역할 기반 접근 제어(RBAC)]]
--   [[Spring Security]]
+-   Spring Security
 -   [[최소 권한 원칙]]
 -   [[접근 제어 모델]]
--   [[속성 기반 접근 제어(ABAC)]]
+-   [[역할 기반 접근 제어(RBAC)]]
 -   Spring Security Documentation: [https://docs.spring.io/spring-security/reference/](https://docs.spring.io/spring-security/reference/)

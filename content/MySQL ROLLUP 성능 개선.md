@@ -3,9 +3,9 @@
 하지만, 쿼리에 필요한 모든 데이터를 담고 있는 **커버링 인덱스**를 사용하면 어떻게 될까요? 이번 테스트에서는 무려 **약 70%의 성능 향상**을 확인할 수 있었습니다! 지금부터 그 비결을 자세히 파헤쳐 보겠습니다.
 
 ---
-## [[MySQL WITH ROLLUP]] 다시 살펴보기
+## MySQL WITH ROLLUP 다시 살펴보기
 
-잠시 복습하자면, `WITH ROLLUP`은 `GROUP BY` 절과 함께 사용되어, 지정된 컬럼 그룹별 집계는 물론 각 그룹핑 레벨의 소계와 총계까지 한 번의 쿼리로 반환하는 강력한 기능입니다. 복잡한 리포트나 다차원 분석에 매우 유용하죠. (자세한 내용은 [[GROUP BY 절과 WITH ROLLUP 활용법]] 참고)
+잠시 복습하자면, `WITH ROLLUP`은 `GROUP BY` 절과 함께 사용되어, 지정된 컬럼 그룹별 집계는 물론 각 그룹핑 레벨의 소계와 총계까지 한 번의 쿼리로 반환하는 강력한 기능입니다. 복잡한 리포트나 다차원 분석에 매우 유용하죠. (자세한 내용은 GROUP BY 절과 WITH ROLLUP 활용법 참고)
 
 ---
 ## 성능 테스트: 커버링 인덱스의 압도적인 힘!
@@ -44,7 +44,7 @@
     CREATE INDEX idx_covering_rollup_all_cats_value
     ON hierarchical_data (cat1, cat2, cat3, cat4, cat5, cat6, value_col);
     ```
-    이것이 바로 [[커버링 인덱스(Covering Index)]]입니다.
+    이것이 바로 커버링 인덱스(Covering Index)입니다.
 
 ### 테스트 결과: 놀라운 변화!
 
