@@ -182,7 +182,25 @@ async function initializeMermaid() {
       edgeLabelBackground: computedStyleMap["--highlight"],
     },
   })
-  await mermaid.run({ nodes })
+
+  // Mermaid 렌더링을 최대 3번 시도
+  let attempts = 0
+  const maxAttempts = 3
+  const attemptDelay = 500
+
+  while (attempts < maxAttempts) {
+    try {
+      await mermaid.run({ nodes })
+      break // 성공하면 루프 종료
+    } catch (error) {
+      attempts++
+      if (attempts >= maxAttempts) {
+        console.warn("Mermaid rendering failed after", maxAttempts, "attempts:", error)
+        return
+      }
+      await new Promise(resolve => setTimeout(resolve, attemptDelay))
+    }
+  }
 
   for (let i = 0; i < nodes.length; i++) {
     const codeBlock = nodes[i] as HTMLElement
@@ -252,5 +270,51 @@ async function initializeMermaid() {
 // 초기 페이지 로딩 시 Mermaid 초기화
 document.addEventListener("DOMContentLoaded", initializeMermaid)
 
-// 페이지 네비게이션 시에도 Mermaid 초기화
-document.addEventListener("nav", initializeMermaid)
+// 페이지 네비게이션 시에도 Mermaid 초기화 (약간의 지연을 두어 DOM이 안정된 후 실행)
+document.addEventListener("nav", () => {
+  // DOM이 완전히 준비될 때까지 약간의 지연을 두고 실행
+  setTimeout(initializeMermaid, 100)
+})
+
+// MutationObserver를 사용하여 DOM 변경을 감지하고 Mermaid 코드 블록이 추가되면 초기화
+function setupMermaidObserver() {
+  const observer = new MutationObserver((mutations) => {
+    let hasMermaidCode = false
+
+    mutations.forEach((mutation) => {
+      mutation.addedNodes.forEach((node) => {
+        if (node.nodeType === Node.ELEMENT_NODE) {
+          const element = node as Element
+          if (element.querySelector && element.querySelector("code.mermaid")) {
+            hasMermaidCode = true
+          } else if (element.classList && element.classList.contains("mermaid")) {
+            hasMermaidCode = true
+          }
+        }
+      })
+    })
+
+    if (hasMermaidCode) {
+      // Mermaid 코드 블록이 추가되었으므로 약간의 지연 후 초기화
+      setTimeout(initializeMermaid, 200)
+    }
+  })
+
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true
+  })
+
+  return observer
+}
+
+// 페이지 로드 시 MutationObserver 설정
+document.addEventListener("DOMContentLoaded", () => {
+  setupMermaidObserver()
+})
+
+// nav 이벤트에서도 MutationObserver 재설정 (페이지 전환 시)
+document.addEventListener("nav", () => {
+  // 기존 observer 정리 후 새로 설정
+  setupMermaidObserver()
+})
