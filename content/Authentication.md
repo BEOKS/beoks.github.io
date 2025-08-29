@@ -66,7 +66,7 @@ sequenceDiagram
 
 이 방식은 서버가 세션을 유지할 필요가 없어 확장성이 뛰어나다는 장점이 있습니다.
 
-## 연합 인증과 SSO: OAuth, OIDC, SAML
+## 연합 인증과 [[SSO (Single Sign-On)]]: OAuth, OIDC, SAML
 
 여러 서비스가 연동되는 환경에서는 사용자가 각 서비스마다 로그인해야 하는 불편함이 있습니다. 이를 해결하기 위해 등장한 것이 **연합 인증(Federated Authentication)**과 **싱글 사인온(SSO, Single Sign-On)**입니다.
 
