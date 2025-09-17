@@ -269,6 +269,10 @@ async function initializeMermaid() {
 
 // 초기 페이지 로딩 시 Mermaid 초기화
 document.addEventListener("DOMContentLoaded", initializeMermaid)
+// DOMContentLoaded 이미 지난 경우 즉시 초기화
+if (document.readyState === "interactive" || document.readyState === "complete") {
+  initializeMermaid()
+}
 
 // 페이지 네비게이션 시에도 Mermaid 초기화 (약간의 지연을 두어 DOM이 안정된 후 실행)
 document.addEventListener("nav", () => {
@@ -312,6 +316,10 @@ function setupMermaidObserver() {
 document.addEventListener("DOMContentLoaded", () => {
   setupMermaidObserver()
 })
+// DOMContentLoaded 이미 지난 경우 즉시 설정
+if (document.readyState === "interactive" || document.readyState === "complete") {
+  setupMermaidObserver()
+}
 
 // nav 이벤트에서도 MutationObserver 재설정 (페이지 전환 시)
 document.addEventListener("nav", () => {

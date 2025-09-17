@@ -3723,15 +3723,13 @@ function pageResources(baseDir, fileData, staticResources) {
       ...staticResources.js
     ]
   };
-  if (fileData.hasMermaidDiagram) {
-    resources.js.push({
-      script: mermaid_inline_default,
-      loadTime: "afterDOMReady",
-      moduleType: "module",
-      contentType: "inline"
-    });
-    resources.css.push({ content: mermaid_inline_default2, inline: true });
-  }
+  resources.js.push({
+    script: mermaid_inline_default,
+    loadTime: "afterDOMReady",
+    moduleType: "module",
+    contentType: "inline"
+  });
+  resources.css.push({ content: mermaid_inline_default2, inline: true });
   resources.js.push({
     src: joinSegments(baseDir, "postscript.js"),
     loadTime: "afterDOMReady",

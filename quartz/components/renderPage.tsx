@@ -56,15 +56,15 @@ export function pageResources(
     ],
   }
 
-  if (fileData.hasMermaidDiagram) {
-    resources.js.push({
-      script: mermaidScript,
-      loadTime: "afterDOMReady",
-      moduleType: "module",
-      contentType: "inline",
-    })
-    resources.css.push({ content: mermaidStyle, inline: true })
-  }
+  // Always include Mermaid resources so SPA navigation pages render diagrams
+  // even if the initial page didn't contain any Mermaid blocks.
+  resources.js.push({
+    script: mermaidScript,
+    loadTime: "afterDOMReady",
+    moduleType: "module",
+    contentType: "inline",
+  })
+  resources.css.push({ content: mermaidStyle, inline: true })
 
   // NOTE: we have to put this last to make sure spa.inline.ts is the last item.
   resources.js.push({
