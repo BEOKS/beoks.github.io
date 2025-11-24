@@ -106,7 +106,7 @@ graph TD
     D -- 인증 실패 --> J[AuthenticationException 발생];
 ```
 
-*   **`UserDetailsService`**: 사용자 이름(username)으로 데이터베이스 등에서 사용자 정보를 조회합니다.
+*   **`UserDetailsService`**: 사용자 이름(username)으로 데이터베이스 등에서 사용자 정보를 조회합니다. 기업 환경에서는 [[LDAP(Lightweight Directory Access Protocol)]]과 같은 디렉토리 서비스를 사용자 정보 저장소로 활용하기도 합니다.
 *   **`AuthenticationProvider`**: `UserDetailsService`가 반환한 정보와 사용자가 입력한 정보를 비교하여 실제 인증을 수행합니다.
 *   **`AuthenticationManager`**: `AuthenticationProvider`들을 관리하며 인증 과정을 총괄합니다.
 

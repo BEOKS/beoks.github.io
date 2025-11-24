@@ -25,7 +25,7 @@ SSO 시스템은 크게 세 가지 주요 행위자로 구성됩니다.
 
 - **사용자(User)**: 서비스에 접근하려는 주체입니다.
     
-- **ID 제공자(Identity Provider, IdP)**: 사용자의 신원을 확인하고 인증을 책임지는 시스템입니다. (예: Google, Okta, 사내 인증 서버)
+- **ID 제공자(Identity Provider, IdP)**: 사용자의 신원을 확인하고 인증을 책임지는 시스템입니다. (예: Google, Okta, 사내 인증 서버) IdP는 보통 [[LDAP(Lightweight Directory Access Protocol)]]이나 Active Directory와 같은 디렉토리 서비스를 백엔드 저장소로 사용하여 사용자 정보를 관리합니다.
     
 - **서비스 제공자(Service Provider, SP)**: 사용자가 이용하려는 애플리케이션이나 서비스입니다. (예: Google Workspace, Notion, Salesforce)
     
