@@ -1,0 +1,44 @@
+h1. ⭐️ 업무 활동 및 성과 관리 ⭐️
+
+{panel:title=작성 방법}
+* 아래는 작성 방법에 관한 최소한의 규칙을 담고 있습니다.
+* 프로젝트는 5가지 내외로 작성해주세요.
+* 투입율은 다수의 프로젝트에 투입한 업무 비율로 각 프로젝트 투입율의 합은 100%가 되어야 합니다.
+* 협업자가 여러명 있는 경우 기여도는 각 협업자 기여도의 합이 100%가 되어야 합니다.
+* 난이도는 EASY, NORMAL, HARD중에 하나를 선택해주세요. ( {status:colour=Green|subtle=true|title=easy} , {status:colour=Green|subtle=true|title=NORMAL} , {status:colour=Green|subtle=true|title=hard} )
+* "프로젝트 시 고려한 점이나 기여한 사항들"에 본인의 역량을 드러낼 수 있는 항목들을 적어주세요.
+{panel}
+
+h2. 1. 보안포털
+
+||투입율||난이도||기여도||협업자||작업 기간||사내 오픈||서비스 오픈||업무 내용||
+|90%|{status:colour=Green|subtle=true|title=hard}|50%|Terry
+Nicolas
+Leo
+Uta|2024. 6. 1 ~ 2025. 4. 11|2025. 4. 30|2025. 6. 17|* 사용자 보안포털 개편 프로젝트 API 개발
+* 관리자 보안포털 개편 프로젝트 API 개발|
+|(highlight:#f4f5f7)프로젝트 진행 때 고려한 점이나 기여한 사항들(colspan=8)||
+|(colspan=8) ||
+
+h2. 2. AWS
+
+||투입율||난이도||기여도||협업자||작업 기간||사내 오픈||서비스 오픈||업무 내용||
+|0%|{status:colour=Green|subtle=true|title=NORMAL}|50%|Alan|2025. 4. 1|||* 카드 자동 결제|
+|(highlight:grey)프로젝트 진행 때 고려한 점이나 기여한 사항들(colspan=8)||
+|(colspan=8) ||
+|0%|{status:colour=Green|subtle=true|title=NORMAL}|50%|Alan|2025. 4. 1|||* 이용보고서 개선|
+|(highlight:grey)프로젝트 진행 때 고려한 점이나 기여한 사항들(colspan=8)||
+|(colspan=8) ||
+
+h2. 3. 업무관련 활동(업무협조를 통한 업무는 아니나 회사에 기여할 수 있는 개인적인 활동 등)
+
+||투입율||활동 주제||활동 내역||기간||
+|10%|* *멘토링 활동*|* 멘토링 개발 과제 기획
+** Ryan, Eddie : [2025-03 인턴 멘토링|/spaces/o2cplaform/pages/180269832/2025-03+%EC%9D%B8%ED%84%B4+%EB%A9%98%ED%86%A0%EB%A7%81]
+** Alan : [AWS 이용보고서 업데이트 API 개발 과제|/spaces/clouddev/pages/180273335/AWS+%EC%9D%B4%EC%9A%A9%EB%B3%B4%EA%B3%A0%EC%84%9C+%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8+API+%EA%B0%9C%EB%B0%9C+%EA%B3%BC%EC%A0%9C]
+* 코드 리뷰
+** Ryan : [https://mentoring-gitlab.gabia.com/mentee/mentee_2025.03/personal/ryan_e-voting/-/merge_requests?scope=all&state=all]
+** Eddie : 
+** Alan : [https://gitlab.gabia.com/platformDev/global/aws/api/-/merge_requests/308]|2025. 3. 1~
+2025. 5. 15|
+
