@@ -97,10 +97,10 @@ public class EmailService {
 @Async 어노테이션을 사용할 때의 주요 고려사항:
 
 1. **Spring 관리 빈에만 적용 가능**: @Async는 Spring이 관리하는 빈에만 적용됩니다.
-2. **자체 호출 불가능**: 같은 클래스 내에서 @Async 메서드를 직접 호출하면 비동기로 동작하지 않습니다.
+2. **자체 호출 불가능**: 같은 클래스 내에서 @Async 메서드를 직접 호출하면 비동기로 동작하지 않습니다. (원인/해결: [[Spring AOP self-invocation 문제]])
 3. **public 메서드에만 적용 권장**: 프록시 기반의 AOP 특성상 public 메서드에만 사용하는 것이 좋습니다.
 
-@Async 메서드 호출에 대한 자세한 내용은 Spring AOP 프록시 메커니즘을 참고해주세요.
+@Async 메서드 호출에서 가장 흔한 함정은 self-invocation(자기 호출)입니다. 자세한 내용은 [[Spring AOP self-invocation 문제]]를 참고해주세요.
 
 ## TaskExecutor 선택과 동작
 
