@@ -170,16 +170,16 @@ public class OrderEventListener {
 
 1. **JavaScript/Node.js**: 가장 대표적인 이벤트 루프 구현을 가지고 있으며, 기본 실행 모델입니다.
 2. **Python**: asyncio 라이브러리를 통해 이벤트 루프 기반 비동기 프로그래밍을 지원합니다.
-3. **Java**: Netty, Vert.x, 그리고 Spring WebFlux 등의 프레임워크가 이벤트 루프 패턴을 구현합니다.
+3. **Java**: [[Netty]], Vert.x, 그리고 Spring WebFlux 등의 프레임워크가 이벤트 루프 패턴을 구현합니다. Netty의 이벤트 루프 구현에 대한 자세한 내용은 [[Netty EventLoop]]를 참고하세요.
 4. **Go**: 고루틴과 채널을 통해 다른 형태의 동시성을 제공하지만, 이벤트 루프와 유사한 패턴을 구현할 수 있습니다.
 
 자바에서의 이벤트 루프 구현에 대한 자세한 내용은 자바 비동기 프레임워크 비교를 참고해주세요.
 
 ## 자바 기반 이벤트 루프 프레임워크
 
-### Netty
+### [[Netty]]
 
-Netty는 비동기 이벤트 기반 네트워크 애플리케이션 프레임워크로, 효율적인 이벤트 루프 구현을 제공합니다.
+[[Netty]]는 비동기 이벤트 기반 네트워크 애플리케이션 프레임워크로, 효율적인 이벤트 루프 구현을 제공합니다. Netty는 [[Reactor 패턴]]을 기반으로 [[Netty EventLoop]]를 통해 고성능 이벤트 처리를 수행합니다.
 
 ```java
 public class NettyServer {

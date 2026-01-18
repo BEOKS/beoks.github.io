@@ -33,9 +33,9 @@ int select(int nfds, fd_set *readfds, fd_set *writefds, fd_set *exceptfds, struc
 - **원리**: 파일 디스크립터 집합을 모니터링하고, 하나 이상의 디스크립터가 준비되면 반환합니다.
 - **한계**: 감시할 수 있는 파일 디스크립터 수에 제한이 있으며(보통 1024개), 호출할 때마다 모든 디스크립터를 검사하므로 비효율적입니다.
 
-### 2. poll 시스템 콜
+### 2. [[poll]] 시스템 콜
 
-select의 개선된 버전으로, 파일 디스크립터 제한이 없습니다.
+[[select]]의 개선된 버전으로, 파일 디스크립터 제한이 없습니다.
 
 ```c
 int poll(struct pollfd *fds, nfds_t nfds, int timeout);
@@ -44,9 +44,9 @@ int poll(struct pollfd *fds, nfds_t nfds, int timeout);
 - **원리**: pollfd 구조체 배열을 사용하여 감시할 파일 디스크립터와 이벤트를 지정합니다.
 - **한계**: 여전히 모든 디스크립터를 순회해야 하므로 대규모 연결에서는 성능 저하가 있습니다.
 
-### 3. epoll (Linux)
+### 3. [[epoll]] (Linux)
 
-Linux에서 제공하는 고성능 I/O 이벤트 알림 메커니즘입니다.
+Linux에서 제공하는 고성능 I/O 이벤트 알림 메커니즘입니다. [[Ready List]]를 통해 준비된 fd만 반환합니다.
 
 ```c
 int epoll_create(int size);
@@ -76,7 +76,7 @@ HANDLE CreateIoCompletionPort(HANDLE FileHandle, HANDLE ExistingCompletionPort, 
 
 ## Java에서의 I/O 멀티플렉싱 구현
 
-Java NIO(New I/O)는 Selector 클래스를 통해 I/O 멀티플렉싱을 지원합니다. 이는 운영 체제의 기본 멀티플렉싱 메커니즘을 추상화한 인터페이스입니다.
+[[Java NIO]](New I/O)는 Selector 클래스를 통해 I/O 멀티플렉싱을 지원합니다. 이는 운영 체제의 기본 멀티플렉싱 메커니즘을 추상화한 인터페이스입니다.
 
 ```mermaid
 sequenceDiagram
@@ -293,9 +293,9 @@ I/O 멀티플렉싱은 다양한 고성능 시스템에서 활용됩니다:
 
 현대적인 애플리케이션에서는 저수준 I/O 멀티플렉싱을 직접 다루기보다는 고수준 프레임워크를 사용하는 것이 일반적입니다:
 
-### 1. Netty
+### 1. [[Netty]]
 
-Netty는 Java 기반의 비동기 이벤트 기반 네트워크 애플리케이션 프레임워크로, NIO를 추상화하여 더 쉽게 사용할 수 있게 합니다.
+[[Netty]]는 Java 기반의 비동기 이벤트 기반 네트워크 애플리케이션 프레임워크로, [[Java NIO]]를 추상화하여 더 쉽게 사용할 수 있게 합니다. Netty는 [[Reactor 패턴]]을 기반으로 [[Netty EventLoop]]와 [[Netty ChannelPipeline]]을 통해 고성능 네트워크 처리를 제공합니다.
 
 ```java
 import io.netty.bootstrap.ServerBootstrap;

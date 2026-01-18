@@ -34,9 +34,9 @@ sequenceDiagram
 
 ## 논블로킹 작업의 종류
 
-### 1. 논블로킹 I/O (NIO)
+### 1. 논블로킹 I/O ([[Java NIO]])
 
-Java의 NIO(New I/O) 패키지는 논블로킹 I/O 작업을 지원합니다:
+Java의 [[Java NIO]](New I/O) 패키지는 논블로킹 I/O 작업을 지원합니다:
 
 ```java
 // 논블로킹 I/O 예제
@@ -647,7 +647,7 @@ Mono<Data> dataWithMetrics = Mono.fromSupplier(() -> {
 
 논블로킹은 다양한 상황에서 활용됩니다:
 
-1. **고성능 웹 서버**: Netty, Undertow 등의 비동기 웹 서버
+1. **고성능 웹 서버**: [[Netty]], Undertow 등의 비동기 웹 서버 ([[Netty EventLoop]] 참고)
 2. **API 게이트웨이**: 다수의 백엔드 서비스 요청을 병렬로 처리
 3. **실시간 데이터 처리**: 대용량 데이터 스트림 처리 시스템
 4. **채팅 애플리케이션**: 다수의 클라이언트 연결을 효율적으로 관리
@@ -728,3 +728,8 @@ public class UserHandler {
 - 스프링 공식 문서(https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html)
 - Project Reactor Reference Guide(https://projectreactor.io/docs/core/release/reference/)
 - Learning RxJava - Thomas Nield
+
+## 관련 문서
+
+- [[블로킹(blocking)]]
+- [[R2DBC 동작 원리]] - 논블로킹 데이터베이스 접근

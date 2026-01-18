@@ -31,3 +31,8 @@ Reactive Streams의 범위는 목표(논블로킹 역압력을 갖춘 비동기 
 우리는 이 Reactive Streams 사양의 수용과 그 구현 경험이 함께 광범위한 통합으로 이어질 것으로 기대합니다. 예를 들어 향후 JDK 릴리스에서의 Java 플랫폼 지원이나 향후 웹 브라우저에서의 네트워크 프로토콜 지원 등이 포함될 수 있습니다.
 
 1. https://www.reactive-streams.org/
+
+## 관련 문서
+
+- [[리액티브 스트림 인터페이스(Reactive Stream Interface)]]
+- [[R2DBC 동작 원리]] - Reactive Streams 기반의 데이터베이스 접근
