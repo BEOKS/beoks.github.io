@@ -43,10 +43,6 @@ type LinkData = {
   target: NodeData
 } & SimulationLinkDatum<NodeData>
 
-type LinkRenderData = GraphicsInfo & {
-  simulationData: LinkData
-}
-
 type NodeRenderData = GraphicsInfo & {
   simulationData: NodeData
   label: Text
@@ -73,6 +69,12 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
   const visited = getVisited()
   const graph = document.getElementById(container)
   if (!graph) return
+
+  type GraphContainer = HTMLElement & { __quartzGraphCleanup?: () => void }
+  const graphContainer = graph as GraphContainer
+  graphContainer.__quartzGraphCleanup?.()
+  graphContainer.__quartzGraphCleanup = undefined
+
   removeAllChildren(graph)
 
   let {
@@ -163,6 +165,18 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
       })),
   }
 
+  const nodeDegrees = new Map<SimpleSlug, number>()
+  for (const link of graphData.links) {
+    nodeDegrees.set(link.source.id, (nodeDegrees.get(link.source.id) ?? 0) + 1)
+    nodeDegrees.set(link.target.id, (nodeDegrees.get(link.target.id) ?? 0) + 1)
+  }
+
+  const nodeRadii = new Map<SimpleSlug, number>()
+  for (const node of graphData.nodes) {
+    const degree = nodeDegrees.get(node.id) ?? 0
+    nodeRadii.set(node.id, 2 + 2 * Math.sqrt(degree))
+  }
+
   const width = graph.offsetWidth
   const height = Math.max(graph.offsetHeight, 250)
 
@@ -175,8 +189,7 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     .force("link", forceLink(graphData.links).distance(linkDistance))
     .force("collide", forceCollide<NodeData>((n) => nodeRadius(n)).iterations(3))
 
-  if (enableRadial)
-    simulation.force("radial", forceRadial(radius * 0.8, width / 2, height / 2).strength(0.3))
+  if (enableRadial) simulation.force("radial", forceRadial(radius * 0.8, 0, 0).strength(0.3))
 
   // precompute style prop strings as pixi doesn't support css variables
   const cssVars = [
@@ -210,15 +223,11 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
   }
 
   function nodeRadius(d: NodeData) {
-    const numLinks = graphData.links.filter(
-      (l) => l.source.id === d.id || l.target.id === d.id,
-    ).length
-    return 2 + 2 * Math.sqrt(numLinks)
+    return nodeRadii.get(d.id) ?? 2
   }
 
   let hoveredNodeId: string | null = null
   let hoveredNeighbours: Set<string> = new Set()
-  const linkRenderData: LinkRenderData[] = []
   const nodeRenderData: NodeRenderData[] = []
   function updateHoverInfo(newHoveredId: string | null) {
     hoveredNodeId = newHoveredId
@@ -228,20 +237,14 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
       for (const n of nodeRenderData) {
         n.active = false
       }
-
-      for (const l of linkRenderData) {
-        l.active = false
-      }
     } else {
       hoveredNeighbours = new Set()
-      for (const l of linkRenderData) {
-        const linkData = l.simulationData
+      hoveredNeighbours.add(newHoveredId as SimpleSlug)
+      for (const linkData of graphData.links) {
         if (linkData.source.id === newHoveredId || linkData.target.id === newHoveredId) {
           hoveredNeighbours.add(linkData.source.id)
           hoveredNeighbours.add(linkData.target.id)
         }
-
-        l.active = linkData.source.id === newHoveredId || linkData.target.id === newHoveredId
       }
 
       for (const n of nodeRenderData) {
@@ -252,32 +255,6 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
 
   let dragStartTime = 0
   let dragging = false
-
-  function renderLinks() {
-    tweens.get("link")?.stop()
-    const tweenGroup = new TweenGroup()
-
-    for (const l of linkRenderData) {
-      let alpha = 1
-
-      // if we are hovering over a node, we want to highlight the immediate neighbours
-      // with full alpha and the rest with default alpha
-      if (hoveredNodeId) {
-        alpha = l.active ? 1 : 0.2
-      }
-
-      l.color = l.active ? computedStyleMap["--gray"] : computedStyleMap["--lightgray"]
-      tweenGroup.add(new Tweened<LinkRenderData>(l).to({ alpha }, 200))
-    }
-
-    tweenGroup.getAll().forEach((tw) => tw.start())
-    tweens.set("link", {
-      update: tweenGroup.update.bind(tweenGroup),
-      stop() {
-        tweenGroup.getAll().forEach((tw) => tw.stop())
-      },
-    })
-  }
 
   function renderLabels() {
     tweens.get("label")?.stop()
@@ -346,7 +323,6 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
 
   function renderPixiFromD3() {
     renderNodes()
-    renderLinks()
     renderLabels()
   }
 
@@ -361,7 +337,7 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     autoStart: false,
     autoDensity: true,
     backgroundAlpha: 0,
-    preference: "webgpu",
+    preference: "webgl",
     resolution: window.devicePixelRatio,
     eventMode: "static",
   })
@@ -369,11 +345,16 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
 
   const stage = app.stage
   stage.interactive = false
+  stage.sortableChildren = true
 
   const labelsContainer = new Container<Text>({ zIndex: 3 })
   const nodesContainer = new Container<Graphics>({ zIndex: 2 })
   const linkContainer = new Container<Graphics>({ zIndex: 1 })
-  stage.addChild(nodesContainer, labelsContainer, linkContainer)
+  stage.addChild(linkContainer, nodesContainer, labelsContainer)
+
+  const inactiveLinksGfx = new Graphics({ interactive: false, eventMode: "none" })
+  const activeLinksGfx = new Graphics({ interactive: false, eventMode: "none" })
+  linkContainer.addChild(inactiveLinksGfx, activeLinksGfx)
 
   for (const n of graphData.nodes) {
     const nodeId = n.id
@@ -433,21 +414,6 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     }
 
     nodeRenderData.push(nodeRenderDatum)
-  }
-
-  for (const l of graphData.links) {
-    const gfx = new Graphics({ interactive: false, eventMode: "none" })
-    linkContainer.addChild(gfx)
-
-    const linkRenderDatum: LinkRenderData = {
-      simulationData: l,
-      gfx,
-      color: computedStyleMap["--lightgray"],
-      alpha: 1,
-      active: false,
-    }
-
-    linkRenderData.push(linkRenderDatum)
   }
 
   let currentTransform = zoomIdentity
@@ -524,32 +490,104 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     )
   }
 
+  let graphAnimationFrameHandle = 0
+  let destroyed = false
+  const scheduleNextFrame = () => {
+    if (destroyed) return
+    graphAnimationFrameHandle = requestAnimationFrame(animate)
+  }
+
+  const cleanup = () => {
+    if (destroyed) return
+    destroyed = true
+    cancelAnimationFrame(graphAnimationFrameHandle)
+    simulation.stop()
+    tweens.forEach((t) => t.stop())
+    tweens.clear()
+    app.destroy({ removeView: true }, { children: true, context: true })
+  }
+  graphContainer.__quartzGraphCleanup = cleanup
+  window.addCleanup(() => {
+    if (graphContainer.__quartzGraphCleanup === cleanup) {
+      cleanup()
+      graphContainer.__quartzGraphCleanup = undefined
+    }
+  })
+
   function animate(time: number) {
+    if (destroyed) return
     for (const n of nodeRenderData) {
-      const { x, y } = n.simulationData
-      if (!x || !y) continue
+      const x = n.simulationData.x
+      const y = n.simulationData.y
+      if (
+        typeof x !== "number" ||
+        typeof y !== "number" ||
+        !Number.isFinite(x) ||
+        !Number.isFinite(y)
+      )
+        continue
+
       n.gfx.position.set(x + width / 2, y + height / 2)
       if (n.label) {
         n.label.position.set(x + width / 2, y + height / 2)
       }
     }
 
-    for (const l of linkRenderData) {
-      const linkData = l.simulationData
-      l.gfx.clear()
-      l.gfx.moveTo(linkData.source.x! + width / 2, linkData.source.y! + height / 2)
-      l.gfx
-        .lineTo(linkData.target.x! + width / 2, linkData.target.y! + height / 2)
-                .stroke({ alpha: l.alpha, width: Math.max(1, 2 / currentTransform.k), color: l.color })
+    inactiveLinksGfx.clear()
+    activeLinksGfx.clear()
+
+    const lineWidth = Math.max(1, 2 / currentTransform.k)
+    const hasHover = hoveredNodeId !== null
+    for (const linkData of graphData.links) {
+      const sourceX = linkData.source.x
+      const sourceY = linkData.source.y
+      const targetX = linkData.target.x
+      const targetY = linkData.target.y
+      if (
+        typeof sourceX !== "number" ||
+        typeof sourceY !== "number" ||
+        typeof targetX !== "number" ||
+        typeof targetY !== "number" ||
+        !Number.isFinite(sourceX) ||
+        !Number.isFinite(sourceY) ||
+        !Number.isFinite(targetX) ||
+        !Number.isFinite(targetY)
+      ) {
+        continue
+      }
+
+      const isActive =
+        hasHover && (linkData.source.id === hoveredNodeId || linkData.target.id === hoveredNodeId)
+      const gfx = isActive ? activeLinksGfx : inactiveLinksGfx
+      gfx.moveTo(sourceX + width / 2, sourceY + height / 2)
+      gfx.lineTo(targetX + width / 2, targetY + height / 2)
+    }
+
+    if (hasHover) {
+      inactiveLinksGfx.stroke({
+        alpha: 0.2,
+        width: lineWidth,
+        color: computedStyleMap["--lightgray"],
+      })
+      activeLinksGfx.stroke({
+        alpha: 1,
+        width: lineWidth,
+        color: computedStyleMap["--gray"],
+      })
+    } else {
+      inactiveLinksGfx.stroke({
+        alpha: 1,
+        width: lineWidth,
+        color: computedStyleMap["--lightgray"],
+      })
     }
 
     tweens.forEach((t) => t.update(time))
     app.renderer.render(stage)
-    requestAnimationFrame(animate)
+    scheduleNextFrame()
   }
 
-  const graphAnimationFrameHandle = requestAnimationFrame(animate)
-  window.addCleanup(() => cancelAnimationFrame(graphAnimationFrameHandle))
+  scheduleNextFrame()
 }
 
 document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
@@ -589,6 +627,12 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
     if (sidebar) {
       sidebar.style.zIndex = ""
     }
+
+    const globalGraph = document.getElementById("global-graph-container") as
+      | (HTMLElement & { __quartzGraphCleanup?: () => void })
+      | null
+    globalGraph?.__quartzGraphCleanup?.()
+    if (globalGraph) globalGraph.__quartzGraphCleanup = undefined
   }
 
   async function shortcutHandler(e: HTMLElementEventMap["keydown"]) {
