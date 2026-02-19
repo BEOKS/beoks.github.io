@@ -1,0 +1,195 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1771426036512,
+  "projectRoot": "/Users/leejs/github/beoks.github.io",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": "20 || >=22",
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "preact",
+        "version": "10.26.0",
+        "category": "frontend"
+      },
+      {
+        "name": "esbuild",
+        "version": "0.25.0",
+        "category": "build"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": "Node.js 20||22"
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": "npm test",
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {
+      "quartz": "./quartz/bootstrap-cli.mjs",
+      "docs": "npx quartz build --serve -d docs",
+      "check": "tsc --noEmit && npx prettier . --check",
+      "format": "npx prettier . --write",
+      "test": "tsx ./quartz/util/path.test.ts && tsx ./quartz/depgraph.test.ts",
+      "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "docs",
+      "public"
+    ],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "code": {
+      "path": "code",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1771426036484,
+      "keyFiles": []
+    },
+    "content": {
+      "path": "content",
+      "purpose": null,
+      "fileCount": 507,
+      "lastAccessed": 1771426036497,
+      "keyFiles": [
+        " Spring 데이터베이스 커넥션 관리.md",
+        "2025 개발자 연간 회고.md",
+        "2025 코드는 AI에게, 판은 인간에게.md",
+        "ABAC 개발 가이드.md",
+        "ACID 원칙.md"
+      ]
+    },
+    "docs": {
+      "path": "docs",
+      "purpose": "Documentation",
+      "fileCount": 11,
+      "lastAccessed": 1771426036497,
+      "keyFiles": [
+        "authoring content.md",
+        "build.md",
+        "configuration.md",
+        "hosting.md",
+        "index.md"
+      ]
+    },
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 471,
+      "lastAccessed": 1771426036502,
+      "keyFiles": [
+        "-Spring-데이터베이스-커넥션-관리.html",
+        "2025-개발자-연간-회고.html",
+        "2025-코드는-AI에게,-판은-인간에게.html",
+        "404.html",
+        "ABAC-개발-가이드.html"
+      ]
+    },
+    "quartz": {
+      "path": "quartz",
+      "purpose": null,
+      "fileCount": 7,
+      "lastAccessed": 1771426036503,
+      "keyFiles": [
+        "bootstrap-cli.mjs",
+        "bootstrap-worker.mjs",
+        "build.ts",
+        "cfg.ts",
+        "depgraph.test.ts"
+      ]
+    },
+    "quartz/components": {
+      "path": "quartz/components",
+      "purpose": "UI components",
+      "fileCount": 26,
+      "lastAccessed": 1771426036507,
+      "keyFiles": [
+        "ArticleTitle.tsx",
+        "Backlinks.tsx",
+        "Body.tsx"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "content/지능형 AI 위임(Intelligent AI Delegation).md",
+      "accessCount": 14,
+      "lastAccessed": 1771509845511,
+      "type": "file"
+    },
+    {
+      "path": "content/지능형 AI 위임(Intelligent AI Delegation) - Google DeepMind 논문 분석.md",
+      "accessCount": 2,
+      "lastAccessed": 1771508519362,
+      "type": "file"
+    },
+    {
+      "path": "content",
+      "accessCount": 2,
+      "lastAccessed": 1771508674103,
+      "type": "directory"
+    },
+    {
+      "path": "content/AI 시대, 벡엔드 개발자의 생존과 진화.md",
+      "accessCount": 1,
+      "lastAccessed": 1771507944752,
+      "type": "file"
+    },
+    {
+      "path": "content/Agent Experience.md",
+      "accessCount": 1,
+      "lastAccessed": 1771507945314,
+      "type": "file"
+    },
+    {
+      "path": "content/인지 부하 이론(Cognitive Load Theory).md",
+      "accessCount": 1,
+      "lastAccessed": 1771507951635,
+      "type": "file"
+    },
+    {
+      "path": "content/휴리스틱(Heuristic).md",
+      "accessCount": 1,
+      "lastAccessed": 1771508867547,
+      "type": "file"
+    },
+    {
+      "path": "content/AI 에이전트(AI Agent).md",
+      "accessCount": 1,
+      "lastAccessed": 1771509431792,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
