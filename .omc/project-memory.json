@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1771426036512,
-  "projectRoot": "/Users/leejs/github/beoks.github.io",
+  "lastScanned": 1771554238010,
+  "projectRoot": "/Users/leejs/Project/beoks.github.io",
   "techStack": {
     "languages": [
       {
@@ -74,14 +74,14 @@
       "path": "code",
       "purpose": null,
       "fileCount": 2,
-      "lastAccessed": 1771426036484,
+      "lastAccessed": 1771554237982,
       "keyFiles": []
     },
     "content": {
       "path": "content",
       "purpose": null,
-      "fileCount": 507,
-      "lastAccessed": 1771426036497,
+      "fileCount": 510,
+      "lastAccessed": 1771554237988,
       "keyFiles": [
         " Spring 데이터베이스 커넥션 관리.md",
         "2025 개발자 연간 회고.md",
@@ -94,7 +94,7 @@
       "path": "docs",
       "purpose": "Documentation",
       "fileCount": 11,
-      "lastAccessed": 1771426036497,
+      "lastAccessed": 1771554237988,
       "keyFiles": [
         "authoring content.md",
         "build.md",
@@ -106,8 +106,8 @@
     "public": {
       "path": "public",
       "purpose": "Public files",
-      "fileCount": 471,
-      "lastAccessed": 1771426036502,
+      "fileCount": 475,
+      "lastAccessed": 1771554237990,
       "keyFiles": [
         "-Spring-데이터베이스-커넥션-관리.html",
         "2025-개발자-연간-회고.html",
@@ -120,7 +120,7 @@
       "path": "quartz",
       "purpose": null,
       "fileCount": 7,
-      "lastAccessed": 1771426036503,
+      "lastAccessed": 1771554237991,
       "keyFiles": [
         "bootstrap-cli.mjs",
         "bootstrap-worker.mjs",
@@ -133,7 +133,7 @@
       "path": "quartz/components",
       "purpose": "UI components",
       "fileCount": 26,
-      "lastAccessed": 1771426036507,
+      "lastAccessed": 1771554237993,
       "keyFiles": [
         "ArticleTitle.tsx",
         "Backlinks.tsx",
@@ -141,55 +141,6 @@
       ]
     }
   },
-  "hotPaths": [
-    {
-      "path": "content/지능형 AI 위임(Intelligent AI Delegation).md",
-      "accessCount": 14,
-      "lastAccessed": 1771509845511,
-      "type": "file"
-    },
-    {
-      "path": "content/지능형 AI 위임(Intelligent AI Delegation) - Google DeepMind 논문 분석.md",
-      "accessCount": 2,
-      "lastAccessed": 1771508519362,
-      "type": "file"
-    },
-    {
-      "path": "content",
-      "accessCount": 2,
-      "lastAccessed": 1771508674103,
-      "type": "directory"
-    },
-    {
-      "path": "content/AI 시대, 벡엔드 개발자의 생존과 진화.md",
-      "accessCount": 1,
-      "lastAccessed": 1771507944752,
-      "type": "file"
-    },
-    {
-      "path": "content/Agent Experience.md",
-      "accessCount": 1,
-      "lastAccessed": 1771507945314,
-      "type": "file"
-    },
-    {
-      "path": "content/인지 부하 이론(Cognitive Load Theory).md",
-      "accessCount": 1,
-      "lastAccessed": 1771507951635,
-      "type": "file"
-    },
-    {
-      "path": "content/휴리스틱(Heuristic).md",
-      "accessCount": 1,
-      "lastAccessed": 1771508867547,
-      "type": "file"
-    },
-    {
-      "path": "content/AI 에이전트(AI Agent).md",
-      "accessCount": 1,
-      "lastAccessed": 1771509431792,
-      "type": "file"
-    }
-  ],
+  "hotPaths": [],
   "userDirectives": []
 }
