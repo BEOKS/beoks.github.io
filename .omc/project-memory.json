@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1771554238010,
+  "lastScanned": 1771820943860,
   "projectRoot": "/Users/leejs/Project/beoks.github.io",
   "techStack": {
     "languages": [
@@ -74,14 +74,14 @@
       "path": "code",
       "purpose": null,
       "fileCount": 2,
-      "lastAccessed": 1771554237982,
+      "lastAccessed": 1771820943809,
       "keyFiles": []
     },
     "content": {
       "path": "content",
       "purpose": null,
       "fileCount": 510,
-      "lastAccessed": 1771554237988,
+      "lastAccessed": 1771820943811,
       "keyFiles": [
         " Spring 데이터베이스 커넥션 관리.md",
         "2025 개발자 연간 회고.md",
@@ -94,7 +94,7 @@
       "path": "docs",
       "purpose": "Documentation",
       "fileCount": 11,
-      "lastAccessed": 1771554237988,
+      "lastAccessed": 1771820943820,
       "keyFiles": [
         "authoring content.md",
         "build.md",
@@ -107,7 +107,7 @@
       "path": "public",
       "purpose": "Public files",
       "fileCount": 475,
-      "lastAccessed": 1771554237990,
+      "lastAccessed": 1771820943828,
       "keyFiles": [
         "-Spring-데이터베이스-커넥션-관리.html",
         "2025-개발자-연간-회고.html",
@@ -120,7 +120,7 @@
       "path": "quartz",
       "purpose": null,
       "fileCount": 7,
-      "lastAccessed": 1771554237991,
+      "lastAccessed": 1771820943831,
       "keyFiles": [
         "bootstrap-cli.mjs",
         "bootstrap-worker.mjs",
@@ -133,7 +133,7 @@
       "path": "quartz/components",
       "purpose": "UI components",
       "fileCount": 26,
-      "lastAccessed": 1771554237993,
+      "lastAccessed": 1771820943840,
       "keyFiles": [
         "ArticleTitle.tsx",
         "Backlinks.tsx",
