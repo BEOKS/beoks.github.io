@@ -4611,9 +4611,6 @@ var toc_inline_default = "";
 
 // quartz/components/TableOfContents.tsx
 import { jsx as jsx20, jsxs as jsxs10 } from "preact/jsx-runtime";
-var defaultOptions13 = {
-  layout: "modern"
-};
 var TableOfContents2 = /* @__PURE__ */ __name(({
   fileData,
   displayClass,
@@ -4667,316 +4664,12 @@ var LegacyTableOfContents = /* @__PURE__ */ __name(({ fileData, cfg }) => {
   ] });
 }, "LegacyTableOfContents");
 LegacyTableOfContents.css = legacyToc_default;
-var TableOfContents_default = /* @__PURE__ */ __name((opts) => {
-  const layout = opts?.layout ?? defaultOptions13.layout;
-  return layout === "modern" ? TableOfContents2 : LegacyTableOfContents;
-}, "default");
-
-// quartz/components/styles/explorer.scss
-var explorer_default = "";
-
-// quartz/components/scripts/explorer.inline.ts
-var explorer_inline_default = "";
 
 // quartz/components/ExplorerNode.tsx
 import { Fragment as Fragment4, jsx as jsx21, jsxs as jsxs11 } from "preact/jsx-runtime";
-function getPathSegment(fp, idx) {
-  if (!fp) {
-    return void 0;
-  }
-  return fp.split("/").at(idx);
-}
-__name(getPathSegment, "getPathSegment");
-var FileNode = class _FileNode {
-  static {
-    __name(this, "FileNode");
-  }
-  children;
-  name;
-  // this is the slug segment
-  displayName;
-  file;
-  depth;
-  constructor(slugSegment, displayName, file, depth) {
-    this.children = [];
-    this.name = slugSegment;
-    this.displayName = displayName ?? file?.frontmatter?.title ?? slugSegment;
-    this.file = file ? clone(file) : null;
-    this.depth = depth ?? 0;
-  }
-  insert(fileData) {
-    if (fileData.path.length === 0) {
-      return;
-    }
-    const nextSegment = fileData.path[0];
-    if (fileData.path.length === 1) {
-      if (nextSegment === "") {
-        const title = fileData.file.frontmatter?.title;
-        if (title && title !== "index") {
-          this.displayName = title;
-        }
-      } else {
-        this.children.push(new _FileNode(nextSegment, void 0, fileData.file, this.depth + 1));
-      }
-      return;
-    }
-    fileData.path = fileData.path.splice(1);
-    const child = this.children.find((c) => c.name === nextSegment);
-    if (child) {
-      child.insert(fileData);
-      return;
-    }
-    const newChild = new _FileNode(
-      nextSegment,
-      getPathSegment(fileData.file.relativePath, this.depth),
-      void 0,
-      this.depth + 1
-    );
-    newChild.insert(fileData);
-    this.children.push(newChild);
-  }
-  // Add new file to tree
-  add(file) {
-    this.insert({ file, path: simplifySlug(file.slug).split("/") });
-  }
-  /**
-   * Filter FileNode tree. Behaves similar to `Array.prototype.filter()`, but modifies tree in place
-   * @param filterFn function to filter tree with
-   */
-  filter(filterFn) {
-    this.children = this.children.filter(filterFn);
-    this.children.forEach((child) => child.filter(filterFn));
-  }
-  /**
-   * Filter FileNode tree. Behaves similar to `Array.prototype.map()`, but modifies tree in place
-   * @param mapFn function to use for mapping over tree
-   */
-  map(mapFn) {
-    mapFn(this);
-    this.children.forEach((child) => child.map(mapFn));
-  }
-  /**
-   * Get folder representation with state of tree.
-   * Intended to only be called on root node before changes to the tree are made
-   * @param collapsed default state of folders (collapsed by default or not)
-   * @returns array containing folder state for tree
-   */
-  getFolderPaths(collapsed) {
-    const folderPaths = [];
-    const traverse = /* @__PURE__ */ __name((node, currentPath) => {
-      if (!node.file) {
-        const folderPath = joinSegments(currentPath, node.name);
-        if (folderPath !== "") {
-          folderPaths.push({ path: folderPath, collapsed });
-        }
-        node.children.forEach((child) => traverse(child, folderPath));
-      }
-    }, "traverse");
-    traverse(this, "");
-    return folderPaths;
-  }
-  // Sort order: folders first, then files. Sort folders and files alphabetically
-  /**
-   * Sorts tree according to sort/compare function
-   * @param sortFn compare function used for `.sort()`, also used recursively for children
-   */
-  sort(sortFn) {
-    this.children = this.children.sort(sortFn);
-    this.children.forEach((e) => e.sort(sortFn));
-  }
-};
-function ExplorerNode({ node, opts, fullPath, fileData }) {
-  const folderBehavior = opts.folderClickBehavior;
-  const isDefaultOpen = opts.folderDefaultState === "open";
-  const folderPath = node.name !== "" ? joinSegments(fullPath ?? "", node.name) : "";
-  const href = resolveRelative(fileData.slug, folderPath) + "/";
-  return /* @__PURE__ */ jsx21(Fragment4, { children: node.file ? (
-    // Single file node
-    /* @__PURE__ */ jsx21("li", { children: /* @__PURE__ */ jsx21("a", { href: resolveRelative(fileData.slug, node.file.slug), "data-for": node.file.slug, children: node.displayName }) }, node.file.slug)
-  ) : /* @__PURE__ */ jsxs11("li", { children: [
-    node.name !== "" && // Node with entire folder
-    // Render svg button + folder name, then children
-    /* @__PURE__ */ jsxs11("div", { class: "folder-container", children: [
-      /* @__PURE__ */ jsx21(
-        "svg",
-        {
-          xmlns: "http://www.w3.org/2000/svg",
-          width: "12",
-          height: "12",
-          viewBox: "5 8 14 8",
-          fill: "none",
-          stroke: "currentColor",
-          "stroke-width": "2",
-          "stroke-linecap": "round",
-          "stroke-linejoin": "round",
-          class: "folder-icon",
-          children: /* @__PURE__ */ jsx21("polyline", { points: "6 9 12 15 18 9" })
-        }
-      ),
-      /* @__PURE__ */ jsx21("div", { "data-folderpath": folderPath, children: folderBehavior === "link" ? /* @__PURE__ */ jsx21("a", { href, "data-for": node.name, class: "folder-title", children: node.displayName }) : /* @__PURE__ */ jsx21("button", { class: "folder-button", children: /* @__PURE__ */ jsx21("span", { class: "folder-title", children: node.displayName }) }) }, node.name)
-    ] }),
-    /* @__PURE__ */ jsx21("div", { class: `folder-outer ${node.depth === 0 || isDefaultOpen ? "open" : ""}`, children: /* @__PURE__ */ jsx21(
-      "ul",
-      {
-        style: {
-          paddingLeft: node.name !== "" ? "1.4rem" : "0"
-        },
-        class: "content",
-        "data-folderul": folderPath,
-        children: node.children.map((childNode, i) => /* @__PURE__ */ jsx21(
-          ExplorerNode,
-          {
-            node: childNode,
-            opts,
-            fullPath: folderPath,
-            fileData
-          },
-          i
-        ))
-      }
-    ) })
-  ] }) });
-}
-__name(ExplorerNode, "ExplorerNode");
 
 // quartz/components/Explorer.tsx
 import { jsx as jsx22, jsxs as jsxs12 } from "preact/jsx-runtime";
-var defaultOptions14 = {
-  folderClickBehavior: "collapse",
-  folderDefaultState: "collapsed",
-  useSavedState: true,
-  mapFn: /* @__PURE__ */ __name((node) => {
-    return node;
-  }, "mapFn"),
-  sortFn: /* @__PURE__ */ __name((a, b) => {
-    if (!a.file && !b.file || a.file && b.file) {
-      return a.displayName.localeCompare(b.displayName, void 0, {
-        numeric: true,
-        sensitivity: "base"
-      });
-    }
-    if (a.file && !b.file) {
-      return 1;
-    } else {
-      return -1;
-    }
-  }, "sortFn"),
-  filterFn: /* @__PURE__ */ __name((node) => node.name !== "tags", "filterFn"),
-  order: ["filter", "map", "sort"]
-};
-var Explorer_default = /* @__PURE__ */ __name((userOpts) => {
-  const opts = { ...defaultOptions14, ...userOpts };
-  let fileTree;
-  let jsonTree;
-  let lastBuildId = "";
-  function constructFileTree(allFiles) {
-    fileTree = new FileNode("");
-    allFiles.forEach((file) => fileTree.add(file));
-    if (opts.order) {
-      for (let i = 0; i < opts.order.length; i++) {
-        const functionName = opts.order[i];
-        if (functionName === "map") {
-          fileTree.map(opts.mapFn);
-        } else if (functionName === "sort") {
-          fileTree.sort(opts.sortFn);
-        } else if (functionName === "filter") {
-          fileTree.filter(opts.filterFn);
-        }
-      }
-    }
-    const folders = fileTree.getFolderPaths(opts.folderDefaultState === "collapsed");
-    jsonTree = JSON.stringify(folders);
-  }
-  __name(constructFileTree, "constructFileTree");
-  const Explorer = /* @__PURE__ */ __name(({
-    ctx,
-    cfg,
-    allFiles,
-    displayClass,
-    fileData
-  }) => {
-    if (ctx.buildId !== lastBuildId) {
-      lastBuildId = ctx.buildId;
-      constructFileTree(allFiles);
-    }
-    return /* @__PURE__ */ jsxs12("div", { class: classNames(displayClass, "explorer"), children: [
-      /* @__PURE__ */ jsx22(
-        "button",
-        {
-          type: "button",
-          id: "mobile-explorer",
-          class: "collapsed hide-until-loaded",
-          "data-behavior": opts.folderClickBehavior,
-          "data-collapsed": opts.folderDefaultState,
-          "data-savestate": opts.useSavedState,
-          "data-tree": jsonTree,
-          "data-mobile": true,
-          "aria-controls": "explorer-content",
-          "aria-expanded": false,
-          children: /* @__PURE__ */ jsxs12(
-            "svg",
-            {
-              xmlns: "http://www.w3.org/2000/svg",
-              width: "24",
-              height: "24",
-              viewBox: "0 0 24 24",
-              "stroke-width": "2",
-              "stroke-linecap": "round",
-              "stroke-linejoin": "round",
-              class: "lucide lucide-menu",
-              children: [
-                /* @__PURE__ */ jsx22("line", { x1: "4", x2: "20", y1: "12", y2: "12" }),
-                /* @__PURE__ */ jsx22("line", { x1: "4", x2: "20", y1: "6", y2: "6" }),
-                /* @__PURE__ */ jsx22("line", { x1: "4", x2: "20", y1: "18", y2: "18" })
-              ]
-            }
-          )
-        }
-      ),
-      /* @__PURE__ */ jsxs12(
-        "button",
-        {
-          type: "button",
-          id: "desktop-explorer",
-          class: "title-button",
-          "data-behavior": opts.folderClickBehavior,
-          "data-collapsed": opts.folderDefaultState,
-          "data-savestate": opts.useSavedState,
-          "data-tree": jsonTree,
-          "data-mobile": false,
-          "aria-controls": "explorer-content",
-          "aria-expanded": true,
-          children: [
-            /* @__PURE__ */ jsx22("h2", { children: opts.title ?? i18n(cfg.locale).components.explorer.title }),
-            /* @__PURE__ */ jsx22(
-              "svg",
-              {
-                xmlns: "http://www.w3.org/2000/svg",
-                width: "14",
-                height: "14",
-                viewBox: "5 8 14 8",
-                fill: "none",
-                stroke: "currentColor",
-                "stroke-width": "2",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round",
-                class: "fold",
-                children: /* @__PURE__ */ jsx22("polyline", { points: "6 9 12 15 18 9" })
-              }
-            )
-          ]
-        }
-      ),
-      /* @__PURE__ */ jsx22("div", { id: "explorer-content", children: /* @__PURE__ */ jsxs12("ul", { class: "overflow", id: "explorer-ul", children: [
-        /* @__PURE__ */ jsx22(ExplorerNode, { node: fileTree, opts, fileData }),
-        /* @__PURE__ */ jsx22("li", { id: "explorer-end" })
-      ] }) })
-    ] });
-  }, "Explorer");
-  Explorer.css = explorer_default;
-  Explorer.afterDOMLoaded = explorer_inline_default;
-  return Explorer;
-}, "default");
 
 // quartz/components/TagList.tsx
 import { jsx as jsx23 } from "preact/jsx-runtime";
@@ -5022,111 +4715,11 @@ a.internal.tag-link {
 `;
 var TagList_default = /* @__PURE__ */ __name(() => TagList, "default");
 
-// quartz/components/scripts/graph.inline.ts
-var graph_inline_default = "";
-
-// quartz/components/styles/graph.scss
-var graph_default = "";
-
 // quartz/components/Graph.tsx
 import { jsx as jsx24, jsxs as jsxs13 } from "preact/jsx-runtime";
-var defaultOptions15 = {
-  localGraph: {
-    drag: true,
-    zoom: true,
-    depth: 1,
-    scale: 1.1,
-    repelForce: 0.5,
-    centerForce: 0.3,
-    linkDistance: 30,
-    fontSize: 0.6,
-    opacityScale: 1,
-    showTags: true,
-    removeTags: [],
-    focusOnHover: false,
-    enableRadial: false
-  },
-  globalGraph: {
-    drag: true,
-    zoom: true,
-    depth: -1,
-    scale: 0.9,
-    repelForce: 0.5,
-    centerForce: 0.3,
-    linkDistance: 30,
-    fontSize: 0.6,
-    opacityScale: 1,
-    showTags: true,
-    removeTags: [],
-    focusOnHover: true,
-    enableRadial: true
-  }
-};
-var Graph_default = /* @__PURE__ */ __name((opts) => {
-  const Graph = /* @__PURE__ */ __name(({ displayClass, cfg }) => {
-    const localGraph = { ...defaultOptions15.localGraph, ...opts?.localGraph };
-    const globalGraph = { ...defaultOptions15.globalGraph, ...opts?.globalGraph };
-    return /* @__PURE__ */ jsxs13("div", { class: classNames(displayClass, "graph"), children: [
-      /* @__PURE__ */ jsx24("h3", { children: i18n(cfg.locale).components.graph.title }),
-      /* @__PURE__ */ jsxs13("div", { class: "graph-outer", children: [
-        /* @__PURE__ */ jsx24("div", { id: "graph-container", "data-cfg": JSON.stringify(localGraph) }),
-        /* @__PURE__ */ jsx24("button", { id: "global-graph-icon", "aria-label": "Global Graph", children: /* @__PURE__ */ jsx24(
-          "svg",
-          {
-            version: "1.1",
-            xmlns: "http://www.w3.org/2000/svg",
-            xmlnsXlink: "http://www.w3.org/1999/xlink",
-            x: "0px",
-            y: "0px",
-            viewBox: "0 0 55 55",
-            fill: "currentColor",
-            xmlSpace: "preserve",
-            children: /* @__PURE__ */ jsx24(
-              "path",
-              {
-                d: "M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17\n                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4\n                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562\n                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829\n                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91\n                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4\n                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665\n                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2\n                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4\n                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2\n                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"
-              }
-            )
-          }
-        ) })
-      ] }),
-      /* @__PURE__ */ jsx24("div", { id: "global-graph-outer", children: /* @__PURE__ */ jsx24("div", { id: "global-graph-container", "data-cfg": JSON.stringify(globalGraph) }) })
-    ] });
-  }, "Graph");
-  Graph.css = graph_default;
-  Graph.afterDOMLoaded = graph_inline_default;
-  return Graph;
-}, "default");
-
-// quartz/components/styles/backlinks.scss
-var backlinks_default = "";
 
 // quartz/components/Backlinks.tsx
 import { jsx as jsx25, jsxs as jsxs14 } from "preact/jsx-runtime";
-var defaultOptions16 = {
-  hideWhenEmpty: true
-};
-var Backlinks_default = /* @__PURE__ */ __name((opts) => {
-  const options2 = { ...defaultOptions16, ...opts };
-  const Backlinks = /* @__PURE__ */ __name(({
-    fileData,
-    allFiles,
-    displayClass,
-    cfg
-  }) => {
-    const slug = simplifySlug(fileData.slug);
-    const backlinkFiles = allFiles.filter((file) => file.links?.includes(slug));
-    if (options2.hideWhenEmpty && backlinkFiles.length == 0) {
-      return null;
-    }
-    return /* @__PURE__ */ jsxs14("div", { class: classNames(displayClass, "backlinks"), children: [
-      /* @__PURE__ */ jsx25("h3", { children: i18n(cfg.locale).components.backlinks.title }),
-      /* @__PURE__ */ jsx25("ul", { class: "overflow", children: backlinkFiles.length > 0 ? backlinkFiles.map((f) => /* @__PURE__ */ jsx25("li", { children: /* @__PURE__ */ jsx25("a", { href: resolveRelative(fileData.slug, f.slug), class: "internal", children: f.frontmatter?.title }) })) : /* @__PURE__ */ jsx25("li", { children: i18n(cfg.locale).components.backlinks.noBacklinksFound }) })
-    ] });
-  }, "Backlinks");
-  Backlinks.css = backlinks_default;
-  return Backlinks;
-}, "default");
 
 // quartz/components/styles/search.scss
 var search_default = "";
@@ -5136,12 +4729,12 @@ var search_inline_default = "";
 
 // quartz/components/Search.tsx
 import { jsx as jsx26, jsxs as jsxs15 } from "preact/jsx-runtime";
-var defaultOptions17 = {
+var defaultOptions13 = {
   enablePreview: true
 };
 var Search_default = /* @__PURE__ */ __name((userOpts) => {
   const Search = /* @__PURE__ */ __name(({ displayClass, cfg }) => {
-    const opts = { ...defaultOptions17, ...userOpts };
+    const opts = { ...defaultOptions13, ...userOpts };
     const searchPlaceholder = i18n(cfg.locale).components.search.searchBarPlaceholder;
     return /* @__PURE__ */ jsxs15("div", { class: classNames(displayClass, "search"), children: [
       /* @__PURE__ */ jsxs15("button", { class: "search-button", id: "search-button", children: [
@@ -5207,46 +4800,16 @@ var Footer_default = /* @__PURE__ */ __name((opts) => {
 
 // quartz/components/DesktopOnly.tsx
 import { Fragment as Fragment5, jsx as jsx28 } from "preact/jsx-runtime";
-var DesktopOnly_default = /* @__PURE__ */ __name((component) => {
-  if (component) {
-    const Component = component;
-    const DesktopOnly = /* @__PURE__ */ __name((props) => {
-      return /* @__PURE__ */ jsx28(Component, { displayClass: "desktop-only", ...props });
-    }, "DesktopOnly");
-    DesktopOnly.displayName = component.displayName;
-    DesktopOnly.afterDOMLoaded = component?.afterDOMLoaded;
-    DesktopOnly.beforeDOMLoaded = component?.beforeDOMLoaded;
-    DesktopOnly.css = component?.css;
-    return DesktopOnly;
-  } else {
-    return () => /* @__PURE__ */ jsx28(Fragment5, {});
-  }
-}, "default");
 
 // quartz/components/MobileOnly.tsx
 import { Fragment as Fragment6, jsx as jsx29 } from "preact/jsx-runtime";
-var MobileOnly_default = /* @__PURE__ */ __name((component) => {
-  if (component) {
-    const Component = component;
-    const MobileOnly = /* @__PURE__ */ __name((props) => {
-      return /* @__PURE__ */ jsx29(Component, { displayClass: "mobile-only", ...props });
-    }, "MobileOnly");
-    MobileOnly.displayName = component.displayName;
-    MobileOnly.afterDOMLoaded = component?.afterDOMLoaded;
-    MobileOnly.beforeDOMLoaded = component?.beforeDOMLoaded;
-    MobileOnly.css = component?.css;
-    return MobileOnly;
-  } else {
-    return () => /* @__PURE__ */ jsx29(Fragment6, {});
-  }
-}, "default");
 
 // quartz/components/styles/recentNotes.scss
 var recentNotes_default = "";
 
 // quartz/components/RecentNotes.tsx
 import { jsx as jsx30, jsxs as jsxs17 } from "preact/jsx-runtime";
-var defaultOptions18 = /* @__PURE__ */ __name((cfg) => ({
+var defaultOptions14 = /* @__PURE__ */ __name((cfg) => ({
   limit: 3,
   linkToMore: false,
   showTags: true,
@@ -5260,7 +4823,7 @@ var RecentNotes_default = /* @__PURE__ */ __name((userOpts) => {
     displayClass,
     cfg
   }) => {
-    const opts = { ...defaultOptions18(cfg), ...userOpts };
+    const opts = { ...defaultOptions14(cfg), ...userOpts };
     const pages = allFiles.filter(opts.filter).sort(opts.sort);
     const remaining = Math.max(0, pages.length - opts.limit);
     return /* @__PURE__ */ jsxs17("div", { class: classNames(displayClass, "recent-notes"), children: [
@@ -5288,169 +4851,38 @@ var RecentNotes_default = /* @__PURE__ */ __name((userOpts) => {
   return RecentNotes;
 }, "default");
 
-// quartz/components/styles/breadcrumbs.scss
-var breadcrumbs_default = "";
-
 // quartz/components/Breadcrumbs.tsx
 import { Fragment as Fragment7, jsx as jsx31, jsxs as jsxs18 } from "preact/jsx-runtime";
-var defaultOptions19 = {
-  spacerSymbol: "\u276F",
-  rootName: "Home",
-  resolveFrontmatterTitle: true,
-  hideOnRoot: true,
-  showCurrentPage: true
-};
-function formatCrumb(displayName, baseSlug, currentSlug) {
-  return {
-    displayName: displayName.replaceAll("-", " "),
-    path: resolveRelative(baseSlug, currentSlug)
-  };
-}
-__name(formatCrumb, "formatCrumb");
-var Breadcrumbs_default = /* @__PURE__ */ __name((opts) => {
-  const options2 = { ...defaultOptions19, ...opts };
-  let folderIndex;
-  const Breadcrumbs = /* @__PURE__ */ __name(({
-    fileData,
-    allFiles,
-    displayClass
-  }) => {
-    if (options2.hideOnRoot && fileData.slug === "index") {
-      return /* @__PURE__ */ jsx31(Fragment7, {});
-    }
-    const firstEntry = formatCrumb(options2.rootName, fileData.slug, "/");
-    const crumbs = [firstEntry];
-    if (!folderIndex && options2.resolveFrontmatterTitle) {
-      folderIndex = /* @__PURE__ */ new Map();
-      for (const file of allFiles) {
-        const folderParts = file.slug?.split("/");
-        if (folderParts?.at(-1) === "index") {
-          folderIndex.set(folderParts.slice(0, -1).join("/"), file);
-        }
-      }
-    }
-    const slugParts = fileData.slug?.split("/");
-    if (slugParts) {
-      const isTagPath = slugParts[0] === "tags";
-      let currentPath = "";
-      for (let i = 0; i < slugParts.length - 1; i++) {
-        let curPathSegment = slugParts[i];
-        const currentFile = folderIndex?.get(slugParts.slice(0, i + 1).join("/"));
-        if (currentFile) {
-          const title = currentFile.frontmatter.title;
-          if (title !== "index") {
-            curPathSegment = title;
-          }
-        }
-        currentPath = joinSegments(currentPath, slugParts[i]);
-        const includeTrailingSlash = !isTagPath || i < 1;
-        const crumb = formatCrumb(
-          curPathSegment,
-          fileData.slug,
-          currentPath + (includeTrailingSlash ? "/" : "")
-        );
-        crumbs.push(crumb);
-      }
-      if (options2.showCurrentPage && slugParts.at(-1) !== "index") {
-        crumbs.push({
-          displayName: fileData.frontmatter.title,
-          path: ""
-        });
-      }
-    }
-    return /* @__PURE__ */ jsx31("nav", { class: classNames(displayClass, "breadcrumb-container"), "aria-label": "breadcrumbs", children: crumbs.map((crumb, index) => /* @__PURE__ */ jsxs18("div", { class: "breadcrumb-element", children: [
-      /* @__PURE__ */ jsx31("a", { href: crumb.path, children: crumb.displayName }),
-      index !== crumbs.length - 1 && /* @__PURE__ */ jsx31("p", { children: ` ${options2.spacerSymbol} ` })
-    ] })) });
-  }, "Breadcrumbs");
-  Breadcrumbs.css = breadcrumbs_default;
-  return Breadcrumbs;
-}, "default");
 
 // quartz/components/Comments.tsx
 import { Fragment as Fragment8, jsx as jsx32 } from "preact/jsx-runtime";
 
 // quartz.layout.ts
+var navbar = [
+  PageTitle_default(),
+  Spacer_default(),
+  Search_default(),
+  Darkmode_default()
+];
 var sharedPageComponents = {
   head: Head_default(),
-  header: [],
+  header: navbar,
   afterBody: [],
   footer: Footer_default({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t"
+      GitHub: "https://github.com/BEOKS"
     }
   })
 };
 var defaultContentPageLayout = {
   beforeBody: [
-    Breadcrumbs_default(),
     ArticleTitle_default(),
     ContentMeta_default(),
     TagList_default()
   ],
-  left: [
-    PageTitle_default(),
-    MobileOnly_default(Spacer_default()),
-    Search_default(),
-    Darkmode_default(),
-    Explorer_default()
-  ],
-  right: [
-    Graph_default(
-      {
-        localGraph: {
-          drag: true,
-          // whether to allow panning the view around
-          zoom: true,
-          // whether to allow zooming in and out
-          depth: 2,
-          // how many hops of notes to display
-          scale: 1.5,
-          // default view scale
-          repelForce: 1,
-          // how much nodes should repel each other
-          centerForce: 0.3,
-          // how much force to use when trying to center the nodes
-          linkDistance: 50,
-          // how long should the links be by default?
-          fontSize: 2,
-          // what size should the node labels be?
-          opacityScale: 1,
-          // how quickly do we fade out the labels when zooming out?
-          removeTags: [],
-          // what tags to remove from the graph
-          showTags: true,
-          // whether to show tags in the graph
-          enableRadial: false
-          // whether to constrain the graph, similar to Obsidian
-        },
-        globalGraph: {
-          drag: true,
-          zoom: true,
-          depth: -1,
-          scale: 1,
-          repelForce: 20,
-          centerForce: 0.3,
-          linkDistance: 300,
-          fontSize: 1.5,
-          // what size should the node labels be?
-          opacityScale: 1,
-          // how quickly do we fade out the labels when zooming out?
-          removeTags: [],
-          // what tags to remove from the graph
-          showTags: false,
-          // whether to show tags in the graph
-          enableRadial: true
-          // whether to constrain the graph, similar to Obsidian
-        }
-      }
-    ),
-    DesktopOnly_default(TableOfContents_default()),
-    Backlinks_default()
-  ],
+  left: [],
+  right: [],
   afterBody: [
-    // Add RecentNotes to all content pages with 5 posts
     RecentNotes_default({
       title: "\uCD5C\uADFC \uAC8C\uC2DC\uAE00",
       limit: 5,
@@ -5459,68 +4891,21 @@ var defaultContentPageLayout = {
   ]
 };
 var defaultListPageLayout = {
-  beforeBody: [Breadcrumbs_default(), ArticleTitle_default(), ContentMeta_default()],
-  left: [
-    PageTitle_default(),
-    MobileOnly_default(Spacer_default()),
-    Search_default(),
-    Darkmode_default(),
-    Explorer_default()
-  ],
+  beforeBody: [ArticleTitle_default(), ContentMeta_default()],
+  left: [],
   right: []
 };
 var homePageLayout = {
   beforeBody: [
-    ArticleTitle_default(),
-    ContentMeta_default(),
-    // Add RecentNotes with 20 posts for home page
+    // No article title / date meta on the home page — just the post list.
     RecentNotes_default({
-      title: "\uCD5C\uADFC \uAC8C\uC2DC\uAE00",
-      limit: 20,
+      title: "\uC804\uCCB4 \uAC8C\uC2DC\uAE00",
+      limit: Infinity,
       showTags: true
     })
   ],
-  left: [
-    PageTitle_default(),
-    MobileOnly_default(Spacer_default()),
-    Search_default(),
-    Darkmode_default(),
-    Explorer_default()
-  ],
-  right: [
-    Graph_default({
-      localGraph: {
-        drag: true,
-        zoom: true,
-        depth: 2,
-        scale: 1.5,
-        repelForce: 1,
-        centerForce: 0.3,
-        linkDistance: 50,
-        fontSize: 2,
-        opacityScale: 1,
-        removeTags: [],
-        showTags: true,
-        enableRadial: false
-      },
-      globalGraph: {
-        drag: true,
-        zoom: true,
-        depth: -1,
-        scale: 1,
-        repelForce: 20,
-        centerForce: 0.3,
-        linkDistance: 300,
-        fontSize: 1.5,
-        opacityScale: 1,
-        removeTags: [],
-        showTags: false,
-        enableRadial: true
-      }
-    }),
-    DesktopOnly_default(TableOfContents_default()),
-    Backlinks_default()
-  ]
+  left: [],
+  right: []
 };
 
 // quartz/plugins/emitters/contentPage.tsx
@@ -5747,6 +5132,12 @@ var ContentPage = /* @__PURE__ */ __name((userOpts) => {
     pageBody: Content_default(),
     ...userOpts
   };
+  const homeOpts = {
+    ...sharedPageComponents,
+    ...homePageLayout,
+    pageBody: Content_default(),
+    ...userOpts
+  };
   const { head: Head, header, beforeBody, pageBody, afterBody, left, right, footer: Footer } = opts;
   const Header2 = Header_default();
   const Body2 = Body_default();
@@ -5761,6 +5152,8 @@ var ContentPage = /* @__PURE__ */ __name((userOpts) => {
         ...beforeBody,
         pageBody,
         ...afterBody,
+        ...homeOpts.beforeBody,
+        ...homeOpts.afterBody,
         ...left,
         ...right,
         Footer
@@ -5798,7 +5191,8 @@ var ContentPage = /* @__PURE__ */ __name((userOpts) => {
           tree,
           allFiles
         };
-        const content2 = renderPage(cfg, slug, componentData, opts, externalResources);
+        const pageLayout = slug === "index" ? homeOpts : opts;
+        const content2 = renderPage(cfg, slug, componentData, pageLayout, externalResources);
         const fp = await write({
           ctx,
           content: content2,
@@ -6040,7 +5434,7 @@ __name(_getFolders, "_getFolders");
 
 // quartz/plugins/emitters/contentIndex.ts
 import { toHtml as toHtml2 } from "hast-util-to-html";
-var defaultOptions20 = {
+var defaultOptions15 = {
   enableSiteMap: true,
   enableRSS: true,
   rssLimit: 10,
@@ -6091,7 +5485,7 @@ function generateRSSFeed(cfg, idx, limit) {
 }
 __name(generateRSSFeed, "generateRSSFeed");
 var ContentIndex = /* @__PURE__ */ __name((opts) => {
-  opts = { ...defaultOptions20, ...opts };
+  opts = { ...defaultOptions15, ...opts };
   return {
     name: "ContentIndex",
     async getDependencyGraph(ctx, content, _resources) {
@@ -6663,32 +6057,32 @@ var config = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono"
+        header: "Inter",
+        body: "Inter",
+        code: "JetBrains Mono"
       },
       colors: {
         lightMode: {
           light: "#ffffff",
-          lightgray: "#f0f0f0",
-          gray: "#cccccc",
-          darkgray: "#666666",
-          dark: "#333333",
-          secondary: "#005f73",
-          tertiary: "#0a9396",
-          highlight: "rgba(0, 95, 115, 0.15)",
-          textHighlight: "#94d2bd88"
+          lightgray: "#ececec",
+          gray: "#c2c2c2",
+          darkgray: "#3d3d3d",
+          dark: "#111111",
+          secondary: "#3056a4",
+          tertiary: "#5b7fce",
+          highlight: "rgba(48, 86, 164, 0.07)",
+          textHighlight: "#fff2a8"
         },
         darkMode: {
-          light: "#121212",
-          lightgray: "#2c2c2c",
+          light: "#1a1a1a",
+          lightgray: "#2b2b2b",
           gray: "#4a4a4a",
-          darkgray: "#b0b0b0",
-          dark: "#e0e0e0",
-          secondary: "#94d2bd",
-          tertiary: "#0a9396",
-          highlight: "rgba(0, 95, 115, 0.15)",
-          textHighlight: "#005f7388"
+          darkgray: "#c9c9c9",
+          dark: "#f2f2f2",
+          secondary: "#8ab4f8",
+          tertiary: "#a9c7ff",
+          highlight: "rgba(138, 180, 248, 0.10)",
+          textHighlight: "#63530099"
         }
       }
     }

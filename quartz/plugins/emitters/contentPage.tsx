@@ -10,7 +10,7 @@ import { pageResources, renderPage } from "../../components/renderPage"
 import { FullPageLayout } from "../../cfg"
 import { Argv } from "../../util/ctx"
 import { FilePath, isRelativeURL, joinSegments, pathToRoot } from "../../util/path"
-import { defaultContentPageLayout, sharedPageComponents } from "../../../quartz.layout"
+import { defaultContentPageLayout, homePageLayout, sharedPageComponents } from "../../../quartz.layout"
 import { Content } from "../../components"
 import chalk from "chalk"
 import { write } from "./helpers"
@@ -59,6 +59,14 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
     ...userOpts,
   }
 
+  // The home page (index) gets its own layout so it can list every post.
+  const homeOpts: FullPageLayout = {
+    ...sharedPageComponents,
+    ...homePageLayout,
+    pageBody: Content(),
+    ...userOpts,
+  }
+
   const { head: Head, header, beforeBody, pageBody, afterBody, left, right, footer: Footer } = opts
   const Header = HeaderConstructor()
   const Body = BodyConstructor()
@@ -74,6 +82,8 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
         ...beforeBody,
         pageBody,
         ...afterBody,
+        ...homeOpts.beforeBody,
+        ...homeOpts.afterBody,
         ...left,
         ...right,
         Footer,
@@ -117,7 +127,8 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
           allFiles,
         }
 
-        const content = renderPage(cfg, slug, componentData, opts, externalResources)
+        const pageLayout = slug === "index" ? homeOpts : opts
+        const content = renderPage(cfg, slug, componentData, pageLayout, externalResources)
         const fp = await write({
           ctx,
           content,

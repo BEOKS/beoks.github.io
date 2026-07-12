@@ -1,3 +1,258 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+/* =====================================================================
+   Minimal blog theme
+   A calm, single-column, content-first layout inspired by the personal
+   sites of writers and engineers (overreacted.io, paulgraham.com, jvns.ca).
+   ===================================================================== */
+
+// Font fallback stack — Inter (loaded via Google Fonts) for Latin,
+// system Korean faces for Hangul so 한국어 renders crisply everywhere.
+:root {
+  --font-latin: "Inter";
+  --font-fallback: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+    "Pretendard", "Malgun Gothic", "Noto Sans KR", "Segoe UI", sans-serif;
+  --reading-width: 720px;
+}
+
+body {
+  font-family: var(--font-latin), var(--font-fallback);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.003em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+thead {
+  font-family: var(--font-latin), var(--font-fallback);
+  letter-spacing: -0.02em;
+}
+
+/* ---------- Single-column, centered layout ---------------------------- */
+
+.page {
+  max-width: 100%;
+
+  // Drop Quartz's 3-column grid in favour of one calm, centered column.
+  & > #quartz-body {
+    display: block !important;
+    max-width: var(--reading-width);
+    margin: 0 auto !important;
+    padding: 0 1.5rem !important;
+    box-sizing: border-box;
+  }
+
+  // The graph / explorer / backlinks sidebars are gone — collapse the
+  // now-empty side panels so nothing reserves horizontal space.
+  .sidebar {
+    display: none !important;
+  }
+
+  .center {
+    max-width: 100% !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
+
+/* ---------- Top navigation bar ---------------------------------------- */
+
+.page-header {
+  margin: 2.5rem 0 3rem 0 !important;
+  padding: 0 0 1.25rem 0 !important;
+  border-bottom: 1px solid var(--lightgray);
+
+  @media all and (max-width: 800px) {
+    margin: 1.5rem 0 2rem 0 !important;
+  }
+
+  // the actual nav row lives on the inner <header> element
+  & > header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    min-height: 2.25rem;
+    width: 100%;
+  }
+
+  .page-title {
+    margin: 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+
+    a {
+      color: var(--dark);
+      &:hover {
+        color: var(--secondary) !important;
+      }
+    }
+  }
+
+  // keep search + dark-mode compact and inline in the bar
+  .search,
+  .darkmode {
+    margin: 0;
+    flex: 0 0 auto;
+  }
+
+  .search .search-button {
+    background-color: transparent;
+    border: 1px solid var(--lightgray);
+    border-radius: 6px;
+    padding: 0.35rem 0.6rem;
+    & p {
+      display: none;
+    }
+    &:hover {
+      background-color: var(--lightgray);
+    }
+  }
+
+  .darkmode {
+    width: auto;
+    & svg {
+      width: 1.1rem;
+      height: 1.1rem;
+    }
+  }
+}
+
+/* ---------- Article typography ---------------------------------------- */
+
+.center {
+  font-size: 1.06rem;
+  line-height: 1.75;
+}
+
+article {
+  & > h1:first-child,
+  .article-title {
+    font-size: 2.1rem;
+    line-height: 1.2;
+    margin: 0.5rem 0 0.75rem 0;
+    letter-spacing: -0.03em;
+  }
+
+  p {
+    margin: 1.15rem 0;
+  }
+}
+
+// Restrained, readable links: plain underline instead of a highlight box
+.center a.internal {
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+  line-height: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--gray);
+  text-underline-offset: 2px;
+
+  &:hover {
+    text-decoration-color: var(--secondary);
+  }
+}
+
+.center a {
+  text-underline-offset: 2px;
+}
+
+blockquote {
+  color: var(--darkgray);
+  font-style: italic;
+  border-left-width: 2px;
+}
+
+/* ---------- Content meta (date etc.) ---------------------------------- */
+
+.content-meta {
+  color: var(--gray);
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+/* ---------- Tag list -------------------------------------------------- */
+
+.tags {
+  margin-top: 1.5rem;
+
+  & > li > a.tag-link {
+    background-color: var(--lightgray);
+    color: var(--darkgray);
+    border-radius: 999px;
+    padding: 0.15rem 0.65rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    &:hover {
+      background-color: var(--secondary);
+      color: var(--light) !important;
+    }
+  }
+}
+
+/* ---------- Recent notes / post list ---------------------------------- */
+
+.recent-notes {
+  margin-top: 3rem;
+
+  & > h3 {
+    font-size: 1.1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--lightgray);
+    margin-bottom: 0.5rem;
+  }
+
+  .section {
+    border-bottom: 1px solid var(--lightgray);
+    padding: 0.9rem 0;
+
+    .desc > h3 {
+      font-size: 1.05rem;
+      margin: 0;
+    }
+
+    .meta {
+      color: var(--gray);
+      font-size: 0.85rem;
+    }
+  }
+}
+
+/* ---------- Footer ---------------------------------------------------- */
+
+footer {
+  margin-top: 4rem !important;
+  padding: 2rem 0 3rem 0;
+  border-top: 1px solid var(--lightgray);
+  color: var(--gray);
+  font-size: 0.85rem;
+
+  & ul {
+    gap: 1rem;
+  }
+  & a {
+    color: var(--gray);
+    &:hover {
+      color: var(--secondary) !important;
+    }
+  }
+}
+
+/* ---------- Code blocks: softer, borderless feel ---------------------- */
+
+pre {
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  background-color: var(--lightgray);
+  padding: 0.25rem 0.75rem;
+}
+
+code {
+  background: var(--lightgray);
+}
